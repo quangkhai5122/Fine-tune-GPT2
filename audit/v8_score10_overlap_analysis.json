@@ -1,0 +1,1217 @@
+{
+  "run_dir": "results\\v8_select_checkpoint\\beam2_lr1e-3",
+  "summary": {
+    "n": 1000,
+    "raw_score": 5265,
+    "max_raw_score": 10000,
+    "score_10": 5.265,
+    "score_pct": 0.5265,
+    "extractable": 997,
+    "numeric_pairs": 970,
+    "buckets": {
+      "10": 502,
+      "5": 21,
+      "1": 140,
+      "0": 337
+    },
+    "rel_error_mean": 8.460097971268148
+  },
+  "selected_checkpoint": {
+    "order": 7,
+    "label": "epoch_08",
+    "adapter_dir": "/kaggle/working/gpt2_math_lora_v8_checkpoints/epoch_08",
+    "output_path": "/kaggle/working/v8_checkpoint_eval/valid_output_07_epoch_08.json",
+    "report_path": "/kaggle/working/v8_checkpoint_eval/valid_report_07_epoch_08.json",
+    "summary": {
+      "n": 1000,
+      "raw_score": 5265,
+      "max_raw_score": 10000,
+      "score_10": 5.265,
+      "score_pct": 0.5265,
+      "extractable": 997,
+      "numeric_pairs": 970,
+      "buckets": {
+        "10": 502,
+        "5": 21,
+        "1": 140,
+        "0": 337
+      },
+      "rel_error_mean": 8.460097971268148
+    },
+    "meta": {
+      "label": "epoch_08",
+      "stage_name": "stage_a_answer_only_lora",
+      "epoch": 8.0,
+      "final": false,
+      "stage_a_epochs": 8.0,
+      "stage_a_lr": 0.001,
+      "lora_r": 32,
+      "lora_alpha": 64,
+      "lora_dropout": 0.05,
+      "max_length_stage_a": 256,
+      "saved_at_unix": 1779647502.495773
+    },
+    "selection_key": [
+      5265,
+      502,
+      997,
+      -7
+    ]
+  },
+  "train_records_scanned": 95400,
+  "output_length": {
+    "mean_chars": 13.125,
+    "median_chars": 13.0,
+    "short_single_line_rate": 1.0
+  },
+  "channel_summary": {
+    "direct_query_vi": {
+      "train_hits": 28,
+      "class_counts_all": {
+        "has_same": 10,
+        "no_match": 988,
+        "only_conflict": 1,
+        "only_missing": 1
+      },
+      "class_counts_exact10": {
+        "has_same": 9,
+        "no_match": 493,
+        "only_conflict": 0,
+        "only_missing": 0
+      },
+      "score_by_class": {
+        "has_same": {
+          "n": 10,
+          "raw": 90,
+          "score_10": 9.0,
+          "exact10": 9,
+          "buckets": {
+            "10": 9,
+            "0": 1
+          }
+        },
+        "no_match": {
+          "n": 988,
+          "raw": 5175,
+          "score_10": 5.237854251012146,
+          "exact10": 493,
+          "buckets": {
+            "10": 493,
+            "5": 21,
+            "1": 140,
+            "0": 334
+          }
+        },
+        "only_conflict": {
+          "n": 1,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 1
+          }
+        },
+        "only_missing": {
+          "n": 1,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 1
+          }
+        }
+      }
+    },
+    "direct_query_vi_exact": {
+      "train_hits": 0,
+      "class_counts_all": {
+        "no_match": 1000
+      },
+      "class_counts_exact10": {
+        "no_match": 502
+      },
+      "score_by_class": {
+        "no_match": {
+          "n": 1000,
+          "raw": 5265,
+          "score_10": 5.265,
+          "exact10": 502,
+          "buckets": {
+            "10": 502,
+            "5": 21,
+            "1": 140,
+            "0": 337
+          }
+        }
+      }
+    },
+    "same_original_vi": {
+      "train_hits": 6924,
+      "class_counts_all": {
+        "has_same": 764,
+        "no_match": 38,
+        "only_conflict": 174,
+        "only_missing": 24
+      },
+      "class_counts_exact10": {
+        "has_same": 479,
+        "no_match": 4,
+        "only_conflict": 19,
+        "only_missing": 0
+      },
+      "score_by_class": {
+        "has_same": {
+          "n": 764,
+          "raw": 4958,
+          "score_10": 6.489528795811518,
+          "exact10": 479,
+          "buckets": {
+            "10": 479,
+            "5": 16,
+            "1": 88,
+            "0": 181
+          }
+        },
+        "no_match": {
+          "n": 38,
+          "raw": 54,
+          "score_10": 1.4210526315789473,
+          "exact10": 4,
+          "buckets": {
+            "10": 4,
+            "5": 1,
+            "1": 9,
+            "0": 24
+          }
+        },
+        "only_conflict": {
+          "n": 174,
+          "raw": 253,
+          "score_10": 1.4540229885057472,
+          "exact10": 19,
+          "buckets": {
+            "10": 19,
+            "5": 4,
+            "1": 43,
+            "0": 108
+          }
+        },
+        "only_missing": {
+          "n": 24,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 24
+          }
+        }
+      }
+    },
+    "train_query_vs_valid_original": {
+      "train_hits": 1792,
+      "class_counts_all": {
+        "has_same": 266,
+        "no_match": 479,
+        "only_conflict": 237,
+        "only_missing": 18
+      },
+      "class_counts_exact10": {
+        "has_same": 217,
+        "no_match": 198,
+        "only_conflict": 85,
+        "only_missing": 2
+      },
+      "score_by_class": {
+        "has_same": {
+          "n": 266,
+          "raw": 2200,
+          "score_10": 8.270676691729323,
+          "exact10": 217,
+          "buckets": {
+            "10": 217,
+            "5": 3,
+            "1": 15,
+            "0": 31
+          }
+        },
+        "no_match": {
+          "n": 479,
+          "raw": 2133,
+          "score_10": 4.453027139874739,
+          "exact10": 198,
+          "buckets": {
+            "10": 198,
+            "5": 15,
+            "1": 78,
+            "0": 188
+          }
+        },
+        "only_conflict": {
+          "n": 237,
+          "raw": 911,
+          "score_10": 3.8438818565400843,
+          "exact10": 85,
+          "buckets": {
+            "10": 85,
+            "5": 3,
+            "1": 46,
+            "0": 103
+          }
+        },
+        "only_missing": {
+          "n": 18,
+          "raw": 21,
+          "score_10": 1.1666666666666667,
+          "exact10": 2,
+          "buckets": {
+            "10": 2,
+            "1": 1,
+            "0": 15
+          }
+        }
+      }
+    },
+    "train_original_vs_valid_query": {
+      "train_hits": 1968,
+      "class_counts_all": {
+        "has_same": 329,
+        "no_match": 641,
+        "only_conflict": 18,
+        "only_missing": 12
+      },
+      "class_counts_exact10": {
+        "has_same": 148,
+        "no_match": 353,
+        "only_conflict": 1,
+        "only_missing": 0
+      },
+      "score_by_class": {
+        "has_same": {
+          "n": 329,
+          "raw": 1585,
+          "score_10": 4.817629179331307,
+          "exact10": 148,
+          "buckets": {
+            "10": 148,
+            "5": 10,
+            "1": 55,
+            "0": 116
+          }
+        },
+        "no_match": {
+          "n": 641,
+          "raw": 3658,
+          "score_10": 5.7067082683307335,
+          "exact10": 353,
+          "buckets": {
+            "10": 353,
+            "5": 9,
+            "1": 83,
+            "0": 196
+          }
+        },
+        "only_conflict": {
+          "n": 18,
+          "raw": 22,
+          "score_10": 1.2222222222222223,
+          "exact10": 1,
+          "buckets": {
+            "10": 1,
+            "5": 2,
+            "1": 2,
+            "0": 13
+          }
+        },
+        "only_missing": {
+          "n": 12,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 12
+          }
+        }
+      }
+    },
+    "same_original_en": {
+      "train_hits": 6981,
+      "class_counts_all": {
+        "has_same": 767,
+        "no_match": 35,
+        "only_conflict": 174,
+        "only_missing": 24
+      },
+      "class_counts_exact10": {
+        "has_same": 481,
+        "no_match": 2,
+        "only_conflict": 19,
+        "only_missing": 0
+      },
+      "score_by_class": {
+        "has_same": {
+          "n": 767,
+          "raw": 4978,
+          "score_10": 6.490221642764015,
+          "exact10": 481,
+          "buckets": {
+            "10": 481,
+            "5": 16,
+            "1": 88,
+            "0": 182
+          }
+        },
+        "no_match": {
+          "n": 35,
+          "raw": 34,
+          "score_10": 0.9714285714285714,
+          "exact10": 2,
+          "buckets": {
+            "10": 2,
+            "5": 1,
+            "1": 9,
+            "0": 23
+          }
+        },
+        "only_conflict": {
+          "n": 174,
+          "raw": 253,
+          "score_10": 1.4540229885057472,
+          "exact10": 19,
+          "buckets": {
+            "10": 19,
+            "5": 4,
+            "1": 43,
+            "0": 108
+          }
+        },
+        "only_missing": {
+          "n": 24,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 24
+          }
+        }
+      }
+    }
+  },
+  "combined_summary": {
+    "direct_query_has_same": {
+      "n": 10,
+      "raw": 90,
+      "score_10": 9.0,
+      "exact10": 9,
+      "buckets": {
+        "10": 9,
+        "0": 1
+      },
+      "exact10_fraction": 0.017928286852589643
+    },
+    "same_original_has_same": {
+      "n": 764,
+      "raw": 4958,
+      "score_10": 6.489528795811518,
+      "exact10": 479,
+      "buckets": {
+        "10": 479,
+        "5": 16,
+        "1": 88,
+        "0": 181
+      },
+      "exact10_fraction": 0.954183266932271
+    },
+    "same_original_only_conflict": {
+      "n": 174,
+      "raw": 253,
+      "score_10": 1.4540229885057472,
+      "exact10": 19,
+      "buckets": {
+        "10": 19,
+        "5": 4,
+        "1": 43,
+        "0": 108
+      },
+      "exact10_fraction": 0.037848605577689244
+    },
+    "no_same_original_match": {
+      "n": 38,
+      "raw": 54,
+      "score_10": 1.4210526315789473,
+      "exact10": 4,
+      "buckets": {
+        "10": 4,
+        "5": 1,
+        "1": 9,
+        "0": 24
+      },
+      "exact10_fraction": 0.00796812749003984
+    },
+    "valid_original_seen_as_train_query_has_same": {
+      "n": 266,
+      "raw": 2200,
+      "score_10": 8.270676691729323,
+      "exact10": 217,
+      "buckets": {
+        "10": 217,
+        "5": 3,
+        "1": 15,
+        "0": 31
+      },
+      "exact10_fraction": 0.43227091633466136
+    },
+    "valid_query_seen_as_train_original_has_same": {
+      "n": 329,
+      "raw": 1585,
+      "score_10": 4.817629179331307,
+      "exact10": 148,
+      "buckets": {
+        "10": 148,
+        "5": 10,
+        "1": 55,
+        "0": 116
+      },
+      "exact10_fraction": 0.2948207171314741
+    }
+  },
+  "exact10_breakdown": {
+    "n_exact10": 502,
+    "direct_query_has_same": 9,
+    "same_original_has_same": 479,
+    "same_original_only_conflict": 19,
+    "no_same_original_match": 4,
+    "valid_original_seen_as_train_query_has_same": 217,
+    "valid_query_seen_as_train_original_has_same": 148
+  },
+  "answer_distribution": {
+    "top_pred_all": [
+      [
+        "2",
+        59
+      ],
+      [
+        "3",
+        51
+      ],
+      [
+        "4",
+        51
+      ],
+      [
+        "5",
+        33
+      ],
+      [
+        "8",
+        32
+      ],
+      [
+        "10",
+        31
+      ],
+      [
+        "6",
+        27
+      ],
+      [
+        "1",
+        25
+      ],
+      [
+        "20",
+        25
+      ],
+      [
+        "50",
+        23
+      ],
+      [
+        "7",
+        21
+      ],
+      [
+        "30",
+        19
+      ],
+      [
+        "60",
+        17
+      ],
+      [
+        "120",
+        16
+      ],
+      [
+        "18",
+        15
+      ],
+      [
+        "9",
+        15
+      ],
+      [
+        "12",
+        14
+      ],
+      [
+        "0",
+        14
+      ],
+      [
+        "16",
+        13
+      ],
+      [
+        "15",
+        13
+      ],
+      [
+        "100",
+        10
+      ],
+      [
+        "80",
+        10
+      ],
+      [
+        "14",
+        10
+      ],
+      [
+        "-1",
+        8
+      ],
+      [
+        "32",
+        8
+      ]
+    ],
+    "top_pred_exact10": [
+      [
+        "3",
+        31
+      ],
+      [
+        "2",
+        27
+      ],
+      [
+        "4",
+        25
+      ],
+      [
+        "8",
+        18
+      ],
+      [
+        "5",
+        18
+      ],
+      [
+        "10",
+        15
+      ],
+      [
+        "50",
+        13
+      ],
+      [
+        "6",
+        13
+      ],
+      [
+        "1",
+        12
+      ],
+      [
+        "7",
+        10
+      ],
+      [
+        "20",
+        10
+      ],
+      [
+        "60",
+        9
+      ],
+      [
+        "16",
+        8
+      ],
+      [
+        "80",
+        8
+      ],
+      [
+        "25",
+        7
+      ],
+      [
+        "0",
+        7
+      ],
+      [
+        "9",
+        7
+      ],
+      [
+        "15",
+        7
+      ],
+      [
+        "18",
+        6
+      ],
+      [
+        "120",
+        6
+      ],
+      [
+        "30",
+        6
+      ],
+      [
+        "14",
+        6
+      ],
+      [
+        "13",
+        5
+      ],
+      [
+        "100",
+        4
+      ],
+      [
+        "45",
+        4
+      ]
+    ],
+    "top_gold_exact10": [
+      [
+        "3",
+        31
+      ],
+      [
+        "2",
+        27
+      ],
+      [
+        "4",
+        25
+      ],
+      [
+        "8",
+        18
+      ],
+      [
+        "5",
+        18
+      ],
+      [
+        "10",
+        15
+      ],
+      [
+        "50",
+        13
+      ],
+      [
+        "6",
+        13
+      ],
+      [
+        "1",
+        12
+      ],
+      [
+        "7",
+        10
+      ],
+      [
+        "20",
+        10
+      ],
+      [
+        "60",
+        9
+      ],
+      [
+        "16",
+        8
+      ],
+      [
+        "80",
+        8
+      ],
+      [
+        "25",
+        7
+      ],
+      [
+        "0",
+        7
+      ],
+      [
+        "9",
+        7
+      ],
+      [
+        "15",
+        7
+      ],
+      [
+        "18",
+        6
+      ],
+      [
+        "120",
+        6
+      ],
+      [
+        "30",
+        6
+      ],
+      [
+        "14",
+        6
+      ],
+      [
+        "100",
+        5
+      ],
+      [
+        "13",
+        5
+      ],
+      [
+        "45",
+        4
+      ]
+    ],
+    "exact10_pred_seen_global_train": 493
+  },
+  "examples_exact10": [
+    {
+      "id": 0,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô từ ô bắt đầu đến ô cuối chiến thắng và ở lượt đầu tiên, cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô và ở lượt thứ ba. đến lượt cô ấy tiến về phía trước sáu ô, cô ấy cần di chuyển thêm bao nhiêu ô nữa để đến ô cuối và giành chiến thắng trong trò chơi?",
+      "original_question_vi": "Susan đang chơi một trò chơi board game có 48 ô tính từ ô đầu tiên đến ô cuối cùng của trò chơi. Ở lượt đầu tiên, cô ấy tiến về phía trước tám ô. Ở lượt thứ hai, cô ấy di chuyển hai ô, nhưng đáp xuống một ô khiến cô ấy lùi lại năm ô. Ở lượt thứ ba, cô ấy tiến về phía trước thêm sáu ô nữa. Cô ấy phải di chuyển bao nhiêu ô để đến được ô cuối và giành chiến thắng trong trò chơi?",
+      "pred_answer": "37",
+      "gold_answer": "37",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "has_same",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 37.0,
+          "valid_answer": 37.0,
+          "train_query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô, và ở lượt đầu tiên cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô, và ở lượt thứ ba, cô ấy tiến về phía trước thêm sáu ô, thì làm thế nào cô ấy vẫn cần phải di c",
+          "train_original_question_vi": "Susan đang chơi một trò chơi board game có 48 ô tính từ ô đầu tiên đến ô cuối cùng của trò chơi. Ở lượt đầu tiên, cô ấy tiến về phía trước tám ô. Ở lượt thứ hai, cô ấy di chuyển hai ô, nhưng đáp xuống một ô khiến cô ấy lùi lại năm ô. Ở lượt thứ ba, cô ấy tiến "
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 37.0,
+          "valid_answer": 37.0,
+          "train_query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô, trong đó cô ấy tiến về phía trước tám ô ở lượt đầu tiên, hai ô ở lượt thứ hai (nhưng bị đẩy lùi lại năm ô) và sáu ô nữa ở lượt thứ ba, thì có bao nhiêu ô trống? cô ấy vẫn cần phải di chuyển để đến được ô cuối cù",
+          "train_original_question_vi": "Susan đang chơi một trò chơi board game có 48 ô tính từ ô đầu tiên đến ô cuối cùng của trò chơi. Ở lượt đầu tiên, cô ấy tiến về phía trước tám ô. Ở lượt thứ hai, cô ấy di chuyển hai ô, nhưng đáp xuống một ô khiến cô ấy lùi lại năm ô. Ở lượt thứ ba, cô ấy tiến "
+        },
+        {
+          "train_type": "GSM_AnsAug",
+          "train_answer": 37.0,
+          "valid_answer": 37.0,
+          "train_query_vi": "Susan đang chơi một trò chơi board game có 48 ô tính từ ô đầu tiên đến ô cuối cùng của trò chơi. Ở lượt đầu tiên, cô ấy tiến về phía trước tám ô. Ở lượt thứ hai, cô ấy di chuyển hai ô, nhưng đáp xuống một ô khiến cô ấy lùi lại năm ô. Ở lượt thứ ba, cô ấy tiến ",
+          "train_original_question_vi": "Susan đang chơi một trò chơi board game có 48 ô tính từ ô đầu tiên đến ô cuối cùng của trò chơi. Ở lượt đầu tiên, cô ấy tiến về phía trước tám ô. Ở lượt thứ hai, cô ấy di chuyển hai ô, nhưng đáp xuống một ô khiến cô ấy lùi lại năm ô. Ở lượt thứ ba, cô ấy tiến "
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "MATH_Rephrased",
+      "query_vi": "Nếu $\\angle PQR = \\angle PRQ$, và độ dài của QR và PR lần lượt là 5 và 7 thì chu vi của tam giác PQR là bao nhiêu?",
+      "original_question_vi": "Trong sơ đồ, $\\angle PQR=\\angle PRQ$. Nếu $QR=5$ và $PR=7$, chu vi của $\\tam giác PQR$ là bao nhiêu? [asy] draw((0,0)--(2.5,7.43)--(5,0)--cycle); nhãn(\"5\",(2.5,0),S); nhãn(\"$Q$\",(0,0),SW); nhãn(\"$R$\",(5,0),SE); nhãn(\"$P$\",(2.5,7.43),N); nhãn(\"7\",(4.2,3.7)); [/asy]",
+      "pred_answer": "19",
+      "gold_answer": "19",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "no_match",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "MATH_Rephrased",
+          "train_answer": 19.0,
+          "valid_answer": 19.0,
+          "train_query_vi": "Cho $\\angle PQR = \\angle PRQ$, và độ dài của QR và PR lần lượt là 5 và 7, vậy chu vi của tam giác PQR là bao nhiêu?",
+          "train_original_question_vi": "Trong sơ đồ, $\\angle PQR=\\angle PRQ$. Nếu $QR=5$ và $PR=7$, chu vi của $\\tam giác PQR$ là bao nhiêu? [asy] draw((0,0)--(2.5,7.43)--(5,0)--cycle); nhãn(\"5\",(2.5,0),S); nhãn(\"$Q$\",(0,0),SW); nhãn(\"$R$\",(5,0),SE); nhãn(\"$P$\",(2.5,7.43),N); nhãn(\"7\",(4.2,3.7)); [/"
+        },
+        {
+          "train_type": "MATH_Rephrased",
+          "train_answer": 19.0,
+          "valid_answer": 19.0,
+          "train_query_vi": "Cho $\\angle PQR = \\angle PRQ$, và $QR = 5$ và $PR = 7$, chu vi của tam giác PQR là bao nhiêu?",
+          "train_original_question_vi": "Trong sơ đồ, $\\angle PQR=\\angle PRQ$. Nếu $QR=5$ và $PR=7$, chu vi của $\\tam giác PQR$ là bao nhiêu? [asy] draw((0,0)--(2.5,7.43)--(5,0)--cycle); nhãn(\"5\",(2.5,0),S); nhãn(\"$Q$\",(0,0),SW); nhãn(\"$R$\",(5,0),SE); nhãn(\"$P$\",(2.5,7.43),N); nhãn(\"7\",(4.2,3.7)); [/"
+        },
+        {
+          "train_type": "MATH_Rephrased",
+          "train_answer": 19.0,
+          "valid_answer": 19.0,
+          "train_query_vi": "Cho $\\angle PQR = \\angle PRQ$, QR = 5, và PR = 7, chu vi của tam giác PQR là bao nhiêu?",
+          "train_original_question_vi": "Trong sơ đồ, $\\angle PQR=\\angle PRQ$. Nếu $QR=5$ và $PR=7$, chu vi của $\\tam giác PQR$ là bao nhiêu? [asy] draw((0,0)--(2.5,7.43)--(5,0)--cycle); nhãn(\"5\",(2.5,0),S); nhãn(\"$Q$\",(0,0),SW); nhãn(\"$R$\",(5,0),SE); nhãn(\"$P$\",(2.5,7.43),N); nhãn(\"7\",(4.2,3.7)); [/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "MATH_SV",
+      "query_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến X. Giá trị kỳ vọng của con xúc xắc là 4,5. Giá trị của biến X chưa biết là bao nhiêu?",
+      "original_question_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8. Giá trị kỳ vọng của việc tung xúc xắc là bao nhiêu?",
+      "pred_answer": "8",
+      "gold_answer": "8",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "only_conflict",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "MATH_AnsAug",
+          "train_answer": 4.5,
+          "valid_answer": 8.0,
+          "train_query_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8. Giá trị kỳ vọng của việc tung xúc xắc là bao nhiêu?",
+          "train_original_question_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8. Giá trị kỳ vọng của việc tung xúc xắc là bao nhiêu?"
+        },
+        {
+          "train_type": "MATH_Rephrased",
+          "train_answer": 4.5,
+          "valid_answer": 8.0,
+          "train_query_vi": "Giá trị trung bình của việc tung một con súc sắc tám mặt là bao nhiêu?",
+          "train_original_question_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8. Giá trị kỳ vọng của việc tung xúc xắc là bao nhiêu?"
+        },
+        {
+          "train_type": "MATH_Rephrased",
+          "train_answer": 4.5,
+          "valid_answer": 8.0,
+          "train_query_vi": "Giá trị trung bình mong đợi khi tung một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8 là bao nhiêu?",
+          "train_original_question_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến 8. Giá trị kỳ vọng của việc tung xúc xắc là bao nhiêu?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "GSM_Rephrased",
+      "query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire đưa cho một bé gái 1 quả bóng bay, mất 12 quả bóng bay, cho thêm 9 quả bóng nữa và lấy 11 quả bóng bay từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+      "original_question_vi": "Claire chịu trách nhiệm phát bóng bay miễn phí cho tất cả trẻ em tại hội chợ. Cô ấy bắt đầu với 50 quả bóng bay. Khi chuyền 1 quả bóng bay cho một bé gái thì có 12 quả bóng bay đi mất. Trong ba mươi phút tiếp theo, cô ấy cho thêm 9 quả nữa và giành lấy 11 quả cuối cùng từ đồng nghiệp của mình. Claire có bao nhiêu quả bóng bay?",
+      "pred_answer": "39",
+      "gold_answer": "39",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "has_same",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 39.0,
+          "valid_answer": 39.0,
+          "train_query_vi": "Bắt đầu với 50 quả bóng bay, Claire đưa cho một bé gái 1 quả bóng bay nhưng 12 quả bóng bay đi mất. Trong vòng ba mươi phút tiếp theo, cô đưa thêm 9 quả bóng bay và lấy đi 11 quả từ đồng nghiệp. Claire hiện có bao nhiêu quả bóng bay?",
+          "train_original_question_vi": "Claire chịu trách nhiệm phát bóng bay miễn phí cho tất cả trẻ em tại hội chợ. Cô ấy bắt đầu với 50 quả bóng bay. Khi chuyền 1 quả bóng bay cho một bé gái thì có 12 quả bóng bay đi mất. Trong ba mươi phút tiếp theo, cô ấy cho thêm 9 quả nữa và giành lấy 11 quả "
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 39.0,
+          "valid_answer": 39.0,
+          "train_query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire chuyền 1 quả bóng bay cho một cô bé, làm mất 12 quả bóng bay, tặng thêm 9 quả bóng nữa và lấy đi 11 quả bóng bay từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+          "train_original_question_vi": "Claire chịu trách nhiệm phát bóng bay miễn phí cho tất cả trẻ em tại hội chợ. Cô ấy bắt đầu với 50 quả bóng bay. Khi chuyền 1 quả bóng bay cho một bé gái thì có 12 quả bóng bay đi mất. Trong ba mươi phút tiếp theo, cô ấy cho thêm 9 quả nữa và giành lấy 11 quả "
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 39.0,
+          "valid_answer": 39.0,
+          "train_query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire đưa 1 quả bóng bay cho một bé gái và 12 quả bóng bay bay đi. Sau đó, cô ấy tặng thêm 9 quả bóng bay và lấy đi 11 quả từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+          "train_original_question_vi": "Claire chịu trách nhiệm phát bóng bay miễn phí cho tất cả trẻ em tại hội chợ. Cô ấy bắt đầu với 50 quả bóng bay. Khi chuyền 1 quả bóng bay cho một bé gái thì có 12 quả bóng bay đi mất. Trong ba mươi phút tiếp theo, cô ấy cho thêm 9 quả nữa và giành lấy 11 quả "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu có một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+      "original_question_vi": "Bãi đậu xe 1000 ô tô được chia làm 3 khu. Có 320 chỗ ở khu vực 1 và 200 chỗ ở khu vực 2 nhiều hơn khu vực 3. Có bao nhiêu chỗ trống ở khu vực 2 của bãi đậu xe?",
+      "pred_answer": "440",
+      "gold_answer": "440",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "has_same",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 440.0,
+          "valid_answer": 440.0,
+          "train_query_vi": "Nếu một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+          "train_original_question_vi": "Bãi đậu xe 1000 ô tô được chia làm 3 khu. Có 320 chỗ ở khu vực 1 và 200 chỗ ở khu vực 2 nhiều hơn khu vực 3. Có bao nhiêu chỗ trống ở khu vực 2 của bãi đậu xe?"
+        },
+        {
+          "train_type": "GSM_AnsAug",
+          "train_answer": 440.0,
+          "valid_answer": 440.0,
+          "train_query_vi": "Bãi đậu xe 1000 ô tô được chia làm 3 khu. Có 320 chỗ ở khu vực 1 và 200 chỗ ở khu vực 2 nhiều hơn khu vực 3. Có bao nhiêu chỗ trống ở khu vực 2 của bãi đậu xe?",
+          "train_original_question_vi": "Bãi đậu xe 1000 ô tô được chia làm 3 khu. Có 320 chỗ ở khu vực 1 và 200 chỗ ở khu vực 2 nhiều hơn khu vực 3. Có bao nhiêu chỗ trống ở khu vực 2 của bãi đậu xe?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 440.0,
+          "valid_answer": 440.0,
+          "train_query_vi": "Nếu một bãi đỗ xe 1000 ô tô được chia làm 3 khu, khu 1 có 320 chỗ, khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+          "train_original_question_vi": "Bãi đậu xe 1000 ô tô được chia làm 3 khu. Có 320 chỗ ở khu vực 1 và 200 chỗ ở khu vực 2 nhiều hơn khu vực 3. Có bao nhiêu chỗ trống ở khu vực 2 của bãi đậu xe?"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "GSM_AnsAug",
+      "query_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?",
+      "original_question_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?",
+      "pred_answer": "90",
+      "gold_answer": "90",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "no_match",
+      "train_original_vs_valid_query_class": "has_same",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 90.0,
+          "valid_answer": 90.0,
+          "train_query_vi": "Nếu khách sạn có 10 tầng với 10 phòng giống nhau ở mỗi tầng, nhưng tầng cuối cùng không còn trống do tai nạn, thì Hans có thể được nhận phòng ở bao nhiêu phòng khác nhau, giả sử không có khách nào khác?",
+          "train_original_question_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 90.0,
+          "valid_answer": 90.0,
+          "train_query_vi": "Nếu có 10 tầng trong một khách sạn, mỗi tầng có 10 phòng giống nhau và tầng cuối cùng không có khách do tai nạn, thì Hans có thể được nhận vào bao nhiêu phòng khác nhau, vì không có khách nào khác?",
+          "train_original_question_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 90.0,
+          "valid_answer": 90.0,
+          "train_query_vi": "Nếu có 10 tầng trong một khách sạn, mỗi tầng có 10 phòng giống nhau, nhưng tầng cuối cùng không còn trống do tai nạn, thì Hans có thể được nhận vào bao nhiêu phòng khác nhau, giả sử không có khách nào khác?",
+          "train_original_question_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "GSM_SV",
+      "query_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng x bông hồng trắng để trang trí mỗi bàn và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng 109 bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+      "original_question_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng 12 bông hồng trắng để trang trí bàn tiệc và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng bao nhiêu bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn?",
+      "pred_answer": "12",
+      "gold_answer": "12",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "only_conflict",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 109.0,
+          "valid_answer": 12.0,
+          "train_query_vi": "Đối với đám cưới của cháu gái, bà Dunbar đang thực hiện việc cắm hoa, bao gồm 5 bó hoa và 7 đồ trang trí trên bàn. Mỗi cách trang trí bàn ăn cần 12 bông hồng trắng, trong khi mỗi bó hoa cần 5 bông hồng trắng. Cô ấy cần tổng cộng bao nhiêu bông hồng trắng để ho",
+          "train_original_question_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng 12 bông hồng trắng để trang trí bàn tiệc và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng bao nhiêu bông hồng trắng để hoàn thành tất"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 109.0,
+          "valid_answer": 12.0,
+          "train_query_vi": "Đối với đám cưới của cháu gái mình, bà Dunbar đang thực hiện các kiểu cắm hoa bao gồm 5 bó hoa và 7 đồ trang trí trên bàn. Mỗi cách trang trí bàn cần có 12 bông hồng trắng và mỗi bó hoa cần có 5 bông hồng trắng. Bà Dunbar cần tổng cộng bao nhiêu bông hồng trắn",
+          "train_original_question_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng 12 bông hồng trắng để trang trí bàn tiệc và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng bao nhiêu bông hồng trắng để hoàn thành tất"
+        },
+        {
+          "train_type": "GSM_SV",
+          "train_answer": 5.0,
+          "valid_answer": 12.0,
+          "train_query_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng 12 bông hồng trắng để trang trí bàn và x hoa hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng 109 bông hồng trắng để hoàn thành tất cả các bó h",
+          "train_original_question_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng 12 bông hồng trắng để trang trí bàn tiệc và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng bao nhiêu bông hồng trắng để hoàn thành tất"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "MATH_Rephrased",
+      "query_vi": "Xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của 12 và 2, 12 và 4, 12 và 6, 12 và 8, 12 và 10, 12 và 12. Hãy thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+      "original_question_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+      "pred_answer": "60",
+      "gold_answer": "60",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "has_same",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "MATH_AnsAug",
+          "train_answer": 60.0,
+          "valid_answer": 60.0,
+          "train_query_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+          "train_original_question_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên."
+        },
+        {
+          "train_type": "MATH_AnsAug",
+          "train_answer": 60.0,
+          "valid_answer": 60.0,
+          "train_query_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+          "train_original_question_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên."
+        },
+        {
+          "train_type": "MATH_AnsAug",
+          "train_answer": 60.0,
+          "valid_answer": 60.0,
+          "train_query_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+          "train_original_question_vi": "Giá trị lớn nhất trong số $\\operatorname{lcm[12,2],$ $\\operatorname{lcm[12,4],$ $\\operatorname{lcm[12,6],$ $\\operatorname{lcm là bao nhiêu [12,8],$ $\\operatorname{lcm[12,10],$ và $\\operatorname{lcm[12,12]?$ Thể hiện câu trả lời của bạn dưới dạng số nguyên."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "GSM_AnsAug",
+      "query_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+      "original_question_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+      "pred_answer": "5",
+      "gold_answer": "5",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "no_match",
+      "train_original_vs_valid_query_class": "has_same",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 5.0,
+          "valid_answer": 5.0,
+          "train_query_vi": "Nếu Bob nhận được hỗ trợ tiền thuê nhà do tình trạng thu nhập thấp của anh ấy và được tăng lương 0,50 đô la mỗi giờ khi làm việc 40 giờ một tuần, anh ấy sẽ kiếm thêm bao nhiêu thu nhập mỗi tuần nếu trợ cấp nhà ở của anh ấy giảm đi 60 đô la mỗi tháng?",
+          "train_original_question_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 5.0,
+          "valid_answer": 5.0,
+          "train_query_vi": "Nếu Bob, người nhận được hỗ trợ tiền thuê nhà do tình trạng thu nhập thấp, được tăng lương 0,50 đô la mỗi giờ và làm việc 40 giờ mỗi tuần, thì anh ta sẽ kiếm thêm bao nhiêu thu nhập mỗi tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 đô la mỗi tháng?",
+          "train_original_question_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 5.0,
+          "valid_answer": 5.0,
+          "train_query_vi": "Nếu Bob, người nhận được hỗ trợ tiền thuê nhà do thu nhập thấp, được tăng lương 0,50 đô la mỗi giờ và làm việc 40 giờ một tuần, thì anh ta sẽ kiếm thêm bao nhiêu thu nhập mỗi tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 đô la mỗi tháng?",
+          "train_original_question_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "GSM_FOBAR",
+      "query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm được bao nhiêu tiền khi mua tất cả chúng trong đợt giảm giá thay vì mua từng cái một? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 120 thì giá trị của biến x chưa biết là bao nhiêu?",
+      "original_question_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá 1 USD cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm được bao nhiêu tiền khi mua tất cả chúng trong đợt giảm giá thay vì mua từng cái một?",
+      "pred_answer": "1",
+      "gold_answer": "1",
+      "direct_query_class": "no_match",
+      "same_original_class": "only_conflict",
+      "train_query_vs_valid_original_class": "only_conflict",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_FOBAR",
+          "train_answer": 20.0,
+          "valid_answer": 1.0,
+          "train_query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá 1 USD cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì anh ta mua số lượng lớn nên ",
+          "train_original_question_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá 1 USD cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh đượ"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 120.0,
+          "valid_answer": 1.0,
+          "train_query_vi": "Nếu John cần thay vòng bi cho 10 máy của mình, với mỗi máy cần 30 vòng bi và chi phí thông thường là 1 USD cho mỗi vòng bi nhưng hiện đang được bán với giá 0,75 USD, kèm theo chiết khấu thêm 20% khi mua số lượng lớn, thì bao nhiêu tiền? anh ấy có tiết kiệm bằn",
+          "train_original_question_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá 1 USD cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh đượ"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 120.0,
+          "valid_answer": 1.0,
+          "train_query_vi": "John đã tiết kiệm được bao nhiêu tiền khi mua tất cả vòng bi trong đợt giảm giá, so với việc mua riêng lẻ chúng với giá thông thường, vì anh ấy có 10 máy, mỗi chiếc cần 30 vòng bi và mỗi vòng bi thường có giá 1 đô la nhưng hiện đang được giảm giá với giá 0,75 ",
+          "train_original_question_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá 1 USD cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh đượ"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy 105 phần sữa công thức để cho các chú chó con ăn trong 5 ngày, thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+      "original_question_vi": "Con chó của Sandra đã sinh được 7 chú chó con. Bác sĩ thú y đã đưa cho cô ấy 105 phần sữa công thức để cho chó con uống trong 5 ngày. Sandra nên cho chó con ăn bao nhiêu lần một ngày?",
+      "pred_answer": "3",
+      "gold_answer": "3",
+      "direct_query_class": "no_match",
+      "same_original_class": "has_same",
+      "train_query_vs_valid_original_class": "has_same",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 3.0,
+          "valid_answer": 3.0,
+          "train_query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và cô ấy có 105 phần sữa công thức để cho chúng ăn trong 5 ngày thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+          "train_original_question_vi": "Con chó của Sandra đã sinh được 7 chú chó con. Bác sĩ thú y đã đưa cho cô ấy 105 phần sữa công thức để cho chó con uống trong 5 ngày. Sandra nên cho chó con ăn bao nhiêu lần một ngày?"
+        },
+        {
+          "train_type": "GSM_FOBAR",
+          "train_answer": 7.0,
+          "valid_answer": 3.0,
+          "train_query_vi": "Con chó của Sandra đã sinh ra x con chó con. Bác sĩ thú y đã đưa cho cô ấy 105 phần sữa công thức để cho chó con uống trong 5 ngày. Sandra nên cho chó con ăn bao nhiêu lần một ngày? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 3 thì giá trị của biến x chư",
+          "train_original_question_vi": "Con chó của Sandra đã sinh được 7 chú chó con. Bác sĩ thú y đã đưa cho cô ấy 105 phần sữa công thức để cho chó con uống trong 5 ngày. Sandra nên cho chó con ăn bao nhiêu lần một ngày?"
+        },
+        {
+          "train_type": "GSM_Rephrased",
+          "train_answer": 3.0,
+          "valid_answer": 3.0,
+          "train_query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y cung cấp cho cô ấy 105 khẩu phần sữa công thức để cho các chú chó con ăn trong 5 ngày thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+          "train_original_question_vi": "Con chó của Sandra đã sinh được 7 chú chó con. Bác sĩ thú y đã đưa cho cô ấy 105 phần sữa công thức để cho chó con uống trong 5 ngày. Sandra nên cho chó con ăn bao nhiêu lần một ngày?"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "GSM_FOBAR",
+      "query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có x bút chì màu thì Lizzie có bao nhiêu bút màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiêu?",
+      "original_question_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?",
+      "pred_answer": "18",
+      "gold_answer": "18",
+      "direct_query_class": "no_match",
+      "same_original_class": "only_conflict",
+      "train_query_vs_valid_original_class": "only_conflict",
+      "train_original_vs_valid_query_class": "no_match",
+      "same_original_examples": [
+        {
+          "train_type": "GSM_AnsAug",
+          "train_answer": 27.0,
+          "valid_answer": 18.0,
+          "train_query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?",
+          "train_original_question_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?"
+        },
+        {
+          "train_type": "GSM_AnsAug",
+          "train_answer": 27.0,
+          "valid_answer": 18.0,
+          "train_query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?",
+          "train_original_question_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?"
+        },
+        {
+          "train_type": "GSM_FOBAR",
+          "train_answer": 3.0,
+          "valid_answer": 18.0,
+          "train_query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu gấp x lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiê",
+          "train_original_question_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có 18 cây bút chì màu thì Lizzie có bao nhiêu cây bút chì màu?"
+        }
+      ]
+    }
+  ]
+}

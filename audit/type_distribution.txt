@@ -1,0 +1,22 @@
+# Type distribution
+
+
+## train (n=95400)
+  GSM_Rephrased            20028  (20.99%)
+  GSM_AnsAug               18745  (19.65%)
+  MATH_AnsAug              16999  (17.82%)
+  MATH_Rephrased           12477  (13.08%)
+  GSM_FOBAR                10023  (10.51%)
+  GSM_SV                    9869  (10.34%)
+  MATH_FOBAR                3668  ( 3.84%)
+  MATH_SV                   3591  ( 3.76%)
+
+## valid (n=1000)
+  GSM_AnsAug                 209  (20.90%)
+  GSM_Rephrased              197  (19.70%)
+  MATH_AnsAug                173  (17.30%)
+  GSM_FOBAR                  122  (12.20%)
+  MATH_Rephrased             116  (11.60%)
+  GSM_SV                      97  ( 9.70%)
+  MATH_FOBAR                  45  ( 4.50%)
+  MATH_SV                     41  ( 4.10%)

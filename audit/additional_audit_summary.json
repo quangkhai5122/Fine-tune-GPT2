@@ -1,0 +1,714 @@
+{
+  "parser": {
+    "train": {
+      "n": 95400,
+      "simple_numeric_count": 95137,
+      "robust_numeric_count": 92880,
+      "mismatch_count": 6022,
+      "numeric_bucket_counts": {
+        "simple_yes__robust_yes": 92866,
+        "simple_yes__robust_no": 2271,
+        "simple_no__robust_yes": 14,
+        "simple_no__robust_no": 249
+      },
+      "answer_form_counts_robust": {
+        "integer": 85974,
+        "decimal_comma": 894,
+        "non_numeric": 2457,
+        "numeric_other": 3559,
+        "negative_integer": 1687,
+        "decimal_dot": 544,
+        "negative_numeric_other": 199,
+        "negative_decimal_comma": 23,
+        "missing": 63
+      },
+      "last_anchor_counts": {
+        "dap_an_la": 71202,
+        "cau_tra_loi_la": 23857,
+        "the_answer_is": 270,
+        "none": 63,
+        "boxed": 4,
+        "hash4": 2,
+        "dap_an": 2
+      },
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 18745,
+          "simple_numeric": 18745,
+          "robust_numeric": 18744,
+          "mismatch_count": 1
+        },
+        "GSM_FOBAR": {
+          "n": 10023,
+          "simple_numeric": 10023,
+          "robust_numeric": 9995,
+          "mismatch_count": 28
+        },
+        "GSM_Rephrased": {
+          "n": 20028,
+          "simple_numeric": 20028,
+          "robust_numeric": 20027,
+          "mismatch_count": 1
+        },
+        "GSM_SV": {
+          "n": 9869,
+          "simple_numeric": 9869,
+          "robust_numeric": 9860,
+          "mismatch_count": 9
+        },
+        "MATH_AnsAug": {
+          "n": 16999,
+          "simple_numeric": 16827,
+          "robust_numeric": 15514,
+          "mismatch_count": 3497
+        },
+        "MATH_FOBAR": {
+          "n": 3668,
+          "simple_numeric": 3662,
+          "robust_numeric": 3653,
+          "mismatch_count": 15
+        },
+        "MATH_Rephrased": {
+          "n": 12477,
+          "simple_numeric": 12393,
+          "robust_numeric": 11500,
+          "mismatch_count": 2467
+        },
+        "MATH_SV": {
+          "n": 3591,
+          "simple_numeric": 3590,
+          "robust_numeric": 3587,
+          "mismatch_count": 4
+        }
+      },
+      "mismatch_examples": [
+        {
+          "type": "MATH_AnsAug",
+          "answer": "2104_5",
+          "simple": 2104.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1}{48}",
+          "simple": 1.0,
+          "robust": 0.020833333333333332
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1}{42}",
+          "simple": 1.0,
+          "robust": 0.023809523809523808
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1}{2}",
+          "simple": 1.0,
+          "robust": 0.5
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "50\\sqrt{10}",
+          "simple": 50.0,
+          "robust": 158.11388300841898
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{11}{2}",
+          "simple": 11.0,
+          "robust": 5.5
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "2x-8",
+          "simple": 2.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "(0,5)",
+          "simple": 5.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "2x^5",
+          "simple": 2.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "6\\pi",
+          "simple": 6.0,
+          "robust": 18.84955592153876
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "2\\pi",
+          "simple": 2.0,
+          "robust": 6.283185307179586
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "12\\pi",
+          "simple": 12.0,
+          "robust": 37.69911184307752
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "(-\\infty,-4)\\cup(-4,-2)\\cup(-2,\\infty)",
+          "simple": -4.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "(5,\\pi,-8)",
+          "simple": 5.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "[0,\\pi]",
+          "simple": 0.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "\\frac{31}{90}",
+          "simple": 31.0,
+          "robust": 0.34444444444444444
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "-32+32i\\sqrt{3}",
+          "simple": -32.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1}{6}",
+          "simple": 1.0,
+          "robust": 0.16666666666666666
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1 }{số 8}",
+          "simple": 1.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "12348\\pi",
+          "simple": 12348.0,
+          "robust": 38792.38608652676
+        }
+      ]
+    },
+    "valid": {
+      "n": 1000,
+      "simple_numeric_count": 996,
+      "robust_numeric_count": 977,
+      "mismatch_count": 58,
+      "numeric_bucket_counts": {
+        "simple_yes__robust_yes": 977,
+        "simple_yes__robust_no": 19,
+        "simple_no__robust_yes": 0,
+        "simple_no__robust_no": 4
+      },
+      "answer_form_counts_robust": {
+        "integer": 905,
+        "numeric_other": 34,
+        "negative_integer": 18,
+        "negative_numeric_other": 5,
+        "non_numeric": 20,
+        "decimal_dot": 6,
+        "decimal_comma": 8,
+        "missing": 3,
+        "negative_decimal_comma": 1
+      },
+      "last_anchor_counts": {
+        "dap_an_la": 734,
+        "cau_tra_loi_la": 261,
+        "none": 3,
+        "the_answer_is": 2
+      },
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "simple_numeric": 209,
+          "robust_numeric": 209,
+          "mismatch_count": 0
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "simple_numeric": 122,
+          "robust_numeric": 121,
+          "mismatch_count": 1
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "simple_numeric": 197,
+          "robust_numeric": 197,
+          "mismatch_count": 0
+        },
+        "GSM_SV": {
+          "n": 97,
+          "simple_numeric": 97,
+          "robust_numeric": 97,
+          "mismatch_count": 0
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "simple_numeric": 170,
+          "robust_numeric": 161,
+          "mismatch_count": 30
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "simple_numeric": 45,
+          "robust_numeric": 45,
+          "mismatch_count": 0
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "simple_numeric": 115,
+          "robust_numeric": 106,
+          "mismatch_count": 27
+        },
+        "MATH_SV": {
+          "n": 41,
+          "simple_numeric": 41,
+          "robust_numeric": 41,
+          "mismatch_count": 0
+        }
+      },
+      "mismatch_examples": [
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{9}{20}",
+          "simple": 9.0,
+          "robust": 0.45
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "36\\pi",
+          "simple": 36.0,
+          "robust": 113.09733552923255
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "-\\frac{\\pi}{2}",
+          "simple": 2.0,
+          "robust": -1.5707963267948966
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{1}{4}",
+          "simple": 1.0,
+          "robust": 0.25
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "(91,60)",
+          "simple": 9160.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "\\frac{1}{3}",
+          "simple": 1.0,
+          "robust": 0.3333333333333333
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "(0,4)",
+          "simple": 4.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{43}{99}",
+          "simple": 43.0,
+          "robust": 0.43434343434343436
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "-\\frac{3}{2}",
+          "simple": 3.0,
+          "robust": -1.5
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{4}{5}",
+          "simple": 4.0,
+          "robust": 0.8
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "\\frac{7}{2}",
+          "simple": 7.0,
+          "robust": 3.5
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{3}{4}",
+          "simple": 3.0,
+          "robust": 0.75
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "4\\sqrt{5}",
+          "simple": 4.0,
+          "robust": 8.94427190999916
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "(3,-1)",
+          "simple": 3.0,
+          "robust": null
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\frac{369}{625}",
+          "simple": 369.0,
+          "robust": 0.5904
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "3\\sqrt{5}",
+          "simple": 3.0,
+          "robust": 6.708203932499369
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "\\sqrt{3}",
+          "simple": 3.0,
+          "robust": 1.7320508075688772
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "\\frac{5}{2}",
+          "simple": 5.0,
+          "robust": 2.5
+        },
+        {
+          "type": "MATH_AnsAug",
+          "answer": "-\\frac{\\pi}{2}",
+          "simple": 2.0,
+          "robust": -1.5707963267948966
+        },
+        {
+          "type": "MATH_Rephrased",
+          "answer": "6\\pi",
+          "simple": 6.0,
+          "robust": 18.84955592153876
+        }
+      ]
+    }
+  },
+  "overlap_and_duplicates": {
+    "train_unique_queries": 57806,
+    "valid_unique_queries": 990,
+    "train_duplicate_query_groups": 17224,
+    "train_exact_copy_groups": 0,
+    "train_distinct_response_groups": 17224,
+    "train_exact_extra_copies": 0,
+    "train_distinct_extra_copies": 37594,
+    "train_consistent_numeric_groups": 17223,
+    "train_conflicting_numeric_groups": 1,
+    "train_groups_with_missing_numeric": 541,
+    "train_extra_consistent_copies": 37593,
+    "train_extra_conflicting_copies": 1,
+    "train_conflict_examples": [
+      {
+        "query": "Điểm số của bài kiểm tra điểm $110 được sắp xếp theo biểu đồ thân và lá được hiển thị. $9 | 6$ đại diện cho 96$ điểm. Chế độ của điểm là 89. Giá trị của biến X chưa biết là bao nhiêu?",
+        "answers": [
+          {
+            "type": "MATH_SV",
+            "answer": "0",
+            "robust_num": 0.0
+          },
+          {
+            "type": "MATH_SV",
+            "answer": "9",
+            "robust_num": 9.0
+          }
+        ]
+      }
+    ],
+    "exact_query_overlap_groups": 0,
+    "valid_records_with_query_seen_in_train": 0,
+    "exact_query_response_overlap_records": 0,
+    "overlap_groups_same_numeric_answer": 0,
+    "overlap_groups_conflicting_numeric_answer": 0,
+    "overlap_groups_missing_numeric_answer": 0,
+    "valid_overlap_by_type": {
+      "GSM_AnsAug": {
+        "overlap_count": 0,
+        "valid_count": 209,
+        "overlap_pct": 0.0
+      },
+      "GSM_FOBAR": {
+        "overlap_count": 0,
+        "valid_count": 122,
+        "overlap_pct": 0.0
+      },
+      "GSM_Rephrased": {
+        "overlap_count": 0,
+        "valid_count": 197,
+        "overlap_pct": 0.0
+      },
+      "GSM_SV": {
+        "overlap_count": 0,
+        "valid_count": 97,
+        "overlap_pct": 0.0
+      },
+      "MATH_AnsAug": {
+        "overlap_count": 0,
+        "valid_count": 173,
+        "overlap_pct": 0.0
+      },
+      "MATH_FOBAR": {
+        "overlap_count": 0,
+        "valid_count": 45,
+        "overlap_pct": 0.0
+      },
+      "MATH_Rephrased": {
+        "overlap_count": 0,
+        "valid_count": 116,
+        "overlap_pct": 0.0
+      },
+      "MATH_SV": {
+        "overlap_count": 0,
+        "valid_count": 41,
+        "overlap_pct": 0.0
+      }
+    }
+  },
+  "token_lengths": {
+    "train": {
+      "overall": {
+        "n": 95400,
+        "mean": 228.81,
+        "min": 29,
+        "p50": 201,
+        "p95": 436,
+        "p99": 674,
+        "max": 1762,
+        "over_512": 2541,
+        "over_768": 610,
+        "over_1024": 173
+      },
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 18745,
+          "mean": 176.68,
+          "min": 51,
+          "p50": 167,
+          "p95": 281,
+          "p99": 349,
+          "max": 547,
+          "over_512": 2,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "GSM_FOBAR": {
+          "n": 10023,
+          "mean": 285.47,
+          "min": 136,
+          "p50": 273,
+          "p95": 425,
+          "p99": 509,
+          "max": 817,
+          "over_512": 96,
+          "over_768": 1,
+          "over_1024": 0
+        },
+        "GSM_Rephrased": {
+          "n": 20028,
+          "mean": 171.74,
+          "min": 63,
+          "p50": 163,
+          "p95": 274,
+          "p99": 340,
+          "max": 565,
+          "over_512": 8,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "GSM_SV": {
+          "n": 9869,
+          "mean": 316.95,
+          "min": 112,
+          "p50": 306,
+          "p95": 460,
+          "p99": 559,
+          "max": 1114,
+          "over_512": 194,
+          "over_768": 2,
+          "over_1024": 1
+        },
+        "MATH_AnsAug": {
+          "n": 16999,
+          "mean": 213.61,
+          "min": 29,
+          "p50": 186,
+          "p95": 423,
+          "p99": 661,
+          "max": 1587,
+          "over_512": 438,
+          "over_768": 99,
+          "over_1024": 19
+        },
+        "MATH_FOBAR": {
+          "n": 3668,
+          "mean": 455.41,
+          "min": 73,
+          "p50": 401,
+          "p95": 913,
+          "p99": 1223,
+          "max": 1762,
+          "over_512": 1098,
+          "over_768": 332,
+          "over_1024": 114
+        },
+        "MATH_Rephrased": {
+          "n": 12477,
+          "mean": 205.08,
+          "min": 31,
+          "p50": 181,
+          "p95": 398,
+          "p99": 588,
+          "max": 1653,
+          "over_512": 234,
+          "over_768": 30,
+          "over_1024": 7
+        },
+        "MATH_SV": {
+          "n": 3591,
+          "mean": 341.75,
+          "min": 50,
+          "p50": 294,
+          "p95": 713,
+          "p99": 1012,
+          "max": 1439,
+          "over_512": 471,
+          "over_768": 146,
+          "over_1024": 32
+        }
+      }
+    },
+    "valid": {
+      "overall": {
+        "n": 1000,
+        "mean": 239.56,
+        "min": 52,
+        "p50": 209,
+        "p95": 489,
+        "p99": 668,
+        "max": 1004,
+        "over_512": 35,
+        "over_768": 6,
+        "over_1024": 0
+      },
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "mean": 181.18,
+          "min": 76,
+          "p50": 167,
+          "p95": 286,
+          "p99": 366,
+          "max": 476,
+          "over_512": 0,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "mean": 301.9,
+          "min": 150,
+          "p50": 291,
+          "p95": 457,
+          "p99": 511,
+          "max": 601,
+          "over_512": 2,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "mean": 166.08,
+          "min": 88,
+          "p50": 157,
+          "p95": 274,
+          "p99": 315,
+          "max": 352,
+          "over_512": 0,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "GSM_SV": {
+          "n": 97,
+          "mean": 336.35,
+          "min": 175,
+          "p50": 316,
+          "p95": 500,
+          "p99": 653,
+          "max": 686,
+          "over_512": 4,
+          "over_768": 0,
+          "over_1024": 0
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "mean": 239.14,
+          "min": 61,
+          "p50": 213,
+          "p95": 489,
+          "p99": 627,
+          "max": 806,
+          "over_512": 7,
+          "over_768": 1,
+          "over_1024": 0
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "mean": 442.69,
+          "min": 181,
+          "p50": 389,
+          "p95": 678,
+          "p99": 923,
+          "max": 1004,
+          "over_512": 14,
+          "over_768": 3,
+          "over_1024": 0
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "mean": 209.52,
+          "min": 55,
+          "p50": 181,
+          "p95": 415,
+          "p99": 498,
+          "max": 808,
+          "over_512": 2,
+          "over_768": 1,
+          "over_1024": 0
+        },
+        "MATH_SV": {
+          "n": 41,
+          "mean": 339.68,
+          "min": 52,
+          "p50": 294,
+          "p95": 636,
+          "p99": 715,
+          "max": 932,
+          "over_512": 6,
+          "over_768": 1,
+          "over_1024": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4572 @@
+{
+  "all_runs": {
+    "4beams": {
+      "dir": "results\\4beams",
+      "valid": {
+        "raw_score": 649,
+        "score_10": 0.649,
+        "exact10": 43,
+        "score5": 13,
+        "score1": 154,
+        "zero": 790,
+        "extractable": 854,
+        "numeric_pairs": 837
+      },
+      "model_valid": null
+    },
+    "v5": {
+      "dir": "results\\v5",
+      "valid": {
+        "raw_score": 955,
+        "score_10": 0.955,
+        "exact10": 68,
+        "score5": 15,
+        "score1": 200,
+        "zero": 717,
+        "extractable": 998,
+        "numeric_pairs": 975
+      },
+      "model_valid": null
+    },
+    "v6": {
+      "dir": "results\\v6",
+      "valid": {
+        "raw_score": 1810,
+        "score_10": 1.81,
+        "exact10": 138,
+        "score5": 29,
+        "score1": 285,
+        "zero": 548,
+        "extractable": 998,
+        "numeric_pairs": 975
+      },
+      "model_valid": null
+    },
+    "v6_fast": {
+      "dir": "results\\v6_fast",
+      "valid": {
+        "raw_score": 1789,
+        "score_10": 1.789,
+        "exact10": 136,
+        "score5": 30,
+        "score1": 279,
+        "zero": 555,
+        "extractable": 992,
+        "numeric_pairs": 968
+      },
+      "model_valid": null
+    },
+    "v7": {
+      "dir": "results\\v7",
+      "valid": {
+        "raw_score": 639,
+        "score_10": 0.639,
+        "exact10": 36,
+        "score5": 23,
+        "score1": 164,
+        "zero": 777,
+        "extractable": 854,
+        "numeric_pairs": 807
+      },
+      "model_valid": null
+    },
+    "v8_2_lora_target": {
+      "dir": "results\\v8\\2_lora_target",
+      "valid": {
+        "raw_score": 1022,
+        "score_10": 1.022,
+        "exact10": 69,
+        "score5": 20,
+        "score1": 232,
+        "zero": 679,
+        "extractable": 973,
+        "numeric_pairs": 950
+      },
+      "model_valid": null
+    },
+    "v8_3_lora_target": {
+      "dir": "results\\v8\\3_lora_target",
+      "valid": {
+        "raw_score": 2731,
+        "score_10": 2.731,
+        "exact10": 227,
+        "score5": 35,
+        "score1": 286,
+        "zero": 452,
+        "extractable": 993,
+        "numeric_pairs": 968
+      },
+      "model_valid": null
+    },
+    "v8_select_beam2_lr1e-3": {
+      "dir": "results\\v8_select_checkpoint\\beam2_lr1e-3",
+      "valid": {
+        "raw_score": 5265,
+        "score_10": 5.265,
+        "exact10": 502,
+        "score5": 21,
+        "score1": 140,
+        "zero": 337,
+        "extractable": 997,
+        "numeric_pairs": 970
+      },
+      "model_valid": null
+    },
+    "v8_select_beam2_lr5e-4": {
+      "dir": "results\\v8_select_checkpoint\\beam2_lr5e-4",
+      "valid": {
+        "raw_score": 3608,
+        "score_10": 3.608,
+        "exact10": 323,
+        "score5": 31,
+        "score1": 223,
+        "zero": 423,
+        "extractable": 999,
+        "numeric_pairs": 971
+      },
+      "model_valid": null
+    },
+    "v8_select_beam4_lr5e-4": {
+      "dir": "results\\v8_select_checkpoint\\beam4_lr5e-4",
+      "valid": {
+        "raw_score": 3528,
+        "score_10": 3.528,
+        "exact10": 318,
+        "score5": 28,
+        "score1": 208,
+        "zero": 446,
+        "extractable": 998,
+        "numeric_pairs": 974
+      },
+      "model_valid": null
+    },
+    "v9": {
+      "dir": "results\\v9",
+      "valid": {
+        "raw_score": 1842,
+        "score_10": 1.842,
+        "exact10": 150,
+        "score5": 31,
+        "score1": 187,
+        "zero": 632,
+        "extractable": 959,
+        "numeric_pairs": 937
+      },
+      "model_valid": null
+    },
+    "v10": {
+      "dir": "results\\v10",
+      "valid": {
+        "raw_score": 2131,
+        "score_10": 2.131,
+        "exact10": 175,
+        "score5": 26,
+        "score1": 251,
+        "zero": 548,
+        "extractable": 990,
+        "numeric_pairs": 967
+      },
+      "model_valid": null
+    },
+    "v11": {
+      "dir": "results\\v11",
+      "valid": {
+        "raw_score": 4329,
+        "score_10": 4.329,
+        "exact10": 400,
+        "score5": 29,
+        "score1": 184,
+        "zero": 387,
+        "extractable": 998,
+        "numeric_pairs": 971
+      },
+      "model_valid": null
+    },
+    "v12": {
+      "dir": "results\\v12",
+      "valid": {
+        "raw_score": 6194,
+        "score_10": 6.194,
+        "exact10": 606,
+        "score5": 10,
+        "score1": 84,
+        "zero": 300,
+        "extractable": 998,
+        "numeric_pairs": 975
+      },
+      "model_valid": {
+        "raw_score": 4489,
+        "score_10": 4.489,
+        "exact10": 418,
+        "score5": 28,
+        "score1": 169,
+        "zero": 385,
+        "extractable": 992,
+        "numeric_pairs": 967
+      }
+    },
+    "v13": {
+      "dir": "results\\v13",
+      "valid": {
+        "raw_score": 6896,
+        "score_10": 6.896,
+        "exact10": 678,
+        "score5": 5,
+        "score1": 91,
+        "zero": 226,
+        "extractable": 999,
+        "numeric_pairs": 977
+      },
+      "model_valid": {
+        "raw_score": 5389,
+        "score_10": 5.389,
+        "exact10": 513,
+        "score5": 22,
+        "score1": 149,
+        "zero": 316,
+        "extractable": 998,
+        "numeric_pairs": 974
+      }
+    },
+    "v14_gate_sweep": {
+      "dir": "results\\v14_gate_sweep",
+      "valid": {
+        "raw_score": 6806,
+        "score_10": 6.806,
+        "exact10": 665,
+        "score5": 12,
+        "score1": 96,
+        "zero": 227,
+        "extractable": 998,
+        "numeric_pairs": 974
+      },
+      "model_valid": {
+        "raw_score": 5195,
+        "score_10": 5.195,
+        "exact10": 489,
+        "score5": 28,
+        "score1": 165,
+        "zero": 318,
+        "extractable": 998,
+        "numeric_pairs": 972
+      }
+    },
+    "v14_fobar_sv": {
+      "dir": "results\\v14_fobar_sv",
+      "valid": {
+        "raw_score": 6379,
+        "score_10": 6.379,
+        "exact10": 624,
+        "score5": 9,
+        "score1": 94,
+        "zero": 273,
+        "extractable": 997,
+        "numeric_pairs": 973
+      },
+      "model_valid": {
+        "raw_score": 4626,
+        "score_10": 4.626,
+        "exact10": 432,
+        "score5": 24,
+        "score1": 186,
+        "zero": 358,
+        "extractable": 992,
+        "numeric_pairs": 966
+      }
+    }
+  },
+  "focus_runs": {
+    "v13": {
+      "name": "v13",
+      "dir": "results\\v13",
+      "final_summary": {
+        "raw_score": 6896,
+        "score_10": 6.896,
+        "exact10": 678,
+        "score5": 5,
+        "score1": 91,
+        "zero": 226,
+        "extractable": 999,
+        "numeric_pairs": 977
+      },
+      "model_summary": {
+        "raw_score": 5389,
+        "score_10": 5.389,
+        "exact10": 513,
+        "score5": 22,
+        "score1": 149,
+        "zero": 316,
+        "extractable": 998,
+        "numeric_pairs": 974
+      },
+      "by_type_delta": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "final_raw": 1493,
+          "final_score_10": 7.143540669856459,
+          "final_exact10": 148,
+          "final_zero": 48,
+          "model_raw": 921,
+          "model_score_10": 4.4066985645933014,
+          "model_exact10": 87,
+          "model_zero": 79,
+          "delta_raw": 572,
+          "delta_exact10": 61
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "final_raw": 391,
+          "final_score_10": 3.2049180327868854,
+          "final_exact10": 36,
+          "final_zero": 55,
+          "model_raw": 391,
+          "model_score_10": 3.2049180327868854,
+          "model_exact10": 36,
+          "model_zero": 55,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "final_raw": 1874,
+          "final_score_10": 9.51269035532995,
+          "final_exact10": 187,
+          "final_zero": 6,
+          "model_raw": 1672,
+          "model_score_10": 8.48730964467005,
+          "model_exact10": 162,
+          "model_zero": 11,
+          "delta_raw": 202,
+          "delta_exact10": 25
+        },
+        "GSM_SV": {
+          "n": 97,
+          "final_raw": 477,
+          "final_score_10": 4.917525773195877,
+          "final_exact10": 45,
+          "final_zero": 33,
+          "model_raw": 477,
+          "model_score_10": 4.917525773195877,
+          "model_exact10": 45,
+          "model_zero": 33,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "final_raw": 1297,
+          "final_score_10": 7.497109826589595,
+          "final_exact10": 129,
+          "final_zero": 37,
+          "model_raw": 785,
+          "model_score_10": 4.53757225433526,
+          "model_exact10": 74,
+          "model_zero": 74,
+          "delta_raw": 512,
+          "delta_exact10": 55
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "final_raw": 205,
+          "final_score_10": 4.555555555555555,
+          "final_exact10": 19,
+          "final_zero": 15,
+          "model_raw": 205,
+          "model_score_10": 4.555555555555555,
+          "model_exact10": 19,
+          "model_zero": 15,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "final_raw": 987,
+          "final_score_10": 8.508620689655173,
+          "final_exact10": 98,
+          "final_zero": 15,
+          "model_raw": 766,
+          "model_score_10": 6.603448275862069,
+          "model_exact10": 74,
+          "model_zero": 32,
+          "delta_raw": 221,
+          "delta_exact10": 24
+        },
+        "MATH_SV": {
+          "n": 41,
+          "final_raw": 172,
+          "final_score_10": 4.195121951219512,
+          "final_exact10": 16,
+          "final_zero": 17,
+          "model_raw": 172,
+          "model_score_10": 4.195121951219512,
+          "model_exact10": 16,
+          "model_zero": 17,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        }
+      },
+      "transitions": {
+        "overall": {
+          "0->0": 203,
+          "0->1": 3,
+          "0->10": 110,
+          "1->0": 12,
+          "1->1": 87,
+          "1->10": 49,
+          "1->5": 1,
+          "10->0": 10,
+          "10->10": 503,
+          "5->0": 1,
+          "5->1": 1,
+          "5->10": 16,
+          "5->5": 4
+        },
+        "by_type": {
+          "GSM_AnsAug": {
+            "0->0": 33,
+            "0->1": 2,
+            "0->10": 44,
+            "1->0": 8,
+            "1->1": 11,
+            "1->10": 22,
+            "10->0": 7,
+            "10->10": 80,
+            "5->10": 2
+          },
+          "GSM_FOBAR": {
+            "0->0": 55,
+            "1->1": 31,
+            "10->10": 36
+          },
+          "GSM_Rephrased": {
+            "0->0": 1,
+            "0->10": 10,
+            "1->0": 2,
+            "1->1": 3,
+            "1->10": 12,
+            "10->0": 3,
+            "10->10": 159,
+            "5->1": 1,
+            "5->10": 6
+          },
+          "GSM_SV": {
+            "0->0": 33,
+            "1->1": 17,
+            "10->10": 45,
+            "5->5": 2
+          },
+          "MATH_AnsAug": {
+            "0->0": 34,
+            "0->1": 1,
+            "0->10": 39,
+            "1->0": 2,
+            "1->1": 6,
+            "1->10": 12,
+            "10->10": 74,
+            "5->0": 1,
+            "5->10": 4
+          },
+          "MATH_FOBAR": {
+            "0->0": 15,
+            "1->1": 10,
+            "10->10": 19,
+            "5->5": 1
+          },
+          "MATH_Rephrased": {
+            "0->0": 15,
+            "0->10": 17,
+            "1->1": 2,
+            "1->10": 3,
+            "1->5": 1,
+            "10->10": 74,
+            "5->10": 4
+          },
+          "MATH_SV": {
+            "0->0": 17,
+            "1->1": 7,
+            "10->10": 16,
+            "5->5": 1
+          }
+        }
+      },
+      "hybrid_decision_summary": {
+        "enabled": true,
+        "strategy": "source_type_majority",
+        "allowed_types": [
+          "GSM_AnsAug",
+          "GSM_Rephrased",
+          "MATH_AnsAug",
+          "MATH_Rephrased"
+        ],
+        "n": 1000,
+        "retrieval_used": 625,
+        "retrieval_used_pct": 0.625,
+        "retrieval_used_by_type": {
+          "GSM_AnsAug": {
+            "n": 209,
+            "retrieval_used": 183,
+            "model_fallback": 26
+          },
+          "GSM_FOBAR": {
+            "n": 122,
+            "retrieval_used": 0,
+            "model_fallback": 122
+          },
+          "GSM_Rephrased": {
+            "n": 197,
+            "retrieval_used": 194,
+            "model_fallback": 3
+          },
+          "GSM_SV": {
+            "n": 97,
+            "retrieval_used": 0,
+            "model_fallback": 97
+          },
+          "MATH_AnsAug": {
+            "n": 173,
+            "retrieval_used": 143,
+            "model_fallback": 30
+          },
+          "MATH_FOBAR": {
+            "n": 45,
+            "retrieval_used": 0,
+            "model_fallback": 45
+          },
+          "MATH_Rephrased": {
+            "n": 116,
+            "retrieval_used": 105,
+            "model_fallback": 11
+          },
+          "MATH_SV": {
+            "n": 41,
+            "retrieval_used": 0,
+            "model_fallback": 41
+          }
+        },
+        "fallback_reason_counts": {
+          "type_not_allowed": 305,
+          "source_unseen": 42,
+          "low_majority": 28
+        },
+        "debug_first": [
+          {
+            "idx": 0,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô từ ô bắt đầu đến ô cuối chiến thắng và ở lượt đầu tiên, cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô và ở lượt thứ ba. đến lượt cô ấy tiến về phía trước sáu ô, cô ấy cần di chuyển thêm bao nhiêu ô nữa",
+            "model_output_before": "Đáp án là: 37",
+            "model_output_after": "Đáp án là: 37",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "37",
+              "answer_num": 37.0,
+              "num_candidates": 8,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.8214285714285714
+            }
+          },
+          {
+            "idx": 1,
+            "type": "MATH_Rephrased",
+            "query_vi": "Nếu $\\angle PQR = \\angle PRQ$, và độ dài của QR và PR lần lượt là 5 và 7 thì chu vi của tam giác PQR là bao nhiêu?",
+            "model_output_before": "Đáp án là: 19",
+            "model_output_after": "Đáp án là: 19",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "19",
+              "answer_num": 19.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": true,
+              "majority_count": 3,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.8333333333333334
+            }
+          },
+          {
+            "idx": 2,
+            "type": "MATH_SV",
+            "query_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến X. Giá trị kỳ vọng của con xúc xắc là 4,5. Giá trị của biến X chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 8",
+            "model_output_after": "Đáp án là: 8",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "MATH_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 11
+            }
+          },
+          {
+            "idx": 3,
+            "type": "GSM_Rephrased",
+            "query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire đưa cho một bé gái 1 quả bóng bay, mất 12 quả bóng bay, cho thêm 9 quả bóng nữa và lấy 11 quả bóng bay từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+            "model_output_before": "Đáp án là: 39",
+            "model_output_after": "Đáp án là: 39",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "39",
+              "answer_num": 39.0,
+              "num_candidates": 7,
+              "pool_candidates": 5,
+              "typed_pool": true,
+              "majority_count": 5,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.8205128205128205
+            }
+          },
+          {
+            "idx": 4,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu có một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+            "model_output_before": "Đáp án là: 440",
+            "model_output_after": "Đáp án là: 440",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "440",
+              "answer_num": 440.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 1.0
+            }
+          },
+          {
+            "idx": 5,
+            "type": "GSM_AnsAug",
+            "query_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?",
+            "model_output_before": "Đáp án là: 90",
+            "model_output_after": "Đáp án là: 90",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "90",
+              "answer_num": 90.0,
+              "num_candidates": 8,
+              "pool_candidates": 8,
+              "typed_pool": false,
+              "majority_count": 7,
+              "majority_frac": 0.875,
+              "nearest_jaccard_same_answer": 0.6428571428571429
+            }
+          },
+          {
+            "idx": 6,
+            "type": "GSM_SV",
+            "query_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng x bông hồng trắng để trang trí mỗi bàn và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng 109 bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn. Giá trị của ",
+            "model_output_before": "Đáp án là: 10",
+            "model_output_after": "Đáp án là: 10",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 13
+            }
+          },
+          {
+            "idx": 7,
+            "type": "GSM_FOBAR",
+            "query_vi": "Grace bắt đầu công việc kinh doanh cảnh quan của riêng mình. Cô tính phí 6 đô la một giờ cho việc cắt cỏ, 11 đô la cho việc nhổ cỏ và x đô la cho việc phủ lớp phủ. Vào tháng 9, cô cắt cỏ trong 63 giờ, nhổ cỏ trong 9 giờ và phủ lớp phủ trong 10 giờ. Cô ấy đã kiếm được bao nhiêu tiền vào tháng 9? Nếu ",
+            "model_output_before": "Đáp án là: 11",
+            "model_output_after": "Đáp án là: 11",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 15
+            }
+          },
+          {
+            "idx": 8,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của 12 và 2, 12 và 4, 12 và 6, 12 và 8, 12 và 10, 12 và 12. Hãy thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+            "model_output_before": "Đáp án là: 60",
+            "model_output_after": "Đáp án là: 60",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "60",
+              "answer_num": 60.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.9354838709677419
+            }
+          },
+          {
+            "idx": 9,
+            "type": "GSM_AnsAug",
+            "query_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+            "model_output_before": "Đáp án là: 5",
+            "model_output_after": "Đáp án là: 5",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "5",
+              "answer_num": 5.0,
+              "num_candidates": 4,
+              "pool_candidates": 4,
+              "typed_pool": false,
+              "majority_count": 4,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143
+            }
+          },
+          {
+            "idx": 10,
+            "type": "GSM_FOBAR",
+            "query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm đ",
+            "model_output_before": "Đáp án là: 1.25",
+            "model_output_after": "Đáp án là: 1.25",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 4
+            }
+          },
+          {
+            "idx": 11,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy 105 phần sữa công thức để cho các chú chó con ăn trong 5 ngày, thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+            "model_output_before": "Đáp án là: 3",
+            "model_output_after": "Đáp án là: 3",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "3",
+              "answer_num": 3.0,
+              "num_candidates": 11,
+              "pool_candidates": 6,
+              "typed_pool": true,
+              "majority_count": 6,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.9487179487179487
+            }
+          },
+          {
+            "idx": 12,
+            "type": "GSM_SV",
+            "query_vi": "Bob đặt mua x gói sữa chua Hy Lạp từ Costco để sử dụng trong tháng. Tuy nhiên, khi nhận hàng, anh nhận ra 40% số gói đã hết hạn sử dụng. Anh quyết định trả lại những gói đó. Nếu mỗi gói có giá 12 USD thì Bob được hoàn lại 384 USD cho sản phẩm đã hết hạn. Giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 80",
+            "model_output_after": "Đáp án là: 80",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 12
+            }
+          },
+          {
+            "idx": 13,
+            "type": "MATH_Rephrased",
+            "query_vi": "Giá trị bình phương của hàm sàn của căn bậc hai của 17 là bao nhiêu?",
+            "model_output_before": "Đáp án là: 16",
+            "model_output_after": "Đáp án là: 16",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "16",
+              "answer_num": 16.0,
+              "num_candidates": 10,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.9285714285714286
+            }
+          },
+          {
+            "idx": 14,
+            "type": "GSM_FOBAR",
+            "query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có x bút chì màu thì Lizzie có bao nhiêu bút màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 12",
+            "model_output_after": "Đáp án là: 12",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 9
+            }
+          },
+          {
+            "idx": 15,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chad tiết kiệm 40% số tiền anh kiếm được/nhận được trong một năm. Năm nay, anh ấy kiếm được 600 đô la từ việc cắt cỏ và nhận được 250 đô la cho ngày sinh nhật/ngày lễ của mình. Anh ấy cũng kiếm được 150,00 đô la bằng cách bán một số trò chơi điện tử cũ và 150,00 đô la khác làm những công việc lặt vặ",
+            "model_output_before": "Đáp án là: 460",
+            "model_output_after": "Đáp án là: 460",
+            "decision": {
+              "used": false,
+              "reason": "low_majority",
+              "num_candidates": 7,
+              "pool_candidates": 7,
+              "majority_frac": 0.2857142857142857
+            }
+          },
+          {
+            "idx": 16,
+            "type": "GSM_AnsAug",
+            "query_vi": "Có 140 đứa trẻ tham dự buổi vũ hội dành cho thiếu niên. Trong số đó, 1/4 là vũ công. Trong số các vũ công, 25 người nhảy điệu nhảy chậm. Có bao nhiêu học sinh vũ công không nhảy chậm?",
+            "model_output_before": "Đáp án là: 10",
+            "model_output_after": "Đáp án là: 10",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "10",
+              "answer_num": 10.0,
+              "num_candidates": 11,
+              "pool_candidates": 11,
+              "typed_pool": false,
+              "majority_count": 6,
+              "majority_frac": 0.5454545454545454,
+              "nearest_jaccard_same_answer": 0.96875
+            }
+          },
+          {
+            "idx": 17,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định số nhỏ nhất có ba chữ số trong tam giác Pascal.",
+            "model_output_before": "Đáp án là: 10",
+            "model_output_after": "Đáp án là: 100",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "100",
+              "answer_num": 100.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": false,
+              "majority_count": 3,
+              "majority_frac": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143
+            }
+          },
+          {
+            "idx": 18,
+            "type": "MATH_AnsAug",
+            "query_vi": "Phép toán $*$ được xác định cho các số nguyên khác 0 như sau: $a * b = \\frac{1}{a} + \\frac{1}{b}$. Nếu $a+b = 9$ và $ a \\times b = 20$, giá trị của $a*b$ là bao nhiêu? Thể hiện câu trả lời của bạn như là một phần chung.",
+            "model_output_before": "Đáp án là: 0.5",
+            "model_output_after": "Đáp án là: 20",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "20",
+              "answer_num": 20.0,
+              "num_candidates": 6,
+              "pool_candidates": 6,
+              "typed_pool": false,
+              "majority_count": 3,
+              "majority_frac": 0.5,
+              "nearest_jaccard_same_answer": 0.9024390243902439
+            }
+          },
+          {
+            "idx": 19,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chi phí mua hai mặt hàng là $827. Nếu giá mua của mặt hàng thứ nhất cao hơn mặt hàng kia là 127 USD thì giá mua của hàng hóa đầu tiên là bao nhiêu?",
+            "model_output_before": "Đáp án là: 126",
+            "model_output_after": "Đáp án là: 477",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "477",
+              "answer_num": 477.0,
+              "num_candidates": 5,
+              "pool_candidates": 5,
+              "typed_pool": false,
+              "majority_count": 3,
+              "majority_frac": 0.6,
+              "nearest_jaccard_same_answer": 0.8076923076923077
+            }
+          }
+        ]
+      },
+      "selected_gate_config": null,
+      "gate_sweep_report": null,
+      "checkpoint_selection": {
+        "status": "selected",
+        "selected_label": "epoch_08",
+        "selected_raw": 6337,
+        "selected_exact10": 617,
+        "final_retrain_epoch_count": 8.0,
+        "selected_retrieval_gate_config_by_type": null,
+        "checkpoints": [
+          {
+            "label": "epoch_01",
+            "raw_score": 5252,
+            "score_10": 5.252,
+            "exact10": 510,
+            "extractable": 982,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_02",
+            "raw_score": 5317,
+            "score_10": 5.317,
+            "exact10": 515,
+            "extractable": 991,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_03",
+            "raw_score": 5458,
+            "score_10": 5.458,
+            "exact10": 529,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_04",
+            "raw_score": 5641,
+            "score_10": 5.641,
+            "exact10": 547,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_05",
+            "raw_score": 5893,
+            "score_10": 5.893,
+            "exact10": 570,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_06",
+            "raw_score": 6300,
+            "score_10": 6.3,
+            "exact10": 613,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_07",
+            "raw_score": 6300,
+            "score_10": 6.3,
+            "exact10": 615,
+            "extractable": 996,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_08",
+            "raw_score": 6337,
+            "score_10": 6.337,
+            "exact10": 617,
+            "extractable": 997,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v13_answer_only",
+            "raw_score": 6337,
+            "score_10": 6.337,
+            "exact10": 617,
+            "extractable": 997,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v13_final",
+            "raw_score": 6337,
+            "score_10": 6.337,
+            "exact10": 617,
+            "extractable": 997,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v13_sft",
+            "raw_score": 6337,
+            "score_10": 6.337,
+            "exact10": 617,
+            "extractable": 997,
+            "gate_sweep_path": null
+          }
+        ]
+      },
+      "same_original_overlap_slices": {
+        "same_original_has_same": {
+          "n": 764,
+          "raw_score": 6562,
+          "score_10": 8.589005235602095,
+          "exact10": 652,
+          "zero": 74
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw_score": 77,
+          "score_10": 2.026315789473684,
+          "exact10": 7,
+          "zero": 24
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw_score": 256,
+          "score_10": 1.471264367816092,
+          "exact10": 19,
+          "zero": 105
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw_score": 1,
+          "score_10": 0.041666666666666664,
+          "exact10": 0,
+          "zero": 23
+        }
+      }
+    },
+    "v14_gate_sweep": {
+      "name": "v14_gate_sweep",
+      "dir": "results\\v14_gate_sweep",
+      "final_summary": {
+        "raw_score": 6806,
+        "score_10": 6.806,
+        "exact10": 665,
+        "score5": 12,
+        "score1": 96,
+        "zero": 227,
+        "extractable": 998,
+        "numeric_pairs": 974
+      },
+      "model_summary": {
+        "raw_score": 5195,
+        "score_10": 5.195,
+        "exact10": 489,
+        "score5": 28,
+        "score1": 165,
+        "zero": 318,
+        "extractable": 998,
+        "numeric_pairs": 972
+      },
+      "by_type_delta": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "final_raw": 1500,
+          "final_score_10": 7.177033492822966,
+          "final_exact10": 148,
+          "final_zero": 49,
+          "model_raw": 881,
+          "model_score_10": 4.215311004784689,
+          "model_exact10": 79,
+          "model_zero": 79,
+          "delta_raw": 619,
+          "delta_exact10": 69
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "final_raw": 365,
+          "final_score_10": 2.9918032786885247,
+          "final_exact10": 33,
+          "final_zero": 54,
+          "model_raw": 365,
+          "model_score_10": 2.9918032786885247,
+          "model_exact10": 33,
+          "model_zero": 54,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "final_raw": 1874,
+          "final_score_10": 9.51269035532995,
+          "final_exact10": 187,
+          "final_zero": 6,
+          "model_raw": 1667,
+          "model_score_10": 8.461928934010153,
+          "model_exact10": 164,
+          "model_zero": 18,
+          "delta_raw": 207,
+          "delta_exact10": 23
+        },
+        "GSM_SV": {
+          "n": 97,
+          "final_raw": 423,
+          "final_score_10": 4.360824742268041,
+          "final_exact10": 40,
+          "final_zero": 38,
+          "model_raw": 423,
+          "model_score_10": 4.360824742268041,
+          "model_exact10": 40,
+          "model_zero": 38,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "final_raw": 1262,
+          "final_score_10": 7.294797687861272,
+          "final_exact10": 123,
+          "final_zero": 34,
+          "model_raw": 758,
+          "model_score_10": 4.381502890173411,
+          "model_exact10": 69,
+          "model_zero": 68,
+          "delta_raw": 504,
+          "delta_exact10": 54
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "final_raw": 199,
+          "final_score_10": 4.4222222222222225,
+          "final_exact10": 18,
+          "final_zero": 16,
+          "model_raw": 199,
+          "model_score_10": 4.4222222222222225,
+          "model_exact10": 18,
+          "model_zero": 16,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "final_raw": 992,
+          "final_score_10": 8.551724137931034,
+          "final_exact10": 98,
+          "final_zero": 14,
+          "model_raw": 711,
+          "model_score_10": 6.129310344827586,
+          "model_exact10": 68,
+          "model_zero": 29,
+          "delta_raw": 281,
+          "delta_exact10": 30
+        },
+        "MATH_SV": {
+          "n": 41,
+          "final_raw": 191,
+          "final_score_10": 4.658536585365853,
+          "final_exact10": 18,
+          "final_zero": 16,
+          "model_raw": 191,
+          "model_score_10": 4.658536585365853,
+          "model_exact10": 18,
+          "model_zero": 16,
+          "delta_raw": 0,
+          "delta_exact10": 0
+        }
+      },
+      "transitions": {
+        "overall": {
+          "0->0": 202,
+          "0->1": 2,
+          "0->10": 114,
+          "1->0": 14,
+          "1->1": 92,
+          "1->10": 58,
+          "1->5": 1,
+          "10->0": 10,
+          "10->1": 1,
+          "10->10": 478,
+          "5->0": 1,
+          "5->1": 1,
+          "5->10": 15,
+          "5->5": 11
+        },
+        "by_type": {
+          "GSM_AnsAug": {
+            "0->0": 29,
+            "0->10": 50,
+            "1->0": 12,
+            "1->1": 9,
+            "1->10": 20,
+            "10->0": 7,
+            "10->1": 1,
+            "10->10": 71,
+            "5->0": 1,
+            "5->10": 7,
+            "5->5": 2
+          },
+          "GSM_FOBAR": {
+            "0->0": 54,
+            "1->1": 35,
+            "10->10": 33
+          },
+          "GSM_Rephrased": {
+            "0->0": 3,
+            "0->1": 1,
+            "0->10": 14,
+            "1->0": 1,
+            "1->1": 3,
+            "1->10": 8,
+            "10->0": 2,
+            "10->10": 162,
+            "5->10": 3
+          },
+          "GSM_SV": {
+            "0->0": 38,
+            "1->1": 18,
+            "10->10": 40,
+            "5->5": 1
+          },
+          "MATH_AnsAug": {
+            "0->0": 32,
+            "0->1": 1,
+            "0->10": 35,
+            "1->0": 1,
+            "1->1": 10,
+            "1->10": 17,
+            "10->0": 1,
+            "10->10": 68,
+            "5->1": 1,
+            "5->10": 3,
+            "5->5": 4
+          },
+          "MATH_FOBAR": {
+            "0->0": 16,
+            "1->1": 9,
+            "10->10": 18,
+            "5->5": 2
+          },
+          "MATH_Rephrased": {
+            "0->0": 14,
+            "0->10": 15,
+            "1->1": 2,
+            "1->10": 13,
+            "1->5": 1,
+            "10->10": 68,
+            "5->10": 2,
+            "5->5": 1
+          },
+          "MATH_SV": {
+            "0->0": 16,
+            "1->1": 6,
+            "10->10": 18,
+            "5->5": 1
+          }
+        }
+      },
+      "hybrid_decision_summary": {
+        "enabled": true,
+        "strategy": "source_type_majority",
+        "allowed_types": [
+          "GSM_AnsAug",
+          "GSM_Rephrased",
+          "MATH_AnsAug",
+          "MATH_Rephrased"
+        ],
+        "active_type_gate_config": {
+          "GSM_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.45,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "GSM_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.2,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          }
+        },
+        "n": 1000,
+        "retrieval_used": 616,
+        "retrieval_used_pct": 0.616,
+        "output_changed_count": 247,
+        "retrieval_used_by_type": {
+          "GSM_AnsAug": {
+            "n": 209,
+            "retrieval_used": 185,
+            "model_fallback": 24
+          },
+          "GSM_FOBAR": {
+            "n": 122,
+            "retrieval_used": 0,
+            "model_fallback": 122
+          },
+          "GSM_Rephrased": {
+            "n": 197,
+            "retrieval_used": 194,
+            "model_fallback": 3
+          },
+          "GSM_SV": {
+            "n": 97,
+            "retrieval_used": 0,
+            "model_fallback": 97
+          },
+          "MATH_AnsAug": {
+            "n": 173,
+            "retrieval_used": 132,
+            "model_fallback": 41
+          },
+          "MATH_FOBAR": {
+            "n": 45,
+            "retrieval_used": 0,
+            "model_fallback": 45
+          },
+          "MATH_Rephrased": {
+            "n": 116,
+            "retrieval_used": 105,
+            "model_fallback": 11
+          },
+          "MATH_SV": {
+            "n": 41,
+            "retrieval_used": 0,
+            "model_fallback": 41
+          }
+        },
+        "fallback_reason_counts": {
+          "type_not_allowed": 305,
+          "source_unseen": 42,
+          "low_confidence_model_disagree": 36,
+          "low_confidence": 1
+        },
+        "agreement_counts": {
+          "model_agrees": 358,
+          "model_disagrees_or_unparseable": 258
+        },
+        "debug_first": [
+          {
+            "idx": 0,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô từ ô bắt đầu đến ô cuối chiến thắng và ở lượt đầu tiên, cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô và ở lượt thứ ba. đến lượt cô ấy tiến về phía trước sáu ô, cô ấy cần di chuyển thêm bao nhiêu ô nữa",
+            "model_output_before": "Đáp án là: 37",
+            "model_output_after": "Đáp án là: 37",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "37",
+              "answer_num": 37.0,
+              "num_candidates": 8,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8214285714285714,
+              "nearest_query_jaccard": null,
+              "model_num": 37.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 1,
+            "type": "MATH_Rephrased",
+            "query_vi": "Nếu $\\angle PQR = \\angle PRQ$, và độ dài của QR và PR lần lượt là 5 và 7 thì chu vi của tam giác PQR là bao nhiêu?",
+            "model_output_before": "Đáp án là: 19",
+            "model_output_after": "Đáp án là: 19",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "19",
+              "answer_num": 19.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": true,
+              "majority_count": 3,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8333333333333334,
+              "nearest_query_jaccard": null,
+              "model_num": 19.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 2,
+            "type": "MATH_SV",
+            "query_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến X. Giá trị kỳ vọng của con xúc xắc là 4,5. Giá trị của biến X chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 8",
+            "model_output_after": "Đáp án là: 8",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "MATH_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 11,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 3,
+            "type": "GSM_Rephrased",
+            "query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire đưa cho một bé gái 1 quả bóng bay, mất 12 quả bóng bay, cho thêm 9 quả bóng nữa và lấy 11 quả bóng bay từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+            "model_output_before": "Đáp án là: 41",
+            "model_output_after": "Đáp án là: 39",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "39",
+              "answer_num": 39.0,
+              "num_candidates": 7,
+              "pool_candidates": 5,
+              "typed_pool": true,
+              "majority_count": 5,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8205128205128205,
+              "nearest_query_jaccard": null,
+              "model_num": 41.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 4,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu có một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+            "model_output_before": "Đáp án là: 440",
+            "model_output_after": "Đáp án là: 440",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "440",
+              "answer_num": 440.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 1.0,
+              "nearest_query_jaccard": null,
+              "model_num": 440.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 5,
+            "type": "GSM_AnsAug",
+            "query_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?",
+            "model_output_before": "Đáp án là: 90",
+            "model_output_after": "Đáp án là: 90",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "90",
+              "answer_num": 90.0,
+              "num_candidates": 8,
+              "pool_candidates": 8,
+              "typed_pool": false,
+              "majority_count": 7,
+              "second_count": 1,
+              "majority_frac": 0.875,
+              "top1_top2_margin": 0.75,
+              "nearest_jaccard_same_answer": 0.6428571428571429,
+              "nearest_query_jaccard": null,
+              "model_num": 90.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 6,
+            "type": "GSM_SV",
+            "query_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng x bông hồng trắng để trang trí mỗi bàn và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng 109 bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn. Giá trị của ",
+            "model_output_before": "Đáp án là: 8",
+            "model_output_after": "Đáp án là: 8",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 13,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 7,
+            "type": "GSM_FOBAR",
+            "query_vi": "Grace bắt đầu công việc kinh doanh cảnh quan của riêng mình. Cô tính phí 6 đô la một giờ cho việc cắt cỏ, 11 đô la cho việc nhổ cỏ và x đô la cho việc phủ lớp phủ. Vào tháng 9, cô cắt cỏ trong 63 giờ, nhổ cỏ trong 9 giờ và phủ lớp phủ trong 10 giờ. Cô ấy đã kiếm được bao nhiêu tiền vào tháng 9? Nếu ",
+            "model_output_before": "Đáp án là: 11",
+            "model_output_after": "Đáp án là: 11",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 15,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 8,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của 12 và 2, 12 và 4, 12 và 6, 12 và 8, 12 và 10, 12 và 12. Hãy thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+            "model_output_before": "Đáp án là: 60",
+            "model_output_after": "Đáp án là: 60",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "60",
+              "answer_num": 60.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9354838709677419,
+              "nearest_query_jaccard": null,
+              "model_num": 60.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 9,
+            "type": "GSM_AnsAug",
+            "query_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+            "model_output_before": "Đáp án là: 5",
+            "model_output_after": "Đáp án là: 5",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "5",
+              "answer_num": 5.0,
+              "num_candidates": 4,
+              "pool_candidates": 4,
+              "typed_pool": false,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143,
+              "nearest_query_jaccard": null,
+              "model_num": 5.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 10,
+            "type": "GSM_FOBAR",
+            "query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm đ",
+            "model_output_before": "Đáp án là: 30",
+            "model_output_after": "Đáp án là: 30",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 4,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 11,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy 105 phần sữa công thức để cho các chú chó con ăn trong 5 ngày, thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+            "model_output_before": "Đáp án là: 3",
+            "model_output_after": "Đáp án là: 3",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "3",
+              "answer_num": 3.0,
+              "num_candidates": 11,
+              "pool_candidates": 6,
+              "typed_pool": true,
+              "majority_count": 6,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9487179487179487,
+              "nearest_query_jaccard": null,
+              "model_num": 3.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 12,
+            "type": "GSM_SV",
+            "query_vi": "Bob đặt mua x gói sữa chua Hy Lạp từ Costco để sử dụng trong tháng. Tuy nhiên, khi nhận hàng, anh nhận ra 40% số gói đã hết hạn sử dụng. Anh quyết định trả lại những gói đó. Nếu mỗi gói có giá 12 USD thì Bob được hoàn lại 384 USD cho sản phẩm đã hết hạn. Giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 80",
+            "model_output_after": "Đáp án là: 80",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_SV",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 12,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 13,
+            "type": "MATH_Rephrased",
+            "query_vi": "Giá trị bình phương của hàm sàn của căn bậc hai của 17 là bao nhiêu?",
+            "model_output_before": "Đáp án là: 9",
+            "model_output_after": "Đáp án là: 16",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "16",
+              "answer_num": 16.0,
+              "num_candidates": 10,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9285714285714286,
+              "nearest_query_jaccard": null,
+              "model_num": 9.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 14,
+            "type": "GSM_FOBAR",
+            "query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có x bút chì màu thì Lizzie có bao nhiêu bút màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 18",
+            "model_output_after": "Đáp án là: 18",
+            "decision": {
+              "used": false,
+              "reason": "type_not_allowed",
+              "type": "GSM_FOBAR",
+              "allowed_types": [
+                "GSM_AnsAug",
+                "GSM_Rephrased",
+                "MATH_AnsAug",
+                "MATH_Rephrased"
+              ],
+              "num_candidates": 9,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 15,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chad tiết kiệm 40% số tiền anh kiếm được/nhận được trong một năm. Năm nay, anh ấy kiếm được 600 đô la từ việc cắt cỏ và nhận được 250 đô la cho ngày sinh nhật/ngày lễ của mình. Anh ấy cũng kiếm được 150,00 đô la bằng cách bán một số trò chơi điện tử cũ và 150,00 đô la khác làm những công việc lặt vặ",
+            "model_output_before": "Đáp án là: 460",
+            "model_output_after": "Đáp án là: 460",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "460",
+              "answer_num": 460.0,
+              "num_candidates": 7,
+              "pool_candidates": 7,
+              "typed_pool": false,
+              "majority_count": 2,
+              "second_count": 2,
+              "majority_frac": 0.2857142857142857,
+              "top1_top2_margin": 0.0,
+              "nearest_jaccard_same_answer": 0.9074074074074074,
+              "nearest_query_jaccard": null,
+              "model_num": 460.0,
+              "model_agrees": true,
+              "confidence_passed": false,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 16,
+            "type": "GSM_AnsAug",
+            "query_vi": "Có 140 đứa trẻ tham dự buổi vũ hội dành cho thiếu niên. Trong số đó, 1/4 là vũ công. Trong số các vũ công, 25 người nhảy điệu nhảy chậm. Có bao nhiêu học sinh vũ công không nhảy chậm?",
+            "model_output_before": "Đáp án là: 10",
+            "model_output_after": "Đáp án là: 10",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "10",
+              "answer_num": 10.0,
+              "num_candidates": 11,
+              "pool_candidates": 11,
+              "typed_pool": false,
+              "majority_count": 6,
+              "second_count": 4,
+              "majority_frac": 0.5454545454545454,
+              "top1_top2_margin": 0.18181818181818182,
+              "nearest_jaccard_same_answer": 0.96875,
+              "nearest_query_jaccard": null,
+              "model_num": 10.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 17,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định số nhỏ nhất có ba chữ số trong tam giác Pascal.",
+            "model_output_before": "Đáp án là: 100",
+            "model_output_after": "Đáp án là: 100",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "100",
+              "answer_num": 100.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143,
+              "nearest_query_jaccard": null,
+              "model_num": 100.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 18,
+            "type": "MATH_AnsAug",
+            "query_vi": "Phép toán $*$ được xác định cho các số nguyên khác 0 như sau: $a * b = \\frac{1}{a} + \\frac{1}{b}$. Nếu $a+b = 9$ và $ a \\times b = 20$, giá trị của $a*b$ là bao nhiêu? Thể hiện câu trả lời của bạn như là một phần chung.",
+            "model_output_before": "Đáp án là: 0.5",
+            "model_output_after": "Đáp án là: 0.5",
+            "decision": {
+              "used": false,
+              "reason": "low_confidence_model_disagree",
+              "strategy": "source_type_majority",
+              "type": "MATH_AnsAug",
+              "num_candidates": 6,
+              "pool_candidates": 6,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 3,
+              "majority_frac": 0.5,
+              "top1_top2_margin": 0.0,
+              "nearest_jaccard_same_answer": 0.9024390243902439,
+              "model_num": 0.5,
+              "model_agrees": false,
+              "confidence_passed": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 19,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chi phí mua hai mặt hàng là $827. Nếu giá mua của mặt hàng thứ nhất cao hơn mặt hàng kia là 127 USD thì giá mua của hàng hóa đầu tiên là bao nhiêu?",
+            "model_output_before": "Đáp án là: 124",
+            "model_output_after": "Đáp án là: 477",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "477",
+              "answer_num": 477.0,
+              "num_candidates": 5,
+              "pool_candidates": 5,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 2,
+              "majority_frac": 0.6,
+              "top1_top2_margin": 0.2,
+              "nearest_jaccard_same_answer": 0.8076923076923077,
+              "nearest_query_jaccard": null,
+              "model_num": 124.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          }
+        ]
+      },
+      "selected_gate_config": {
+        "GSM_Rephrased": {
+          "enabled": true,
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.45,
+          "require_typed_pool": false,
+          "use_model_agreement_gate": true,
+          "model_agreement_bypass_confidence": true
+        },
+        "MATH_Rephrased": {
+          "enabled": true,
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0,
+          "require_typed_pool": false,
+          "use_model_agreement_gate": true,
+          "model_agreement_bypass_confidence": true
+        },
+        "GSM_AnsAug": {
+          "enabled": true,
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0,
+          "require_typed_pool": false,
+          "use_model_agreement_gate": true,
+          "model_agreement_bypass_confidence": true
+        },
+        "MATH_AnsAug": {
+          "enabled": true,
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.2,
+          "min_nearest_jaccard": 0.0,
+          "require_typed_pool": false,
+          "use_model_agreement_gate": true,
+          "model_agreement_bypass_confidence": true
+        }
+      },
+      "gate_sweep_report": {
+        "enabled": true,
+        "sweep_types": [
+          "GSM_Rephrased",
+          "MATH_Rephrased",
+          "GSM_AnsAug",
+          "MATH_AnsAug"
+        ],
+        "selected_checkpoint_label": "epoch_08",
+        "selected_gate_config_by_type": {
+          "GSM_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.45,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "GSM_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.2,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          }
+        },
+        "entries": [
+          {
+            "order": 0,
+            "label": "epoch_01",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_00_epoch_01.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 1402,
+              "max_raw_score": 10000,
+              "score_10": 1.402,
+              "score_pct": 0.1402,
+              "extractable": 982,
+              "numeric_pairs": 982,
+              "buckets": {
+                "10": 108,
+                "5": 14,
+                "1": 252,
+                "0": 626
+              },
+              "rel_error_mean": 0.936732095965254
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 5303,
+              "max_raw_score": 10000,
+              "score_10": 5.303,
+              "score_pct": 0.5303,
+              "extractable": 983,
+              "numeric_pairs": 983,
+              "buckets": {
+                "10": 515,
+                "5": 5,
+                "1": 128,
+                "0": 352
+              },
+              "rel_error_mean": 0.6176120729178466
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.45,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 1,
+            "label": "epoch_02",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_01_epoch_02.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 1939,
+              "max_raw_score": 10000,
+              "score_10": 1.939,
+              "score_pct": 0.1939,
+              "extractable": 994,
+              "numeric_pairs": 994,
+              "buckets": {
+                "10": 152,
+                "5": 31,
+                "1": 264,
+                "0": 553
+              },
+              "rel_error_mean": 2.195317927086354
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 5409,
+              "max_raw_score": 10000,
+              "score_10": 5.409,
+              "score_pct": 0.5409,
+              "extractable": 994,
+              "numeric_pairs": 994,
+              "buckets": {
+                "10": 522,
+                "5": 9,
+                "1": 144,
+                "0": 325
+              },
+              "rel_error_mean": 0.9271717701487167
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.45,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 2,
+            "label": "epoch_03",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_02_epoch_03.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 2975,
+              "max_raw_score": 10000,
+              "score_10": 2.975,
+              "score_pct": 0.2975,
+              "extractable": 996,
+              "numeric_pairs": 996,
+              "buckets": {
+                "10": 259,
+                "5": 30,
+                "1": 235,
+                "0": 476
+              },
+              "rel_error_mean": 1.6695401107167769
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 5600,
+              "max_raw_score": 10000,
+              "score_10": 5.6,
+              "score_pct": 0.56,
+              "extractable": 997,
+              "numeric_pairs": 997,
+              "buckets": {
+                "10": 545,
+                "5": 4,
+                "1": 130,
+                "0": 321
+              },
+              "rel_error_mean": 0.7603696983767084
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.45,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 3,
+            "label": "epoch_04",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_03_epoch_04.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 3632,
+              "max_raw_score": 10000,
+              "score_10": 3.632,
+              "score_pct": 0.3632,
+              "extractable": 996,
+              "numeric_pairs": 996,
+              "buckets": {
+                "10": 331,
+                "5": 18,
+                "1": 232,
+                "0": 419
+              },
+              "rel_error_mean": 2.969725472249509
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 5758,
+              "max_raw_score": 10000,
+              "score_10": 5.758,
+              "score_pct": 0.5758,
+              "extractable": 996,
+              "numeric_pairs": 996,
+              "buckets": {
+                "10": 559,
+                "5": 6,
+                "1": 138,
+                "0": 297
+              },
+              "rel_error_mean": 2.4700721078292025
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.45,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 4,
+            "label": "epoch_05",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_04_epoch_05.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4339,
+              "max_raw_score": 10000,
+              "score_10": 4.339,
+              "score_pct": 0.4339,
+              "extractable": 994,
+              "numeric_pairs": 994,
+              "buckets": {
+                "10": 403,
+                "5": 23,
+                "1": 194,
+                "0": 380
+              },
+              "rel_error_mean": 3.292320148533195
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 5998,
+              "max_raw_score": 10000,
+              "score_10": 5.998,
+              "score_pct": 0.5998,
+              "extractable": 994,
+              "numeric_pairs": 994,
+              "buckets": {
+                "10": 584,
+                "5": 7,
+                "1": 123,
+                "0": 286
+              },
+              "rel_error_mean": 1.9415437097790171
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.45,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 5,
+            "label": "epoch_06",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_05_epoch_06.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4554,
+              "max_raw_score": 10000,
+              "score_10": 4.554,
+              "score_pct": 0.4554,
+              "extractable": 981,
+              "numeric_pairs": 978,
+              "buckets": {
+                "10": 427,
+                "5": 22,
+                "1": 174,
+                "0": 377
+              },
+              "rel_error_mean": 2.9186167436698107
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6055,
+              "max_raw_score": 10000,
+              "score_10": 6.055,
+              "score_pct": 0.6055,
+              "extractable": 981,
+              "numeric_pairs": 981,
+              "buckets": {
+                "10": 592,
+                "5": 5,
+                "1": 110,
+                "0": 293
+              },
+              "rel_error_mean": 2.715824451884979
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.67,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 6,
+            "label": "epoch_07",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_06_epoch_07.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4592,
+              "max_raw_score": 10000,
+              "score_10": 4.592,
+              "score_pct": 0.4592,
+              "extractable": 979,
+              "numeric_pairs": 973,
+              "buckets": {
+                "10": 431,
+                "5": 22,
+                "1": 172,
+                "0": 375
+              },
+              "rel_error_mean": 1.9793955438693889
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6115,
+              "max_raw_score": 10000,
+              "score_10": 6.115,
+              "score_pct": 0.6115,
+              "extractable": 980,
+              "numeric_pairs": 980,
+              "buckets": {
+                "10": 597,
+                "5": 5,
+                "1": 120,
+                "0": 278
+              },
+              "rel_error_mean": 1.8212845877911241
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 7,
+            "label": "epoch_08",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_07_epoch_08.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4599,
+              "max_raw_score": 10000,
+              "score_10": 4.599,
+              "score_pct": 0.4599,
+              "extractable": 985,
+              "numeric_pairs": 979,
+              "buckets": {
+                "10": 433,
+                "5": 18,
+                "1": 179,
+                "0": 370
+              },
+              "rel_error_mean": 2.0142818851627764
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6145,
+              "max_raw_score": 10000,
+              "score_10": 6.145,
+              "score_pct": 0.6145,
+              "extractable": 986,
+              "numeric_pairs": 986,
+              "buckets": {
+                "10": 600,
+                "5": 5,
+                "1": 120,
+                "0": 275
+              },
+              "rel_error_mean": 1.842025190566229
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 8,
+            "label": "gpt2_math_lora_v14_gate_sweep_answer_only",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_08_gpt2_math_lora_v14_gate_sweep_answer_only.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4599,
+              "max_raw_score": 10000,
+              "score_10": 4.599,
+              "score_pct": 0.4599,
+              "extractable": 985,
+              "numeric_pairs": 979,
+              "buckets": {
+                "10": 433,
+                "5": 18,
+                "1": 179,
+                "0": 370
+              },
+              "rel_error_mean": 2.0142818851627764
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6145,
+              "max_raw_score": 10000,
+              "score_10": 6.145,
+              "score_pct": 0.6145,
+              "extractable": 986,
+              "numeric_pairs": 986,
+              "buckets": {
+                "10": 600,
+                "5": 5,
+                "1": 120,
+                "0": 275
+              },
+              "rel_error_mean": 1.842025190566229
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 9,
+            "label": "gpt2_math_lora_v14_gate_sweep_final",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_09_gpt2_math_lora_v14_gate_sweep_final.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4599,
+              "max_raw_score": 10000,
+              "score_10": 4.599,
+              "score_pct": 0.4599,
+              "extractable": 985,
+              "numeric_pairs": 979,
+              "buckets": {
+                "10": 433,
+                "5": 18,
+                "1": 179,
+                "0": 370
+              },
+              "rel_error_mean": 2.0142818851627764
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6145,
+              "max_raw_score": 10000,
+              "score_10": 6.145,
+              "score_pct": 0.6145,
+              "extractable": 986,
+              "numeric_pairs": 986,
+              "buckets": {
+                "10": 600,
+                "5": 5,
+                "1": 120,
+                "0": 275
+              },
+              "rel_error_mean": 1.842025190566229
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "order": 10,
+            "label": "gpt2_math_lora_v14_gate_sweep_sft",
+            "path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_10_gpt2_math_lora_v14_gate_sweep_sft.json",
+            "model_only_summary": {
+              "n": 1000,
+              "raw_score": 4599,
+              "max_raw_score": 10000,
+              "score_10": 4.599,
+              "score_pct": 0.4599,
+              "extractable": 985,
+              "numeric_pairs": 979,
+              "buckets": {
+                "10": 433,
+                "5": 18,
+                "1": 179,
+                "0": 370
+              },
+              "rel_error_mean": 2.0142818851627764
+            },
+            "combined_summary": {
+              "n": 1000,
+              "raw_score": 6145,
+              "max_raw_score": 10000,
+              "score_10": 6.145,
+              "score_pct": 0.6145,
+              "extractable": 986,
+              "numeric_pairs": 986,
+              "buckets": {
+                "10": 600,
+                "5": 5,
+                "1": 120,
+                "0": 275
+              },
+              "rel_error_mean": 1.842025190566229
+            },
+            "selected_gate_config_by_type": {
+              "GSM_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.45,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_Rephrased": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "GSM_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              },
+              "MATH_AnsAug": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.2,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          }
+        ]
+      },
+      "checkpoint_selection": {
+        "status": "selected",
+        "selected_label": "epoch_08",
+        "selected_raw": 6145,
+        "selected_exact10": 600,
+        "final_retrain_epoch_count": 8.0,
+        "selected_retrieval_gate_config_by_type": {
+          "GSM_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.45,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_Rephrased": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "GSM_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          },
+          "MATH_AnsAug": {
+            "enabled": true,
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.2,
+            "min_nearest_jaccard": 0.0,
+            "require_typed_pool": false,
+            "use_model_agreement_gate": true,
+            "model_agreement_bypass_confidence": true
+          }
+        },
+        "checkpoints": [
+          {
+            "label": "epoch_01",
+            "raw_score": 5303,
+            "score_10": 5.303,
+            "exact10": 515,
+            "extractable": 983,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_00_epoch_01.json"
+          },
+          {
+            "label": "epoch_02",
+            "raw_score": 5409,
+            "score_10": 5.409,
+            "exact10": 522,
+            "extractable": 994,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_01_epoch_02.json"
+          },
+          {
+            "label": "epoch_03",
+            "raw_score": 5600,
+            "score_10": 5.6,
+            "exact10": 545,
+            "extractable": 997,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_02_epoch_03.json"
+          },
+          {
+            "label": "epoch_04",
+            "raw_score": 5758,
+            "score_10": 5.758,
+            "exact10": 559,
+            "extractable": 996,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_03_epoch_04.json"
+          },
+          {
+            "label": "epoch_05",
+            "raw_score": 5998,
+            "score_10": 5.998,
+            "exact10": 584,
+            "extractable": 994,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_04_epoch_05.json"
+          },
+          {
+            "label": "epoch_06",
+            "raw_score": 6055,
+            "score_10": 6.055,
+            "exact10": 592,
+            "extractable": 981,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_05_epoch_06.json"
+          },
+          {
+            "label": "epoch_07",
+            "raw_score": 6115,
+            "score_10": 6.115,
+            "exact10": 597,
+            "extractable": 980,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_06_epoch_07.json"
+          },
+          {
+            "label": "epoch_08",
+            "raw_score": 6145,
+            "score_10": 6.145,
+            "exact10": 600,
+            "extractable": 986,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_07_epoch_08.json"
+          },
+          {
+            "label": "gpt2_math_lora_v14_gate_sweep_answer_only",
+            "raw_score": 6145,
+            "score_10": 6.145,
+            "exact10": 600,
+            "extractable": 986,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_08_gpt2_math_lora_v14_gate_sweep_answer_only.json"
+          },
+          {
+            "label": "gpt2_math_lora_v14_gate_sweep_final",
+            "raw_score": 6145,
+            "score_10": 6.145,
+            "exact10": 600,
+            "extractable": 986,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_09_gpt2_math_lora_v14_gate_sweep_final.json"
+          },
+          {
+            "label": "gpt2_math_lora_v14_gate_sweep_sft",
+            "raw_score": 6145,
+            "score_10": 6.145,
+            "exact10": 600,
+            "extractable": 986,
+            "gate_sweep_path": "/kaggle/working/v14_gate_sweep_checkpoint_eval_overlap_valid/retrieval_gate_sweep_10_gpt2_math_lora_v14_gate_sweep_sft.json"
+          }
+        ]
+      },
+      "same_original_overlap_slices": {
+        "same_original_has_same": {
+          "n": 764,
+          "raw_score": 6535,
+          "score_10": 8.553664921465968,
+          "exact10": 647,
+          "zero": 76
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw_score": 86,
+          "score_10": 2.263157894736842,
+          "exact10": 6,
+          "zero": 18
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw_score": 185,
+          "score_10": 1.0632183908045978,
+          "exact10": 12,
+          "zero": 109
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw_score": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "zero": 24
+        }
+      }
+    },
+    "v14_fobar_sv": {
+      "name": "v14_fobar_sv",
+      "dir": "results\\v14_fobar_sv",
+      "final_summary": {
+        "raw_score": 6379,
+        "score_10": 6.379,
+        "exact10": 624,
+        "score5": 9,
+        "score1": 94,
+        "zero": 273,
+        "extractable": 997,
+        "numeric_pairs": 973
+      },
+      "model_summary": {
+        "raw_score": 4626,
+        "score_10": 4.626,
+        "exact10": 432,
+        "score5": 24,
+        "score1": 186,
+        "zero": 358,
+        "extractable": 992,
+        "numeric_pairs": 966
+      },
+      "by_type_delta": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "final_raw": 1485,
+          "final_score_10": 7.105263157894737,
+          "final_exact10": 147,
+          "final_zero": 47,
+          "model_raw": 805,
+          "model_score_10": 3.851674641148325,
+          "model_exact10": 73,
+          "model_zero": 81,
+          "delta_raw": 680,
+          "delta_exact10": 74
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "final_raw": 163,
+          "final_score_10": 1.3360655737704918,
+          "final_exact10": 13,
+          "final_zero": 76,
+          "model_raw": 277,
+          "model_score_10": 2.2704918032786887,
+          "model_exact10": 24,
+          "model_zero": 61,
+          "delta_raw": -114,
+          "delta_exact10": -11
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "final_raw": 1872,
+          "final_score_10": 9.50253807106599,
+          "final_exact10": 187,
+          "final_zero": 8,
+          "model_raw": 1549,
+          "model_score_10": 7.862944162436548,
+          "model_exact10": 151,
+          "model_zero": 27,
+          "delta_raw": 323,
+          "delta_exact10": 36
+        },
+        "GSM_SV": {
+          "n": 97,
+          "final_raw": 280,
+          "final_score_10": 2.88659793814433,
+          "final_exact10": 26,
+          "final_zero": 51,
+          "model_raw": 228,
+          "model_score_10": 2.350515463917526,
+          "model_exact10": 19,
+          "model_zero": 48,
+          "delta_raw": 52,
+          "delta_exact10": 7
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "final_raw": 1306,
+          "final_score_10": 7.5491329479768785,
+          "final_exact10": 128,
+          "final_zero": 35,
+          "model_raw": 694,
+          "model_score_10": 4.011560693641618,
+          "model_exact10": 62,
+          "model_zero": 73,
+          "delta_raw": 612,
+          "delta_exact10": 66
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "final_raw": 121,
+          "final_score_10": 2.688888888888889,
+          "final_exact10": 10,
+          "final_zero": 22,
+          "model_raw": 178,
+          "model_score_10": 3.9555555555555557,
+          "model_exact10": 16,
+          "model_zero": 15,
+          "delta_raw": -57,
+          "delta_exact10": -6
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "final_raw": 996,
+          "final_score_10": 8.586206896551724,
+          "final_exact10": 99,
+          "final_zero": 15,
+          "model_raw": 736,
+          "model_score_10": 6.344827586206897,
+          "model_exact10": 72,
+          "model_zero": 32,
+          "delta_raw": 260,
+          "delta_exact10": 27
+        },
+        "MATH_SV": {
+          "n": 41,
+          "final_raw": 156,
+          "final_score_10": 3.8048780487804876,
+          "final_exact10": 14,
+          "final_zero": 19,
+          "model_raw": 159,
+          "model_score_10": 3.8780487804878048,
+          "model_exact10": 15,
+          "model_zero": 21,
+          "delta_raw": -3,
+          "delta_exact10": -1
+        }
+      },
+      "transitions": {
+        "overall": {
+          "0->0": 199,
+          "0->1": 19,
+          "0->10": 138,
+          "0->5": 2,
+          "1->0": 42,
+          "1->1": 68,
+          "1->10": 75,
+          "1->5": 1,
+          "10->0": 29,
+          "10->1": 7,
+          "10->10": 396,
+          "5->0": 3,
+          "5->10": 15,
+          "5->5": 6
+        },
+        "by_type": {
+          "GSM_AnsAug": {
+            "0->0": 29,
+            "0->1": 3,
+            "0->10": 49,
+            "1->0": 15,
+            "1->1": 12,
+            "1->10": 23,
+            "10->0": 2,
+            "10->10": 71,
+            "5->0": 1,
+            "5->10": 4
+          },
+          "GSM_FOBAR": {
+            "0->0": 54,
+            "0->1": 7,
+            "1->0": 11,
+            "1->1": 23,
+            "1->10": 3,
+            "10->0": 11,
+            "10->1": 3,
+            "10->10": 10
+          },
+          "GSM_Rephrased": {
+            "0->0": 5,
+            "0->10": 22,
+            "1->0": 2,
+            "1->1": 2,
+            "1->10": 10,
+            "10->0": 1,
+            "10->10": 150,
+            "5->10": 5
+          },
+          "GSM_SV": {
+            "0->0": 35,
+            "0->1": 7,
+            "0->10": 6,
+            "1->0": 8,
+            "1->1": 11,
+            "1->10": 9,
+            "10->0": 6,
+            "10->1": 2,
+            "10->10": 11,
+            "5->0": 2
+          },
+          "MATH_AnsAug": {
+            "0->0": 30,
+            "0->1": 1,
+            "0->10": 42,
+            "1->0": 4,
+            "1->1": 5,
+            "1->10": 20,
+            "10->0": 1,
+            "10->10": 61,
+            "5->10": 5,
+            "5->5": 4
+          },
+          "MATH_FOBAR": {
+            "0->0": 15,
+            "1->0": 2,
+            "1->1": 10,
+            "1->5": 1,
+            "10->0": 5,
+            "10->1": 1,
+            "10->10": 10,
+            "5->5": 1
+          },
+          "MATH_Rephrased": {
+            "0->0": 15,
+            "0->10": 16,
+            "0->5": 1,
+            "1->1": 1,
+            "1->10": 10,
+            "10->10": 72,
+            "5->10": 1
+          },
+          "MATH_SV": {
+            "0->0": 16,
+            "0->1": 1,
+            "0->10": 3,
+            "0->5": 1,
+            "1->1": 4,
+            "10->0": 3,
+            "10->1": 1,
+            "10->10": 11,
+            "5->5": 1
+          }
+        }
+      },
+      "hybrid_decision_summary": {
+        "enabled": true,
+        "strategy": "source_type_majority",
+        "allowed_types": [
+          "GSM_AnsAug",
+          "GSM_FOBAR",
+          "GSM_Rephrased",
+          "GSM_SV",
+          "MATH_AnsAug",
+          "MATH_FOBAR",
+          "MATH_Rephrased",
+          "MATH_SV"
+        ],
+        "active_type_gate_config": {
+          "GSM_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "MATH_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "GSM_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          },
+          "MATH_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          }
+        },
+        "n": 1000,
+        "retrieval_used": 822,
+        "retrieval_used_pct": 0.822,
+        "output_changed_count": 418,
+        "retrieval_used_by_type": {
+          "GSM_AnsAug": {
+            "n": 209,
+            "retrieval_used": 186,
+            "model_fallback": 23
+          },
+          "GSM_FOBAR": {
+            "n": 122,
+            "retrieval_used": 82,
+            "model_fallback": 40
+          },
+          "GSM_Rephrased": {
+            "n": 197,
+            "retrieval_used": 194,
+            "model_fallback": 3
+          },
+          "GSM_SV": {
+            "n": 97,
+            "retrieval_used": 68,
+            "model_fallback": 29
+          },
+          "MATH_AnsAug": {
+            "n": 173,
+            "retrieval_used": 143,
+            "model_fallback": 30
+          },
+          "MATH_FOBAR": {
+            "n": 45,
+            "retrieval_used": 22,
+            "model_fallback": 23
+          },
+          "MATH_Rephrased": {
+            "n": 116,
+            "retrieval_used": 105,
+            "model_fallback": 11
+          },
+          "MATH_SV": {
+            "n": 41,
+            "retrieval_used": 22,
+            "model_fallback": 19
+          }
+        },
+        "fallback_reason_counts": {
+          "typed_pool_missing": 79,
+          "low_confidence_model_disagree": 49,
+          "source_unseen": 49,
+          "low_confidence": 1
+        },
+        "agreement_counts": {
+          "model_disagrees_or_unparseable": 426,
+          "model_agrees": 396
+        },
+        "debug_first": [
+          {
+            "idx": 0,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu Susan đang chơi một trò chơi cờ bàn có 48 ô từ ô bắt đầu đến ô cuối chiến thắng và ở lượt đầu tiên, cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô và ở lượt thứ ba. đến lượt cô ấy tiến về phía trước sáu ô, cô ấy cần di chuyển thêm bao nhiêu ô nữa",
+            "model_output_before": "Đáp án là: 37",
+            "model_output_after": "Đáp án là: 37",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "37",
+              "answer_num": 37.0,
+              "num_candidates": 8,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8214285714285714,
+              "nearest_query_jaccard": null,
+              "model_num": 37.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 1,
+            "type": "MATH_Rephrased",
+            "query_vi": "Nếu $\\angle PQR = \\angle PRQ$, và độ dài của QR và PR lần lượt là 5 và 7 thì chu vi của tam giác PQR là bao nhiêu?",
+            "model_output_before": "Đáp án là: 21",
+            "model_output_after": "Đáp án là: 19",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "19",
+              "answer_num": 19.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": true,
+              "majority_count": 3,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8333333333333334,
+              "nearest_query_jaccard": null,
+              "model_num": 21.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 2,
+            "type": "MATH_SV",
+            "query_vi": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến X. Giá trị kỳ vọng của con xúc xắc là 4,5. Giá trị của biến X chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 8",
+            "model_output_after": "Đáp án là: 1",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_nearest_query",
+              "canonical_answer": "1",
+              "answer_num": 1.0,
+              "num_candidates": 11,
+              "pool_candidates": 1,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9354838709677419,
+              "nearest_query_jaccard": 0.9354838709677419,
+              "model_num": 8.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.84,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 3,
+            "type": "GSM_Rephrased",
+            "query_vi": "Sau khi bắt đầu với 50 quả bóng bay, Claire đưa cho một bé gái 1 quả bóng bay, mất 12 quả bóng bay, cho thêm 9 quả bóng nữa và lấy 11 quả bóng bay từ đồng nghiệp của mình. Hiện tại Claire có bao nhiêu quả bóng bay?",
+            "model_output_before": "Đáp án là: 39",
+            "model_output_after": "Đáp án là: 39",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "39",
+              "answer_num": 39.0,
+              "num_candidates": 7,
+              "pool_candidates": 5,
+              "typed_pool": true,
+              "majority_count": 5,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8205128205128205,
+              "nearest_query_jaccard": null,
+              "model_num": 39.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 4,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu có một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+            "model_output_before": "Đáp án là: 440",
+            "model_output_after": "Đáp án là: 440",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "440",
+              "answer_num": 440.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 1.0,
+              "nearest_query_jaccard": null,
+              "model_num": 440.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 5,
+            "type": "GSM_AnsAug",
+            "query_vi": "Hans đặt phòng ở khách sạn. Khách sạn có 10 tầng, mỗi tầng có 10 phòng giống nhau. Do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. Xem xét không có khách nào khác, Hans có thể được nhận vào bao nhiêu phòng khác nhau?",
+            "model_output_before": "Đáp án là: 90",
+            "model_output_after": "Đáp án là: 90",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "90",
+              "answer_num": 90.0,
+              "num_candidates": 8,
+              "pool_candidates": 8,
+              "typed_pool": false,
+              "majority_count": 7,
+              "second_count": 1,
+              "majority_frac": 0.875,
+              "top1_top2_margin": 0.75,
+              "nearest_jaccard_same_answer": 0.6428571428571429,
+              "nearest_query_jaccard": null,
+              "model_num": 90.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 6,
+            "type": "GSM_SV",
+            "query_vi": "Bà Dunbar đang cắm hoa cho đám cưới của cháu gái bà. Cô ấy cần làm 5 bó hoa và 7 món đồ trang trí bàn ăn. Cô sử dụng x bông hồng trắng để trang trí mỗi bàn và 5 bông hồng trắng trong mỗi bó hoa. Cô ấy cần tổng cộng 109 bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn. Giá trị của ",
+            "model_output_before": "Đáp án là: 3",
+            "model_output_after": "Đáp án là: 3",
+            "decision": {
+              "used": false,
+              "reason": "low_confidence_model_disagree",
+              "strategy": "source_type_nearest_query",
+              "type": "GSM_SV",
+              "num_candidates": 13,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 2,
+              "majority_frac": 0.25,
+              "top1_top2_margin": -0.25,
+              "nearest_jaccard_same_answer": 1.0,
+              "model_num": 3.0,
+              "model_agrees": false,
+              "confidence_passed": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.84,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 7,
+            "type": "GSM_FOBAR",
+            "query_vi": "Grace bắt đầu công việc kinh doanh cảnh quan của riêng mình. Cô tính phí 6 đô la một giờ cho việc cắt cỏ, 11 đô la cho việc nhổ cỏ và x đô la cho việc phủ lớp phủ. Vào tháng 9, cô cắt cỏ trong 63 giờ, nhổ cỏ trong 9 giờ và phủ lớp phủ trong 10 giờ. Cô ấy đã kiếm được bao nhiêu tiền vào tháng 9? Nếu ",
+            "model_output_before": "Đáp án là: 17",
+            "model_output_after": "Đáp án là: 17",
+            "decision": {
+              "used": false,
+              "reason": "low_confidence_model_disagree",
+              "strategy": "source_type_nearest_query",
+              "type": "GSM_FOBAR",
+              "num_candidates": 15,
+              "pool_candidates": 5,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 4,
+              "majority_frac": 0.2,
+              "top1_top2_margin": -0.6,
+              "nearest_jaccard_same_answer": 0.9491525423728814,
+              "model_num": 17.0,
+              "model_agrees": false,
+              "confidence_passed": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.82,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 8,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của 12 và 2, 12 và 4, 12 và 6, 12 và 8, 12 và 10, 12 và 12. Hãy thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+            "model_output_before": "Đáp án là: 60",
+            "model_output_after": "Đáp án là: 60",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "60",
+              "answer_num": 60.0,
+              "num_candidates": 9,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9354838709677419,
+              "nearest_query_jaccard": null,
+              "model_num": 60.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 9,
+            "type": "GSM_AnsAug",
+            "query_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+            "model_output_before": "Đáp án là: 560",
+            "model_output_after": "Đáp án là: 5",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "5",
+              "answer_num": 5.0,
+              "num_candidates": 4,
+              "pool_candidates": 4,
+              "typed_pool": false,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143,
+              "nearest_query_jaccard": null,
+              "model_num": 560.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 10,
+            "type": "GSM_FOBAR",
+            "query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm đ",
+            "model_output_before": "Đáp án là: 1.5",
+            "model_output_after": "Đáp án là: 20",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_nearest_query",
+              "canonical_answer": "20",
+              "answer_num": 20.0,
+              "num_candidates": 4,
+              "pool_candidates": 1,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9743589743589743,
+              "nearest_query_jaccard": 0.9743589743589743,
+              "model_num": 1.5,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.82,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 11,
+            "type": "GSM_Rephrased",
+            "query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy 105 phần sữa công thức để cho các chú chó con ăn trong 5 ngày, thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+            "model_output_before": "Đáp án là: 3",
+            "model_output_after": "Đáp án là: 3",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "3",
+              "answer_num": 3.0,
+              "num_candidates": 11,
+              "pool_candidates": 6,
+              "typed_pool": true,
+              "majority_count": 6,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9487179487179487,
+              "nearest_query_jaccard": null,
+              "model_num": 3.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 12,
+            "type": "GSM_SV",
+            "query_vi": "Bob đặt mua x gói sữa chua Hy Lạp từ Costco để sử dụng trong tháng. Tuy nhiên, khi nhận hàng, anh nhận ra 40% số gói đã hết hạn sử dụng. Anh quyết định trả lại những gói đó. Nếu mỗi gói có giá 12 USD thì Bob được hoàn lại 384 USD cho sản phẩm đã hết hạn. Giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 40",
+            "model_output_after": "Đáp án là: 40",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_nearest_query",
+              "canonical_answer": "40",
+              "answer_num": 40.0,
+              "num_candidates": 12,
+              "pool_candidates": 2,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 1,
+              "majority_frac": 0.5,
+              "top1_top2_margin": 0.0,
+              "nearest_jaccard_same_answer": 0.9642857142857143,
+              "nearest_query_jaccard": 0.9642857142857143,
+              "model_num": 40.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.84,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 13,
+            "type": "MATH_Rephrased",
+            "query_vi": "Giá trị bình phương của hàm sàn của căn bậc hai của 17 là bao nhiêu?",
+            "model_output_before": "Đáp án là: 18",
+            "model_output_after": "Đáp án là: 16",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "16",
+              "answer_num": 16.0,
+              "num_candidates": 10,
+              "pool_candidates": 4,
+              "typed_pool": true,
+              "majority_count": 4,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.9285714285714286,
+              "nearest_query_jaccard": null,
+              "model_num": 18.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 14,
+            "type": "GSM_FOBAR",
+            "query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có x bút chì màu thì Lizzie có bao nhiêu bút màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiêu?",
+            "model_output_before": "Đáp án là: 6",
+            "model_output_after": "Đáp án là: 3",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_nearest_query",
+              "canonical_answer": "3",
+              "answer_num": 3.0,
+              "num_candidates": 9,
+              "pool_candidates": 1,
+              "typed_pool": true,
+              "majority_count": 1,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.8947368421052632,
+              "nearest_query_jaccard": 0.8947368421052632,
+              "model_num": 6.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_nearest_query",
+                "min_majority_frac": 0.0,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.82,
+                "require_typed_pool": true,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 15,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chad tiết kiệm 40% số tiền anh kiếm được/nhận được trong một năm. Năm nay, anh ấy kiếm được 600 đô la từ việc cắt cỏ và nhận được 250 đô la cho ngày sinh nhật/ngày lễ của mình. Anh ấy cũng kiếm được 150,00 đô la bằng cách bán một số trò chơi điện tử cũ và 150,00 đô la khác làm những công việc lặt vặ",
+            "model_output_before": "Đáp án là: 240",
+            "model_output_after": "Đáp án là: 240",
+            "decision": {
+              "used": false,
+              "reason": "low_confidence_model_disagree",
+              "strategy": "source_type_majority",
+              "type": "GSM_AnsAug",
+              "num_candidates": 7,
+              "pool_candidates": 7,
+              "typed_pool": false,
+              "majority_count": 2,
+              "second_count": 2,
+              "majority_frac": 0.2857142857142857,
+              "top1_top2_margin": 0.0,
+              "nearest_jaccard_same_answer": 0.9074074074074074,
+              "model_num": 240.0,
+              "model_agrees": false,
+              "confidence_passed": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 16,
+            "type": "GSM_AnsAug",
+            "query_vi": "Có 140 đứa trẻ tham dự buổi vũ hội dành cho thiếu niên. Trong số đó, 1/4 là vũ công. Trong số các vũ công, 25 người nhảy điệu nhảy chậm. Có bao nhiêu học sinh vũ công không nhảy chậm?",
+            "model_output_before": "Đáp án là: 10",
+            "model_output_after": "Đáp án là: 10",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "10",
+              "answer_num": 10.0,
+              "num_candidates": 11,
+              "pool_candidates": 11,
+              "typed_pool": false,
+              "majority_count": 6,
+              "second_count": 4,
+              "majority_frac": 0.5454545454545454,
+              "top1_top2_margin": 0.18181818181818182,
+              "nearest_jaccard_same_answer": 0.96875,
+              "nearest_query_jaccard": null,
+              "model_num": 10.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 17,
+            "type": "MATH_Rephrased",
+            "query_vi": "Xác định số nhỏ nhất có ba chữ số trong tam giác Pascal.",
+            "model_output_before": "Đáp án là: 100",
+            "model_output_after": "Đáp án là: 100",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "100",
+              "answer_num": 100.0,
+              "num_candidates": 3,
+              "pool_candidates": 3,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 0,
+              "majority_frac": 1.0,
+              "top1_top2_margin": 1.0,
+              "nearest_jaccard_same_answer": 0.7142857142857143,
+              "nearest_query_jaccard": null,
+              "model_num": 100.0,
+              "model_agrees": true,
+              "confidence_passed": true,
+              "agreement_bypass": true,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 18,
+            "type": "MATH_AnsAug",
+            "query_vi": "Phép toán $*$ được xác định cho các số nguyên khác 0 như sau: $a * b = \\frac{1}{a} + \\frac{1}{b}$. Nếu $a+b = 9$ và $ a \\times b = 20$, giá trị của $a*b$ là bao nhiêu? Thể hiện câu trả lời của bạn như là một phần chung.",
+            "model_output_before": "Đáp án là: 0.333333",
+            "model_output_after": "Đáp án là: 20",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "20",
+              "answer_num": 20.0,
+              "num_candidates": 6,
+              "pool_candidates": 6,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 3,
+              "majority_frac": 0.5,
+              "top1_top2_margin": 0.0,
+              "nearest_jaccard_same_answer": 0.9024390243902439,
+              "nearest_query_jaccard": null,
+              "model_num": 0.333333,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          },
+          {
+            "idx": 19,
+            "type": "GSM_AnsAug",
+            "query_vi": "Chi phí mua hai mặt hàng là $827. Nếu giá mua của mặt hàng thứ nhất cao hơn mặt hàng kia là 127 USD thì giá mua của hàng hóa đầu tiên là bao nhiêu?",
+            "model_output_before": "Đáp án là: 28",
+            "model_output_after": "Đáp án là: 477",
+            "decision": {
+              "used": true,
+              "strategy": "source_type_majority",
+              "canonical_answer": "477",
+              "answer_num": 477.0,
+              "num_candidates": 5,
+              "pool_candidates": 5,
+              "typed_pool": false,
+              "majority_count": 3,
+              "second_count": 2,
+              "majority_frac": 0.6,
+              "top1_top2_margin": 0.2,
+              "nearest_jaccard_same_answer": 0.8076923076923077,
+              "nearest_query_jaccard": null,
+              "model_num": 28.0,
+              "model_agrees": false,
+              "confidence_passed": true,
+              "agreement_bypass": false,
+              "config": {
+                "enabled": true,
+                "strategy": "source_type_majority",
+                "min_majority_frac": 0.34,
+                "min_margin": 0.0,
+                "min_nearest_jaccard": 0.0,
+                "require_typed_pool": false,
+                "use_model_agreement_gate": true,
+                "model_agreement_bypass_confidence": true
+              }
+            }
+          }
+        ]
+      },
+      "selected_gate_config": {
+        "GSM_Rephrased": {
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0
+        },
+        "MATH_Rephrased": {
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0
+        },
+        "GSM_AnsAug": {
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0
+        },
+        "MATH_AnsAug": {
+          "strategy": "source_type_majority",
+          "min_majority_frac": 0.34,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.0
+        },
+        "GSM_FOBAR": {
+          "strategy": "source_type_nearest_query",
+          "require_typed_pool": true,
+          "min_majority_frac": 0.0,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.82
+        },
+        "MATH_FOBAR": {
+          "strategy": "source_type_nearest_query",
+          "require_typed_pool": true,
+          "min_majority_frac": 0.0,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.82
+        },
+        "GSM_SV": {
+          "strategy": "source_type_nearest_query",
+          "require_typed_pool": true,
+          "min_majority_frac": 0.0,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.84
+        },
+        "MATH_SV": {
+          "strategy": "source_type_nearest_query",
+          "require_typed_pool": true,
+          "min_majority_frac": 0.0,
+          "min_margin": 0.0,
+          "min_nearest_jaccard": 0.84
+        }
+      },
+      "gate_sweep_report": {
+        "enabled": false,
+        "sweep_types": [],
+        "selected_checkpoint_label": "epoch_06",
+        "selected_gate_config_by_type": {
+          "GSM_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "MATH_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "GSM_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          },
+          "MATH_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          }
+        },
+        "entries": []
+      },
+      "checkpoint_selection": {
+        "status": "selected",
+        "selected_label": "epoch_06",
+        "selected_raw": 5846,
+        "selected_exact10": 570,
+        "final_retrain_epoch_count": 6.0,
+        "selected_retrieval_gate_config_by_type": {
+          "GSM_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_Rephrased": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "MATH_AnsAug": {
+            "strategy": "source_type_majority",
+            "min_majority_frac": 0.34,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.0
+          },
+          "GSM_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "MATH_FOBAR": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.82
+          },
+          "GSM_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          },
+          "MATH_SV": {
+            "strategy": "source_type_nearest_query",
+            "require_typed_pool": true,
+            "min_majority_frac": 0.0,
+            "min_margin": 0.0,
+            "min_nearest_jaccard": 0.84
+          }
+        },
+        "checkpoints": [
+          {
+            "label": "epoch_01",
+            "raw_score": 5313,
+            "score_10": 5.313,
+            "exact10": 517,
+            "extractable": 993,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_02",
+            "raw_score": 5371,
+            "score_10": 5.371,
+            "exact10": 522,
+            "extractable": 997,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_03",
+            "raw_score": 5422,
+            "score_10": 5.422,
+            "exact10": 525,
+            "extractable": 993,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_04",
+            "raw_score": 5531,
+            "score_10": 5.531,
+            "exact10": 537,
+            "extractable": 992,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_05",
+            "raw_score": 5635,
+            "score_10": 5.635,
+            "exact10": 549,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_06",
+            "raw_score": 5846,
+            "score_10": 5.846,
+            "exact10": 570,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_07",
+            "raw_score": 5801,
+            "score_10": 5.801,
+            "exact10": 565,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "epoch_08",
+            "raw_score": 5794,
+            "score_10": 5.794,
+            "exact10": 565,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v14_fobar_sv_answer_only",
+            "raw_score": 5794,
+            "score_10": 5.794,
+            "exact10": 565,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v14_fobar_sv_final",
+            "raw_score": 5794,
+            "score_10": 5.794,
+            "exact10": 565,
+            "extractable": 998,
+            "gate_sweep_path": null
+          },
+          {
+            "label": "gpt2_math_lora_v14_fobar_sv_sft",
+            "raw_score": 5794,
+            "score_10": 5.794,
+            "exact10": 565,
+            "extractable": 998,
+            "gate_sweep_path": null
+          }
+        ]
+      },
+      "same_original_overlap_slices": {
+        "same_original_has_same": {
+          "n": 764,
+          "raw_score": 6174,
+          "score_10": 8.081151832460733,
+          "exact10": 612,
+          "zero": 110
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw_score": 94,
+          "score_10": 2.473684210526316,
+          "exact10": 7,
+          "zero": 23
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw_score": 110,
+          "score_10": 0.632183908045977,
+          "exact10": 5,
+          "zero": 117
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw_score": 1,
+          "score_10": 0.041666666666666664,
+          "exact10": 0,
+          "zero": 23
+        }
+      }
+    }
+  }
+}

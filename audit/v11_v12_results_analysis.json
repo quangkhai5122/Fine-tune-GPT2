@@ -1,0 +1,950 @@
+{
+  "runs": {
+    "v11": {
+      "config": {
+        "stage_a_epochs": 8.0,
+        "stage_a_lr": 0.001,
+        "prompt_template": "Dạng: {type}\nBài toán: {q}\nLời giải: ",
+        "use_hybrid_retrieval": false,
+        "retrieval_strategy": "source_type_majority",
+        "retrieval_min_majority_frac": 0.34,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ]
+      },
+      "split": {
+        "split_name": "source_overlap_query_disjoint",
+        "query_fraction": 0.1,
+        "total_records": 92874,
+        "total_source_groups": 12410,
+        "skipped_single_query_source_groups": 1626,
+        "eligible_source_groups": 10784,
+        "train_records": 74062,
+        "overlap_valid_records": 18812,
+        "train_source_groups": 12410,
+        "overlap_valid_source_groups": 10784,
+        "source_group_overlap": 10784,
+        "query_pair_overlap": 0,
+        "overlap_valid_by_type": {
+          "MATH_AnsAug": 4065,
+          "GSM_AnsAug": 3591,
+          "GSM_Rephrased": 3487,
+          "MATH_Rephrased": 2959,
+          "GSM_SV": 1627,
+          "GSM_FOBAR": 1606,
+          "MATH_FOBAR": 764,
+          "MATH_SV": 713
+        },
+        "train_by_type": {
+          "GSM_Rephrased": 16540,
+          "GSM_AnsAug": 15153,
+          "MATH_AnsAug": 11445,
+          "MATH_Rephrased": 8539,
+          "GSM_FOBAR": 8389,
+          "GSM_SV": 8233,
+          "MATH_FOBAR": 2889,
+          "MATH_SV": 2874
+        },
+        "source_query_count_hist": {
+          "3": 1753,
+          "4": 1677,
+          "2": 1656,
+          "1": 1626,
+          "5": 1563,
+          "6": 1297,
+          "7": 1031,
+          "8": 718,
+          "9": 450,
+          "10": 292,
+          "11": 173,
+          "12": 88,
+          "13": 45,
+          "14": 19,
+          "15": 10,
+          "17": 5,
+          "16": 4,
+          "18": 2,
+          "19": 1
+        },
+        "overlap_valid_eval_n": 1000
+      },
+      "selected_checkpoint": {
+        "label": "epoch_07",
+        "eval_n": 1000,
+        "summary": {
+          "raw_score": 4696,
+          "score_10": 4.696,
+          "extractable": 994,
+          "buckets": {
+            "10": 442,
+            "5": 20,
+            "1": 176,
+            "0": 362
+          },
+          "rel_error_mean": 3.1842830472060317
+        },
+        "all": [
+          {
+            "label": "epoch_01",
+            "raw_score": 1373,
+            "score_10": 1.373,
+            "exact10": 104
+          },
+          {
+            "label": "epoch_02",
+            "raw_score": 2038,
+            "score_10": 2.038,
+            "exact10": 162
+          },
+          {
+            "label": "epoch_03",
+            "raw_score": 2673,
+            "score_10": 2.673,
+            "exact10": 229
+          },
+          {
+            "label": "epoch_04",
+            "raw_score": 3701,
+            "score_10": 3.701,
+            "exact10": 335
+          },
+          {
+            "label": "epoch_05",
+            "raw_score": 4328,
+            "score_10": 4.328,
+            "exact10": 401
+          },
+          {
+            "label": "epoch_06",
+            "raw_score": 4486,
+            "score_10": 4.486,
+            "exact10": 417
+          },
+          {
+            "label": "epoch_07",
+            "raw_score": 4696,
+            "score_10": 4.696,
+            "exact10": 442
+          },
+          {
+            "label": "epoch_08",
+            "raw_score": 4647,
+            "score_10": 4.647,
+            "exact10": 436
+          },
+          {
+            "label": "gpt2_math_lora_v11_answer_only",
+            "raw_score": 4647,
+            "score_10": 4.647,
+            "exact10": 436
+          },
+          {
+            "label": "gpt2_math_lora_v11_final",
+            "raw_score": 4647,
+            "score_10": 4.647,
+            "exact10": 436
+          },
+          {
+            "label": "gpt2_math_lora_v11_sft",
+            "raw_score": 4647,
+            "score_10": 4.647,
+            "exact10": 436
+          }
+        ]
+      },
+      "overlap_valid": {
+        "raw_score": 4696,
+        "score_10": 4.696,
+        "extractable": 994,
+        "buckets": {
+          "10": 442,
+          "5": 20,
+          "1": 176,
+          "0": 362
+        },
+        "rel_error_mean": 3.1842830472060317
+      },
+      "valid": {
+        "raw_score": 4329,
+        "score_10": 4.329,
+        "extractable": 998,
+        "buckets": {
+          "10": 400,
+          "5": 29,
+          "1": 184,
+          "0": 387
+        },
+        "rel_error_mean": 13.89084118833521
+      },
+      "valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 722,
+          "score_10": 3.4545454545454546,
+          "exact10": 65,
+          "extractable": 209
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 304,
+          "score_10": 2.4918032786885247,
+          "exact10": 25,
+          "extractable": 122
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1452,
+          "score_10": 7.370558375634518,
+          "exact10": 140,
+          "extractable": 197
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 353,
+          "score_10": 3.6391752577319587,
+          "exact10": 33,
+          "extractable": 97
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 595,
+          "score_10": 3.439306358381503,
+          "exact10": 53,
+          "extractable": 172
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 187,
+          "score_10": 4.155555555555556,
+          "exact10": 18,
+          "extractable": 45
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 575,
+          "score_10": 4.956896551724138,
+          "exact10": 54,
+          "extractable": 116
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 141,
+          "score_10": 3.4390243902439024,
+          "exact10": 12,
+          "extractable": 40
+        }
+      },
+      "overlap_valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 125,
+          "raw_score": 420,
+          "score_10": 3.36,
+          "exact10": 37,
+          "extractable": 125
+        },
+        "GSM_FOBAR": {
+          "n": 125,
+          "raw_score": 359,
+          "score_10": 2.872,
+          "exact10": 31,
+          "extractable": 125
+        },
+        "GSM_Rephrased": {
+          "n": 125,
+          "raw_score": 1016,
+          "score_10": 8.128,
+          "exact10": 99,
+          "extractable": 125
+        },
+        "GSM_SV": {
+          "n": 125,
+          "raw_score": 512,
+          "score_10": 4.096,
+          "exact10": 47,
+          "extractable": 125
+        },
+        "MATH_AnsAug": {
+          "n": 125,
+          "raw_score": 544,
+          "score_10": 4.352,
+          "exact10": 52,
+          "extractable": 125
+        },
+        "MATH_FOBAR": {
+          "n": 125,
+          "raw_score": 537,
+          "score_10": 4.296,
+          "exact10": 51,
+          "extractable": 122
+        },
+        "MATH_Rephrased": {
+          "n": 125,
+          "raw_score": 815,
+          "score_10": 6.52,
+          "exact10": 79,
+          "extractable": 125
+        },
+        "MATH_SV": {
+          "n": 125,
+          "raw_score": 493,
+          "score_10": 3.944,
+          "exact10": 46,
+          "extractable": 122
+        }
+      }
+    },
+    "v12": {
+      "config": {
+        "stage_a_epochs": 8.0,
+        "stage_a_lr": 0.001,
+        "prompt_template": "Dạng: {type}\nBài toán: {q}\nLời giải: ",
+        "use_hybrid_retrieval": true,
+        "retrieval_strategy": "source_type_majority",
+        "retrieval_min_majority_frac": 0.34,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ]
+      },
+      "split": {
+        "split_name": "source_overlap_query_disjoint",
+        "query_fraction": 0.1,
+        "total_records": 92874,
+        "total_source_groups": 12410,
+        "skipped_single_query_source_groups": 1626,
+        "eligible_source_groups": 10784,
+        "train_records": 74062,
+        "overlap_valid_records": 18812,
+        "train_source_groups": 12410,
+        "overlap_valid_source_groups": 10784,
+        "source_group_overlap": 10784,
+        "query_pair_overlap": 0,
+        "overlap_valid_by_type": {
+          "MATH_AnsAug": 4065,
+          "GSM_AnsAug": 3591,
+          "GSM_Rephrased": 3487,
+          "MATH_Rephrased": 2959,
+          "GSM_SV": 1627,
+          "GSM_FOBAR": 1606,
+          "MATH_FOBAR": 764,
+          "MATH_SV": 713
+        },
+        "train_by_type": {
+          "GSM_Rephrased": 16540,
+          "GSM_AnsAug": 15153,
+          "MATH_AnsAug": 11445,
+          "MATH_Rephrased": 8539,
+          "GSM_FOBAR": 8389,
+          "GSM_SV": 8233,
+          "MATH_FOBAR": 2889,
+          "MATH_SV": 2874
+        },
+        "source_query_count_hist": {
+          "3": 1753,
+          "4": 1677,
+          "2": 1656,
+          "1": 1626,
+          "5": 1563,
+          "6": 1297,
+          "7": 1031,
+          "8": 718,
+          "9": 450,
+          "10": 292,
+          "11": 173,
+          "12": 88,
+          "13": 45,
+          "14": 19,
+          "15": 10,
+          "17": 5,
+          "16": 4,
+          "18": 2,
+          "19": 1
+        },
+        "overlap_valid_eval_n": 1000
+      },
+      "selected_checkpoint": {
+        "label": "epoch_06",
+        "eval_n": 1000,
+        "summary": {
+          "raw_score": 5374,
+          "score_10": 5.374,
+          "extractable": 1000,
+          "buckets": {
+            "10": 524,
+            "5": 6,
+            "1": 104,
+            "0": 366
+          },
+          "rel_error_mean": 20.961459932956913
+        },
+        "all": [
+          {
+            "label": "epoch_01",
+            "raw_score": 5288,
+            "score_10": 5.288,
+            "exact10": 515
+          },
+          {
+            "label": "epoch_02",
+            "raw_score": 5281,
+            "score_10": 5.281,
+            "exact10": 514
+          },
+          {
+            "label": "epoch_03",
+            "raw_score": 5301,
+            "score_10": 5.301,
+            "exact10": 516
+          },
+          {
+            "label": "epoch_04",
+            "raw_score": 5302,
+            "score_10": 5.302,
+            "exact10": 516
+          },
+          {
+            "label": "epoch_05",
+            "raw_score": 5345,
+            "score_10": 5.345,
+            "exact10": 521
+          },
+          {
+            "label": "epoch_06",
+            "raw_score": 5374,
+            "score_10": 5.374,
+            "exact10": 524
+          },
+          {
+            "label": "epoch_07",
+            "raw_score": 5362,
+            "score_10": 5.362,
+            "exact10": 523
+          },
+          {
+            "label": "epoch_08",
+            "raw_score": 5372,
+            "score_10": 5.372,
+            "exact10": 524
+          },
+          {
+            "label": "gpt2_math_lora_v12_answer_only",
+            "raw_score": 5372,
+            "score_10": 5.372,
+            "exact10": 524
+          },
+          {
+            "label": "gpt2_math_lora_v12_final",
+            "raw_score": 5372,
+            "score_10": 5.372,
+            "exact10": 524
+          },
+          {
+            "label": "gpt2_math_lora_v12_sft",
+            "raw_score": 5372,
+            "score_10": 5.372,
+            "exact10": 524
+          }
+        ]
+      },
+      "overlap_valid": {
+        "raw_score": 5374,
+        "score_10": 5.374,
+        "extractable": 1000,
+        "buckets": {
+          "10": 524,
+          "5": 6,
+          "1": 104,
+          "0": 366
+        },
+        "rel_error_mean": 20.961459932956913
+      },
+      "valid": {
+        "raw_score": 6194,
+        "score_10": 6.194,
+        "extractable": 998,
+        "buckets": {
+          "10": 606,
+          "5": 10,
+          "1": 84,
+          "0": 300
+        },
+        "rel_error_mean": 407.276989315301
+      },
+      "valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 1513,
+          "score_10": 7.239234449760765,
+          "exact10": 149,
+          "extractable": 209
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 99,
+          "score_10": 0.8114754098360656,
+          "exact10": 7,
+          "extractable": 122
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1872,
+          "score_10": 9.50253807106599,
+          "exact10": 187,
+          "extractable": 197
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 203,
+          "score_10": 2.0927835051546393,
+          "exact10": 18,
+          "extractable": 97
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 1279,
+          "score_10": 7.393063583815029,
+          "exact10": 126,
+          "extractable": 173
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 99,
+          "score_10": 2.2,
+          "exact10": 8,
+          "extractable": 44
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 986,
+          "score_10": 8.5,
+          "exact10": 98,
+          "extractable": 116
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 143,
+          "score_10": 3.4878048780487805,
+          "exact10": 13,
+          "extractable": 40
+        }
+      },
+      "overlap_valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 125,
+          "raw_score": 922,
+          "score_10": 7.376,
+          "exact10": 92,
+          "extractable": 125
+        },
+        "GSM_FOBAR": {
+          "n": 125,
+          "raw_score": 70,
+          "score_10": 0.56,
+          "exact10": 3,
+          "extractable": 125
+        },
+        "GSM_Rephrased": {
+          "n": 125,
+          "raw_score": 1211,
+          "score_10": 9.688,
+          "exact10": 121,
+          "extractable": 125
+        },
+        "GSM_SV": {
+          "n": 125,
+          "raw_score": 236,
+          "score_10": 1.888,
+          "exact10": 21,
+          "extractable": 125
+        },
+        "MATH_AnsAug": {
+          "n": 125,
+          "raw_score": 1073,
+          "score_10": 8.584,
+          "exact10": 107,
+          "extractable": 125
+        },
+        "MATH_FOBAR": {
+          "n": 125,
+          "raw_score": 307,
+          "score_10": 2.456,
+          "exact10": 27,
+          "extractable": 125
+        },
+        "MATH_Rephrased": {
+          "n": 125,
+          "raw_score": 1220,
+          "score_10": 9.76,
+          "exact10": 122,
+          "extractable": 125
+        },
+        "MATH_SV": {
+          "n": 125,
+          "raw_score": 335,
+          "score_10": 2.68,
+          "exact10": 31,
+          "extractable": 125
+        }
+      },
+      "model_valid": {
+        "raw_score": 4489,
+        "score_10": 4.489,
+        "extractable": 992,
+        "buckets": {
+          "10": 418,
+          "5": 28,
+          "1": 169,
+          "0": 385
+        },
+        "rel_error_mean": 2.3058834086772317
+      },
+      "model_valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 854,
+          "score_10": 4.086124401913875,
+          "exact10": 77,
+          "extractable": 209
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 295,
+          "score_10": 2.418032786885246,
+          "exact10": 25,
+          "extractable": 120
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1501,
+          "score_10": 7.619289340101523,
+          "exact10": 145,
+          "extractable": 197
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 311,
+          "score_10": 3.2061855670103094,
+          "exact10": 28,
+          "extractable": 96
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 539,
+          "score_10": 3.115606936416185,
+          "exact10": 49,
+          "extractable": 172
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 178,
+          "score_10": 3.9555555555555557,
+          "exact10": 16,
+          "extractable": 43
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 676,
+          "score_10": 5.827586206896552,
+          "exact10": 66,
+          "extractable": 116
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 135,
+          "score_10": 3.292682926829268,
+          "exact10": 12,
+          "extractable": 39
+        }
+      }
+    }
+  },
+  "v12_gate_simulations": {
+    "valid": {
+      "current_all_retrievable": {
+        "raw_score": 6194,
+        "score_10": 6.194,
+        "extractable": 998,
+        "buckets": {
+          "10": 606,
+          "5": 10,
+          "1": 84,
+          "0": 300
+        },
+        "rel_error_mean": 407.276989315301
+      },
+      "retrieval_rephrased_ansaug_only": {
+        "raw_score": 6569,
+        "score_10": 6.569,
+        "extractable": 993,
+        "buckets": {
+          "10": 641,
+          "5": 12,
+          "1": 99,
+          "0": 248
+        },
+        "rel_error_mean": 1.481977716597292
+      },
+      "retrieval_no_foobar": {
+        "raw_score": 6469,
+        "score_10": 6.469,
+        "extractable": 995,
+        "buckets": {
+          "10": 632,
+          "5": 10,
+          "1": 99,
+          "0": 259
+        },
+        "rel_error_mean": 7.105097400238558
+      },
+      "retrieval_rephrased_only": {
+        "raw_score": 5170,
+        "score_10": 5.17,
+        "extractable": 992,
+        "buckets": {
+          "10": 492,
+          "5": 20,
+          "1": 150,
+          "0": 338
+        },
+        "rel_error_mean": 2.112498702940827
+      },
+      "retrieval_rephrased_ansaug_plus_math_sv": {
+        "raw_score": 6577,
+        "score_10": 6.577,
+        "extractable": 994,
+        "buckets": {
+          "10": 642,
+          "5": 12,
+          "1": 97,
+          "0": 249
+        },
+        "rel_error_mean": 3.560192766348119
+      }
+    },
+    "overlap_valid": {
+      "current_all_retrievable": {
+        "raw_score": 5374,
+        "score_10": 5.374,
+        "extractable": 1000,
+        "buckets": {
+          "10": 524,
+          "5": 6,
+          "1": 104,
+          "0": 366
+        },
+        "rel_error_mean": 20.961459932956913
+      },
+      "retrieval_rephrased_ansaug_only": {
+        "raw_score": 6048,
+        "score_10": 6.048,
+        "extractable": 992,
+        "buckets": {
+          "10": 589,
+          "5": 8,
+          "1": 118,
+          "0": 285
+        },
+        "rel_error_mean": 2.159330095045965
+      },
+      "retrieval_no_foobar": {
+        "raw_score": 5800,
+        "score_10": 5.8,
+        "extractable": 995,
+        "buckets": {
+          "10": 567,
+          "5": 6,
+          "1": 100,
+          "0": 327
+        },
+        "rel_error_mean": 19.694585731434945
+      },
+      "retrieval_rephrased_only": {
+        "raw_score": 5051,
+        "score_10": 5.051,
+        "extractable": 992,
+        "buckets": {
+          "10": 480,
+          "5": 17,
+          "1": 166,
+          "0": 337
+        },
+        "rel_error_mean": 2.592559955057804
+      },
+      "retrieval_rephrased_ansaug_plus_math_sv": {
+        "raw_score": 5996,
+        "score_10": 5.996,
+        "extractable": 995,
+        "buckets": {
+          "10": 585,
+          "5": 6,
+          "1": 116,
+          "0": 293
+        },
+        "rel_error_mean": 1.3628928237676226
+      }
+    }
+  },
+  "v12_delta": {
+    "valid": {
+      "changed_outputs": 535,
+      "delta_raw_on_changed": 1705,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "changed": 115,
+          "delta": 659,
+          "model_raw": 854,
+          "hybrid_raw": 1513
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "changed": 108,
+          "delta": -196,
+          "model_raw": 295,
+          "hybrid_raw": 99
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "changed": 51,
+          "delta": 371,
+          "model_raw": 1501,
+          "hybrid_raw": 1872
+        },
+        "GSM_SV": {
+          "n": 97,
+          "changed": 75,
+          "delta": -108,
+          "model_raw": 311,
+          "hybrid_raw": 203
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "changed": 93,
+          "delta": 740,
+          "model_raw": 539,
+          "hybrid_raw": 1279
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "changed": 31,
+          "delta": -79,
+          "model_raw": 178,
+          "hybrid_raw": 99
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "changed": 37,
+          "delta": 310,
+          "model_raw": 676,
+          "hybrid_raw": 986
+        },
+        "MATH_SV": {
+          "n": 41,
+          "changed": 25,
+          "delta": 8,
+          "model_raw": 135,
+          "hybrid_raw": 143
+        }
+      },
+      "score_transitions": {
+        "10->10": 359,
+        "0->0": 199,
+        "0->10": 161,
+        "1->10": 70,
+        "1->0": 55,
+        "1->1": 43,
+        "10->0": 42,
+        "0->1": 24,
+        "5->10": 16,
+        "10->1": 16,
+        "5->5": 7,
+        "5->0": 4,
+        "0->5": 1,
+        "1->5": 1,
+        "5->1": 1,
+        "10->5": 1
+      }
+    },
+    "overlap_valid": {
+      "changed_outputs": 609,
+      "delta_raw_on_changed": 938,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 125,
+          "changed": 83,
+          "delta": 506,
+          "model_raw": 416,
+          "hybrid_raw": 922
+        },
+        "GSM_FOBAR": {
+          "n": 125,
+          "changed": 114,
+          "delta": -270,
+          "model_raw": 340,
+          "hybrid_raw": 70
+        },
+        "GSM_Rephrased": {
+          "n": 125,
+          "changed": 28,
+          "delta": 222,
+          "model_raw": 989,
+          "hybrid_raw": 1211
+        },
+        "GSM_SV": {
+          "n": 125,
+          "changed": 99,
+          "delta": -196,
+          "model_raw": 432,
+          "hybrid_raw": 236
+        },
+        "MATH_AnsAug": {
+          "n": 125,
+          "changed": 69,
+          "delta": 491,
+          "model_raw": 582,
+          "hybrid_raw": 1073
+        },
+        "MATH_FOBAR": {
+          "n": 125,
+          "changed": 86,
+          "delta": -156,
+          "model_raw": 463,
+          "hybrid_raw": 307
+        },
+        "MATH_Rephrased": {
+          "n": 125,
+          "changed": 47,
+          "delta": 393,
+          "model_raw": 827,
+          "hybrid_raw": 1220
+        },
+        "MATH_SV": {
+          "n": 125,
+          "changed": 83,
+          "delta": -52,
+          "model_raw": 387,
+          "hybrid_raw": 335
+        }
+      },
+      "score_transitions": {
+        "10->10": 312,
+        "0->0": 214,
+        "0->10": 125,
+        "10->0": 76,
+        "1->0": 69,
+        "1->10": 68,
+        "1->1": 49,
+        "0->1": 33,
+        "10->1": 22,
+        "5->10": 19,
+        "5->0": 7,
+        "0->5": 3,
+        "5->5": 2,
+        "10->5": 1
+      }
+    }
+  }
+}

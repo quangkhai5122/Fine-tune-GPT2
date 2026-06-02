@@ -1,0 +1,1428 @@
+{
+  "runs": {
+    "v9": {
+      "config": {
+        "stage_a_target_mode": "compact_equation",
+        "stage_a_epochs": 8.0,
+        "stage_a_lr": 0.001,
+        "run_stage_b": false,
+        "stage_b_epochs": 0.0,
+        "stage_b_lr": 0.0,
+        "run_stage_c": false,
+        "stage_c_epochs": 0.0,
+        "stage_c_lr": 0.0,
+        "mixed_compact_ratio": 0.7,
+        "sanitize_to_answer_only": false,
+        "max_new_tokens": 96,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ]
+      },
+      "source_valid_summary": {
+        "n": 1000,
+        "raw_score": 1392,
+        "score_10": 1.392,
+        "extractable": 951,
+        "numeric_pairs": 950,
+        "buckets": {
+          "10": 111,
+          "5": 18,
+          "1": 192,
+          "0": 679
+        },
+        "rel_error_mean": 76.78228664962963
+      },
+      "reference_valid_summary": {
+        "n": 1000,
+        "raw_score": 1842,
+        "score_10": 1.842,
+        "extractable": 959,
+        "numeric_pairs": 937,
+        "buckets": {
+          "10": 150,
+          "5": 31,
+          "1": 187,
+          "0": 632
+        },
+        "rel_error_mean": 32.412186410657625
+      },
+      "valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 396,
+          "score_10": 1.894736842105263,
+          "extractable": 209,
+          "exact10": 31
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 184,
+          "score_10": 1.5081967213114753,
+          "extractable": 116,
+          "exact10": 16
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 587,
+          "score_10": 2.979695431472081,
+          "extractable": 195,
+          "exact10": 47
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 68,
+          "score_10": 0.7010309278350515,
+          "extractable": 89,
+          "exact10": 5
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 166,
+          "score_10": 0.9595375722543352,
+          "extractable": 161,
+          "exact10": 12
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 66,
+          "score_10": 1.4666666666666666,
+          "extractable": 37,
+          "exact10": 6
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 316,
+          "score_10": 2.7241379310344827,
+          "extractable": 115,
+          "exact10": 28
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 59,
+          "score_10": 1.4390243902439024,
+          "extractable": 37,
+          "exact10": 5
+        }
+      },
+      "source_valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 125,
+          "raw_score": 155,
+          "score_10": 1.24,
+          "extractable": 125,
+          "exact10": 12
+        },
+        "GSM_FOBAR": {
+          "n": 125,
+          "raw_score": 212,
+          "score_10": 1.696,
+          "extractable": 125,
+          "exact10": 18
+        },
+        "GSM_Rephrased": {
+          "n": 125,
+          "raw_score": 212,
+          "score_10": 1.696,
+          "extractable": 125,
+          "exact10": 15
+        },
+        "GSM_SV": {
+          "n": 125,
+          "raw_score": 144,
+          "score_10": 1.152,
+          "extractable": 113,
+          "exact10": 11
+        },
+        "MATH_AnsAug": {
+          "n": 125,
+          "raw_score": 118,
+          "score_10": 0.944,
+          "extractable": 119,
+          "exact10": 10
+        },
+        "MATH_FOBAR": {
+          "n": 125,
+          "raw_score": 164,
+          "score_10": 1.312,
+          "extractable": 111,
+          "exact10": 13
+        },
+        "MATH_Rephrased": {
+          "n": 125,
+          "raw_score": 218,
+          "score_10": 1.744,
+          "extractable": 122,
+          "exact10": 18
+        },
+        "MATH_SV": {
+          "n": 125,
+          "raw_score": 169,
+          "score_10": 1.352,
+          "extractable": 111,
+          "exact10": 14
+        }
+      },
+      "selected_checkpoint": {
+        "label": "stage_a_compact_equation_lora_epoch_05",
+        "eval_n": 1000,
+        "selection_split": "source_valid_from_train",
+        "summary": {
+          "n": 1000,
+          "raw_score": 1392,
+          "score_10": 1.392,
+          "extractable": 951,
+          "numeric_pairs": 950,
+          "buckets": {
+            "10": 111,
+            "5": 18,
+            "1": 192,
+            "0": 679
+          },
+          "rel_error_mean": 76.78228664962963
+        },
+        "all_checkpoints": [
+          {
+            "label": "stage_a_compact_equation_lora_epoch_01",
+            "raw_score": 863,
+            "score_10": 0.863,
+            "exact10": 65,
+            "extractable": 906
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_02",
+            "raw_score": 985,
+            "score_10": 0.985,
+            "exact10": 74,
+            "extractable": 949
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_03",
+            "raw_score": 1137,
+            "score_10": 1.137,
+            "exact10": 88,
+            "extractable": 919
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_04",
+            "raw_score": 1273,
+            "score_10": 1.273,
+            "exact10": 100,
+            "extractable": 937
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_05",
+            "raw_score": 1392,
+            "score_10": 1.392,
+            "exact10": 111,
+            "extractable": 951
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_06",
+            "raw_score": 1162,
+            "score_10": 1.162,
+            "exact10": 89,
+            "extractable": 929
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_07",
+            "raw_score": 1350,
+            "score_10": 1.35,
+            "exact10": 101,
+            "extractable": 930
+          },
+          {
+            "label": "stage_a_compact_equation_lora_epoch_08",
+            "raw_score": 1196,
+            "score_10": 1.196,
+            "exact10": 90,
+            "extractable": 920
+          }
+        ]
+      },
+      "output_shape": {
+        "source_valid": {
+          "n": 1000,
+          "length_mean": 83.723,
+          "length_median": 76.0,
+          "length_max": 255,
+          "format_counts": {
+            "equation_plus_answer": 857,
+            "no_answer_anchor": 19,
+            "answer_only": 123,
+            "other_with_answer_anchor": 1
+          },
+          "equation_equals_mean": 2.949,
+          "equation_equals_median": 3.0
+        },
+        "valid": {
+          "n": 1000,
+          "length_mean": 83.553,
+          "length_median": 72.0,
+          "length_max": 275,
+          "format_counts": {
+            "equation_plus_answer": 910,
+            "answer_only": 83,
+            "no_answer_anchor": 5,
+            "other_with_answer_anchor": 2
+          },
+          "equation_equals_mean": 2.97,
+          "equation_equals_median": 3.0
+        }
+      },
+      "source_split": {
+        "source_group_fraction": 0.1,
+        "total_records": 92874,
+        "total_groups": 12410,
+        "source_train_records": 83475,
+        "source_valid_records": 9399,
+        "source_train_groups": 11169,
+        "source_valid_groups": 1241,
+        "source_group_overlap": 0,
+        "source_valid_by_type": {
+          "GSM_Rephrased": 2000,
+          "GSM_AnsAug": 1918,
+          "MATH_AnsAug": 1619,
+          "MATH_Rephrased": 1161,
+          "GSM_SV": 1007,
+          "GSM_FOBAR": 965,
+          "MATH_SV": 372,
+          "MATH_FOBAR": 357
+        },
+        "source_train_by_type": {
+          "GSM_Rephrased": 18027,
+          "GSM_AnsAug": 16826,
+          "MATH_AnsAug": 13891,
+          "MATH_Rephrased": 10337,
+          "GSM_FOBAR": 9030,
+          "GSM_SV": 8853,
+          "MATH_FOBAR": 3296,
+          "MATH_SV": 3215
+        }
+      },
+      "coverage_stages": {
+        "stage_a_compact_equation_lora": {
+          "n": 83475,
+          "fallback_answer_only": 1483,
+          "one_equation": 3642,
+          "multi_equation": 78350,
+          "equation_count_hist": {
+            "0": 1483,
+            "1": 3642,
+            "10": 2142,
+            "11": 1370,
+            "12": 873,
+            "13": 588,
+            "14": 404,
+            "15": 263,
+            "16": 224,
+            "17": 159,
+            "18": 110,
+            "19": 86,
+            "2": 11837,
+            "20": 65,
+            "21": 56,
+            "22": 34,
+            "23": 35,
+            "24": 31,
+            "25": 24,
+            "26": 13,
+            "27": 16,
+            "28": 11,
+            "29": 9,
+            "3": 14128,
+            "30": 3,
+            "31": 4,
+            "32": 6,
+            "33": 6,
+            "34": 7,
+            "35": 2,
+            "36": 4,
+            "37": 1,
+            "39": 2,
+            "4": 12765,
+            "40": 1,
+            "41": 2,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "49": 2,
+            "5": 10461,
+            "6": 8499,
+            "7": 6274,
+            "8": 4735,
+            "9": 3095
+          },
+          "target_tokens_mean": 54.63949685534591,
+          "target_tokens_max": 174
+        },
+        "stage_a_compact_equation_lora_source_valid": {
+          "n": 1000,
+          "fallback_answer_only": 22,
+          "one_equation": 43,
+          "multi_equation": 935,
+          "equation_count_hist": {
+            "0": 22,
+            "1": 43,
+            "10": 45,
+            "11": 20,
+            "12": 16,
+            "13": 6,
+            "14": 7,
+            "15": 6,
+            "16": 3,
+            "17": 4,
+            "18": 1,
+            "19": 4,
+            "2": 117,
+            "20": 1,
+            "21": 2,
+            "22": 4,
+            "25": 1,
+            "28": 1,
+            "3": 117,
+            "4": 141,
+            "5": 122,
+            "6": 117,
+            "7": 95,
+            "8": 59,
+            "9": 46
+          },
+          "target_tokens_mean": 64.13,
+          "target_tokens_max": 172
+        }
+      },
+      "valid_overlap_audit": {
+        "train_n": 95400,
+        "valid_n": 1000,
+        "train_unique_q": 57806,
+        "train_unique_source_group": 12780,
+        "valid_seen_query": 0,
+        "valid_seen_query_pct": 0.0,
+        "valid_seen_source_group": 965,
+        "valid_seen_source_group_pct": 0.965,
+        "valid_seen_query_ids_first20": [],
+        "valid_seen_source_group_ids_first20": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "valid_by_type": {
+          "GSM_AnsAug": {
+            "n": 209,
+            "seen_query": 0,
+            "seen_source": 205
+          },
+          "GSM_FOBAR": {
+            "n": 122,
+            "seen_query": 0,
+            "seen_source": 120
+          },
+          "GSM_Rephrased": {
+            "n": 197,
+            "seen_query": 0,
+            "seen_source": 197
+          },
+          "GSM_SV": {
+            "n": 97,
+            "seen_query": 0,
+            "seen_source": 97
+          },
+          "MATH_AnsAug": {
+            "n": 173,
+            "seen_query": 0,
+            "seen_source": 155
+          },
+          "MATH_FOBAR": {
+            "n": 45,
+            "seen_query": 0,
+            "seen_source": 43
+          },
+          "MATH_Rephrased": {
+            "n": 116,
+            "seen_query": 0,
+            "seen_source": 109
+          },
+          "MATH_SV": {
+            "n": 41,
+            "seen_query": 0,
+            "seen_source": 39
+          }
+        }
+      }
+    },
+    "v10": {
+      "config": {
+        "stage_a_target_mode": "answer_only",
+        "stage_a_epochs": 2.0,
+        "stage_a_lr": 0.001,
+        "run_stage_b": true,
+        "stage_b_epochs": 4.0,
+        "stage_b_lr": 0.0005,
+        "run_stage_c": true,
+        "stage_c_epochs": 2.0,
+        "stage_c_lr": 0.0002,
+        "mixed_compact_ratio": 0.7,
+        "sanitize_to_answer_only": false,
+        "max_new_tokens": 96,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ]
+      },
+      "source_valid_summary": {
+        "n": 1000,
+        "raw_score": 1396,
+        "score_10": 1.396,
+        "extractable": 996,
+        "numeric_pairs": 994,
+        "buckets": {
+          "10": 105,
+          "5": 19,
+          "1": 251,
+          "0": 625
+        },
+        "rel_error_mean": 6.647880806813889
+      },
+      "reference_valid_summary": {
+        "n": 1000,
+        "raw_score": 2131,
+        "score_10": 2.131,
+        "extractable": 990,
+        "numeric_pairs": 967,
+        "buckets": {
+          "10": 175,
+          "5": 26,
+          "1": 251,
+          "0": 548
+        },
+        "rel_error_mean": 6.618159873418917
+      },
+      "valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 283,
+          "score_10": 1.354066985645933,
+          "extractable": 206,
+          "exact10": 20
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 254,
+          "score_10": 2.081967213114754,
+          "extractable": 121,
+          "exact10": 22
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 421,
+          "score_10": 2.1370558375634516,
+          "extractable": 195,
+          "exact10": 32
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 183,
+          "score_10": 1.8865979381443299,
+          "extractable": 97,
+          "exact10": 15
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 348,
+          "score_10": 2.0115606936416186,
+          "extractable": 171,
+          "exact10": 30
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 110,
+          "score_10": 2.4444444444444446,
+          "extractable": 45,
+          "exact10": 9
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 400,
+          "score_10": 3.4482758620689653,
+          "extractable": 114,
+          "exact10": 36
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 132,
+          "score_10": 3.2195121951219514,
+          "extractable": 41,
+          "exact10": 11
+        }
+      },
+      "source_valid_by_type": {
+        "GSM_AnsAug": {
+          "n": 125,
+          "raw_score": 77,
+          "score_10": 0.616,
+          "extractable": 125,
+          "exact10": 4
+        },
+        "GSM_FOBAR": {
+          "n": 125,
+          "raw_score": 203,
+          "score_10": 1.624,
+          "extractable": 125,
+          "exact10": 17
+        },
+        "GSM_Rephrased": {
+          "n": 125,
+          "raw_score": 132,
+          "score_10": 1.056,
+          "extractable": 125,
+          "exact10": 7
+        },
+        "GSM_SV": {
+          "n": 125,
+          "raw_score": 229,
+          "score_10": 1.832,
+          "extractable": 123,
+          "exact10": 20
+        },
+        "MATH_AnsAug": {
+          "n": 125,
+          "raw_score": 120,
+          "score_10": 0.96,
+          "extractable": 123,
+          "exact10": 8
+        },
+        "MATH_FOBAR": {
+          "n": 125,
+          "raw_score": 320,
+          "score_10": 2.56,
+          "extractable": 125,
+          "exact10": 26
+        },
+        "MATH_Rephrased": {
+          "n": 125,
+          "raw_score": 83,
+          "score_10": 0.664,
+          "extractable": 125,
+          "exact10": 4
+        },
+        "MATH_SV": {
+          "n": 125,
+          "raw_score": 232,
+          "score_10": 1.856,
+          "extractable": 125,
+          "exact10": 19
+        }
+      },
+      "selected_checkpoint": {
+        "label": "stage_c_mixed_replay_lora_epoch_02",
+        "eval_n": 1000,
+        "selection_split": "source_valid_from_train",
+        "summary": {
+          "n": 1000,
+          "raw_score": 1396,
+          "score_10": 1.396,
+          "extractable": 996,
+          "numeric_pairs": 994,
+          "buckets": {
+            "10": 105,
+            "5": 19,
+            "1": 251,
+            "0": 625
+          },
+          "rel_error_mean": 6.647880806813889
+        },
+        "all_checkpoints": [
+          {
+            "label": "stage_a_answer_only_lora_epoch_01",
+            "raw_score": 1262,
+            "score_10": 1.262,
+            "exact10": 91,
+            "extractable": 973
+          },
+          {
+            "label": "stage_a_answer_only_lora_epoch_02",
+            "raw_score": 1365,
+            "score_10": 1.365,
+            "exact10": 97,
+            "extractable": 993
+          },
+          {
+            "label": "stage_b_compact_equation_lora_epoch_01",
+            "raw_score": 1242,
+            "score_10": 1.242,
+            "exact10": 99,
+            "extractable": 946
+          },
+          {
+            "label": "stage_b_compact_equation_lora_epoch_02",
+            "raw_score": 1291,
+            "score_10": 1.291,
+            "exact10": 100,
+            "extractable": 954
+          },
+          {
+            "label": "stage_b_compact_equation_lora_epoch_03",
+            "raw_score": 1235,
+            "score_10": 1.235,
+            "exact10": 92,
+            "extractable": 945
+          },
+          {
+            "label": "stage_b_compact_equation_lora_epoch_04",
+            "raw_score": 1160,
+            "score_10": 1.16,
+            "exact10": 85,
+            "extractable": 938
+          },
+          {
+            "label": "stage_c_mixed_replay_lora_epoch_01",
+            "raw_score": 1385,
+            "score_10": 1.385,
+            "exact10": 103,
+            "extractable": 996
+          },
+          {
+            "label": "stage_c_mixed_replay_lora_epoch_02",
+            "raw_score": 1396,
+            "score_10": 1.396,
+            "exact10": 105,
+            "extractable": 996
+          }
+        ]
+      },
+      "output_shape": {
+        "source_valid": {
+          "n": 1000,
+          "length_mean": 32.477,
+          "length_median": 13.0,
+          "length_max": 210,
+          "format_counts": {
+            "answer_only": 714,
+            "equation_plus_answer": 284,
+            "no_answer_anchor": 2
+          },
+          "equation_equals_mean": 0.924,
+          "equation_equals_median": 0.0
+        },
+        "valid": {
+          "n": 1000,
+          "length_mean": 37.527,
+          "length_median": 14.0,
+          "length_max": 267,
+          "format_counts": {
+            "answer_only": 641,
+            "equation_plus_answer": 358,
+            "no_answer_anchor": 1
+          },
+          "equation_equals_mean": 1.174,
+          "equation_equals_median": 0.0
+        }
+      },
+      "source_split": {
+        "source_group_fraction": 0.1,
+        "total_records": 92874,
+        "total_groups": 12410,
+        "source_train_records": 83475,
+        "source_valid_records": 9399,
+        "source_train_groups": 11169,
+        "source_valid_groups": 1241,
+        "source_group_overlap": 0,
+        "source_valid_by_type": {
+          "GSM_Rephrased": 2000,
+          "GSM_AnsAug": 1918,
+          "MATH_AnsAug": 1619,
+          "MATH_Rephrased": 1161,
+          "GSM_SV": 1007,
+          "GSM_FOBAR": 965,
+          "MATH_SV": 372,
+          "MATH_FOBAR": 357
+        },
+        "source_train_by_type": {
+          "GSM_Rephrased": 18027,
+          "GSM_AnsAug": 16826,
+          "MATH_AnsAug": 13891,
+          "MATH_Rephrased": 10337,
+          "GSM_FOBAR": 9030,
+          "GSM_SV": 8853,
+          "MATH_FOBAR": 3296,
+          "MATH_SV": 3215
+        }
+      },
+      "coverage_stages": {
+        "stage_b_compact_equation_lora": {
+          "n": 83475,
+          "fallback_answer_only": 1483,
+          "one_equation": 3642,
+          "multi_equation": 78350,
+          "equation_count_hist": {
+            "0": 1483,
+            "1": 3642,
+            "10": 2142,
+            "11": 1370,
+            "12": 873,
+            "13": 588,
+            "14": 404,
+            "15": 263,
+            "16": 224,
+            "17": 159,
+            "18": 110,
+            "19": 86,
+            "2": 11837,
+            "20": 65,
+            "21": 56,
+            "22": 34,
+            "23": 35,
+            "24": 31,
+            "25": 24,
+            "26": 13,
+            "27": 16,
+            "28": 11,
+            "29": 9,
+            "3": 14128,
+            "30": 3,
+            "31": 4,
+            "32": 6,
+            "33": 6,
+            "34": 7,
+            "35": 2,
+            "36": 4,
+            "37": 1,
+            "39": 2,
+            "4": 12765,
+            "40": 1,
+            "41": 2,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "49": 2,
+            "5": 10461,
+            "6": 8499,
+            "7": 6274,
+            "8": 4735,
+            "9": 3095
+          },
+          "target_tokens_mean": 54.63949685534591,
+          "target_tokens_max": 174
+        },
+        "stage_b_compact_equation_lora_source_valid": {
+          "n": 1000,
+          "fallback_answer_only": 22,
+          "one_equation": 43,
+          "multi_equation": 935,
+          "equation_count_hist": {
+            "0": 22,
+            "1": 43,
+            "10": 45,
+            "11": 20,
+            "12": 16,
+            "13": 6,
+            "14": 7,
+            "15": 6,
+            "16": 3,
+            "17": 4,
+            "18": 1,
+            "19": 4,
+            "2": 117,
+            "20": 1,
+            "21": 2,
+            "22": 4,
+            "25": 1,
+            "28": 1,
+            "3": 117,
+            "4": 141,
+            "5": 122,
+            "6": 117,
+            "7": 95,
+            "8": 59,
+            "9": 46
+          },
+          "target_tokens_mean": 64.13,
+          "target_tokens_max": 172
+        },
+        "stage_c_mixed_replay_lora": {
+          "n": 58301,
+          "fallback_answer_only": 1028,
+          "one_equation": 2523,
+          "multi_equation": 54750,
+          "equation_count_hist": {
+            "0": 1028,
+            "1": 2523,
+            "10": 1492,
+            "11": 958,
+            "12": 617,
+            "13": 414,
+            "14": 288,
+            "15": 184,
+            "16": 174,
+            "17": 110,
+            "18": 78,
+            "19": 65,
+            "2": 8268,
+            "20": 38,
+            "21": 37,
+            "22": 26,
+            "23": 20,
+            "24": 25,
+            "25": 15,
+            "26": 4,
+            "27": 12,
+            "28": 7,
+            "29": 7,
+            "3": 9788,
+            "30": 3,
+            "31": 2,
+            "32": 5,
+            "33": 3,
+            "34": 6,
+            "35": 2,
+            "36": 1,
+            "37": 1,
+            "39": 2,
+            "4": 8934,
+            "40": 1,
+            "43": 1,
+            "44": 1,
+            "49": 2,
+            "5": 7385,
+            "6": 5923,
+            "7": 4364,
+            "8": 3329,
+            "9": 2158
+          },
+          "target_tokens_mean": 54.735767825594756,
+          "target_tokens_max": 174
+        },
+        "stage_c_mixed_replay_lora_source_valid": {
+          "n": 700,
+          "fallback_answer_only": 14,
+          "one_equation": 32,
+          "multi_equation": 654,
+          "equation_count_hist": {
+            "0": 14,
+            "1": 32,
+            "10": 26,
+            "11": 14,
+            "12": 12,
+            "13": 5,
+            "14": 7,
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 1,
+            "19": 3,
+            "2": 78,
+            "20": 1,
+            "21": 2,
+            "22": 3,
+            "25": 1,
+            "28": 1,
+            "3": 86,
+            "4": 104,
+            "5": 79,
+            "6": 82,
+            "7": 65,
+            "8": 40,
+            "9": 35
+          },
+          "target_tokens_mean": 65.28285714285714,
+          "target_tokens_max": 172
+        }
+      },
+      "valid_overlap_audit": {
+        "train_n": 95400,
+        "valid_n": 1000,
+        "train_unique_q": 57806,
+        "train_unique_source_group": 12780,
+        "valid_seen_query": 0,
+        "valid_seen_query_pct": 0.0,
+        "valid_seen_source_group": 965,
+        "valid_seen_source_group_pct": 0.965,
+        "valid_seen_query_ids_first20": [],
+        "valid_seen_source_group_ids_first20": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "valid_by_type": {
+          "GSM_AnsAug": {
+            "n": 209,
+            "seen_query": 0,
+            "seen_source": 205
+          },
+          "GSM_FOBAR": {
+            "n": 122,
+            "seen_query": 0,
+            "seen_source": 120
+          },
+          "GSM_Rephrased": {
+            "n": 197,
+            "seen_query": 0,
+            "seen_source": 197
+          },
+          "GSM_SV": {
+            "n": 97,
+            "seen_query": 0,
+            "seen_source": 97
+          },
+          "MATH_AnsAug": {
+            "n": 173,
+            "seen_query": 0,
+            "seen_source": 155
+          },
+          "MATH_FOBAR": {
+            "n": 45,
+            "seen_query": 0,
+            "seen_source": 43
+          },
+          "MATH_Rephrased": {
+            "n": 116,
+            "seen_query": 0,
+            "seen_source": 109
+          },
+          "MATH_SV": {
+            "n": 41,
+            "seen_query": 0,
+            "seen_source": 39
+          }
+        }
+      }
+    }
+  },
+  "valid_score_transitions_v9_to_v10": {
+    "0->0": 404,
+    "0->1": 134,
+    "1->0": 83,
+    "0->10": 82,
+    "1->1": 75,
+    "10->10": 67,
+    "10->0": 49,
+    "10->1": 32,
+    "1->10": 23,
+    "0->5": 12,
+    "5->0": 12,
+    "5->1": 10,
+    "1->5": 6,
+    "5->5": 6,
+    "5->10": 3,
+    "10->5": 2
+  },
+  "cases": [
+    {
+      "label": "v10_fix",
+      "idx": 37,
+      "type": "MATH_AnsAug",
+      "query_vi": "Bán kính của một hình cầu là đơn vị $p$ và bán kính của một bán cầu là đơn vị $2p$. Tỉ số giữa thể tích của hình cầu và thể tích của bán cầu là bao nhiêu?",
+      "gold_answer": "\\frac{1}{4}",
+      "v9": {
+        "score": 0,
+        "pred_answer": "113.994",
+        "rel_error": 113.744,
+        "model_output": "Phép tính: ch : ( 4 ) / ( 3 ) pi r ^ 3; ( 4pi ) / ( 9 )\nĐáp án là: 113.994"
+      },
+      "v10": {
+        "score": 10,
+        "pred_answer": "0.25",
+        "rel_error": 0.0,
+        "model_output": "Đáp án là: 0.25"
+      }
+    },
+    {
+      "label": "v10_fix",
+      "idx": 42,
+      "type": "MATH_Rephrased",
+      "query_vi": "Nếu sáu số nguyên riêng biệt được chọn ngẫu nhiên từ tập hợp {1, 2, 3, ..., 10} thì xác suất để số nguyên nhỏ thứ hai trong số các số được chọn là 3 là bao nhiêu?",
+      "gold_answer": "\\frac{1}{3}",
+      "v9": {
+        "score": 1,
+        "pred_answer": "0.125",
+        "rel_error": 0.20833333333333331,
+        "model_output": "Phép tính: 2 ^ 6 = 128 k; ( 1 + 2 + 3 + \\dots + 1 ) / ( 2 ^ 6 ) = ( 4 + 6 + 9 ) / ( 8 ) = ( 25 ) / ( 64 ) = \\boxed; ( 5 ) / ( 4 )\nĐáp án là: 0.125"
+      },
+      "v10": {
+        "score": 10,
+        "pred_answer": "0.333333",
+        "rel_error": 3.3333333332441484e-07,
+        "model_output": "Đáp án là: 0.333333"
+      }
+    },
+    {
+      "label": "v10_fix",
+      "idx": 53,
+      "type": "MATH_AnsAug",
+      "query_vi": "Tìm bội số chung nhỏ nhất của 24 và 90.",
+      "gold_answer": "360",
+      "v9": {
+        "score": 0,
+        "pred_answer": "120",
+        "rel_error": 0.6666666666666666,
+        "model_output": "Đáp án là: 120"
+      },
+      "v10": {
+        "score": 10,
+        "pred_answer": "360",
+        "rel_error": 0.0,
+        "model_output": "Đáp án là: 360"
+      }
+    },
+    {
+      "label": "v10_fix",
+      "idx": 88,
+      "type": "MATH_Rephrased",
+      "query_vi": "Giá trị của $\\log_{10}{28471}$ nằm giữa hai số nguyên liên tiếp $a$ và $b$. Tính tổng của $a$ và $b$.",
+      "gold_answer": "9",
+      "v9": {
+        "score": 1,
+        "pred_answer": "7",
+        "rel_error": 0.2222222222222222,
+        "model_output": "Phép tính: 10 ^ a; 10 ^ b; 10 ^ 4; a = 4 v; b = 5; a + b = 4 + 5 = 7\nĐáp án là: 7"
+      },
+      "v10": {
+        "score": 10,
+        "pred_answer": "9",
+        "rel_error": 0.0,
+        "model_output": "Đáp án là: 9"
+      }
+    },
+    {
+      "label": "v10_fix",
+      "idx": 96,
+      "type": "GSM_SV",
+      "query_vi": "Một người chuyển phát nhanh đã nhận được x gói hàng ngày hôm qua và số lượng gấp đôi ngày hôm nay. Tất cả những thứ này sẽ được giao vào ngày mai. 240 gói hàng sẽ được giao vào ngày mai. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+      "gold_answer": "80",
+      "v9": {
+        "score": 1,
+        "pred_answer": "120",
+        "rel_error": 0.5,
+        "model_output": "Phép tính: x * 2 = 240 H; x : 2x = 240; 2 : 2x / 2 = 240 / 2 x = 120\nĐáp án là: 120"
+      },
+      "v10": {
+        "score": 10,
+        "pred_answer": "80",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: x + 2x = 240 H; x : 3x = 240; 3 : 3x / 3 = 240 / 3 x = 80\nĐáp án là: 80"
+      }
+    },
+    {
+      "label": "v10_regress",
+      "idx": 11,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu con chó của Sandra sinh ra 7 chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy 105 phần sữa công thức để cho các chú chó con ăn trong 5 ngày, thì Sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?",
+      "gold_answer": "3",
+      "v9": {
+        "score": 10,
+        "pred_answer": "3",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: 105 / 5 = 21 l; 21 / 7 = 3 l\nĐáp án là: 3"
+      },
+      "v10": {
+        "score": 1,
+        "pred_answer": "2",
+        "rel_error": 0.3333333333333333,
+        "model_output": "Đáp án là: 2"
+      }
+    },
+    {
+      "label": "v10_regress",
+      "idx": 36,
+      "type": "MATH_Rephrased",
+      "query_vi": "Chandra có bốn chiếc bát, mỗi chiếc có một màu khác nhau (đỏ, xanh dương, vàng và xanh lá cây), và cô ấy cũng có một chiếc ly phù hợp với màu của mỗi chiếc bát. Nếu cô ấy chọn một cái bát và một cái ly từ tủ của mình thì có bao nhiêu cặp có thể ghép được? Một ví dụ về sự kết hợp sẽ là một chiếc bát màu xanh và một chiếc ly màu vàng.",
+      "gold_answer": "16",
+      "v9": {
+        "score": 10,
+        "pred_answer": "16",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: 4 \\time 4 = 16 c\nĐáp án là: 16"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "6",
+        "rel_error": 0.625,
+        "model_output": "Đáp án là: 6"
+      }
+    },
+    {
+      "label": "v10_regress",
+      "idx": 44,
+      "type": "MATH_AnsAug",
+      "query_vi": "Tìm giá trị của $a$ sao cho các đường thẳng có phương trình đã cho vuông góc với nhau. \\begin{align*} y &= 2x+13 \\\\ 6y+ax &= 6. \\end{align*}",
+      "gold_answer": "3",
+      "v9": {
+        "score": 10,
+        "pred_answer": "3",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: 2x + 13; 6y + x = - ( a ) / ( 6 ) + ( 6 ) / ( 2 ) = - ( 2 ) / ( 3 ) + a; 6 ( 2 ) + a = - 6; 10 + a = 6; a = 3\nĐáp án là: 3"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "5",
+        "rel_error": 0.6666666666666666,
+        "model_output": "Đáp án là: 5"
+      }
+    },
+    {
+      "label": "v10_regress",
+      "idx": 49,
+      "type": "MATH_Rephrased",
+      "query_vi": "Số nào khi chia cho 2 sẽ bằng kết quả khi trừ đi 2?",
+      "gold_answer": "4",
+      "v9": {
+        "score": 10,
+        "pred_answer": "4",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: ng ( x ) / ( 2 ) = x - 2; x = 2 ( x - 2 ); x = 2x - 4; x = 4\nĐáp án là: 4"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "1",
+        "rel_error": 0.75,
+        "model_output": "Đáp án là: 1"
+      }
+    },
+    {
+      "label": "v10_regress",
+      "idx": 56,
+      "type": "GSM_AnsAug",
+      "query_vi": "Micah có thể gõ 20 từ mỗi phút và Isaiah có thể gõ 40 từ mỗi phút. Ê-sai có thể gõ nhiều hơn Mi-ca bao nhiêu từ trong một giờ?",
+      "gold_answer": "1200",
+      "v9": {
+        "score": 10,
+        "pred_answer": "1200",
+        "rel_error": 0.0,
+        "model_output": "Phép tính: t * 60; t = 1200 t\nĐáp án là: 1200"
+      },
+      "v10": {
+        "score": 1,
+        "pred_answer": "1800",
+        "rel_error": 0.5,
+        "model_output": "Phép tính: 20 x 60 = 1200 t; 20 + 1200 = 1800 t\nĐáp án là: 1800"
+      }
+    },
+    {
+      "label": "both_wrong",
+      "idx": 7,
+      "type": "GSM_FOBAR",
+      "query_vi": "Grace bắt đầu công việc kinh doanh cảnh quan của riêng mình. Cô tính phí 6 đô la một giờ cho việc cắt cỏ, 11 đô la cho việc nhổ cỏ và x đô la cho việc phủ lớp phủ. Vào tháng 9, cô cắt cỏ trong 63 giờ, nhổ cỏ trong 9 giờ và phủ lớp phủ trong 10 giờ. Cô ấy đã kiếm được bao nhiêu tiền vào tháng 9? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 567 thì giá trị của biến x chưa biết là bao nhiêu?",
+      "gold_answer": "9",
+      "v9": {
+        "score": 0,
+        "pred_answer": "1",
+        "rel_error": 0.8888888888888888,
+        "model_output": "Phép tính: 6 * 63 = 294; 9 * 11 = 99; 10 * x = 10x; 294 + 99 + 10x; t : 294 + 99 , 10 + 10x = 567; c : 363 , 10 USD + 10x - 363 , 10; c : 10x - 384 , 10 = 567; 10x - 256 , 10 = 675; c : - 256 , 20 USD = 675; x = 1\nĐáp án là: 1"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "4",
+        "rel_error": 0.5555555555555556,
+        "model_output": "Đáp án là: 4"
+      }
+    },
+    {
+      "label": "both_wrong",
+      "idx": 9,
+      "type": "GSM_AnsAug",
+      "query_vi": "Bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. Nếu anh ta được tăng lương 0,50 USD/giờ và làm việc 40 giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi 60 USD/tháng?",
+      "gold_answer": "5",
+      "v9": {
+        "score": 0,
+        "pred_answer": "40",
+        "rel_error": 7.0,
+        "model_output": "Phép tính: 0 , 50 USD / gi; 40 * 0 , 5 USD = 20 USD m; 60 USD - 20 USD = 40 USD m\nĐáp án là: 40"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "2",
+        "rel_error": 0.6,
+        "model_output": "Phép tính: 40 * 0 , 60 USD = 60 USD m; 60 * 0 , 50 USD = 30 USD m; 30 USD - 60 USD = 2 USD m\nĐáp án là: 2"
+      }
+    },
+    {
+      "label": "both_wrong",
+      "idx": 10,
+      "type": "GSM_FOBAR",
+      "query_vi": "John phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. Anh ta có 10 chiếc máy và mỗi chiếc có 30 vòng bi. Thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ 0,75 USD. Ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm 20%. Anh ấy đã tiết kiệm được bao nhiêu tiền khi mua tất cả chúng trong đợt giảm giá thay vì mua từng cái một? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 120 thì giá trị của biến x chưa biết là bao nhiêu?",
+      "gold_answer": "1",
+      "v9": {
+        "score": 0,
+        "pred_answer": "200",
+        "rel_error": 199.0,
+        "model_output": "Phép tính: 10 * 30 = 300 v; 0 , 75 USD - 0 , 20 USD = 0 , 20; 0 , 20 * 300 = 60; 0 , 25 USD * x = 0 , 25x; 0 , 50 USD * x; 0 , 5 USD * x - 0 , 25; t : 0 , 50; la * x = 120; c : x = 200\nĐáp án là: 200"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "100",
+        "rel_error": 99.0,
+        "model_output": "Đáp án là: 100"
+      }
+    },
+    {
+      "label": "both_wrong",
+      "idx": 12,
+      "type": "GSM_SV",
+      "query_vi": "Bob đặt mua x gói sữa chua Hy Lạp từ Costco để sử dụng trong tháng. Tuy nhiên, khi nhận hàng, anh nhận ra 40% số gói đã hết hạn sử dụng. Anh quyết định trả lại những gói đó. Nếu mỗi gói có giá 12 USD thì Bob được hoàn lại 384 USD cho sản phẩm đã hết hạn. Giá trị của biến x chưa biết là bao nhiêu?",
+      "gold_answer": "80",
+      "v9": {
+        "score": 0,
+        "pred_answer": "320",
+        "rel_error": 3.0,
+        "model_output": "Phép tính: chua : 40 % c; x - 40 % * x = 384 H; x : 0 , 4x = 384; 0 , 4 : x = 384 / 0 , 4 x = 320\nĐáp án là: 320"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "2",
+        "rel_error": 0.975,
+        "model_output": "Đáp án là: 2"
+      }
+    },
+    {
+      "label": "both_wrong",
+      "idx": 14,
+      "type": "GSM_FOBAR",
+      "query_vi": "Lizzie có số bút chì màu bằng một nửa Bobbie. Bobbie có số bút chì màu nhiều gấp ba lần Billie. Nếu Billie có x bút chì màu thì Lizzie có bao nhiêu bút màu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến x chưa biết là bao nhiêu?",
+      "gold_answer": "18",
+      "v9": {
+        "score": 0,
+        "pred_answer": "3",
+        "rel_error": 0.8333333333333334,
+        "model_output": "Phép tính: x / 2 b; 3 * ( x / 2 ) = 3x / 2; 3x + 3x = 9x; t : 9x = 27; c : x = 3\nĐáp án là: 3"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "3",
+        "rel_error": 0.8333333333333334,
+        "model_output": "Phép tính: 3 * x; 3 * ( 3 * x ) = 9x; t : 9x = 27; c : x = 3\nĐáp án là: 3"
+      }
+    },
+    {
+      "label": "near_miss",
+      "idx": 4,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu có một bãi đỗ xe 1000 ô tô được chia thành 3 khu, trong đó khu 1 có 320 chỗ và khu 2 có nhiều hơn khu 3 200 chỗ thì khu 2 của bãi đậu xe có bao nhiêu chỗ?",
+      "gold_answer": "440",
+      "v9": {
+        "score": 5,
+        "pred_answer": "420",
+        "rel_error": 0.045454545454545456,
+        "model_output": "Phép tính: 320 + 200 = 620; 1000 - 620 = 420\nĐáp án là: 420"
+      },
+      "v10": {
+        "score": 5,
+        "pred_answer": "400",
+        "rel_error": 0.09090909090909091,
+        "model_output": "Phép tính: 320 + 200 = 600; 1000 - 600 = 400\nĐáp án là: 400"
+      }
+    },
+    {
+      "label": "near_miss",
+      "idx": 21,
+      "type": "GSM_Rephrased",
+      "query_vi": "Nếu Michael để dành 5 chiếc bánh quy của mình để tặng Sarah và Sarah để dành một phần ba trong số 9 chiếc bánh nướng nhỏ của mình để tặng Michael thì Sarah có tổng cộng bao nhiêu món tráng miệng?",
+      "gold_answer": "11",
+      "v9": {
+        "score": 5,
+        "pred_answer": "12",
+        "rel_error": 0.09090909090909091,
+        "model_output": "Phép tính: 9 / 3 = 3; 9 + 3 = 12\nĐáp án là: 12"
+      },
+      "v10": {
+        "score": 1,
+        "pred_answer": "15",
+        "rel_error": 0.36363636363636365,
+        "model_output": "Đáp án là: 15"
+      }
+    },
+    {
+      "label": "near_miss",
+      "idx": 124,
+      "type": "MATH_SV",
+      "query_vi": "Trung bình cộng của bốn số là X. Hai số là 10 và 18, hai số còn lại bằng nhau. Tích của hai số bằng nhau là 256. Giá trị của biến X chưa biết là bao nhiêu?",
+      "gold_answer": "15",
+      "v9": {
+        "score": 0,
+        "pred_answer": "96",
+        "rel_error": 5.4,
+        "model_output": "Phép tính: sau : ( 4 * x ) / 4 = X H; x : 4x = X + 256; nh : 4x - 4x = 256 - 4x 256 = 256 - 256 x = 96\nĐáp án là: 96"
+      },
+      "v10": {
+        "score": 5,
+        "pred_answer": "16",
+        "rel_error": 0.06666666666666667,
+        "model_output": "Đáp án là: 16"
+      }
+    },
+    {
+      "label": "near_miss",
+      "idx": 129,
+      "type": "MATH_SV",
+      "query_vi": "Ba số hạng đầu tiên của dãy số học lần lượt là 1, X và 19. Giá trị của số hạng thứ 21 là 181. Giá trị của biến X chưa biết là bao nhiêu?",
+      "gold_answer": "10",
+      "v9": {
+        "score": 0,
+        "pred_answer": "21",
+        "rel_error": 1.1,
+        "model_output": "Đáp án là: 21"
+      },
+      "v10": {
+        "score": 5,
+        "pred_answer": "9",
+        "rel_error": 0.1,
+        "model_output": "Đáp án là: 9"
+      }
+    },
+    {
+      "label": "near_miss",
+      "idx": 131,
+      "type": "GSM_AnsAug",
+      "query_vi": "Mary đi mua hàng tạp hóa vào thứ bảy. Cô ấy chỉ mua sắm tại một cửa hàng cụ thể nơi cô ấy được cấp khoản tín dụng 100 đô la, số tiền này phải được thanh toán đầy đủ trước chuyến mua sắm tiếp theo. Tuần đó, cô ấy đã tiêu hết hạn mức tín dụng và trả 15 đô la vào thứ Ba và 23 đô la vào thứ Năm. Mary sẽ phải trả bao nhiêu tín dụng trước chuyến đi mua sắm tiếp theo?",
+      "gold_answer": "62",
+      "v9": {
+        "score": 5,
+        "pred_answer": "60",
+        "rel_error": 0.03225806451612903,
+        "model_output": "Phép tính: la + 23; la = 40; 100 USD - 40 USD = 60\nĐáp án là: 60"
+      },
+      "v10": {
+        "score": 0,
+        "pred_answer": "195",
+        "rel_error": 2.1451612903225805,
+        "model_output": "Phép tính: 100 - 15 = 65; 65 + 23 = 90; 100 + 65 + 90 = 195\nĐáp án là: 195"
+      }
+    }
+  ]
+}

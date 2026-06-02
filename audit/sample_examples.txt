@@ -1,0 +1,83 @@
+# Sample examples per type (from train)
+
+
+## TYPE = GSM_AnsAug
+
+--- example 1 ---
+QUERY: Bridgette và Alex sắp kết hôn. Bridgette đang mời 84 khách và Alex đang mời 2/3 số khách đó. Họ thuê một người phục vụ ăn uống để chuẩn bị bữa ăn cho từng vị khách trong tiệc cưới. Người cung cấp thực phẩm luôn chuẩn bị thêm mười đĩa đề phòng trường hợp có sự cố xảy ra. Mỗi đĩa bít tết và măng tây sốt bơ tỏi sẽ có 8 ngọn măng tây trên đó. Người cung cấp thực phẩm sẽ cần tất cả bao nhiêu ngọn măng tây?
+RESPONSE: Bridgette đang mời 84 khách và Alex đang mời 2/3 số khách đó, tức là 84 * 2/3 = 56 khách. Vậy tổng số khách là 84 + 56 = 140 khách. Người phục vụ luôn làm thêm 10 đĩa nên tổng số đĩa cần dùng là 140 + 10 = 150 đĩa. Mỗi đĩa sẽ có 8 ngọn măng tây trên đó, như vậy tổng số ngọn măng tây cần thiết là 150 * 8 = 1200 ngọn măng tây. ####1200 Đáp án là: 1200
+
+--- example 2 ---
+QUERY: Hans đã đặt bàn tại một nhà hàng sang trọng cho 12 người. Anh ta phải đặt cọc để đặt chỗ, số tiền đặt cọc là 20 USD cố định cộng thêm 3 USD cho mỗi người lớn nhưng chỉ 1 USD cho mỗi trẻ em. Hai người trong nhóm của Hans là em họ của anh ấy và những người còn lại là người lớn. Hans phải đặt cọc bao nhiêu đô la để đặt chỗ tại nhà hàng?
+RESPONSE: Hans đặt bàn cho 12 người, trong đó có 2 trẻ em nên có 12 - 2 = 10 người lớn. Hans phải trả 3$ cho mỗi người lớn nên tổng chi phí cho người lớn là 10 * 3 = 30$. Anh ta cũng phải trả 1$ cho mỗi đứa trẻ nên tổng chi phí cho những đứa trẻ là 2 * 1 = 2$. Cộng chi phí cho người lớn và trẻ em, Hans phải trả 30 + 2 = 32 USD. Ngoài khoản đặt cọc cố định 20 USD, Hans phải trả tổng cộng 20 + 32 = 52 USD làm tiền đặt cọc cho việc đặt chỗ tại nhà hàng. ####52 Đáp án là: 52
+
+## TYPE = MATH_AnsAug
+
+--- example 1 ---
+QUERY: 23 người tham dự một bữa tiệc. Mỗi người bắt tay tối đa 22 người khác. Số lần bắt tay tối đa có thể là bao nhiêu, giả sử rằng bất kỳ hai người nào cũng có thể bắt tay nhiều nhất một lần?
+RESPONSE: Để tối đa hóa số lần bắt tay, mỗi người nên bắt tay với mọi người khác. Tuy nhiên, mỗi người chỉ được bắt tay tối đa 22 người khác. Vì vậy, số lần bắt tay tối đa là $23\times22/2=\boxed{253}$. Câu trả lời là: 253
+
+--- example 2 ---
+QUERY: Gọi $A$ là số lẻ có bốn chữ số. Gọi $B$ là bội số có bốn chữ số của 5. Tìm $A+B$.
+RESPONSE: Để tìm $A$, chúng ta cần đếm số số lẻ có bốn chữ số. Chữ số đầu tiên có thể là bất kỳ chữ số nào khác 0 nên ta có 9 lựa chọn. Chữ số cuối cùng phải là số lẻ nên ta có 5 lựa chọn (1, 3, 5, 7 hoặc 9). Hai chữ số ở giữa có thể là bất kỳ chữ số nào từ 0 đến 9 nên chúng ta có 10 lựa chọn cho mỗi chữ số. Do đó, có $9 \cdot 10 \cdot 10 \cdot 5 = 4500$ số lẻ có bốn chữ số. Để tìm $B$, chúng ta cần đếm số bội có bốn chữ số của 5. Chữ số đầu tiên có thể là bất kỳ chữ số nào khác 0, vì vậy chúng ta có 9 lựa chọn. Chữ số cuối cùng phải là 0 hoặc 5 nên chúng ta có 2 lựa chọn. Hai chữ số ở giữa có thể là bất kỳ chữ số nào từ 0 đến 9 nên chúng ta có 10 lựa chọn cho mỗi chữ số. Do đó, có $9 \cdot 10 \cdot 10 \cdot 2 = 1800$ bội số bốn chữ số của 5. Cuối cùng, chúng ta có $A + B = 4500 + 1800 = \boxed{6300}$.Câu trả lời là: 6300
+
+## TYPE = GSM_SV
+
+--- example 1 ---
+QUERY: Bob, Tom, Sally và Jerry ăn tối tại tiệm bánh pizza yêu thích của họ. Họ quyết định chia nhau x pizza. Bob đã tự mình ăn nửa chiếc bánh pizza. Tom đã ăn một phần ba chiếc bánh pizza. Sally không đói lắm và chỉ ăn 1/6 chiếc bánh pizza, còn Jerry ăn 1/4 chiếc bánh pizza. Nếu mỗi chiếc bánh pizza được cắt thành 12 lát thì còn lại 9 lát. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?
+RESPONSE: Để giải quyết vấn đề này, chúng ta cần xác định giá trị của x, đại diện cho số lượng pizza mà họ đã chia sẻ. Hãy chia nhỏ thông tin đã cho: Số lát Bob đã ăn: 1/2 chiếc bánh pizza = 1/2 * 12 = 6 lát Số lát Tom đã ăn: 1/3 chiếc bánh pizza = 1/3 * 12 = 4 lát Số số lát Sally đã ăn: 1/6 chiếc bánh pizza = 1/6 * 12 = 2 lát Số lát Jerry đã ăn: 1/4 chiếc bánh pizza = 1/4 * 12 = 3 lát Tổng số lát đã ăn: 6 + 4 + 2 + 3 = 15 lát Tổng số lát còn lại: 9 lát Ta có thể thiết lập phương trình như sau: Tổng số lát trên mỗi chiếc pizza * Số lượng pizza - Tổng số lát đã ăn = Tổng số lát còn lại 12x - 15 = 9 Hãy đơn giản hóa và giải tìm x: 12x - 15 = 9 Để cô lập x, chúng ta cộng 15 vào cả hai vế của phương trình: 12x - 15 + 15 = 9 + 15 12x = 24 Để giải tìm x, chúng ta chia cả hai vế của phương trình với 12: x = 24/12 x = 2 Giá trị của x là 2. #### 2 Đáp án là: 2
+
+--- example 2 ---
+QUERY: Diana cần phải đạp xe 10 dặm để về nhà. Cô ấy có thể đạp xe với tốc độ 3 dặm/giờ trong x giờ trước khi cảm thấy mệt và cô ấy có thể đạp xe với tốc độ 1 dặm/giờ cho đến khi về nhà. Diana sẽ phải mất 6 phút mới về đến nhà. Giá trị của biến x chưa biết là bao nhiêu?
+RESPONSE: Để giải quyết vấn đề này, chúng ta cần xác định giá trị của x, đại diện cho số giờ Diana có thể đạp xe với tốc độ 3 dặm/giờ trước khi cảm thấy mệt mỏi. Chúng ta hãy chia nhỏ thông tin đã cho: Khoảng cách Diana cần đạp xe: 10 dặm Tốc độ đạp xe của Diana trước khi mệt: 3 mph Tốc độ đạp xe của Diana sau khi mệt: 1 mph Tổng thời gian Diana về nhà: 6 giờ Chúng ta có thể thiết lập phương trình như sau: Quãng đường đạp xe với vận tốc 3 mph + Quãng đường đạp xe với vận tốc 1 mph = Tổng quãng đường 3x + 1 * (6 - x) = 10 Hãy đơn giản hóa và giải x: 3x + 6 - x = 10 2x + 6 = 10 Để cô lập x , ta trừ 6 ở cả hai vế của phương trình: 2x + 6 - 6 = 10 - 6 2x = 4 Để giải x, ta chia cả hai vế của phương trình cho 2: x = 4 / 2 x = 2 Giá trị của x là 2. Diana có thể đạp xe với tốc độ 3 dặm một giờ trong 2 giờ trước khi cảm thấy mệt mỏi. ####2 Đáp án là: 2
+
+## TYPE = GSM_FOBAR
+
+--- example 1 ---
+QUERY: Bart làm một mixtape. Mặt đầu tiên có 6 bài hát. Mặt thứ hai có x bài hát. Mỗi bài hát có thời lượng 4 phút. Tổng chiều dài băng là bao nhiêu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 40 thì giá trị của biến x chưa biết là bao nhiêu?
+RESPONSE: Mặt đầu tiên của mixtape có 6 bài hát, mỗi bài có độ dài 4 phút nên tổng độ dài của mặt đầu tiên là 6 * 4 = 24 phút. Mặt thứ 2 của mixtape có x bài hát, mỗi bài có độ dài 4 phút nên tổng độ dài của mặt thứ 2 là x * 4 = 4x phút. Tổng chiều dài của cuộn băng là tổng độ dài của mặt thứ nhất và mặt thứ hai: 24 + 4x phút. Cho rằng tổng độ dài của đoạn băng là 40 phút nên ta có thể viết: 24 + 4x = 40. Giải x, ta được: x = 4. Giá trị của x là 4. #### 4 Đáp án là: 4
+
+--- example 2 ---
+QUERY: George có 100 đô la. Anh ấy mua một chiếc áo sơ mi với giá 24 đô la và anh ấy cũng mua một đôi tất. Khi đó anh ta còn lại $x. Một đôi tất bao nhiêu tiền? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 11 thì giá trị của biến x chưa biết là bao nhiêu?
+RESPONSE: George có 100 đô la. Anh ấy mua một chiếc áo sơ mi với giá 24 đô la, vậy anh ấy còn lại 100 đô la - 24 đô la = 76 đô la. Anh ấy cũng mua một đôi tất và còn lại x $. Chúng ta được biết rằng anh ta còn lại 11 đô la, vì vậy chúng ta có thể viết: $76 - $x = $11. Giải x, ta được: $x = $65. Giá trị của x là $65. ####65 Đáp án là: 65
+
+## TYPE = MATH_Rephrased
+
+--- example 1 ---
+QUERY: Giả sử không có khoản hoàn trả nào được thực hiện, sau bao nhiêu ngày Darren và Fergie sẽ nợ số tiền như nhau, biết rằng Darren đã vay 100 đô la từ Ethan với lãi suất đơn giản hàng ngày là 10$\%$ và Fergie đã vay 150 đô la từ Gertie với mức lãi 5 đô la \%$ lãi suất đơn giản hàng ngày?
+RESPONSE: Số tiền Darren nợ Ethan sau $d$ ngày là $100 + 100 \cdot \frac{10}{100} \cdot d = 100 + 10d$ ngao. Số tiền Fergie nợ Gertie sau $d$ ngày là $150 + 150 \cdot \frac{5}{100} \cdot d = 150 + 7,5d$ nghêu. Để tìm số ngày mà họ nợ cùng một số tiền, chúng ta đặt hai biểu thức bằng nhau và giải $d$: \[100 + 10d = 150 + 7.5d.\] Đơn giản hóa, chúng ta nhận được $2,5d = 50$, vậy $d = \boxed{20}$. Sau 20 ngày, Darren và Fergie sẽ nợ số tiền như nhau. Đáp án là: 20
+
+--- example 2 ---
+QUERY: Tìm giá trị nguyên nhỏ nhất của $x$ thỏa mãn bất đẳng thức $x < 2x - 7$.
+RESPONSE: Trừ $2x$ từ cả hai vế của bất đẳng thức, ta được $-x < -7$. Nhân cả hai vế của bất đẳng thức với $-1$ sẽ đảo ngược bất đẳng thức, cho ra $x > 7$. Giá trị nguyên nhỏ nhất của $x$ thỏa mãn bất đẳng thức này là $\boxed{8}$. Câu trả lời là: 8
+
+## TYPE = MATH_SV
+
+--- example 1 ---
+QUERY: Một hình vuông và một hình tam giác có chu vi bằng nhau. Độ dài ba cạnh của tam giác là $6,1$ cm, $8,2$ cm và X cm. Diện tích hình vuông là 36cm2. Giá trị của biến X chưa biết là bao nhiêu?
+RESPONSE: Để giải bài toán này, chúng ta cần xác định giá trị của x, biểu thị độ dài cạnh thứ ba của tam giác. Chúng ta biết rằng độ dài ba cạnh của tam giác là $6,1$ cm, $8,2$ cm và x cm. Chu vi của hình tam giác bằng chu vi của hình vuông, có chiều dài gấp 4 lần một cạnh của hình vuông. Chúng ta có thể thiết lập phương trình như sau: $6,1 + 8,2 + x = 4s$ Ở đây, s biểu thị độ dài một cạnh của hình vuông và chúng ta biết rằng diện tích của hình vuông là 36 cm vuông. Diện tích hình vuông bằng độ dài bình phương một cạnh, vì vậy chúng ta có thể thiết lập một phương trình khác: $s^2 = 36$ Hãy giải phương trình thứ hai cho s: $s^2 = 36$ Lấy căn bậc hai của cả hai bên, chúng ta nhận được: s = 6 Bây giờ, chúng ta có thể thay thế giá trị này trở lại phương trình đầu tiên để giải x: $6,1 + 8,2 + x = 4(6)$ 14,3 + x = 24 Để tách x, chúng ta trừ 14,3 từ cả hai vế của phương trình: x = 24 - 14,3 x = 9,7 Giá trị của x là 9,7 cm. Đáp án là: 9,7
+
+--- example 2 ---
+QUERY: Có bao nhiêu số nguyên dương khác nhau có thể được biểu diễn dưới dạng hiệu của hai phần tử phân biệt của tập $\{1, 2, 3, \ldots, X, 15, Số trước 16 là 15. Giá trị của biến X chưa biết là bao nhiêu?
+RESPONSE: Để giải quyết vấn đề này, chúng ta cần xác định giá trị của x, đại diện cho số nguyên dương lớn nhất trong tập hợp. Ta biết tập hợp gồm các số 1, 2, 3, ..., x, 15 và số trước 16 là 15. Do đó x là số nguyên dương lớn nhất trong tập hợp trước 15. Giá trị của x là 14 . Đáp án là: 14
+
+## TYPE = GSM_Rephrased
+
+--- example 1 ---
+QUERY: Sau khi hoàn thành 10 km vào ngày đầu tiên và đi hết một nửa quãng đường đi bộ vào ngày thứ hai, Ezekiel cần đi bộ bao nhiêu km vào ngày thứ ba để hoàn thành chặng đường dài ba ngày đầy thử thách băng qua 50 km vùng hoang dã?
+RESPONSE: Ezekiel đã hoàn thành 10 km vào ngày đầu tiên, vì vậy anh ấy còn 50 - 10 = 40 km để đi bộ. Vào ngày thứ hai, Ezekiel đã đi hết một nửa quãng đường đi bộ, tức là 50/2 = 25 km. Do đó, sau ngày thứ hai, Ezekiel còn 40 - 25 = 15 km để đi bộ. Ezekiel cần phải đi bộ 15 km vào ngày thứ ba để hoàn thành chuyến đi bộ dài ba ngày đầy thử thách. ####15 Đáp án là: 15
+
+--- example 2 ---
+QUERY: Cary muốn mua một đôi giày mới có giá 120 USD. Anh ấy đã tiết kiệm được 30 USD và kiếm được 5 USD cho mỗi lần cắt cỏ. Nếu anh ấy cắt 3 bãi cỏ mỗi cuối tuần, thì anh ấy cần cắt cỏ bao nhiêu ngày cuối tuần nữa trước khi có đủ tiền mua đôi giày?
+RESPONSE: Cary cần tiết kiệm thêm $120 - $30 = $90 để mua giày. Anh ta kiếm được 5 USD cho mỗi bãi cỏ anh ta cắt, vì vậy anh ta kiếm được 5 USD * 3 = 15 USD mỗi cuối tuần. Để tiết kiệm 90 đô la, anh ta cần cắt cỏ với giá 90 đô la / 15 đô la = 6 ngày cuối tuần. Vì vậy, Cary cần phải cắt cỏ thêm 6 ngày cuối tuần nữa trước khi có đủ tiền mua đôi giày. ####6 Đáp án là: 6
+
+## TYPE = MATH_FOBAR
+
+--- example 1 ---
+QUERY: Tìm số bộ ba $(x,y,z)$ của các số thực thỏa mãn \begin{align*} x &= 2018 - 2019 \operatorname{sign}(y + z), \\ y &= 2018 - 2019 \operatorname{sign}(x + z), \\ z &= 2018 - 2019 \operatorname{sign}(x + y). \end{align*}Lưu ý: Đối với số thực $a,$ \[\operatorname{sign} (a) = \left\{ \begin{array}{cl} 1 & \text{if $a > X$ }, \\ 0 & \text{if $a = 0$}, \\ -1 & \text{if $a < 0$}. \end{array} \right.\] Nếu chúng ta biết câu trả lời cho câu hỏi trên là 3 thì giá trị của biến X chưa biết là bao nhiêu?
+RESPONSE: 
+Chúng ta có ba phương trình xác định các giá trị của $x$, $y$ và $z$ theo hàm dấu và hằng số $2018$. Để tìm số bộ ba thỏa mãn các phương trình này, chúng ta cần xem xét tất cả các tổ hợp dấu có thể có của $x + y$, $y + z$, và $z + x$. Hãy phân tích phương trình đầu tiên: $x = 2018 - 2019 \operatorname{sign}(y + z)$. Nếu $(y + z) > X$, thì $\operatorname{sign}(y + z) = 1$, và $x = 2018 - 2019 \cdot 1 = -1$. Nếu $(y + z) = 0$, thì $\operatorname{sign}(y + z) = 0$, và $x = 2018 - 2019 \cdot 0 = 2018$. Nếu $(y + z) < 0$, thì $\operatorname{sign}(y + z) = -1$, và $x = 2018 - 2019 \cdot (-1) = 4037$. Tương tự, chúng ta có thể phân tích phương trình thứ hai: $y = 2018 - 2019 \operatorname{sign}(x + z)$. Nếu $(x + z) > X$, thì $\operatorname{sign}(x + z) = 1$, và $y = 2018 - 2019 \cdot 1 = -1$. Nếu $(x + z) = 0$, thì $\operatorname{sign}(x + z) = 0$, và $y = 2018 - 2019 \cdot 0 = 2018$. Nếu $(x + z) < 0$, thì $\operatorname{sign}(x + z) = -1$, và $y = 2018 - 2019 \cdot (-1) = 4037$. Cuối cùng, chúng ta có thể phân tích phương trình thứ ba: $z = 2018 - 2019 \operatorname{sign}(x + y)$. Nếu $(x + y) > X$, thì $\operatorname{sign}(x + y) = 1$, và $z = 2018 - 2019 \cdot 1 = -1$. Nếu $(x + y) 
+
+--- example 2 ---
+QUERY: Vanessa đã lập kỷ lục toàn trường về số điểm nhiều nhất trong một trận đấu bóng rổ khi đội của cô ghi được số điểm $48$. Sáu người chơi khác trong đội của cô ấy đạt trung bình X điểm mỗi người. Vanessa đã ghi được bao nhiêu điểm để lập kỷ lục ở trường? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 27 thì giá trị của biến X chưa biết là bao nhiêu?
+RESPONSE: Chúng ta được biết rằng Vanessa đã lập kỷ lục ghi nhiều điểm nhất trong một trận đấu bóng rổ khi đội của cô ấy ghi được 48 điểm. Sáu người chơi khác trong đội của cô ấy đạt trung bình X điểm mỗi người. Để biết Vanessa ghi được bao nhiêu điểm, chúng ta có thể trừ tổng số điểm ghi được của sáu cầu thủ còn lại vào tổng số điểm mà đội ghi được. Ta được biết đội ghi được 48 điểm nên thiết lập phương trình: Điểm của Vanessa = Tổng điểm - Số điểm do người chơi khác ghi được Điểm của Vanessa = 48 - (6 * X) Cho rằng Vanessa ghi được 27 điểm, ta có thể thay thế vào phương trình: 27 = 48 - (6 * X) Rút gọn phương trình, ta có: 27 = 48 - 6X Cộng 6X vào hai vế của phương trình, ta được: 6X + 27 = 48 Trừ 27 ở cả hai vế của phương trình , ta tìm được: 6X = 21 Chia cả hai vế của phương trình cho 6, ta được: X = 3,5 Giá trị của X là 3,5 Đáp án là: 3,5

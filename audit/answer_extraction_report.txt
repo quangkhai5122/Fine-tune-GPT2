@@ -1,0 +1,73 @@
+# Answer extraction audit
+
+
+## train
+  extractable: 95337 / 95400  (99.93%)
+  numeric extractable: 92880 / 95400  (97.36%)
+  anchor hits:
+    dap_an_la            70908
+    hash4                57701
+    boxed                27057
+    cau_tra_loi_la       23401
+    the_answer_is        270
+    dap_an               10
+  feature_flags:
+    has_latex                        31373
+    has_dollar_math                  48093
+    has_percent                      7505
+    has_money_dollar                 10052
+    has_negative_in_response         15485
+    response_starts_with_loi_giai    0
+    response_contains_cau_tra_loi    23426
+    response_contains_dap_an_la      70908
+  extract examples (first 10):
+    [GSM_AnsAug] ans_str='1200'  ans_num=1200.0
+    [MATH_AnsAug] ans_str='253'  ans_num=253.0
+    [GSM_SV] ans_str='2'  ans_num=2.0
+    [GSM_AnsAug] ans_str='52'  ans_num=52.0
+    [GSM_SV] ans_str='2'  ans_num=2.0
+    [GSM_FOBAR] ans_str='4'  ans_num=4.0
+    [MATH_Rephrased] ans_str='20'  ans_num=20.0
+    [GSM_FOBAR] ans_str='65'  ans_num=65.0
+    [MATH_SV] ans_str='9,7'  ans_num=9.7
+    [GSM_AnsAug] ans_str='200'  ans_num=200.0
+  non-extractable examples:
+    [MATH_AnsAug] tail='á trị quan trọng là $n=2$ và $n=-4$, trong đó biểu thức thay đổi dấu. Chúng ta có thể tạo biểu đồ dấu hiệu để xác định khi nào biểu thức âm: \\[ \\begin{array}{c|ccc} & n<-4 & -42 \\\\ \\hline n-2 & - & - & + \\\\ n+4 & - & + & + \\end{array} \\] Từ biểu đồ dấu, chúng ta thấy rằng $(n-2)(n+4 )$ là âm khi $-4'
+    [MATH_AnsAug] tail=' thừa số dương và một thừa số âm. Chúng ta có thể tạo biểu đồ dấu để xác định các giá trị của $n$ thỏa mãn bất đẳng thức. \\[ \\begin{array}{c|cc|c} & n-2 & n+4 & (n-2)(n+4)<0 \\\\ \\hline n<-4 & - & + & + \\ \\ -42 & + & + & + \\end{array} \\] Từ biểu đồ dấu, ta thấy rằng bất đẳng thức được thỏa mãn khi $-4'
+    [MATH_SV] tail='a hết cho 8. Các bội số của 8 giữa 100 và 199 là 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184 và 192. Không có số nào trong số này có tận cùng là 6 nên A không thể là bất kỳ chữ số nào từ 0 đến 9. Do đó, 9924661A6 không thể chia hết cho 8. Không có giá trị hợp lệ cho biến A chưa biết. là: 8'
+    [MATH_Rephrased] tail='ỏ nhất trong tập hợp. Số nguyên lớn nhất trong tập hợp là $n+4$. Trung bình cộng của năm số nguyên là $\\frac{n+n+1+n+2+n+3+n+4}{5}=\\frac{5n+10}{5}=n+2$. Chúng ta được biết rằng số nguyên lớn nhất nhỏ hơn hai lần số trung bình, vì vậy chúng ta có $n+4<2(n+2)$. Rút gọn, ta được $n+4<2n+4$, nghĩa là $0'
+    [MATH_Rephrased] tail='Vì thể tích của hình hộp chữ nhật được cho bởi $V=lwh$, nên chúng ta có $abc=240$. Kể từ $1'
+
+## valid
+  extractable: 997 / 1000  (99.7%)
+  numeric extractable: 977 / 1000  (97.7%)
+  anchor hits:
+    dap_an_la            728
+    hash4                615
+    boxed                267
+    cau_tra_loi_la       255
+    the_answer_is        2
+  feature_flags:
+    has_latex                        307
+    has_dollar_math                  498
+    has_percent                      88
+    has_money_dollar                 107
+    has_negative_in_response         149
+    response_starts_with_loi_giai    0
+    response_contains_cau_tra_loi    255
+    response_contains_dap_an_la      728
+  extract examples (first 10):
+    [GSM_Rephrased] ans_str='37'  ans_num=37.0
+    [MATH_Rephrased] ans_str='19'  ans_num=19.0
+    [MATH_SV] ans_str='8'  ans_num=8.0
+    [GSM_Rephrased] ans_str='39'  ans_num=39.0
+    [GSM_Rephrased] ans_str='440'  ans_num=440.0
+    [GSM_AnsAug] ans_str='90'  ans_num=90.0
+    [GSM_SV] ans_str='12'  ans_num=12.0
+    [GSM_FOBAR] ans_str='9'  ans_num=9.0
+    [MATH_Rephrased] ans_str='60'  ans_num=60.0
+    [GSM_AnsAug] ans_str='5'  ans_num=5.0
+  non-extractable examples:
+    [MATH_AnsAug] tail='cực trị của bất đẳng thức này là $x=-6$ và $x=1$. Chúng ta có thể tạo biểu đồ dấu hiệu để xác định tập nghiệm. \\[ \\begin{array}{c|ccc} & x<-6 & -61 \\\\ \\hline x+6 & - & + & + \\\\ x-1 & - & - & + \\\\ \\hline (x+6)(x-1) & + & - & + \\end{array} \\] Từ biểu đồ dấu, ta thấy bất đẳng thức được thỏa mãn khi $-6'
+    [MATH_AnsAug] tail='Phân biệt của phương trình bậc hai $ax^2+bx+c=0$ được cho bởi $b^2-4ac$. Để một phương trình bậc hai có hai nghiệm không thực, phân biệt phải âm. Trong trường hợp này, giá trị phân biệt là $b^2-4(1)(9)=b^2-36$. Vì vậy, chúng tôi muốn $b^2-36<0$. Giải bất đẳng thức này, ta có $-6'
+    [MATH_Rephrased] tail='a có $n^2+n<400$. Để tìm tổng lớn nhất, chúng ta muốn tìm giá trị lớn nhất có thể có của $n$. Chúng ta có thể giải bất đẳng thức bậc hai $n^2+n-400<0$ bằng cách phân tích nhân tử hoặc sử dụng công thức bậc hai. Phân tích nhân tử, chúng ta có $(n-20)(n+21)<0$. Bất đẳng thức này được thỏa mãn khi $-21'

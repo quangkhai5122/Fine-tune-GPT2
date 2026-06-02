@@ -1,0 +1,679 @@
+{
+  "run_base": "results\\v8_select_checkpoint",
+  "valid_records": 1000,
+  "train_records_scanned": 95400,
+  "channel_summary_all_valid": {
+    "direct_query_vi": {
+      "train_hits": 28,
+      "class_counts_all": {
+        "no_match": 988,
+        "has_same": 10,
+        "only_missing": 1,
+        "only_conflict": 1
+      }
+    },
+    "direct_query_vi_exact": {
+      "train_hits": 0,
+      "class_counts_all": {
+        "no_match": 1000
+      }
+    },
+    "same_original_vi": {
+      "train_hits": 6924,
+      "class_counts_all": {
+        "has_same": 764,
+        "only_conflict": 174,
+        "no_match": 38,
+        "only_missing": 24
+      }
+    },
+    "train_query_vs_valid_original": {
+      "train_hits": 1792,
+      "class_counts_all": {
+        "has_same": 266,
+        "no_match": 479,
+        "only_conflict": 237,
+        "only_missing": 18
+      }
+    },
+    "train_original_vs_valid_query": {
+      "train_hits": 1968,
+      "class_counts_all": {
+        "no_match": 641,
+        "has_same": 329,
+        "only_missing": 12,
+        "only_conflict": 18
+      }
+    },
+    "same_original_en": {
+      "train_hits": 6981,
+      "class_counts_all": {
+        "has_same": 767,
+        "only_conflict": 174,
+        "no_match": 35,
+        "only_missing": 24
+      }
+    }
+  },
+  "runs": [
+    {
+      "run": "beam2_lr1e-3",
+      "summary": {
+        "n": 1000,
+        "raw_score": 5265,
+        "max_raw_score": 10000,
+        "score_10": 5.265,
+        "score_pct": 0.5265,
+        "extractable": 997,
+        "numeric_pairs": 970,
+        "buckets": {
+          "10": 502,
+          "5": 21,
+          "1": 140,
+          "0": 337
+        },
+        "rel_error_mean": 8.460097971268148
+      },
+      "config": {
+        "stage_a_lr": 0.001,
+        "stage_a_epochs": 8.0,
+        "num_beams": 2,
+        "checkpoint_eval_num_beams": 2,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ],
+        "lora_r": 32,
+        "lora_alpha": 64
+      },
+      "selected_checkpoint": {
+        "label": "epoch_08",
+        "epoch": 8.0,
+        "raw_score": 5265,
+        "exact10": 502
+      },
+      "checkpoint_curve": [
+        {
+          "label": "epoch_01",
+          "raw_score": 1094,
+          "exact10": 68,
+          "extractable": 992
+        },
+        {
+          "label": "epoch_02",
+          "raw_score": 2088,
+          "exact10": 164,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_03",
+          "raw_score": 3496,
+          "exact10": 314,
+          "extractable": 989
+        },
+        {
+          "label": "epoch_04",
+          "raw_score": 4298,
+          "exact10": 395,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_05",
+          "raw_score": 4830,
+          "exact10": 452,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_06",
+          "raw_score": 5046,
+          "exact10": 478,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_07",
+          "raw_score": 5252,
+          "exact10": 500,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_08",
+          "raw_score": 5265,
+          "exact10": 502,
+          "extractable": 997
+        }
+      ],
+      "combined_summary": {
+        "direct_query_has_same": {
+          "n": 10,
+          "raw": 90,
+          "score_10": 9.0,
+          "exact10": 9,
+          "buckets": {
+            "10": 9,
+            "0": 1
+          },
+          "exact10_fraction": 0.017928286852589643
+        },
+        "same_original_has_same": {
+          "n": 764,
+          "raw": 4958,
+          "score_10": 6.489528795811518,
+          "exact10": 479,
+          "buckets": {
+            "10": 479,
+            "5": 16,
+            "1": 88,
+            "0": 181
+          },
+          "exact10_fraction": 0.954183266932271
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw": 253,
+          "score_10": 1.4540229885057472,
+          "exact10": 19,
+          "buckets": {
+            "10": 19,
+            "5": 4,
+            "1": 43,
+            "0": 108
+          },
+          "exact10_fraction": 0.037848605577689244
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw": 54,
+          "score_10": 1.4210526315789473,
+          "exact10": 4,
+          "buckets": {
+            "10": 4,
+            "5": 1,
+            "1": 9,
+            "0": 24
+          },
+          "exact10_fraction": 0.00796812749003984
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 24
+          },
+          "exact10_fraction": 0.0
+        },
+        "valid_original_seen_as_train_query_has_same": {
+          "n": 266,
+          "raw": 2200,
+          "score_10": 8.270676691729323,
+          "exact10": 217,
+          "buckets": {
+            "10": 217,
+            "5": 3,
+            "1": 15,
+            "0": 31
+          },
+          "exact10_fraction": 0.43227091633466136
+        },
+        "valid_query_seen_as_train_original_has_same": {
+          "n": 329,
+          "raw": 1585,
+          "score_10": 4.817629179331307,
+          "exact10": 148,
+          "buckets": {
+            "10": 148,
+            "5": 10,
+            "1": 55,
+            "0": 116
+          },
+          "exact10_fraction": 0.2948207171314741
+        }
+      },
+      "channel_exact10": {
+        "direct_query_vi": {
+          "no_match": 493,
+          "has_same": 9
+        },
+        "direct_query_vi_exact": {
+          "no_match": 502
+        },
+        "same_original_vi": {
+          "has_same": 479,
+          "only_conflict": 19,
+          "no_match": 4
+        },
+        "train_query_vs_valid_original": {
+          "has_same": 217,
+          "no_match": 198,
+          "only_conflict": 85,
+          "only_missing": 2
+        },
+        "train_original_vs_valid_query": {
+          "no_match": 353,
+          "has_same": 148,
+          "only_conflict": 1
+        },
+        "same_original_en": {
+          "has_same": 481,
+          "only_conflict": 19,
+          "no_match": 2
+        }
+      }
+    },
+    {
+      "run": "beam2_lr5e-4",
+      "summary": {
+        "n": 1000,
+        "raw_score": 3608,
+        "max_raw_score": 10000,
+        "score_10": 3.608,
+        "score_pct": 0.3608,
+        "extractable": 999,
+        "numeric_pairs": 971,
+        "buckets": {
+          "10": 323,
+          "5": 31,
+          "1": 223,
+          "0": 423
+        },
+        "rel_error_mean": 3.58496541580412
+      },
+      "config": {
+        "stage_a_lr": 0.0005,
+        "stage_a_epochs": 8.0,
+        "num_beams": 2,
+        "checkpoint_eval_num_beams": 2,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ],
+        "lora_r": 32,
+        "lora_alpha": 64
+      },
+      "selected_checkpoint": {
+        "label": "epoch_06",
+        "epoch": 6.0,
+        "raw_score": 3608,
+        "exact10": 323
+      },
+      "checkpoint_curve": [
+        {
+          "label": "epoch_01",
+          "raw_score": 1172,
+          "exact10": 84,
+          "extractable": 994
+        },
+        {
+          "label": "epoch_02",
+          "raw_score": 1652,
+          "exact10": 120,
+          "extractable": 997
+        },
+        {
+          "label": "epoch_03",
+          "raw_score": 2120,
+          "exact10": 169,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_04",
+          "raw_score": 2989,
+          "exact10": 255,
+          "extractable": 997
+        },
+        {
+          "label": "epoch_05",
+          "raw_score": 3292,
+          "exact10": 287,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_06",
+          "raw_score": 3608,
+          "exact10": 323,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_07",
+          "raw_score": 3582,
+          "exact10": 322,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_08",
+          "raw_score": 3570,
+          "exact10": 322,
+          "extractable": 999
+        }
+      ],
+      "combined_summary": {
+        "direct_query_has_same": {
+          "n": 10,
+          "raw": 91,
+          "score_10": 9.1,
+          "exact10": 9,
+          "buckets": {
+            "10": 9,
+            "1": 1
+          },
+          "exact10_fraction": 0.02786377708978328
+        },
+        "same_original_has_same": {
+          "n": 764,
+          "raw": 3313,
+          "score_10": 4.3363874345549736,
+          "exact10": 303,
+          "buckets": {
+            "10": 303,
+            "5": 25,
+            "1": 158,
+            "0": 278
+          },
+          "exact10_fraction": 0.9380804953560371
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw": 231,
+          "score_10": 1.3275862068965518,
+          "exact10": 16,
+          "buckets": {
+            "10": 16,
+            "5": 3,
+            "1": 56,
+            "0": 99
+          },
+          "exact10_fraction": 0.04953560371517028
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw": 63,
+          "score_10": 1.6578947368421053,
+          "exact10": 4,
+          "buckets": {
+            "10": 4,
+            "5": 3,
+            "1": 8,
+            "0": 23
+          },
+          "exact10_fraction": 0.01238390092879257
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw": 1,
+          "score_10": 0.041666666666666664,
+          "exact10": 0,
+          "buckets": {
+            "1": 1,
+            "0": 23
+          },
+          "exact10_fraction": 0.0
+        },
+        "valid_original_seen_as_train_query_has_same": {
+          "n": 266,
+          "raw": 1658,
+          "score_10": 6.2330827067669174,
+          "exact10": 156,
+          "buckets": {
+            "10": 156,
+            "5": 10,
+            "1": 48,
+            "0": 52
+          },
+          "exact10_fraction": 0.48297213622291024
+        },
+        "valid_query_seen_as_train_original_has_same": {
+          "n": 329,
+          "raw": 982,
+          "score_10": 2.9848024316109423,
+          "exact10": 88,
+          "buckets": {
+            "10": 88,
+            "5": 7,
+            "1": 67,
+            "0": 167
+          },
+          "exact10_fraction": 0.2724458204334365
+        }
+      },
+      "channel_exact10": {
+        "direct_query_vi": {
+          "no_match": 314,
+          "has_same": 9
+        },
+        "direct_query_vi_exact": {
+          "no_match": 323
+        },
+        "same_original_vi": {
+          "has_same": 303,
+          "only_conflict": 16,
+          "no_match": 4
+        },
+        "train_query_vs_valid_original": {
+          "has_same": 156,
+          "no_match": 122,
+          "only_conflict": 44,
+          "only_missing": 1
+        },
+        "train_original_vs_valid_query": {
+          "no_match": 234,
+          "has_same": 88,
+          "only_conflict": 1
+        },
+        "same_original_en": {
+          "has_same": 304,
+          "only_conflict": 16,
+          "no_match": 3
+        }
+      }
+    },
+    {
+      "run": "beam4_lr5e-4",
+      "summary": {
+        "n": 1000,
+        "raw_score": 3528,
+        "max_raw_score": 10000,
+        "score_10": 3.528,
+        "score_pct": 0.3528,
+        "extractable": 998,
+        "numeric_pairs": 974,
+        "buckets": {
+          "10": 318,
+          "5": 28,
+          "1": 208,
+          "0": 446
+        },
+        "rel_error_mean": 5.185392319169983
+      },
+      "config": {
+        "stage_a_lr": 0.0005,
+        "stage_a_epochs": 8.0,
+        "num_beams": 4,
+        "checkpoint_eval_num_beams": 4,
+        "lora_target_modules": [
+          "c_attn",
+          "c_proj",
+          "c_fc"
+        ],
+        "lora_r": 32,
+        "lora_alpha": 64
+      },
+      "selected_checkpoint": {
+        "label": "epoch_08",
+        "epoch": 8.0,
+        "raw_score": 3528,
+        "exact10": 318
+      },
+      "checkpoint_curve": [
+        {
+          "label": "epoch_01",
+          "raw_score": 1179,
+          "exact10": 85,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_02",
+          "raw_score": 1572,
+          "exact10": 112,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_03",
+          "raw_score": 2322,
+          "exact10": 190,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_04",
+          "raw_score": 3038,
+          "exact10": 264,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_05",
+          "raw_score": 3259,
+          "exact10": 285,
+          "extractable": 999
+        },
+        {
+          "label": "epoch_06",
+          "raw_score": 3458,
+          "exact10": 309,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_07",
+          "raw_score": 3486,
+          "exact10": 311,
+          "extractable": 998
+        },
+        {
+          "label": "epoch_08",
+          "raw_score": 3528,
+          "exact10": 318,
+          "extractable": 998
+        }
+      ],
+      "combined_summary": {
+        "direct_query_has_same": {
+          "n": 10,
+          "raw": 72,
+          "score_10": 7.2,
+          "exact10": 7,
+          "buckets": {
+            "10": 7,
+            "1": 2,
+            "0": 1
+          },
+          "exact10_fraction": 0.0220125786163522
+        },
+        "same_original_has_same": {
+          "n": 764,
+          "raw": 3244,
+          "score_10": 4.2460732984293195,
+          "exact10": 297,
+          "buckets": {
+            "10": 297,
+            "5": 24,
+            "1": 154,
+            "0": 289
+          },
+          "exact10_fraction": 0.9339622641509434
+        },
+        "same_original_only_conflict": {
+          "n": 174,
+          "raw": 224,
+          "score_10": 1.2873563218390804,
+          "exact10": 16,
+          "buckets": {
+            "10": 16,
+            "5": 4,
+            "1": 44,
+            "0": 110
+          },
+          "exact10_fraction": 0.050314465408805034
+        },
+        "same_original_no_match": {
+          "n": 38,
+          "raw": 60,
+          "score_10": 1.5789473684210527,
+          "exact10": 5,
+          "buckets": {
+            "10": 5,
+            "1": 10,
+            "0": 23
+          },
+          "exact10_fraction": 0.015723270440251572
+        },
+        "same_original_only_missing": {
+          "n": 24,
+          "raw": 0,
+          "score_10": 0.0,
+          "exact10": 0,
+          "buckets": {
+            "0": 24
+          },
+          "exact10_fraction": 0.0
+        },
+        "valid_original_seen_as_train_query_has_same": {
+          "n": 266,
+          "raw": 1641,
+          "score_10": 6.169172932330827,
+          "exact10": 155,
+          "buckets": {
+            "10": 155,
+            "5": 9,
+            "1": 46,
+            "0": 56
+          },
+          "exact10_fraction": 0.48742138364779874
+        },
+        "valid_query_seen_as_train_original_has_same": {
+          "n": 329,
+          "raw": 913,
+          "score_10": 2.7750759878419453,
+          "exact10": 80,
+          "buckets": {
+            "10": 80,
+            "5": 10,
+            "1": 63,
+            "0": 176
+          },
+          "exact10_fraction": 0.25157232704402516
+        }
+      },
+      "channel_exact10": {
+        "direct_query_vi": {
+          "no_match": 310,
+          "has_same": 7,
+          "only_conflict": 1
+        },
+        "direct_query_vi_exact": {
+          "no_match": 318
+        },
+        "same_original_vi": {
+          "has_same": 297,
+          "only_conflict": 16,
+          "no_match": 5
+        },
+        "train_query_vs_valid_original": {
+          "has_same": 155,
+          "no_match": 116,
+          "only_conflict": 46,
+          "only_missing": 1
+        },
+        "train_original_vs_valid_query": {
+          "no_match": 238,
+          "has_same": 80
+        },
+        "same_original_en": {
+          "has_same": 298,
+          "only_conflict": 16,
+          "no_match": 4
+        }
+      }
+    }
+  ]
+}

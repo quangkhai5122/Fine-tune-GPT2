@@ -1,0 +1,75 @@
+# Tokenizer audit (sample=10000/100000 of train; full valid)
+prompt template: 'Câu hỏi: {q}\nLời giải: '
+vocab size: 50257 | pad/eos = 50256
+records with token-id > 50256: 0
+
+## Train sample - prompt token lens
+{
+  "n": 10000,
+  "min": 15,
+  "p50": 62,
+  "p75": 82,
+  "p90": 105,
+  "p95": 124,
+  "p99": 200,
+  "max": 1047,
+  "mean": 69.2,
+  "median": 62.0
+}
+## Train sample - response (+EOS) token lens
+{
+  "n": 10000,
+  "min": 6,
+  "p50": 134,
+  "p75": 197,
+  "p90": 274,
+  "p95": 336,
+  "p99": 535,
+  "max": 1133,
+  "mean": 159.4,
+  "median": 134.0
+}
+## Train sample - total token lens (prompt + response + EOS)
+{
+  "n": 10000,
+  "min": 41,
+  "p50": 200,
+  "p75": 276,
+  "p90": 369,
+  "p95": 439,
+  "p99": 669,
+  "max": 1459,
+  "mean": 228.6,
+  "median": 200.0
+}
+
+truncated > 512  :   281  (2.81%)
+truncated > 768  :    61  (0.61%)
+truncated > 1024 :    14  (0.14%)
+
+## Per-type total length (train sample)
+  GSM_AnsAug             {'n': 2030, 'min': 72, 'p50': 166, 'p75': 206, 'p90': 249, 'p95': 285, 'p99': 358, 'max': 512, 'mean': 176.1, 'median': 166.0}
+  GSM_FOBAR              {'n': 1105, 'min': 139, 'p50': 273, 'p75': 330, 'p90': 388, 'p95': 422, 'p99': 529, 'max': 608, 'mean': 285.3, 'median': 273}
+  GSM_Rephrased          {'n': 2010, 'min': 69, 'p50': 162, 'p75': 198, 'p90': 239, 'p95': 267, 'p99': 341, 'max': 562, 'mean': 171.0, 'median': 162.0}
+  GSM_SV                 {'n': 961, 'min': 140, 'p50': 313, 'p75': 368, 'p90': 427, 'p95': 471, 'p99': 570, 'max': 683, 'mean': 321.5, 'median': 313}
+  MATH_AnsAug            {'n': 1852, 'min': 54, 'p50': 186, 'p75': 253, 'p90': 343, 'p95': 439, 'p99': 658, 'max': 1255, 'mean': 212.9, 'median': 186.0}
+  MATH_FOBAR             {'n': 383, 'min': 135, 'p50': 397, 'p75': 544, 'p90': 736, 'p95': 877, 'p99': 1095, 'max': 1459, 'mean': 448.0, 'median': 397}
+  MATH_Rephrased         {'n': 1280, 'min': 41, 'p50': 180, 'p75': 245, 'p90': 326, 'p95': 410, 'p99': 625, 'max': 888, 'mean': 206.3, 'median': 180.0}
+  MATH_SV                {'n': 379, 'min': 52, 'p50': 293, 'p75': 412, 'p90': 570, 'p95': 709, 'p99': 1022, 'max': 1286, 'mean': 345.2, 'median': 293}
+
+## Valid - total token lens
+{
+  "n": 1000,
+  "min": 52,
+  "p50": 209,
+  "p75": 297,
+  "p90": 393,
+  "p95": 489,
+  "p99": 668,
+  "max": 1004,
+  "mean": 239.6,
+  "median": 209.0
+}
+valid truncated > 512  :    35  (3.50%)
+valid truncated > 768  :     6  (0.60%)
+valid truncated > 1024 :     0  (0.00%)

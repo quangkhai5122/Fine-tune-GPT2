@@ -1,0 +1,54 @@
+{
+  "gold_path": "dataset/valid.json",
+  "runs": [
+    {
+      "run_id": "baseline_greedy_legacy",
+      "family": "baseline",
+      "checkpoint": "baseline_1epoch",
+      "decode_mode": "greedy",
+      "pred_path": "results/baseline/valid_output.json",
+      "standard_report_path": "results/baseline/valid_report_standard.json",
+      "legacy_raw_score": 344,
+      "legacy_note": "Legacy notebook summary only; raw prediction file is not present locally, so this row cannot be re-scored by the standard evaluator yet.",
+      "notes": "Recover or regenerate baseline_valid_output.json before using this row in fair comparisons."
+    },
+    {
+      "run_id": "v2_beam4",
+      "family": "v2",
+      "checkpoint": "v2_1epoch",
+      "decode_mode": "beam4",
+      "pred_path": "results/4beams/valid_output.json",
+      "standard_report_path": "results/4beams/valid_report_standard.json",
+      "legacy_raw_score": 649,
+      "legacy_note": "Legacy V2 report used the weaker parser.",
+      "notes": "Existing local raw predictions from the 4-beam Kaggle run."
+    },
+    {
+      "run_id": "v2_greedy_same_ckpt",
+      "family": "v2",
+      "checkpoint": "v2_1epoch",
+      "decode_mode": "greedy",
+      "pred_path": "results/ablations/greedy/valid_output.json",
+      "legacy_raw_score": null,
+      "notes": "Pending same-checkpoint decoding ablation."
+    },
+    {
+      "run_id": "v2_beam2_same_ckpt",
+      "family": "v2",
+      "checkpoint": "v2_1epoch",
+      "decode_mode": "beam2",
+      "pred_path": "results/ablations/beam2/valid_output.json",
+      "legacy_raw_score": null,
+      "notes": "Pending same-checkpoint decoding ablation."
+    },
+    {
+      "run_id": "v2_beam4_same_ckpt",
+      "family": "v2",
+      "checkpoint": "v2_1epoch",
+      "decode_mode": "beam4",
+      "pred_path": "results/ablations/beam4/valid_output.json",
+      "legacy_raw_score": null,
+      "notes": "Pending rerun from the same checkpoint for a clean decoding ablation; current historical beam4 run remains above as `v2_beam4`."
+    }
+  ]
+}

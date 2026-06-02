@@ -1,0 +1,456 @@
+{
+  "train": {
+    "split": "train",
+    "n_records": 95400,
+    "type_distribution": [
+      [
+        "GSM_Rephrased",
+        20028
+      ],
+      [
+        "GSM_AnsAug",
+        18745
+      ],
+      [
+        "MATH_AnsAug",
+        16999
+      ],
+      [
+        "MATH_Rephrased",
+        12477
+      ],
+      [
+        "GSM_FOBAR",
+        10023
+      ],
+      [
+        "GSM_SV",
+        9869
+      ],
+      [
+        "MATH_FOBAR",
+        3668
+      ],
+      [
+        "MATH_SV",
+        3591
+      ]
+    ],
+    "query_char_stats": {
+      "n": 95400,
+      "min": 9,
+      "p10": 76,
+      "p25": 132,
+      "p50": 198,
+      "p75": 276,
+      "p90": 360,
+      "p95": 419,
+      "p99": 575,
+      "max": 2310,
+      "mean": 214.15,
+      "median": 198.0
+    },
+    "query_token_stats": {
+      "n": 95400,
+      "min": 2,
+      "p10": 17,
+      "p25": 31,
+      "p50": 46,
+      "p75": 64,
+      "p90": 83,
+      "p95": 96,
+      "p99": 126,
+      "max": 311,
+      "mean": 49.07,
+      "median": 46.0
+    },
+    "response_char_stats": {
+      "n": 95400,
+      "min": 13,
+      "p10": 214,
+      "p25": 290,
+      "p50": 412,
+      "p75": 606,
+      "p90": 822,
+      "p95": 980,
+      "p99": 1458,
+      "max": 3444,
+      "mean": 481.03,
+      "median": 412.0
+    },
+    "response_token_stats": {
+      "n": 95400,
+      "min": 4,
+      "p10": 50,
+      "p25": 68,
+      "p50": 98,
+      "p75": 147,
+      "p90": 201,
+      "p95": 239,
+      "p99": 339,
+      "max": 772,
+      "mean": 114.9,
+      "median": 98.0
+    },
+    "qr_total_char_stats": {
+      "n": 95400,
+      "min": 43,
+      "p10": 342,
+      "p25": 449,
+      "p50": 622,
+      "p75": 868,
+      "p90": 1137,
+      "p95": 1327,
+      "p99": 1848,
+      "max": 3821,
+      "mean": 695.18,
+      "median": 622.0
+    },
+    "anchor_hits": [
+      [
+        "dap_an_la",
+        70908
+      ],
+      [
+        "hash4",
+        57701
+      ],
+      [
+        "boxed",
+        27057
+      ],
+      [
+        "cau_tra_loi_la",
+        23401
+      ],
+      [
+        "the_answer_is",
+        270
+      ],
+      [
+        "dap_an",
+        10
+      ]
+    ],
+    "extractable_count": 95337,
+    "extractable_pct": 99.93,
+    "numeric_extractable_count": 92880,
+    "numeric_extractable_pct": 97.36,
+    "feature_flags": {
+      "has_latex": 31373,
+      "has_dollar_math": 48093,
+      "has_percent": 7505,
+      "has_money_dollar": 10052,
+      "has_negative_in_response": 15485,
+      "response_starts_with_loi_giai": 0,
+      "response_contains_cau_tra_loi": 23426,
+      "response_contains_dap_an_la": 70908
+    },
+    "duplicate_queries": 17224,
+    "extract_examples": [
+      {
+        "type": "GSM_AnsAug",
+        "ans_str": "1200",
+        "ans_num": 1200.0,
+        "tail": "làm thêm 10 đĩa nên tổng số đĩa cần dùng là 140 + 10 = 150 đĩa. Mỗi đĩa sẽ có 8 ngọn măng tây trên đó, như vậy tổng số ngọn măng tây cần thiết là 150 * 8 = 1200 ngọn măng tây. ####1200 Đáp án là: 1200"
+      },
+      {
+        "type": "MATH_AnsAug",
+        "ans_str": "253",
+        "ans_num": 253.0,
+        "tail": "a số lần bắt tay, mỗi người nên bắt tay với mọi người khác. Tuy nhiên, mỗi người chỉ được bắt tay tối đa 22 người khác. Vì vậy, số lần bắt tay tối đa là $23\\times22/2=\\boxed{253}$. Câu trả lời là: 253"
+      },
+      {
+        "type": "GSM_SV",
+        "ans_str": "2",
+        "ans_num": 2.0,
+        "tail": "chúng ta cộng 15 vào cả hai vế của phương trình: 12x - 15 + 15 = 9 + 15 12x = 24 Để giải tìm x, chúng ta chia cả hai vế của phương trình với 12: x = 24/12 x = 2 Giá trị của x là 2. #### 2 Đáp án là: 2"
+      },
+      {
+        "type": "GSM_AnsAug",
+        "ans_str": "52",
+        "ans_num": 52.0,
+        "tail": "ho người lớn và trẻ em, Hans phải trả 30 + 2 = 32 USD. Ngoài khoản đặt cọc cố định 20 USD, Hans phải trả tổng cộng 20 + 32 = 52 USD làm tiền đặt cọc cho việc đặt chỗ tại nhà hàng. ####52 Đáp án là: 52"
+      },
+      {
+        "type": "GSM_SV",
+        "ans_str": "2",
+        "ans_num": 2.0,
+        "tail": " 2x = 4 Để giải x, ta chia cả hai vế của phương trình cho 2: x = 4 / 2 x = 2 Giá trị của x là 2. Diana có thể đạp xe với tốc độ 3 dặm một giờ trong 2 giờ trước khi cảm thấy mệt mỏi. ####2 Đáp án là: 2"
+      },
+      {
+        "type": "GSM_FOBAR",
+        "ans_str": "4",
+        "ans_num": 4.0,
+        "tail": "ng độ dài của mặt thứ nhất và mặt thứ hai: 24 + 4x phút. Cho rằng tổng độ dài của đoạn băng là 40 phút nên ta có thể viết: 24 + 4x = 40. Giải x, ta được: x = 4. Giá trị của x là 4. #### 4 Đáp án là: 4"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "ans_str": "20",
+        "ans_num": 20.0,
+        "tail": "hai biểu thức bằng nhau và giải $d$: \\[100 + 10d = 150 + 7.5d.\\] Đơn giản hóa, chúng ta nhận được $2,5d = 50$, vậy $d = \\boxed{20}$. Sau 20 ngày, Darren và Fergie sẽ nợ số tiền như nhau. Đáp án là: 20"
+      },
+      {
+        "type": "GSM_FOBAR",
+        "ans_str": "65",
+        "ans_num": 65.0,
+        "tail": "cũng mua một đôi tất và còn lại x $. Chúng ta được biết rằng anh ta còn lại 11 đô la, vì vậy chúng ta có thể viết: $76 - $x = $11. Giải x, ta được: $x = $65. Giá trị của x là $65. ####65 Đáp án là: 65"
+      },
+      {
+        "type": "MATH_SV",
+        "ans_str": "9,7",
+        "ans_num": 9.7,
+        "tail": " trở lại phương trình đầu tiên để giải x: $6,1 + 8,2 + x = 4(6)$ 14,3 + x = 24 Để tách x, chúng ta trừ 14,3 từ cả hai vế của phương trình: x = 24 - 14,3 x = 9,7 Giá trị của x là 9,7 cm. Đáp án là: 9,7"
+      },
+      {
+        "type": "GSM_AnsAug",
+        "ans_str": "200",
+        "ans_num": 200.0,
+        "tail": "i gấp ba lần số bi thì mỗi nồi đất có 5 * 3 = 15 viên bi. Có 8 chậu đất sét, vậy tổng cộng có 8 * 15 = 120 viên bi cho các chậu đất sét. Vậy tổng cộng có 80 + 120 = 200 viên bi. ####200 Đáp án là: 200"
+      }
+    ],
+    "non_extractable_examples": [
+      {
+        "type": "MATH_AnsAug",
+        "tail": "á trị quan trọng là $n=2$ và $n=-4$, trong đó biểu thức thay đổi dấu. Chúng ta có thể tạo biểu đồ dấu hiệu để xác định khi nào biểu thức âm: \\[ \\begin{array}{c|ccc} & n<-4 & -42 \\\\ \\hline n-2 & - & - & + \\\\ n+4 & - & + & + \\end{array} \\] Từ biểu đồ dấu, chúng ta thấy rằng $(n-2)(n+4 )$ là âm khi $-4"
+      },
+      {
+        "type": "MATH_AnsAug",
+        "tail": " thừa số dương và một thừa số âm. Chúng ta có thể tạo biểu đồ dấu để xác định các giá trị của $n$ thỏa mãn bất đẳng thức. \\[ \\begin{array}{c|cc|c} & n-2 & n+4 & (n-2)(n+4)<0 \\\\ \\hline n<-4 & - & + & + \\ \\ -42 & + & + & + \\end{array} \\] Từ biểu đồ dấu, ta thấy rằng bất đẳng thức được thỏa mãn khi $-4"
+      },
+      {
+        "type": "MATH_SV",
+        "tail": "a hết cho 8. Các bội số của 8 giữa 100 và 199 là 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184 và 192. Không có số nào trong số này có tận cùng là 6 nên A không thể là bất kỳ chữ số nào từ 0 đến 9. Do đó, 9924661A6 không thể chia hết cho 8. Không có giá trị hợp lệ cho biến A chưa biết. là: 8"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "tail": "ỏ nhất trong tập hợp. Số nguyên lớn nhất trong tập hợp là $n+4$. Trung bình cộng của năm số nguyên là $\\frac{n+n+1+n+2+n+3+n+4}{5}=\\frac{5n+10}{5}=n+2$. Chúng ta được biết rằng số nguyên lớn nhất nhỏ hơn hai lần số trung bình, vì vậy chúng ta có $n+4<2(n+2)$. Rút gọn, ta được $n+4<2n+4$, nghĩa là $0"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "tail": "Vì thể tích của hình hộp chữ nhật được cho bởi $V=lwh$, nên chúng ta có $abc=240$. Kể từ $1"
+      }
+    ]
+  },
+  "valid": {
+    "split": "valid",
+    "n_records": 1000,
+    "type_distribution": [
+      [
+        "GSM_AnsAug",
+        209
+      ],
+      [
+        "GSM_Rephrased",
+        197
+      ],
+      [
+        "MATH_AnsAug",
+        173
+      ],
+      [
+        "GSM_FOBAR",
+        122
+      ],
+      [
+        "MATH_Rephrased",
+        116
+      ],
+      [
+        "GSM_SV",
+        97
+      ],
+      [
+        "MATH_FOBAR",
+        45
+      ],
+      [
+        "MATH_SV",
+        41
+      ]
+    ],
+    "query_char_stats": {
+      "n": 1000,
+      "min": 17,
+      "p10": 80,
+      "p25": 140,
+      "p50": 199,
+      "p75": 286,
+      "p90": 372,
+      "p95": 443,
+      "p99": 580,
+      "max": 1473,
+      "mean": 222.04,
+      "median": 199.0
+    },
+    "query_token_stats": {
+      "n": 1000,
+      "min": 2,
+      "p10": 18,
+      "p25": 32,
+      "p50": 47,
+      "p75": 66,
+      "p90": 86,
+      "p95": 101,
+      "p99": 133,
+      "max": 208,
+      "mean": 50.91,
+      "median": 47.0
+    },
+    "response_char_stats": {
+      "n": 1000,
+      "min": 24,
+      "p10": 216,
+      "p25": 290,
+      "p50": 436,
+      "p75": 656,
+      "p90": 861,
+      "p95": 1081,
+      "p99": 1545,
+      "max": 2217,
+      "mean": 509.4,
+      "median": 436.0
+    },
+    "response_token_stats": {
+      "n": 1000,
+      "min": 8,
+      "p10": 51,
+      "p25": 69,
+      "p50": 105,
+      "p75": 157,
+      "p90": 213,
+      "p95": 256,
+      "p99": 379,
+      "max": 547,
+      "mean": 121.63,
+      "median": 105.0
+    },
+    "qr_total_char_stats": {
+      "n": 1000,
+      "min": 137,
+      "p10": 351,
+      "p25": 454,
+      "p50": 644,
+      "p75": 919,
+      "p90": 1230,
+      "p95": 1424,
+      "p99": 2087,
+      "max": 2667,
+      "mean": 731.44,
+      "median": 644.5
+    },
+    "anchor_hits": [
+      [
+        "dap_an_la",
+        728
+      ],
+      [
+        "hash4",
+        615
+      ],
+      [
+        "boxed",
+        267
+      ],
+      [
+        "cau_tra_loi_la",
+        255
+      ],
+      [
+        "the_answer_is",
+        2
+      ]
+    ],
+    "extractable_count": 997,
+    "extractable_pct": 99.7,
+    "numeric_extractable_count": 977,
+    "numeric_extractable_pct": 97.7,
+    "feature_flags": {
+      "has_latex": 307,
+      "has_dollar_math": 498,
+      "has_percent": 88,
+      "has_money_dollar": 107,
+      "has_negative_in_response": 149,
+      "response_starts_with_loi_giai": 0,
+      "response_contains_cau_tra_loi": 255,
+      "response_contains_dap_an_la": 728
+    },
+    "duplicate_queries": 10,
+    "extract_examples": [
+      {
+        "type": "GSM_Rephrased",
+        "ans_str": "37",
+        "ans_num": 37.0,
+        "tail": "về phía trước 6 ô nên lúc này cô ấy đang ở ô 5 + 6 = 11. Ô cuối cùng thắng là 48 nên Susan cần di chuyển thêm 48 - 11 = 37 ô nữa để đến ô cuối cùng và giành chiến thắng tro choi. #### 37 Đáp án là: 37"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "ans_str": "19",
+        "ans_num": 19.0,
+        "tail": " PQR = \\angle PRQ$ nên ta biết tam giác PQR là tam giác cân. Điều này có nghĩa là PQ cũng có độ dài bằng 7. Khi đó chu vi của tam giác PQR là $PQ + QR + PR = 7 + 5 + 7 = \\boxed{19}$.Câu trả lời là: 19"
+      },
+      {
+        "type": "MATH_SV",
+        "ans_str": "8",
+        "ans_num": 8.0,
+        "tail": " + 2 + 3 + 4 + 5 + 6 + 7 + x) / 8 = 4.5 Hãy đơn giản hóa và giải x: 28 + x = 36 Để cô lập x, chúng ta trừ 28 từ cả hai vế của phương trình: 28 + x - 28 = 36 - 28 x = 8 Giá trị của x là 8. Đáp án là: 8"
+      },
+      {
+        "type": "GSM_Rephrased",
+        "ans_str": "39",
+        "ans_num": 39.0,
+        "tail": " nên hiện tại cô có 37 - 9 = 28 quả bóng bay. Cô ấy lấy 11 quả bóng bay từ đồng nghiệp của mình nên bây giờ cô ấy có 28 + 11 = 39 quả bóng bay. Claire bây giờ có 39 quả bóng bay. #### 39 Đáp án là: 39"
+      },
+      {
+        "type": "GSM_Rephrased",
+        "ans_str": "440",
+        "ans_num": 440.0,
+        "tail": " Vậy 2X = 680 - 200 = 480. Do đó X = 480/2 = 240. Nghĩa là phần đó 3 có 240 chỗ trống. Vì phần 2 có nhiều hơn phần 3 200 khoảng trống nên phần 2 có 240 + 200 = 440 khoảng trống. ####440 Đáp án là: 440"
+      },
+      {
+        "type": "GSM_AnsAug",
+        "ans_str": "90",
+        "ans_num": 90.0,
+        "tail": "g cuối cùng. Vậy có 10 - 1 = 9 tầng có sẵn. Mỗi tầng có 10 phòng giống hệt nhau. Vậy có 9 tầng x 10 phòng = 90 phòng trống. Vì vậy, Hans có thể được kiểm tra ở 90 phòng khác nhau. ####90 Đáp án là: 90"
+      },
+      {
+        "type": "GSM_SV",
+        "ans_str": "12",
+        "ans_num": 12.0,
+        "tail": "g số hoa hồng trắng cần 25 + 7x = 109 Hãy rút gọn và giải tìm x: 7x = 109 - 25 7x = 84 Để cô lập x, ta chia cả hai vế của phương trình cho 7: x = 84/7 x = 12 Giá trị của x là 12. #### 12 Đáp án là: 12"
+      },
+      {
+        "type": "GSM_FOBAR",
+        "ans_str": "9",
+        "ans_num": 9.0,
+        "tail": "+ $10x = $567. Rút gọn vế trái, chúng ta có: $477 + $10x = $567. Trừ $477 từ cả hai vế, chúng ta nhận được: $10x = $90. Chia cả hai vế cho $10, ta được: x = $9. Giá trị của x là 9$. ####9 Đáp án là: 9"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "ans_str": "60",
+        "ans_num": 60.0,
+        "tail": "CM của từng cặp số đã cho. LCM(12,2) = 12 LCM(12,4) = 12 LCM(12,6) = 12 LCM(12,8) = 24 LCM(12,10) = 60 LCM(12,12) = 12 Giá trị cao nhất giá trị trong số các LCM này là $\\boxed{60}$. Câu trả lời là: 60"
+      },
+      {
+        "type": "GSM_AnsAug",
+        "ans_str": "5",
+        "ans_num": 5.0,
+        "tail": " nhà ở của anh ấy giảm $60/tháng, điều đó có nghĩa là nó giảm $60/tháng / 4 tuần/tháng = $15/tuần. Vì vậy, Bob thực tế sẽ kiếm được 20 USD/tuần - thêm 15 USD/tuần = thêm 5 USD/tuần. ####5 Đáp án là: 5"
+      }
+    ],
+    "non_extractable_examples": [
+      {
+        "type": "MATH_AnsAug",
+        "tail": "cực trị của bất đẳng thức này là $x=-6$ và $x=1$. Chúng ta có thể tạo biểu đồ dấu hiệu để xác định tập nghiệm. \\[ \\begin{array}{c|ccc} & x<-6 & -61 \\\\ \\hline x+6 & - & + & + \\\\ x-1 & - & - & + \\\\ \\hline (x+6)(x-1) & + & - & + \\end{array} \\] Từ biểu đồ dấu, ta thấy bất đẳng thức được thỏa mãn khi $-6"
+      },
+      {
+        "type": "MATH_AnsAug",
+        "tail": "Phân biệt của phương trình bậc hai $ax^2+bx+c=0$ được cho bởi $b^2-4ac$. Để một phương trình bậc hai có hai nghiệm không thực, phân biệt phải âm. Trong trường hợp này, giá trị phân biệt là $b^2-4(1)(9)=b^2-36$. Vì vậy, chúng tôi muốn $b^2-36<0$. Giải bất đẳng thức này, ta có $-6"
+      },
+      {
+        "type": "MATH_Rephrased",
+        "tail": "a có $n^2+n<400$. Để tìm tổng lớn nhất, chúng ta muốn tìm giá trị lớn nhất có thể có của $n$. Chúng ta có thể giải bất đẳng thức bậc hai $n^2+n-400<0$ bằng cách phân tích nhân tử hoặc sử dụng công thức bậc hai. Phân tích nhân tử, chúng ta có $(n-20)(n+21)<0$. Bất đẳng thức này được thỏa mãn khi $-21"
+      }
+    ]
+  }
+}

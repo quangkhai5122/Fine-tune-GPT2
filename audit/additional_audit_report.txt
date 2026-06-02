@@ -1,0 +1,103 @@
+# Additional data audit
+
+
+## Parser audit — train
+  simple numeric: 95137 / 95400 (99.72%)
+  robust numeric: 92880 / 95400 (97.36%)
+  parser mismatches: 6022
+  numeric buckets: {'simple_yes__robust_yes': 92866, 'simple_yes__robust_no': 2271, 'simple_no__robust_yes': 14, 'simple_no__robust_no': 249}
+  robust answer forms: {'integer': 85974, 'decimal_comma': 894, 'non_numeric': 2457, 'numeric_other': 3559, 'negative_integer': 1687, 'decimal_dot': 544, 'negative_numeric_other': 199, 'negative_decimal_comma': 23, 'missing': 63}
+  per-type parser summary:
+    GSM_AnsAug         n=18745 simple=18745 robust=18744 mismatch=   1
+    GSM_FOBAR          n=10023 simple=10023 robust= 9995 mismatch=  28
+    GSM_Rephrased      n=20028 simple=20028 robust=20027 mismatch=   1
+    GSM_SV             n= 9869 simple= 9869 robust= 9860 mismatch=   9
+    MATH_AnsAug        n=16999 simple=16827 robust=15514 mismatch=3497
+    MATH_FOBAR         n= 3668 simple= 3662 robust= 3653 mismatch=  15
+    MATH_Rephrased     n=12477 simple=12393 robust=11500 mismatch=2467
+    MATH_SV            n= 3591 simple= 3590 robust= 3587 mismatch=   4
+  mismatch examples:
+    [MATH_AnsAug] answer='2104_5' simple=2104.0 robust=None
+    [MATH_AnsAug] answer='\\frac{1}{48}' simple=1.0 robust=0.020833333333333332
+    [MATH_AnsAug] answer='\\frac{1}{42}' simple=1.0 robust=0.023809523809523808
+    [MATH_AnsAug] answer='\\frac{1}{2}' simple=1.0 robust=0.5
+    [MATH_Rephrased] answer='50\\sqrt{10}' simple=50.0 robust=158.11388300841898
+    [MATH_AnsAug] answer='\\frac{11}{2}' simple=11.0 robust=5.5
+    [MATH_AnsAug] answer='2x-8' simple=2.0 robust=None
+    [MATH_AnsAug] answer='(0,5)' simple=5.0 robust=None
+    [MATH_Rephrased] answer='2x^5' simple=2.0 robust=None
+    [MATH_AnsAug] answer='6\\pi' simple=6.0 robust=18.84955592153876
+
+## Parser audit — valid
+  simple numeric: 996 / 1000 (99.60%)
+  robust numeric: 977 / 1000 (97.70%)
+  parser mismatches: 58
+  numeric buckets: {'simple_yes__robust_yes': 977, 'simple_yes__robust_no': 19, 'simple_no__robust_yes': 0, 'simple_no__robust_no': 4}
+  robust answer forms: {'integer': 905, 'numeric_other': 34, 'negative_integer': 18, 'negative_numeric_other': 5, 'non_numeric': 20, 'decimal_dot': 6, 'decimal_comma': 8, 'missing': 3, 'negative_decimal_comma': 1}
+  per-type parser summary:
+    GSM_AnsAug         n=  209 simple=  209 robust=  209 mismatch=   0
+    GSM_FOBAR          n=  122 simple=  122 robust=  121 mismatch=   1
+    GSM_Rephrased      n=  197 simple=  197 robust=  197 mismatch=   0
+    GSM_SV             n=   97 simple=   97 robust=   97 mismatch=   0
+    MATH_AnsAug        n=  173 simple=  170 robust=  161 mismatch=  30
+    MATH_FOBAR         n=   45 simple=   45 robust=   45 mismatch=   0
+    MATH_Rephrased     n=  116 simple=  115 robust=  106 mismatch=  27
+    MATH_SV            n=   41 simple=   41 robust=   41 mismatch=   0
+  mismatch examples:
+    [MATH_AnsAug] answer='\\frac{9}{20}' simple=9.0 robust=0.45
+    [MATH_AnsAug] answer='36\\pi' simple=36.0 robust=113.09733552923255
+    [MATH_Rephrased] answer='-\\frac{\\pi}{2}' simple=2.0 robust=-1.5707963267948966
+    [MATH_AnsAug] answer='\\frac{1}{4}' simple=1.0 robust=0.25
+    [MATH_AnsAug] answer='(91,60)' simple=9160.0 robust=None
+    [MATH_Rephrased] answer='\\frac{1}{3}' simple=1.0 robust=0.3333333333333333
+    [MATH_Rephrased] answer='(0,4)' simple=4.0 robust=None
+    [MATH_AnsAug] answer='\\frac{43}{99}' simple=43.0 robust=0.43434343434343436
+    [MATH_AnsAug] answer='-\\frac{3}{2}' simple=3.0 robust=-1.5
+    [MATH_AnsAug] answer='\\frac{4}{5}' simple=4.0 robust=0.8
+
+## Overlap and duplicate audit
+  train unique queries: 57806
+  train duplicate query groups: 17224
+    exact-copy groups=0 (extra copies=0)
+    distinct-response groups=17224 (extra copies=37594)
+    numeric-consistent groups=17223 (extra copies=37593)
+    numeric-conflicting groups=1 (extra copies=1)
+  exact query overlap groups (train vs valid): 0
+  valid records whose query is seen in train: 0
+  exact query+response overlap records: 0
+  overlap groups same/conflicting/missing numeric answer: 0 / 0 / 0
+  valid overlap by type:
+    GSM_AnsAug           0/209 (  0.0%)
+    GSM_FOBAR            0/122 (  0.0%)
+    GSM_Rephrased        0/197 (  0.0%)
+    GSM_SV               0/97  (  0.0%)
+    MATH_AnsAug          0/173 (  0.0%)
+    MATH_FOBAR           0/45  (  0.0%)
+    MATH_Rephrased       0/116 (  0.0%)
+    MATH_SV              0/41  (  0.0%)
+
+## Token length audit — train
+  overall: n=95400 mean=228.81 p50=201 p95=436 p99=674 max=1762
+  over 512 / 768 / 1024: 2541 / 610 / 173
+  by type:
+    GSM_AnsAug         >512=   2/18745 >768=   0/18745 max=547
+    GSM_FOBAR          >512=  96/10023 >768=   1/10023 max=817
+    GSM_Rephrased      >512=   8/20028 >768=   0/20028 max=565
+    GSM_SV             >512= 194/9869  >768=   2/9869  max=1114
+    MATH_AnsAug        >512= 438/16999 >768=  99/16999 max=1587
+    MATH_FOBAR         >512=1098/3668  >768= 332/3668  max=1762
+    MATH_Rephrased     >512= 234/12477 >768=  30/12477 max=1653
+    MATH_SV            >512= 471/3591  >768= 146/3591  max=1439
+
+## Token length audit — valid
+  overall: n=1000 mean=239.56 p50=209 p95=489 p99=668 max=1004
+  over 512 / 768 / 1024: 35 / 6 / 0
+  by type:
+    GSM_AnsAug         >512=   0/209   >768=   0/209   max=476
+    GSM_FOBAR          >512=   2/122   >768=   0/122   max=601
+    GSM_Rephrased      >512=   0/197   >768=   0/197   max=352
+    GSM_SV             >512=   4/97    >768=   0/97    max=686
+    MATH_AnsAug        >512=   7/173   >768=   1/173   max=806
+    MATH_FOBAR         >512=  14/45    >768=   3/45    max=1004
+    MATH_Rephrased     >512=   2/116   >768=   1/116   max=808
+    MATH_SV            >512=   6/41    >768=   1/41    max=932
