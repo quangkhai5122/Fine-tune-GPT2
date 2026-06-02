@@ -1,0 +1,373 @@
+{
+  "generated_from": {
+    "dataset": [
+      "dataset/train.json",
+      "dataset/valid.json"
+    ],
+    "audit": [
+      "audit/*.json"
+    ],
+    "results": [
+      "results/*/*.json"
+    ]
+  },
+  "dataset": {
+    "train_records": 95400,
+    "valid_records": 1000,
+    "valid_exact_query_overlap": 0,
+    "valid_normalized_query_overlap": 0,
+    "valid_source_group_overlap": 965,
+    "valid_source_group_overlap_pct": 0.965,
+    "valid_source_overlap_class_counts": {
+      "source_seen_same_answer": 767,
+      "source_seen_conflicting_answer": 174,
+      "source_unseen": 35,
+      "source_seen_missing_numeric": 24
+    }
+  },
+  "best_available_scores": {
+    "v8_answer_only_valid": {
+      "n": 1000,
+      "raw_score": 5265,
+      "max_raw_score": 10000,
+      "score_10": 5.265,
+      "extractable": 997,
+      "numeric_pairs": 970,
+      "exact10": 502,
+      "bucket_5": 21,
+      "bucket_1": 140,
+      "bucket_0": 337,
+      "rel_error_mean": 8.460097971268148
+    },
+    "v10_compact_source_disjoint": {
+      "n": 1000,
+      "raw_score": 1396,
+      "max_raw_score": 10000,
+      "score_10": 1.396,
+      "extractable": 996,
+      "numeric_pairs": 994,
+      "exact10": 105,
+      "bucket_5": 19,
+      "bucket_1": 251,
+      "bucket_0": 625,
+      "rel_error_mean": 6.647880806813889
+    },
+    "v11_answer_only_overlap_valid": {
+      "n": 1000,
+      "raw_score": 4696,
+      "max_raw_score": 10000,
+      "score_10": 4.696,
+      "extractable": 994,
+      "numeric_pairs": 991,
+      "exact10": 442,
+      "bucket_5": 20,
+      "bucket_1": 176,
+      "bucket_0": 362,
+      "rel_error_mean": 3.1842830472060317
+    },
+    "v13_hybrid_official_valid": {
+      "n": 1000,
+      "raw_score": 6896,
+      "max_raw_score": 10000,
+      "score_10": 6.896,
+      "extractable": 999,
+      "numeric_pairs": 977,
+      "exact10": 678,
+      "bucket_5": 5,
+      "bucket_1": 91,
+      "bucket_0": 226,
+      "rel_error_mean": 1.346566083085617
+    },
+    "v13_hybrid_overlap_valid": {
+      "n": 1000,
+      "raw_score": 6337,
+      "max_raw_score": 10000,
+      "score_10": 6.337,
+      "extractable": 997,
+      "numeric_pairs": 997,
+      "exact10": 617,
+      "bucket_5": 10,
+      "bucket_1": 117,
+      "bucket_0": 256,
+      "rel_error_mean": 1.6524688382326422
+    },
+    "v14_gate_sweep_official_valid": {
+      "n": 1000,
+      "raw_score": 6806,
+      "max_raw_score": 10000,
+      "score_10": 6.806,
+      "extractable": 998,
+      "numeric_pairs": 974,
+      "exact10": 665,
+      "bucket_5": 12,
+      "bucket_1": 96,
+      "bucket_0": 227,
+      "rel_error_mean": 5.488225787176411
+    },
+    "v14_gate_sweep_overlap_valid": {
+      "n": 1000,
+      "raw_score": 6145,
+      "max_raw_score": 10000,
+      "score_10": 6.145,
+      "extractable": 986,
+      "numeric_pairs": 986,
+      "exact10": 600,
+      "bucket_5": 5,
+      "bucket_1": 120,
+      "bucket_0": 275,
+      "rel_error_mean": 1.842025190566229
+    },
+    "v14_fobar_sv_official_valid": {
+      "n": 1000,
+      "raw_score": 6379,
+      "max_raw_score": 10000,
+      "score_10": 6.379,
+      "extractable": 997,
+      "numeric_pairs": 973,
+      "exact10": 624,
+      "bucket_5": 9,
+      "bucket_1": 94,
+      "bucket_0": 273,
+      "rel_error_mean": 6.4514352941465525
+    },
+    "v14_fobar_sv_overlap_valid": {
+      "n": 1000,
+      "raw_score": 5846,
+      "max_raw_score": 10000,
+      "score_10": 5.846,
+      "extractable": 998,
+      "numeric_pairs": 998,
+      "exact10": 570,
+      "bucket_5": 8,
+      "bucket_1": 106,
+      "bucket_0": 316,
+      "rel_error_mean": 18.976015127424535
+    },
+    "v14_5_v13_official_valid": {
+      "n": 1000,
+      "raw_score": 6823,
+      "max_raw_score": 10000,
+      "score_10": 6.823,
+      "extractable": 999,
+      "numeric_pairs": 975,
+      "exact10": 667,
+      "bucket_5": 12,
+      "bucket_1": 93,
+      "bucket_0": 228,
+      "rel_error_mean": 3.0524597241651867
+    },
+    "v14_5_gate_sweep_official_valid": {
+      "n": 1000,
+      "raw_score": 6807,
+      "max_raw_score": 10000,
+      "score_10": 6.807,
+      "extractable": 996,
+      "numeric_pairs": 973,
+      "exact10": 664,
+      "bucket_5": 13,
+      "bucket_1": 102,
+      "bucket_0": 221,
+      "rel_error_mean": 2.9660471544394866
+    },
+    "v15_ensemble_official_valid": {
+      "n": 1000,
+      "raw_score": 7016,
+      "max_raw_score": 10000,
+      "score_10": 7.016,
+      "extractable": 1000,
+      "numeric_pairs": 977,
+      "exact10": 686,
+      "bucket_5": 12,
+      "bucket_1": 96,
+      "bucket_0": 206,
+      "rel_error_mean": 2.508753127328373
+    },
+    "v15_type_specific_official_valid": {
+      "n": 1000,
+      "raw_score": 6927,
+      "max_raw_score": 10000,
+      "score_10": 6.927,
+      "extractable": 998,
+      "numeric_pairs": 975,
+      "exact10": 679,
+      "bucket_5": 9,
+      "bucket_1": 92,
+      "bucket_0": 220,
+      "rel_error_mean": 3.965207084062608
+    }
+  },
+  "figure_02_values": [
+    {
+      "Type": "GSM_Rephrased",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 83.56499762295105,
+      "Source-group overlap %": 100.0
+    },
+    {
+      "Type": "GSM_AnsAug",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 78.41092189127077,
+      "Source-group overlap %": 98.08612440191388
+    },
+    {
+      "Type": "GSM_FOBAR",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 88.65989730151863,
+      "Source-group overlap %": 98.36065573770492
+    },
+    {
+      "Type": "GSM_SV",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 88.57591994317747,
+      "Source-group overlap %": 100.0
+    },
+    {
+      "Type": "MATH_AnsAug",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 66.73228683276174,
+      "Source-group overlap %": 89.59537572254335
+    },
+    {
+      "Type": "MATH_Rephrased",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 78.41484385467567,
+      "Source-group overlap %": 93.96551724137932
+    },
+    {
+      "Type": "MATH_FOBAR",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 85.23756885472214,
+      "Source-group overlap %": 95.55555555555556
+    },
+    {
+      "Type": "MATH_SV",
+      "Exact query overlap %": 0.0,
+      "Normalized query similarity %": 85.88140667105439,
+      "Source-group overlap %": 95.1219512195122
+    }
+  ],
+  "nan_or_missing_cells": {
+    "table_04_experiment_settings": [
+      "row 1 (v2), LR",
+      "row 1 (v2), Epochs",
+      "row 2 (v3), LR",
+      "row 2 (v3), Epochs",
+      "row 3 (v4), LR",
+      "row 3 (v4), Max length",
+      "row 4 (v5/v7), LR",
+      "row 4 (v5/v7), Max length",
+      "row 5 (v6/v6_fast), LR",
+      "row 18 (v16 legal), LR",
+      "row 18 (v16 legal), Epochs"
+    ],
+    "table_05_full_solution_sft_baseline": [
+      "row 1 (v2), Runtime"
+    ],
+    "table_06_compact_reasoning_target_ablation": [
+      "row 1 (v3), Valid score",
+      "row 1 (v3), Source-disjoint score",
+      "row 1 (v3), Avg output length",
+      "row 1 (v3), Reasoning consistency"
+    ],
+    "table_08_answer_only_lora_ablation": [
+      "row 1 (v6), Overlap-valid score",
+      "row 1 (v6), Source-disjoint score",
+      "row 2 (v6_fast), Overlap-valid score",
+      "row 2 (v6_fast), Source-disjoint score",
+      "row 3 (v8), Overlap-valid score",
+      "row 3 (v8), Source-disjoint score",
+      "row 4 (v11), Source-disjoint score"
+    ],
+    "table_10_source_aware_retrieval_ablation": [
+      "row 1 (v11), Source-disjoint score",
+      "row 2 (v12), Source-disjoint score",
+      "row 3 (v13), Source-disjoint score",
+      "row 4 (v14 sweep), Source-disjoint score",
+      "row 5 (v14 FOBAR/SV), Source-disjoint score",
+      "row 6 (v14.5 v13), Overlap-valid score",
+      "row 6 (v14.5 v13), Source-disjoint score",
+      "row 6 (v14.5 v13), Retrieval usage",
+      "row 7 (v14.5 gate), Overlap-valid score",
+      "row 7 (v14.5 gate), Source-disjoint score",
+      "row 7 (v14.5 gate), Retrieval usage",
+      "row 8 (v15 ensemble), Overlap-valid score",
+      "row 8 (v15 ensemble), Source-disjoint score",
+      "row 9 (v15 type-specific), Source-disjoint score"
+    ],
+    "table_11_final_model_selection": [
+      "row 1 (Best answer-only), Source-disjoint score",
+      "row 1 (Best answer-only), Runtime",
+      "row 2 (Best compact reasoning), Overlap-valid score",
+      "row 3 (Best hybrid retrieval (v13)), Source-disjoint score",
+      "row 4 (Best full-train valid-select (v14.5)), Source-disjoint score",
+      "row 4 (Best full-train valid-select (v14.5)), Overlap-valid score",
+      "row 4 (Best full-train valid-select (v14.5)), Runtime",
+      "row 5 (Best diagnostic ensemble (v15)), Source-disjoint score",
+      "row 5 (Best diagnostic ensemble (v15)), Overlap-valid score",
+      "row 5 (Best diagnostic ensemble (v15)), Runtime",
+      "row 6 (v14 gate sweep), Source-disjoint score",
+      "row 7 (v14 FOBAR/SV retrieval), Source-disjoint score"
+    ],
+    "table_12_qualitative_error_taxonomy": [
+      "row 5 (None), Example id"
+    ],
+    "table_13_v14_run_comparison": [
+      "row 1 (None), Changed outputs"
+    ],
+    "table_15_v14_gate_config": [
+      "row 3 (GSM_FOBAR), Strategy",
+      "row 3 (GSM_FOBAR), Min majority",
+      "row 3 (GSM_FOBAR), Min margin",
+      "row 3 (GSM_FOBAR), Min nearest Jaccard",
+      "row 4 (GSM_SV), Strategy",
+      "row 4 (GSM_SV), Min majority",
+      "row 4 (GSM_SV), Min margin",
+      "row 4 (GSM_SV), Min nearest Jaccard",
+      "row 7 (MATH_FOBAR), Strategy",
+      "row 7 (MATH_FOBAR), Min majority",
+      "row 7 (MATH_FOBAR), Min margin",
+      "row 7 (MATH_FOBAR), Min nearest Jaccard",
+      "row 8 (MATH_SV), Strategy",
+      "row 8 (MATH_SV), Min majority",
+      "row 8 (MATH_SV), Min margin",
+      "row 8 (MATH_SV), Min nearest Jaccard"
+    ],
+    "table_16_v8_v15_leaderboard": [
+      "row 1 (v3), Official-valid score",
+      "row 1 (v3), Exact10",
+      "row 1 (v3), Zero",
+      "row 1 (v3), Extractable",
+      "row 2 (v4), Official-valid score",
+      "row 2 (v4), Exact10",
+      "row 2 (v4), Zero",
+      "row 2 (v4), Extractable",
+      "row 3 (v2), Exact10",
+      "row 3 (v2), Zero"
+    ],
+    "table_17_model_to_final_gain": [
+      "row 1 (None), Selected single-candidate score",
+      "row 1 (None), Final - selected",
+      "row 2 (None), Selected single-candidate score",
+      "row 2 (None), Final - selected",
+      "row 3 (None), Selected single-candidate score",
+      "row 3 (None), Final - selected",
+      "row 4 (None), Selected single-candidate score",
+      "row 4 (None), Final - selected",
+      "row 5 (None), Selected single-candidate score",
+      "row 5 (None), Final - selected",
+      "row 6 (None), Selected single-candidate score",
+      "row 6 (None), Final - selected",
+      "row 8 (None), Selected single-candidate score",
+      "row 8 (None), Final - selected"
+    ],
+    "table_20_source_overlap_decomposition": [
+      "row 1 (None), Zero"
+    ]
+  },
+  "notes": [
+    "NaN means the requested metric is not available in the local dataset/audit/results artifacts.",
+    "Reasoning consistency is not human-rated; tables use extractability only where explicitly marked.",
+    "Source-disjoint scores are available for v9/v10 source-valid reports, but not for v11-v15 retrieval/ranker branches in this checkout.",
+    "v15_ensemble is the best diagnostic validation score, but it is not submission-safe under a strict query_vi/response_vi-only rule."
+  ]
+}

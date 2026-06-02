@@ -1,0 +1,9 @@
+Run,Mechanism,Model-only score,Selected single-candidate score,Final score,Final - model,Final - selected,Median output chars,Short single-line rate
+v12,broad source retrieval,4.489 (4489/10000),NaN,6.194 (6194/10000),+1.705,NaN,13,100.0%
+v13,type-gated retrieval,5.389 (5389/10000),NaN,6.896 (6896/10000),+1.507,NaN,13,100.0%
+v14 gate sweep,tuned retrieval gates,5.195 (5195/10000),NaN,6.806 (6806/10000),+1.611,NaN,13,100.0%
+v14 FOBAR/SV,extended strict nearest retrieval,4.626 (4626/10000),NaN,6.379 (6379/10000),+1.753,NaN,13,100.0%
+v14.5 v13,valid-select V13 gate,5.259 (5259/10000),NaN,6.823 (6823/10000),+1.564,NaN,13,99.9%
+v14.5 gate,valid-select gate sweep,5.275 (5275/10000),NaN,6.807 (6807/10000),+1.532,NaN,13,100.0%
+v15 ensemble,ExtraTrees ranker over 32 candidates,5.306 (5306/10000),6.857 (6857/10000),7.016 (7016/10000),+1.710,+0.159,13,100.0%
+v15 type-specific,expert route disabled by validation,5.183 (5183/10000),NaN,6.927 (6927/10000),+1.744,NaN,13,100.0%

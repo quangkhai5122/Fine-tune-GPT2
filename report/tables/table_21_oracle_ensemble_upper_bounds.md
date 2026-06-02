@@ -1,0 +1,7 @@
+| Candidate set | Oracle score | Exact10 | Zero across all | Improved vs first | Interpretation |
+| --- | --- | --- | --- | --- | --- |
+| v13 + v14_gate_sweep | 7.289 (7289/10000) | 714 | 181 | 65 | candidate complementarity; not a deployable reasoning score |
+| v13 + v14_gate_sweep + v14_5_v13 + v14_5_gate_sweep | 7.704 (7704/10000) | 751 | 135 | 129 | candidate complementarity; not a deployable reasoning score |
+| v13 + v14_gate_sweep + v14_5_v13 + v14_5_gate_sweep + v12 + v14_fobar_sv | 7.825 (7825/10000) | 761 | 120 | 147 | candidate complementarity; not a deployable reasoning score |
+
+Caption: **Table 21. Oracle ensemble upper bounds.** Candidate complementarity shows possible answer-selection upside, but these are not deployable reasoning scores.

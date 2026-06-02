@@ -1,0 +1,10 @@
+| Slice | n | Score/10 | Raw contribution | Share of v13 raw score | Exact10 | Zero |
+| --- | --- | --- | --- | --- | --- | --- |
+| direct query seen with same answer | 10 | 10 | 100 | 1.5% | 10 | NaN |
+| same source/original, same answer | 764 | 8.589 | 6562 | 95.2% | 652 | 74 |
+| same source/original, conflicting answer | 174 | 1.471 | 256 | 3.7% | 19 | 105 |
+| source seen but no same answer match | 38 | 2.026 | 77 | 1.1% | 7 | 24 |
+| valid original appears as train query | 266 | 9.669 | 2572 | 37.3% | 257 | 7 |
+| valid query appears as train original | 329 | 8.334 | 2742 | 39.8% | 273 | 44 |
+
+Caption: **Table 20. Source-overlap score decomposition.** V13 score is dominated by same-source same-answer examples, while conflict and no-match slices remain low.

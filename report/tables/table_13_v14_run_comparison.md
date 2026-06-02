@@ -1,0 +1,7 @@
+| Run | Gate policy | Selected checkpoint | Model-only valid | Hybrid valid | Hybrid gain | Overlap-valid | Retrieval usage | Changed outputs | Final retrain runtime | Fallback reasons |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| v13 type-gated | Rephrased/AnsAug type gate | epoch_08 | 5.389 (5389/10000) | 6.896 (6896/10000) | +1.507 | 6.337 (6337/10000) | 62.5% | NaN | 177.7 min final retrain | low_majority=28; source_unseen=42; type_not_allowed=305 |
+| v14 gate sweep | selected thresholds | epoch_08 | 5.195 (5195/10000) | 6.806 (6806/10000) | +1.611 | 6.145 (6145/10000) | 61.6% | 247/1000 | 169.0 min final retrain | low_confidence=1; low_confidence_model_disagree=36; source_unseen=42; type_not_allowed=305 |
+| v14 FOBAR/SV | extended strict nearest | epoch_06 | 4.626 (4626/10000) | 6.379 (6379/10000) | +1.753 | 5.846 (5846/10000) | 82.2% | 418/1000 | 131.0 min final retrain | low_confidence=1; low_confidence_model_disagree=49; source_unseen=49; typed_pool_missing=79 |
+
+Caption: **Table 13. V14 run-level comparison.** This table separates model-only accuracy from retrieval-assisted accuracy, so gains from source-memory retrieval are not confused with standalone reasoning ability.

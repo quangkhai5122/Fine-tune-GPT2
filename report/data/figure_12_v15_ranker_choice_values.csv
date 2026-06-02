@@ -1,0 +1,13 @@
+Candidate,Count
+model::epoch_08,417
+hybrid_v13_gate::epoch_08,163
+hybrid_strict_gate::epoch_08,38
+hybrid_v13_gate::epoch_04,32
+hybrid_v13_gate::epoch_06,30
+model::epoch_06,27
+hybrid_v13_gate::epoch_05,25
+model::epoch_07,24
+hybrid_active::epoch_08,23
+hybrid_v13_gate::epoch_02,21
+hybrid_strict_gate::epoch_07,18
+hybrid_v13_gate::epoch_07,18

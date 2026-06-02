@@ -1,0 +1,9 @@
+Run,Mechanism,Model score,Final score,Gain
+v12,broad retrieval,4.489,6.194,1.705
+v13,type-gated retrieval,5.389,6.896,1.5069999999999997
+v14 gate,gate sweep,5.195,6.806,1.6109999999999998
+v14 FOBAR/SV,extended retrieval,4.626,6.379,1.7529999999999992
+v14.5 v13,valid-select V13,5.259,6.823,1.564
+v14.5 gate,valid-select gate,5.275,6.807,1.532
+v15 ensemble,ranker,5.306,7.016,1.71
+v15 type-specific,safe expert route,5.183,6.927,1.7439999999999998

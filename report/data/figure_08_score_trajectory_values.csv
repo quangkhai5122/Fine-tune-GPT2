@@ -1,0 +1,18 @@
+Order,Version,Family,Score,Raw score,Exact10,Extractable
+1,v2,full-solution SFT,0.585,585,NaN,854
+2,v5,GRPO-lite numeric,0.955,955,68,998
+3,v6,answer-only LoRA,1.81,1810,138,998
+4,v6_fast,answer-only LoRA r=16,1.789,1789,136,992
+5,v7,GRPO-lite reasoning,0.639,639,36,854
+6,v8,answer-only checkpoint select,5.265,5265,502,997
+7,v9,compact equations,1.842,1842,150,959
+8,v10,curriculum compact,2.131,2131,175,990
+9,v11,answer-only overlap-valid,4.329,4329,400,998
+10,v12,broad source retrieval,6.194,6194,606,998
+11,v13,type-gated retrieval,6.896,6896,678,999
+12,v14 gate,retrieval gate sweep,6.806,6806,665,998
+13,v14 FOBAR/SV,extended FOBAR/SV retrieval,6.379,6379,624,997
+14,v14.5 v13,full-train valid-select v13 gate,6.823,6823,667,999
+15,v14.5 gate,full-train valid-select gate sweep,6.807,6807,664,996
+16,v15 ensemble,ensemble/ranker candidate selection,7.016,7016,686,1000
+17,v15 type-specific,SV/FOBAR expert safety route,6.927,6927,679,998

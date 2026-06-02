@@ -1,0 +1,6 @@
+| Version | Reward components | Penalize answer-only? | Score | Runtime | Failure mode |
+| --- | --- | --- | --- | --- | --- |
+| v5 | numeric + anchor | no | 0.955 (955/10000) | 8.0 min RL | score did not improve beyond SFT baseline |
+| v7 | numeric + anchor + reasoning | yes | 0.639 (639/10000) | 20.9 min RL | lower extractability and low answer reward |
+
+Caption: **Table 9. GRPO-lite reward-tuning results.** Reward tuning tests whether direct optimization of the scoring rule improves generation beyond supervised LoRA under a limited compute budget.

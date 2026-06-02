@@ -1,0 +1,78 @@
+Run,Order,Label,Score,Raw score,Exact10,Extractable,Retrieval usage %,Selected
+v13 type-gated,0,epoch_01,5.252,5252,510,982,,False
+v13 type-gated,1,epoch_02,5.317,5317,515,991,,False
+v13 type-gated,2,epoch_03,5.458,5458,529,998,,False
+v13 type-gated,3,epoch_04,5.641,5641,547,998,,False
+v13 type-gated,4,epoch_05,5.893,5893,570,998,,False
+v13 type-gated,5,epoch_06,6.3,6300,613,998,,False
+v13 type-gated,6,epoch_07,6.3,6300,615,996,,False
+v13 type-gated,7,epoch_08,6.337,6337,617,997,,True
+v13 type-gated,8,gpt2_math_lora_v13_answer_only,6.337,6337,617,997,,False
+v13 type-gated,9,gpt2_math_lora_v13_final,6.337,6337,617,997,,False
+v13 type-gated,10,gpt2_math_lora_v13_sft,6.337,6337,617,997,,False
+v14 gate sweep,0,epoch_01,5.303,5303,515,983,48.699999999999996,False
+v14 gate sweep,1,epoch_02,5.409,5409,522,994,48.5,False
+v14 gate sweep,2,epoch_03,5.6,5600,545,997,48.6,False
+v14 gate sweep,3,epoch_04,5.758,5758,559,996,48.6,False
+v14 gate sweep,4,epoch_05,5.998,5998,584,994,48.699999999999996,False
+v14 gate sweep,5,epoch_06,6.055,6055,592,981,47.9,False
+v14 gate sweep,6,epoch_07,6.115,6115,597,980,48.4,False
+v14 gate sweep,7,epoch_08,6.145,6145,600,986,48.4,True
+v14 gate sweep,8,gpt2_math_lora_v14_gate_sweep_answer_only,6.145,6145,600,986,48.4,False
+v14 gate sweep,9,gpt2_math_lora_v14_gate_sweep_final,6.145,6145,600,986,48.4,False
+v14 gate sweep,10,gpt2_math_lora_v14_gate_sweep_sft,6.145,6145,600,986,48.4,False
+v14 FOBAR/SV,0,epoch_01,5.313,5313,517,993,78.0,False
+v14 FOBAR/SV,1,epoch_02,5.371,5371,522,997,77.7,False
+v14 FOBAR/SV,2,epoch_03,5.422,5422,525,993,77.7,False
+v14 FOBAR/SV,3,epoch_04,5.531,5531,537,992,78.2,False
+v14 FOBAR/SV,4,epoch_05,5.635,5635,549,998,78.2,False
+v14 FOBAR/SV,5,epoch_06,5.846,5846,570,998,78.60000000000001,True
+v14 FOBAR/SV,6,epoch_07,5.801,5801,565,998,78.4,False
+v14 FOBAR/SV,7,epoch_08,5.794,5794,565,998,78.60000000000001,False
+v14 FOBAR/SV,8,gpt2_math_lora_v14_fobar_sv_answer_only,5.794,5794,565,998,78.60000000000001,False
+v14 FOBAR/SV,9,gpt2_math_lora_v14_fobar_sv_final,5.794,5794,565,998,78.60000000000001,False
+v14 FOBAR/SV,10,gpt2_math_lora_v14_fobar_sv_sft,5.794,5794,565,998,78.60000000000001,False
+v14.5 v13,0,epoch_01,5.892,5892,579,995,,False
+v14.5 v13,1,epoch_02,6.242,6242,607,999,,False
+v14.5 v13,2,epoch_03,6.276,6276,609,994,,False
+v14.5 v13,3,epoch_04,6.425,6425,628,999,,False
+v14.5 v13,4,epoch_05,6.505,6505,635,994,,False
+v14.5 v13,5,epoch_06,6.622,6622,645,999,,False
+v14.5 v13,6,epoch_07,6.766,6766,661,999,,False
+v14.5 v13,7,epoch_08,6.823,6823,667,999,,True
+v14.5 v13,8,gpt2_math_lora_v145_v13_valid_select_answer_only,6.823,6823,667,999,,False
+v14.5 v13,9,gpt2_math_lora_v145_v13_valid_select_final,6.823,6823,667,999,,False
+v14.5 v13,10,gpt2_math_lora_v145_v13_valid_select_sft,6.823,6823,667,999,,False
+v14.5 gate,0,epoch_01,6.12,6120,595,1000,62.5,False
+v14.5 gate,1,epoch_02,6.265,6265,610,998,61.8,False
+v14.5 gate,2,epoch_03,6.28,6280,613,999,62.0,False
+v14.5 gate,3,epoch_04,6.295,6295,613,995,62.0,False
+v14.5 gate,4,epoch_05,6.462,6462,628,999,59.599999999999994,False
+v14.5 gate,5,epoch_06,6.579,6579,642,996,61.9,False
+v14.5 gate,6,epoch_07,6.749,6749,658,997,62.2,False
+v14.5 gate,7,epoch_08,6.807,6807,664,996,62.2,True
+v14.5 gate,8,gpt2_math_lora_v145_gate_sweep_valid_select_answer_only,6.807,6807,664,996,62.2,False
+v14.5 gate,9,gpt2_math_lora_v145_gate_sweep_valid_select_final,6.807,6807,664,996,62.2,False
+v14.5 gate,10,gpt2_math_lora_v145_gate_sweep_valid_select_sft,6.807,6807,664,996,62.2,False
+v15 ensemble selected,0,epoch_01,6.122,6122,597,998,62.5,False
+v15 ensemble selected,1,epoch_02,6.332,6332,617,998,61.9,False
+v15 ensemble selected,2,epoch_03,6.272,6272,614,946,62.3,False
+v15 ensemble selected,3,epoch_04,6.361,6361,620,993,62.4,False
+v15 ensemble selected,4,epoch_05,6.53,6530,638,993,62.4,False
+v15 ensemble selected,5,epoch_06,6.661,6661,649,997,62.1,False
+v15 ensemble selected,6,epoch_07,6.79,6790,664,997,61.9,False
+v15 ensemble selected,7,epoch_08,6.857,6857,671,998,62.0,True
+v15 ensemble selected,8,gpt2_math_lora_v15_ensemble_ranker_answer_only,6.857,6857,671,998,62.0,False
+v15 ensemble selected,9,gpt2_math_lora_v15_ensemble_ranker_final,6.857,6857,671,998,62.0,False
+v15 ensemble selected,10,gpt2_math_lora_v15_ensemble_ranker_sft,6.857,6857,671,998,62.0,False
+v15 type-specific,0,epoch_01,5.239,5239,508,984,,False
+v15 type-specific,1,epoch_02,5.451,5451,528,997,,False
+v15 type-specific,2,epoch_03,5.466,5466,527,992,,False
+v15 type-specific,3,epoch_04,5.647,5647,546,998,,False
+v15 type-specific,4,epoch_05,5.899,5899,572,998,,False
+v15 type-specific,5,epoch_06,6.148,6148,598,994,,False
+v15 type-specific,6,epoch_07,6.194,6194,604,992,,False
+v15 type-specific,7,epoch_08,6.241,6241,608,993,,True
+v15 type-specific,8,gpt2_math_lora_v15_type_expert_sv_fobar_answer_only,6.241,6241,608,993,,False
+v15 type-specific,9,gpt2_math_lora_v15_type_expert_sv_fobar_final,6.241,6241,608,993,,False
+v15 type-specific,10,gpt2_math_lora_v15_type_expert_sv_fobar_sft,6.241,6241,608,993,,False

@@ -1,0 +1,10 @@
+Version,Retrieval,Allowed types,Gate,Model fallback,Official-valid score,Overlap-valid score,Source-disjoint score,Retrieval usage
+v11,no,none,none,yes,4.329 (4329/10000),4.696 (4696/10000),NaN,0%
+v12,yes,broad,majority frac,yes,6.194 (6194/10000),5.374 (5374/10000),NaN,90.9%
+v13,yes,Rephrased/AnsAug,type gate,yes,6.896 (6896/10000),6.337 (6337/10000),NaN,62.5%
+v14 sweep,yes,selected types,tuned thresholds,yes,6.806 (6806/10000),6.145 (6145/10000),NaN,61.6%
+v14 FOBAR/SV,yes,extended,strict nearest,yes,6.379 (6379/10000),5.846 (5846/10000),NaN,82.2%
+v14.5 v13,yes,Rephrased/AnsAug,V13 gate + valid select,yes,6.823 (6823/10000),NaN,NaN,NaN
+v14.5 gate,yes,selected types,gate sweep + valid select,yes,6.807 (6807/10000),NaN,NaN,NaN
+v15 ensemble,mixed,32 model/hybrid candidates,ExtraTrees ranker,yes,7.016 (7016/10000),NaN,NaN,ranker
+v15 type-specific,yes,Rephrased/AnsAug; expert not routed,safe route check,yes,6.927 (6927/10000),6.241 (6241/10000),NaN,62.5%
