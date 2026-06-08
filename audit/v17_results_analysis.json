@@ -1,0 +1,1706 @@
+{
+  "run_reports": [
+    {
+      "name": "v17_epoch7",
+      "raw": 5450,
+      "score10": 5.45,
+      "exact10": 514,
+      "bucket5": 31,
+      "bucket1": 155,
+      "bucket0": 300,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 1037,
+          "extractable": 209,
+          "bucket_10": 95,
+          "bucket_5": 9,
+          "bucket_1": 42,
+          "bucket_0": 63,
+          "score_10": 4.961722488038277
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 388,
+          "extractable": 122,
+          "bucket_10": 35,
+          "bucket_5": 1,
+          "bucket_1": 33,
+          "bucket_0": 53,
+          "score_10": 3.180327868852459
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1576,
+          "extractable": 197,
+          "bucket_10": 154,
+          "bucket_5": 4,
+          "bucket_1": 16,
+          "bucket_0": 23,
+          "score_10": 8.0
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 476,
+          "extractable": 97,
+          "bucket_10": 44,
+          "bucket_5": 3,
+          "bucket_1": 21,
+          "bucket_0": 29,
+          "score_10": 4.907216494845361
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 786,
+          "extractable": 172,
+          "bucket_10": 74,
+          "bucket_5": 6,
+          "bucket_1": 16,
+          "bucket_0": 77,
+          "score_10": 4.543352601156069
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 200,
+          "extractable": 45,
+          "bucket_10": 18,
+          "bucket_5": 2,
+          "bucket_1": 10,
+          "bucket_0": 15,
+          "score_10": 4.444444444444445
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 777,
+          "extractable": 116,
+          "bucket_10": 75,
+          "bucket_5": 3,
+          "bucket_1": 12,
+          "bucket_0": 26,
+          "score_10": 6.698275862068965
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 210,
+          "extractable": 41,
+          "bucket_10": 19,
+          "bucket_5": 3,
+          "bucket_1": 5,
+          "bucket_0": 14,
+          "score_10": 5.121951219512195
+        }
+      }
+    },
+    {
+      "name": "v17_678_selected",
+      "raw": 5258,
+      "score10": 5.258,
+      "exact10": 497,
+      "bucket5": 24,
+      "bucket1": 168,
+      "bucket0": 311,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 877,
+          "extractable": 209,
+          "bucket_10": 77,
+          "bucket_5": 13,
+          "bucket_1": 42,
+          "bucket_0": 77,
+          "score_10": 4.196172248803828
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 415,
+          "extractable": 122,
+          "bucket_10": 38,
+          "bucket_5": 0,
+          "bucket_1": 35,
+          "bucket_0": 49,
+          "score_10": 3.401639344262295
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1588,
+          "extractable": 197,
+          "bucket_10": 156,
+          "bucket_5": 2,
+          "bucket_1": 18,
+          "bucket_0": 21,
+          "score_10": 8.060913705583756
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 462,
+          "extractable": 97,
+          "bucket_10": 43,
+          "bucket_5": 2,
+          "bucket_1": 22,
+          "bucket_0": 30,
+          "score_10": 4.762886597938144
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 765,
+          "extractable": 172,
+          "bucket_10": 73,
+          "bucket_5": 1,
+          "bucket_1": 30,
+          "bucket_0": 69,
+          "score_10": 4.421965317919075
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 221,
+          "extractable": 45,
+          "bucket_10": 21,
+          "bucket_5": 1,
+          "bucket_1": 6,
+          "bucket_0": 17,
+          "score_10": 4.911111111111111
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 783,
+          "extractable": 116,
+          "bucket_10": 77,
+          "bucket_5": 1,
+          "bucket_1": 8,
+          "bucket_0": 30,
+          "score_10": 6.75
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 147,
+          "extractable": 41,
+          "bucket_10": 12,
+          "bucket_5": 4,
+          "bucket_1": 7,
+          "bucket_0": 18,
+          "score_10": 3.5853658536585367
+        }
+      }
+    },
+    {
+      "name": "v17_678_epoch06",
+      "raw": 5240,
+      "score10": 5.24,
+      "exact10": 493,
+      "bucket5": 29,
+      "bucket1": 165,
+      "bucket0": 313,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 904,
+          "extractable": 209,
+          "bucket_10": 81,
+          "bucket_5": 11,
+          "bucket_1": 39,
+          "bucket_0": 78,
+          "score_10": 4.3253588516746415
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 390,
+          "extractable": 122,
+          "bucket_10": 35,
+          "bucket_5": 1,
+          "bucket_1": 35,
+          "bucket_0": 51,
+          "score_10": 3.19672131147541
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1616,
+          "extractable": 197,
+          "bucket_10": 158,
+          "bucket_5": 4,
+          "bucket_1": 16,
+          "bucket_0": 19,
+          "score_10": 8.203045685279188
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 391,
+          "extractable": 97,
+          "bucket_10": 36,
+          "bucket_5": 1,
+          "bucket_1": 26,
+          "bucket_0": 34,
+          "score_10": 4.030927835051546
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 814,
+          "extractable": 172,
+          "bucket_10": 77,
+          "bucket_5": 4,
+          "bucket_1": 24,
+          "bucket_0": 68,
+          "score_10": 4.705202312138728
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 205,
+          "extractable": 45,
+          "bucket_10": 19,
+          "bucket_5": 1,
+          "bucket_1": 10,
+          "bucket_0": 15,
+          "score_10": 4.555555555555555
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 753,
+          "extractable": 116,
+          "bucket_10": 73,
+          "bucket_5": 3,
+          "bucket_1": 8,
+          "bucket_0": 32,
+          "score_10": 6.491379310344827
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 167,
+          "extractable": 41,
+          "bucket_10": 14,
+          "bucket_5": 4,
+          "bucket_1": 7,
+          "bucket_0": 16,
+          "score_10": 4.073170731707317
+        }
+      }
+    },
+    {
+      "name": "v17_678_epoch07",
+      "raw": 5185,
+      "score10": 5.185,
+      "exact10": 490,
+      "bucket5": 23,
+      "bucket1": 170,
+      "bucket0": 317,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 856,
+          "extractable": 209,
+          "bucket_10": 75,
+          "bucket_5": 13,
+          "bucket_1": 41,
+          "bucket_0": 80,
+          "score_10": 4.095693779904306
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 376,
+          "extractable": 122,
+          "bucket_10": 34,
+          "bucket_5": 0,
+          "bucket_1": 36,
+          "bucket_0": 52,
+          "score_10": 3.081967213114754
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1579,
+          "extractable": 197,
+          "bucket_10": 155,
+          "bucket_5": 2,
+          "bucket_1": 19,
+          "bucket_0": 21,
+          "score_10": 8.01522842639594
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 424,
+          "extractable": 97,
+          "bucket_10": 39,
+          "bucket_5": 2,
+          "bucket_1": 24,
+          "bucket_0": 32,
+          "score_10": 4.371134020618556
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 791,
+          "extractable": 172,
+          "bucket_10": 76,
+          "bucket_5": 1,
+          "bucket_1": 26,
+          "bucket_0": 70,
+          "score_10": 4.572254335260116
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 213,
+          "extractable": 45,
+          "bucket_10": 20,
+          "bucket_5": 1,
+          "bucket_1": 8,
+          "bucket_0": 16,
+          "score_10": 4.733333333333333
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 783,
+          "extractable": 116,
+          "bucket_10": 77,
+          "bucket_5": 1,
+          "bucket_1": 8,
+          "bucket_0": 30,
+          "score_10": 6.75
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 163,
+          "extractable": 41,
+          "bucket_10": 14,
+          "bucket_5": 3,
+          "bucket_1": 8,
+          "bucket_0": 16,
+          "score_10": 3.975609756097561
+        }
+      }
+    },
+    {
+      "name": "v17_678_epoch08",
+      "raw": 5258,
+      "score10": 5.258,
+      "exact10": 497,
+      "bucket5": 24,
+      "bucket1": 168,
+      "bucket0": 311,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 877,
+          "extractable": 209,
+          "bucket_10": 77,
+          "bucket_5": 13,
+          "bucket_1": 42,
+          "bucket_0": 77,
+          "score_10": 4.196172248803828
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 415,
+          "extractable": 122,
+          "bucket_10": 38,
+          "bucket_5": 0,
+          "bucket_1": 35,
+          "bucket_0": 49,
+          "score_10": 3.401639344262295
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1588,
+          "extractable": 197,
+          "bucket_10": 156,
+          "bucket_5": 2,
+          "bucket_1": 18,
+          "bucket_0": 21,
+          "score_10": 8.060913705583756
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 462,
+          "extractable": 97,
+          "bucket_10": 43,
+          "bucket_5": 2,
+          "bucket_1": 22,
+          "bucket_0": 30,
+          "score_10": 4.762886597938144
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 765,
+          "extractable": 172,
+          "bucket_10": 73,
+          "bucket_5": 1,
+          "bucket_1": 30,
+          "bucket_0": 69,
+          "score_10": 4.421965317919075
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 221,
+          "extractable": 45,
+          "bucket_10": 21,
+          "bucket_5": 1,
+          "bucket_1": 6,
+          "bucket_0": 17,
+          "score_10": 4.911111111111111
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 783,
+          "extractable": 116,
+          "bucket_10": 77,
+          "bucket_5": 1,
+          "bucket_1": 8,
+          "bucket_0": 30,
+          "score_10": 6.75
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 147,
+          "extractable": 41,
+          "bucket_10": 12,
+          "bucket_5": 4,
+          "bucket_1": 7,
+          "bucket_0": 18,
+          "score_10": 3.5853658536585367
+        }
+      }
+    },
+    {
+      "name": "v16_multiseed",
+      "raw": 5487,
+      "score10": 5.487,
+      "exact10": 525,
+      "bucket5": 19,
+      "bucket1": 142,
+      "bucket0": 314,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 999,
+          "extractable": 209,
+          "bucket_10": 94,
+          "bucket_5": 4,
+          "bucket_1": 39,
+          "bucket_0": 72,
+          "score_10": 4.779904306220096
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 422,
+          "extractable": 122,
+          "bucket_10": 39,
+          "bucket_5": 0,
+          "bucket_1": 32,
+          "bucket_0": 51,
+          "score_10": 3.459016393442623
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1622,
+          "extractable": 197,
+          "bucket_10": 160,
+          "bucket_5": 2,
+          "bucket_1": 12,
+          "bucket_0": 23,
+          "score_10": 8.233502538071066
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 430,
+          "extractable": 97,
+          "bucket_10": 41,
+          "bucket_5": 1,
+          "bucket_1": 15,
+          "bucket_0": 40,
+          "score_10": 4.43298969072165
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 833,
+          "extractable": 172,
+          "bucket_10": 78,
+          "bucket_5": 6,
+          "bucket_1": 23,
+          "bucket_0": 66,
+          "score_10": 4.815028901734104
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 206,
+          "extractable": 45,
+          "bucket_10": 19,
+          "bucket_5": 2,
+          "bucket_1": 6,
+          "bucket_0": 18,
+          "score_10": 4.5777777777777775
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 819,
+          "extractable": 116,
+          "bucket_10": 80,
+          "bucket_5": 2,
+          "bucket_1": 9,
+          "bucket_0": 25,
+          "score_10": 7.060344827586207
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 156,
+          "extractable": 41,
+          "bucket_10": 14,
+          "bucket_5": 2,
+          "bucket_1": 6,
+          "bucket_0": 19,
+          "score_10": 3.8048780487804876
+        }
+      }
+    },
+    {
+      "name": "v16_query_retrieval",
+      "raw": 4957,
+      "score10": 4.957,
+      "exact10": 469,
+      "bucket5": 23,
+      "bucket1": 152,
+      "bucket0": 356,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 797,
+          "extractable": 209,
+          "bucket_10": 71,
+          "bucket_5": 10,
+          "bucket_1": 37,
+          "bucket_0": 91,
+          "score_10": 3.813397129186603
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 374,
+          "extractable": 122,
+          "bucket_10": 34,
+          "bucket_5": 1,
+          "bucket_1": 29,
+          "bucket_0": 58,
+          "score_10": 3.0655737704918034
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1591,
+          "extractable": 197,
+          "bucket_10": 157,
+          "bucket_5": 1,
+          "bucket_1": 16,
+          "bucket_0": 23,
+          "score_10": 8.076142131979696
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 390,
+          "extractable": 97,
+          "bucket_10": 36,
+          "bucket_5": 1,
+          "bucket_1": 25,
+          "bucket_0": 35,
+          "score_10": 4.020618556701031
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 718,
+          "extractable": 172,
+          "bucket_10": 68,
+          "bucket_5": 3,
+          "bucket_1": 23,
+          "bucket_0": 79,
+          "score_10": 4.1502890173410405
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 211,
+          "extractable": 45,
+          "bucket_10": 20,
+          "bucket_5": 1,
+          "bucket_1": 6,
+          "bucket_0": 18,
+          "score_10": 4.688888888888889
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 736,
+          "extractable": 116,
+          "bucket_10": 71,
+          "bucket_5": 3,
+          "bucket_1": 11,
+          "bucket_0": 31,
+          "score_10": 6.344827586206897
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 140,
+          "extractable": 41,
+          "bucket_10": 12,
+          "bucket_5": 3,
+          "bucket_1": 5,
+          "bucket_0": 21,
+          "score_10": 3.4146341463414633
+        }
+      }
+    },
+    {
+      "name": "v8_select_lr1e3",
+      "raw": 5265,
+      "score10": 5.265,
+      "exact10": 502,
+      "bucket5": 21,
+      "bucket1": 140,
+      "bucket0": 337,
+      "extractable": 997,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 876,
+          "extractable": 209,
+          "bucket_10": 78,
+          "bucket_5": 12,
+          "bucket_1": 36,
+          "bucket_0": 83,
+          "score_10": 4.1913875598086126
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 392,
+          "extractable": 122,
+          "bucket_10": 36,
+          "bucket_5": 1,
+          "bucket_1": 27,
+          "bucket_0": 58,
+          "score_10": 3.2131147540983607
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1665,
+          "extractable": 197,
+          "bucket_10": 164,
+          "bucket_5": 3,
+          "bucket_1": 10,
+          "bucket_0": 20,
+          "score_10": 8.451776649746193
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 466,
+          "extractable": 96,
+          "bucket_10": 45,
+          "bucket_5": 0,
+          "bucket_1": 16,
+          "bucket_0": 36,
+          "score_10": 4.804123711340206
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 740,
+          "extractable": 172,
+          "bucket_10": 71,
+          "bucket_5": 1,
+          "bucket_1": 25,
+          "bucket_0": 76,
+          "score_10": 4.277456647398844
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 190,
+          "extractable": 44,
+          "bucket_10": 17,
+          "bucket_5": 2,
+          "bucket_1": 10,
+          "bucket_0": 16,
+          "score_10": 4.222222222222222
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 759,
+          "extractable": 116,
+          "bucket_10": 74,
+          "bucket_5": 2,
+          "bucket_1": 9,
+          "bucket_0": 31,
+          "score_10": 6.543103448275862
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 177,
+          "extractable": 41,
+          "bucket_10": 17,
+          "bucket_5": 0,
+          "bucket_1": 7,
+          "bucket_0": 17,
+          "score_10": 4.317073170731708
+        }
+      }
+    },
+    {
+      "name": "v15_ensemble_nonlegal",
+      "raw": 7016,
+      "score10": 7.016,
+      "exact10": 686,
+      "bucket5": 12,
+      "bucket1": 96,
+      "bucket0": 206,
+      "extractable": 1000,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 1506,
+          "extractable": 209,
+          "bucket_10": 149,
+          "bucket_5": 1,
+          "bucket_1": 11,
+          "bucket_0": 48,
+          "score_10": 7.205741626794258
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 400,
+          "extractable": 122,
+          "bucket_10": 36,
+          "bucket_5": 0,
+          "bucket_1": 40,
+          "bucket_0": 46,
+          "score_10": 3.278688524590164
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1923,
+          "extractable": 197,
+          "bucket_10": 192,
+          "bucket_5": 0,
+          "bucket_1": 3,
+          "bucket_0": 2,
+          "score_10": 9.761421319796954
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 456,
+          "extractable": 97,
+          "bucket_10": 43,
+          "bucket_5": 1,
+          "bucket_1": 21,
+          "bucket_0": 32,
+          "score_10": 4.701030927835052
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 1306,
+          "extractable": 173,
+          "bucket_10": 127,
+          "bucket_5": 6,
+          "bucket_1": 6,
+          "bucket_0": 34,
+          "score_10": 7.5491329479768785
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 233,
+          "extractable": 45,
+          "bucket_10": 22,
+          "bucket_5": 1,
+          "bucket_1": 8,
+          "bucket_0": 14,
+          "score_10": 5.177777777777778
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 987,
+          "extractable": 116,
+          "bucket_10": 98,
+          "bucket_5": 1,
+          "bucket_1": 2,
+          "bucket_0": 15,
+          "score_10": 8.508620689655173
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 205,
+          "extractable": 41,
+          "bucket_10": 19,
+          "bucket_5": 2,
+          "bucket_1": 5,
+          "bucket_0": 15,
+          "score_10": 5.0
+        }
+      }
+    },
+    {
+      "name": "v13_nonlegal",
+      "raw": 6896,
+      "score10": 6.896,
+      "exact10": 678,
+      "bucket5": 5,
+      "bucket1": 91,
+      "bucket0": 226,
+      "extractable": 999,
+      "by_type": {
+        "GSM_AnsAug": {
+          "n": 209,
+          "raw_score": 1493,
+          "extractable": 209,
+          "bucket_10": 148,
+          "bucket_5": 0,
+          "bucket_1": 13,
+          "bucket_0": 48,
+          "score_10": 7.143540669856459
+        },
+        "GSM_FOBAR": {
+          "n": 122,
+          "raw_score": 391,
+          "extractable": 122,
+          "bucket_10": 36,
+          "bucket_5": 0,
+          "bucket_1": 31,
+          "bucket_0": 55,
+          "score_10": 3.2049180327868854
+        },
+        "GSM_Rephrased": {
+          "n": 197,
+          "raw_score": 1874,
+          "extractable": 197,
+          "bucket_10": 187,
+          "bucket_5": 0,
+          "bucket_1": 4,
+          "bucket_0": 6,
+          "score_10": 9.51269035532995
+        },
+        "GSM_SV": {
+          "n": 97,
+          "raw_score": 477,
+          "extractable": 97,
+          "bucket_10": 45,
+          "bucket_5": 2,
+          "bucket_1": 17,
+          "bucket_0": 33,
+          "score_10": 4.917525773195877
+        },
+        "MATH_AnsAug": {
+          "n": 173,
+          "raw_score": 1297,
+          "extractable": 172,
+          "bucket_10": 129,
+          "bucket_5": 0,
+          "bucket_1": 7,
+          "bucket_0": 37,
+          "score_10": 7.497109826589595
+        },
+        "MATH_FOBAR": {
+          "n": 45,
+          "raw_score": 205,
+          "extractable": 45,
+          "bucket_10": 19,
+          "bucket_5": 1,
+          "bucket_1": 10,
+          "bucket_0": 15,
+          "score_10": 4.555555555555555
+        },
+        "MATH_Rephrased": {
+          "n": 116,
+          "raw_score": 987,
+          "extractable": 116,
+          "bucket_10": 98,
+          "bucket_5": 1,
+          "bucket_1": 2,
+          "bucket_0": 15,
+          "score_10": 8.508620689655173
+        },
+        "MATH_SV": {
+          "n": 41,
+          "raw_score": 172,
+          "extractable": 41,
+          "bucket_10": 16,
+          "bucket_5": 1,
+          "bucket_1": 7,
+          "bucket_0": 17,
+          "score_10": 4.195121951219512
+        }
+      }
+    }
+  ],
+  "notebook_runtime": [
+    {
+      "notebook": "finetune_gpt2_for_math_v17_legal_answer_only_epoch7.ipynb",
+      "total_seconds": 8488.767031,
+      "total_minutes": 141.47945051666665,
+      "cell_durations_seconds": [
+        0.026953,
+        27.54589,
+        0.054495,
+        3.306064,
+        13.590155,
+        0.063402,
+        8373.603658,
+        0.033748,
+        70.492387,
+        0.050279
+      ]
+    },
+    {
+      "notebook": "finetune_gpt2_for_math_v17_legal_answer_only_select_678.ipynb",
+      "total_seconds": 9812.233250000001,
+      "total_minutes": 163.53722083333335,
+      "cell_durations_seconds": [
+        0.026188,
+        27.507837,
+        0.056115,
+        2.894036,
+        13.75988,
+        0.063314,
+        9556.693997,
+        0.036072,
+        211.143041,
+        0.05277
+      ]
+    },
+    {
+      "notebook": "finetune_gpt2_for_math_v16_legal_answer_only_multiseed.ipynb",
+      "total_seconds": 19876.551159,
+      "total_minutes": 331.27585265,
+      "cell_durations_seconds": [
+        0.027234,
+        23.303057,
+        0.04981,
+        2.900591,
+        13.564361,
+        0.058911,
+        19294.216247,
+        0.03489,
+        542.345961,
+        0.050097
+      ]
+    },
+    {
+      "notebook": "finetune_gpt2_for_math_v16_legal_query_retrieval_ranker.ipynb",
+      "total_seconds": 12379.132264,
+      "total_minutes": 206.31887106666667,
+      "cell_durations_seconds": [
+        0.028223,
+        27.245977,
+        0.056601,
+        3.310969,
+        14.070538,
+        0.058811,
+        8775.735516,
+        0.033734,
+        3558.542188,
+        0.049707
+      ]
+    }
+  ],
+  "by_type_compare": {
+    "GSM_AnsAug": {
+      "v17_epoch7": 1037,
+      "v17_678_selected": 877,
+      "v16_multiseed": 999,
+      "v8_select_lr1e3": 876,
+      "delta_v17_epoch7_vs_v8": 161,
+      "delta_v17_epoch7_vs_v16_multiseed": 38
+    },
+    "GSM_FOBAR": {
+      "v17_epoch7": 388,
+      "v17_678_selected": 415,
+      "v16_multiseed": 422,
+      "v8_select_lr1e3": 392,
+      "delta_v17_epoch7_vs_v8": -4,
+      "delta_v17_epoch7_vs_v16_multiseed": -34
+    },
+    "GSM_Rephrased": {
+      "v17_epoch7": 1576,
+      "v17_678_selected": 1588,
+      "v16_multiseed": 1622,
+      "v8_select_lr1e3": 1665,
+      "delta_v17_epoch7_vs_v8": -89,
+      "delta_v17_epoch7_vs_v16_multiseed": -46
+    },
+    "GSM_SV": {
+      "v17_epoch7": 476,
+      "v17_678_selected": 462,
+      "v16_multiseed": 430,
+      "v8_select_lr1e3": 466,
+      "delta_v17_epoch7_vs_v8": 10,
+      "delta_v17_epoch7_vs_v16_multiseed": 46
+    },
+    "MATH_AnsAug": {
+      "v17_epoch7": 786,
+      "v17_678_selected": 765,
+      "v16_multiseed": 833,
+      "v8_select_lr1e3": 740,
+      "delta_v17_epoch7_vs_v8": 46,
+      "delta_v17_epoch7_vs_v16_multiseed": -47
+    },
+    "MATH_FOBAR": {
+      "v17_epoch7": 200,
+      "v17_678_selected": 221,
+      "v16_multiseed": 206,
+      "v8_select_lr1e3": 190,
+      "delta_v17_epoch7_vs_v8": 10,
+      "delta_v17_epoch7_vs_v16_multiseed": -6
+    },
+    "MATH_Rephrased": {
+      "v17_epoch7": 777,
+      "v17_678_selected": 783,
+      "v16_multiseed": 819,
+      "v8_select_lr1e3": 759,
+      "delta_v17_epoch7_vs_v8": 18,
+      "delta_v17_epoch7_vs_v16_multiseed": -42
+    },
+    "MATH_SV": {
+      "v17_epoch7": 210,
+      "v17_678_selected": 147,
+      "v16_multiseed": 156,
+      "v8_select_lr1e3": 177,
+      "delta_v17_epoch7_vs_v8": 33,
+      "delta_v17_epoch7_vs_v16_multiseed": 54
+    }
+  },
+  "candidate_summaries": {
+    "v17_epoch7": {
+      "raw": 5450,
+      "score10": 5.45,
+      "buckets": {
+        "10": 514,
+        "5": 31,
+        "1": 155,
+        "0": 300
+      },
+      "extractable": 999
+    },
+    "v17_678_e06": {
+      "raw": 5240,
+      "score10": 5.24,
+      "buckets": {
+        "10": 493,
+        "5": 29,
+        "1": 165,
+        "0": 313
+      },
+      "extractable": 999
+    },
+    "v17_678_e07": {
+      "raw": 5185,
+      "score10": 5.185,
+      "buckets": {
+        "10": 490,
+        "5": 23,
+        "1": 170,
+        "0": 317
+      },
+      "extractable": 999
+    },
+    "v17_678_e08": {
+      "raw": 5258,
+      "score10": 5.258,
+      "buckets": {
+        "10": 497,
+        "5": 24,
+        "1": 168,
+        "0": 311
+      },
+      "extractable": 999
+    },
+    "v16_e06": {
+      "raw": 5297,
+      "score10": 5.297,
+      "buckets": {
+        "10": 499,
+        "5": 30,
+        "1": 157,
+        "0": 314
+      },
+      "extractable": 999
+    },
+    "v16_e07": {
+      "raw": 5486,
+      "score10": 5.486,
+      "buckets": {
+        "10": 523,
+        "5": 22,
+        "1": 146,
+        "0": 309
+      },
+      "extractable": 999
+    },
+    "v16_e08": {
+      "raw": 5400,
+      "score10": 5.4,
+      "buckets": {
+        "10": 515,
+        "5": 21,
+        "1": 145,
+        "0": 319
+      },
+      "extractable": 999
+    },
+    "v16_s123e07": {
+      "raw": 5257,
+      "score10": 5.257,
+      "buckets": {
+        "10": 501,
+        "5": 20,
+        "1": 147,
+        "0": 332
+      },
+      "extractable": 999
+    },
+    "v16_multi_final": {
+      "raw": 5487,
+      "score10": 5.487,
+      "buckets": {
+        "10": 525,
+        "5": 19,
+        "1": 142,
+        "0": 314
+      },
+      "extractable": 999
+    },
+    "v8_lr1e3": {
+      "raw": 5265,
+      "score10": 5.265,
+      "buckets": {
+        "10": 502,
+        "5": 21,
+        "1": 140,
+        "0": 337
+      },
+      "extractable": 997
+    },
+    "v16_query_final": {
+      "raw": 4957,
+      "score10": 4.957,
+      "buckets": {
+        "10": 469,
+        "5": 23,
+        "1": 152,
+        "0": 356
+      },
+      "extractable": 999
+    }
+  },
+  "oracle": {
+    "v17_only": {
+      "candidate_names": [
+        "v17_epoch7",
+        "v17_678_e06",
+        "v17_678_e07",
+        "v17_678_e08"
+      ],
+      "n_candidates": 4,
+      "oracle_raw": 6669,
+      "oracle_score10": 6.669,
+      "all_same_answer_rows": 427
+    },
+    "answer_only_legal_v8_v16_v17": {
+      "candidate_names": [
+        "v17_epoch7",
+        "v17_678_e06",
+        "v17_678_e07",
+        "v17_678_e08",
+        "v16_e06",
+        "v16_e07",
+        "v16_e08",
+        "v16_s123e07",
+        "v16_multi_final",
+        "v8_lr1e3"
+      ],
+      "n_candidates": 10,
+      "oracle_raw": 7510,
+      "oracle_score10": 7.51,
+      "all_same_answer_rows": 279
+    },
+    "strict_legal_plus_query_retrieval": {
+      "candidate_names": [
+        "v17_epoch7",
+        "v17_678_e06",
+        "v17_678_e07",
+        "v17_678_e08",
+        "v16_e06",
+        "v16_e07",
+        "v16_e08",
+        "v16_s123e07",
+        "v16_multi_final",
+        "v8_lr1e3",
+        "v16_query_final"
+      ],
+      "n_candidates": 11,
+      "oracle_raw": 7617,
+      "oracle_score10": 7.617,
+      "all_same_answer_rows": 253
+    }
+  },
+  "pairwise_vs_v17_epoch7": [
+    {
+      "base": "v17_epoch7",
+      "other": "v17_678_e08",
+      "delta_raw": 192,
+      "improved_rows": 173,
+      "worse_rows": 157,
+      "same_rows": 670,
+      "by_type": {
+        "GSM_AnsAug": {
+          "delta": 160,
+          "improved_rows": 59,
+          "worse_rows": 42
+        },
+        "GSM_FOBAR": {
+          "delta": -27,
+          "improved_rows": 16,
+          "worse_rows": 22
+        },
+        "GSM_Rephrased": {
+          "delta": -12,
+          "improved_rows": 24,
+          "worse_rows": 25
+        },
+        "GSM_SV": {
+          "delta": 14,
+          "improved_rows": 17,
+          "worse_rows": 15
+        },
+        "MATH_AnsAug": {
+          "delta": 21,
+          "improved_rows": 27,
+          "worse_rows": 34
+        },
+        "MATH_FOBAR": {
+          "delta": -21,
+          "improved_rows": 8,
+          "worse_rows": 7
+        },
+        "MATH_Rephrased": {
+          "delta": -6,
+          "improved_rows": 13,
+          "worse_rows": 10
+        },
+        "MATH_SV": {
+          "delta": 63,
+          "improved_rows": 9,
+          "worse_rows": 2
+        }
+      }
+    },
+    {
+      "base": "v17_epoch7",
+      "other": "v17_678_e06",
+      "delta_raw": 210,
+      "improved_rows": 181,
+      "worse_rows": 161,
+      "same_rows": 658,
+      "by_type": {
+        "GSM_AnsAug": {
+          "delta": 133,
+          "improved_rows": 59,
+          "worse_rows": 43
+        },
+        "GSM_FOBAR": {
+          "delta": -2,
+          "improved_rows": 22,
+          "worse_rows": 26
+        },
+        "GSM_Rephrased": {
+          "delta": -40,
+          "improved_rows": 23,
+          "worse_rows": 26
+        },
+        "GSM_SV": {
+          "delta": 85,
+          "improved_rows": 24,
+          "worse_rows": 15
+        },
+        "MATH_AnsAug": {
+          "delta": -28,
+          "improved_rows": 23,
+          "worse_rows": 32
+        },
+        "MATH_FOBAR": {
+          "delta": -5,
+          "improved_rows": 8,
+          "worse_rows": 7
+        },
+        "MATH_Rephrased": {
+          "delta": 24,
+          "improved_rows": 14,
+          "worse_rows": 9
+        },
+        "MATH_SV": {
+          "delta": 43,
+          "improved_rows": 8,
+          "worse_rows": 3
+        }
+      }
+    },
+    {
+      "base": "v17_epoch7",
+      "other": "v16_e07",
+      "delta_raw": -36,
+      "improved_rows": 150,
+      "worse_rows": 152,
+      "same_rows": 698,
+      "by_type": {
+        "GSM_AnsAug": {
+          "delta": 73,
+          "improved_rows": 54,
+          "worse_rows": 44
+        },
+        "GSM_FOBAR": {
+          "delta": -29,
+          "improved_rows": 17,
+          "worse_rows": 22
+        },
+        "GSM_Rephrased": {
+          "delta": 4,
+          "improved_rows": 20,
+          "worse_rows": 17
+        },
+        "GSM_SV": {
+          "delta": 1,
+          "improved_rows": 20,
+          "worse_rows": 14
+        },
+        "MATH_AnsAug": {
+          "delta": -89,
+          "improved_rows": 19,
+          "worse_rows": 33
+        },
+        "MATH_FOBAR": {
+          "delta": -10,
+          "improved_rows": 4,
+          "worse_rows": 6
+        },
+        "MATH_Rephrased": {
+          "delta": -3,
+          "improved_rows": 11,
+          "worse_rows": 10
+        },
+        "MATH_SV": {
+          "delta": 17,
+          "improved_rows": 5,
+          "worse_rows": 6
+        }
+      }
+    },
+    {
+      "base": "v17_epoch7",
+      "other": "v16_multi_final",
+      "delta_raw": -37,
+      "improved_rows": 159,
+      "worse_rows": 150,
+      "same_rows": 691,
+      "by_type": {
+        "GSM_AnsAug": {
+          "delta": 38,
+          "improved_rows": 53,
+          "worse_rows": 42
+        },
+        "GSM_FOBAR": {
+          "delta": -34,
+          "improved_rows": 17,
+          "worse_rows": 21
+        },
+        "GSM_Rephrased": {
+          "delta": -46,
+          "improved_rows": 17,
+          "worse_rows": 20
+        },
+        "GSM_SV": {
+          "delta": 46,
+          "improved_rows": 22,
+          "worse_rows": 10
+        },
+        "MATH_AnsAug": {
+          "delta": -47,
+          "improved_rows": 25,
+          "worse_rows": 35
+        },
+        "MATH_FOBAR": {
+          "delta": -6,
+          "improved_rows": 7,
+          "worse_rows": 7
+        },
+        "MATH_Rephrased": {
+          "delta": -42,
+          "improved_rows": 8,
+          "worse_rows": 11
+        },
+        "MATH_SV": {
+          "delta": 54,
+          "improved_rows": 10,
+          "worse_rows": 4
+        }
+      }
+    },
+    {
+      "base": "v17_epoch7",
+      "other": "v8_lr1e3",
+      "delta_raw": 185,
+      "improved_rows": 168,
+      "worse_rows": 145,
+      "same_rows": 687,
+      "by_type": {
+        "GSM_AnsAug": {
+          "delta": 161,
+          "improved_rows": 62,
+          "worse_rows": 37
+        },
+        "GSM_FOBAR": {
+          "delta": -4,
+          "improved_rows": 20,
+          "worse_rows": 20
+        },
+        "GSM_Rephrased": {
+          "delta": -89,
+          "improved_rows": 13,
+          "worse_rows": 26
+        },
+        "GSM_SV": {
+          "delta": 10,
+          "improved_rows": 18,
+          "worse_rows": 14
+        },
+        "MATH_AnsAug": {
+          "delta": 46,
+          "improved_rows": 29,
+          "worse_rows": 28
+        },
+        "MATH_FOBAR": {
+          "delta": 10,
+          "improved_rows": 8,
+          "worse_rows": 6
+        },
+        "MATH_Rephrased": {
+          "delta": 18,
+          "improved_rows": 12,
+          "worse_rows": 8
+        },
+        "MATH_SV": {
+          "delta": 33,
+          "improved_rows": 6,
+          "worse_rows": 6
+        }
+      }
+    }
+  ],
+  "output_behavior": {
+    "v17_epoch7": {
+      "n": 1000,
+      "mean_len": 13.23,
+      "median_len": 13.0,
+      "unique_outputs": 248,
+      "multiline": 0,
+      "long_gt_40": 1,
+      "first3": [
+        "Đáp án là: 37",
+        "Đáp án là: 19",
+        "Đáp án là: 8"
+      ]
+    },
+    "v17_678": {
+      "n": 1000,
+      "mean_len": 13.145,
+      "median_len": 13.0,
+      "unique_outputs": 244,
+      "multiline": 0,
+      "long_gt_40": 1,
+      "first3": [
+        "Đáp án là: 37",
+        "Đáp án là: 19",
+        "Đáp án là: 2"
+      ]
+    }
+  },
+  "manifests": {
+    "v10": [
+      {
+        "path": "results\\v10\\v10_curriculum_compact_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v11": [
+      {
+        "path": "results\\v11\\v11_answer_only_overlap_valid_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v12": [
+      {
+        "path": "results\\v12\\v12_hybrid_retrieval_overlap_valid_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v13": [
+      {
+        "path": "results\\v13\\v13_type_gated_hybrid_full_retrain_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v14_5_gate_sweep": [
+      {
+        "path": "results\\v14_5_gate_sweep\\v14_5_gate_sweep_full_train_valid_select_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v14_5_v13": [
+      {
+        "path": "results\\v14_5_v13\\v14_5_v13_full_train_valid_select_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v14_fobar_sv": [
+      {
+        "path": "results\\v14_fobar_sv\\v14_fobar_sv_extended_retrieval_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v14_gate_sweep": [
+      {
+        "path": "results\\v14_gate_sweep\\v14_retrieval_gate_sweep_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v15_ensemble": [
+      {
+        "path": "results\\v15_ensemble\\v15_ensemble_ranker_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v15_type_specific": [
+      {
+        "path": "results\\v15_type_specific\\v15_type_expert_sv_fobar_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v16_multiseed": [
+      {
+        "path": "results\\v16_multiseed\\v16_legal_answer_only_multiseed_manifest.json",
+        "uses_original_question_fields": false,
+        "uses_type_for_prompt_or_routing": false,
+        "retrieval_basis": "none_answer_only_model_consensus",
+        "legal_query_retrieval_enabled": false,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v16_query_retrieval_ranker": [
+      {
+        "path": "results\\v16_query_retrieval_ranker\\v16_legal_query_retrieval_ranker_manifest.json",
+        "uses_original_question_fields": false,
+        "uses_type_for_prompt_or_routing": false,
+        "retrieval_basis": "train_query_vi_similarity_to_train_response_vi_answer",
+        "legal_query_retrieval_enabled": true,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v17_678": [
+      {
+        "path": "results\\v17_678\\v17_legal_answer_only_select_678_manifest.json",
+        "uses_original_question_fields": false,
+        "uses_type_for_prompt_or_routing": false,
+        "retrieval_basis": "none_answer_only_valid_select_678",
+        "legal_query_retrieval_enabled": false,
+        "uses_valid_labels_for_checkpoint_selection": true
+      }
+    ],
+    "v17_epoch7": [
+      {
+        "path": "results\\v17_epoch7\\v17_legal_answer_only_epoch7_manifest.json",
+        "uses_original_question_fields": false,
+        "uses_type_for_prompt_or_routing": false,
+        "retrieval_basis": "none_answer_only_fixed_epoch7",
+        "legal_query_retrieval_enabled": false,
+        "uses_valid_labels_for_checkpoint_selection": false
+      }
+    ],
+    "v5": [
+      {
+        "path": "results\\v5\\v5_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v6": [
+      {
+        "path": "results\\v6\\v6_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v6_fast": [
+      {
+        "path": "results\\v6_fast\\v6_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v7": [
+      {
+        "path": "results\\v7\\v7_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ],
+    "v9": [
+      {
+        "path": "results\\v9\\v9_compact_equation_manifest.json",
+        "uses_original_question_fields": null,
+        "uses_type_for_prompt_or_routing": null,
+        "retrieval_basis": null,
+        "legal_query_retrieval_enabled": null,
+        "uses_valid_labels_for_checkpoint_selection": null
+      }
+    ]
+  }
+}

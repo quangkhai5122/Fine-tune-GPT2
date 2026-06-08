@@ -1,0 +1,2696 @@
+{
+  "note": "Pseudo-gold analysis using dataset/test_gold.json. This is not official leaderboard gold.",
+  "summaries": {
+    "v17_phase2": {
+      "n": 1000,
+      "raw": 1281,
+      "max_raw": 10000,
+      "score10": 1.281,
+      "buckets": {
+        "10": 84,
+        "5": 40,
+        "1": 241,
+        "0": 635
+      },
+      "extractable": 999,
+      "numeric_pairs": 993,
+      "rel_error_median": 0.75,
+      "rel_error_mean": 14.932959036503176,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "raw": 358,
+          "score10": 1.1015384615384616,
+          "exact10": 17,
+          "bucket5": 19,
+          "bucket1": 93,
+          "bucket0": 196,
+          "extractable": 325,
+          "numeric": 325
+        },
+        "GSM_SV": {
+          "n": 194,
+          "raw": 112,
+          "score10": 0.5773195876288659,
+          "exact10": 5,
+          "bucket5": 3,
+          "bucket1": 47,
+          "bucket0": 139,
+          "extractable": 194,
+          "numeric": 194
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "raw": 228,
+          "score10": 1.6056338028169015,
+          "exact10": 16,
+          "bucket5": 7,
+          "bucket1": 33,
+          "bucket0": 86,
+          "extractable": 142,
+          "numeric": 142
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "raw": 81,
+          "score10": 0.7232142857142857,
+          "exact10": 1,
+          "bucket5": 9,
+          "bucket1": 26,
+          "bucket0": 76,
+          "extractable": 112,
+          "numeric": 107
+        },
+        "MATH_SV": {
+          "n": 80,
+          "raw": 47,
+          "score10": 0.5875,
+          "exact10": 3,
+          "bucket5": 0,
+          "bucket1": 17,
+          "bucket0": 60,
+          "extractable": 80,
+          "numeric": 80
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "raw": 270,
+          "score10": 3.8028169014084505,
+          "exact10": 26,
+          "bucket5": 0,
+          "bucket1": 10,
+          "bucket0": 35,
+          "extractable": 71,
+          "numeric": 70
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "raw": 24,
+          "score10": 0.5454545454545454,
+          "exact10": 1,
+          "bucket5": 1,
+          "bucket1": 9,
+          "bucket0": 33,
+          "extractable": 43,
+          "numeric": 43
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "raw": 149,
+          "score10": 5.518518518518518,
+          "exact10": 14,
+          "bucket5": 1,
+          "bucket1": 4,
+          "bucket0": 8,
+          "extractable": 27,
+          "numeric": 27
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "raw": 12,
+          "score10": 2.4,
+          "exact10": 1,
+          "bucket5": 0,
+          "bucket1": 2,
+          "bucket0": 2,
+          "extractable": 5,
+          "numeric": 5
+        }
+      },
+      "top_pred_answers": [
+        [
+          "5",
+          84
+        ],
+        [
+          "4",
+          45
+        ],
+        [
+          "50",
+          34
+        ],
+        [
+          "10",
+          32
+        ],
+        [
+          "22",
+          29
+        ],
+        [
+          "56",
+          28
+        ],
+        [
+          "26",
+          28
+        ],
+        [
+          "6",
+          25
+        ],
+        [
+          "20",
+          25
+        ],
+        [
+          "15",
+          21
+        ],
+        [
+          "11",
+          19
+        ],
+        [
+          "25",
+          19
+        ],
+        [
+          "3",
+          19
+        ],
+        [
+          "0.375",
+          17
+        ],
+        [
+          "78",
+          15
+        ],
+        [
+          "7",
+          14
+        ],
+        [
+          "83",
+          14
+        ],
+        [
+          "2",
+          14
+        ],
+        [
+          "60",
+          13
+        ],
+        [
+          "23",
+          13
+        ]
+      ]
+    },
+    "v21_phase2": {
+      "n": 1000,
+      "raw": 1235,
+      "max_raw": 10000,
+      "score10": 1.235,
+      "buckets": {
+        "10": 89,
+        "5": 27,
+        "1": 210,
+        "0": 674
+      },
+      "extractable": 1000,
+      "numeric_pairs": 999,
+      "rel_error_median": 0.75,
+      "rel_error_mean": 162.79425242239364,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "raw": 234,
+          "score10": 0.72,
+          "exact10": 15,
+          "bucket5": 6,
+          "bucket1": 54,
+          "bucket0": 250,
+          "extractable": 325,
+          "numeric": 325
+        },
+        "GSM_SV": {
+          "n": 194,
+          "raw": 78,
+          "score10": 0.4020618556701031,
+          "exact10": 2,
+          "bucket5": 5,
+          "bucket1": 33,
+          "bucket0": 154,
+          "extractable": 194,
+          "numeric": 194
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "raw": 241,
+          "score10": 1.6971830985915493,
+          "exact10": 16,
+          "bucket5": 6,
+          "bucket1": 51,
+          "bucket0": 69,
+          "extractable": 142,
+          "numeric": 142
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "raw": 119,
+          "score10": 1.0625,
+          "exact10": 5,
+          "bucket5": 8,
+          "bucket1": 29,
+          "bucket0": 70,
+          "extractable": 112,
+          "numeric": 112
+        },
+        "MATH_SV": {
+          "n": 80,
+          "raw": 73,
+          "score10": 0.9125,
+          "exact10": 5,
+          "bucket5": 1,
+          "bucket1": 18,
+          "bucket0": 56,
+          "extractable": 80,
+          "numeric": 80
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "raw": 300,
+          "score10": 4.225352112676056,
+          "exact10": 29,
+          "bucket5": 0,
+          "bucket1": 10,
+          "bucket0": 32,
+          "extractable": 71,
+          "numeric": 70
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "raw": 31,
+          "score10": 0.7045454545454546,
+          "exact10": 2,
+          "bucket5": 0,
+          "bucket1": 11,
+          "bucket0": 31,
+          "extractable": 44,
+          "numeric": 44
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "raw": 139,
+          "score10": 5.148148148148148,
+          "exact10": 13,
+          "bucket5": 1,
+          "bucket1": 4,
+          "bucket0": 9,
+          "extractable": 27,
+          "numeric": 27
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "raw": 20,
+          "score10": 4.0,
+          "exact10": 2,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 3,
+          "extractable": 5,
+          "numeric": 5
+        }
+      },
+      "top_pred_answers": [
+        [
+          "20",
+          45
+        ],
+        [
+          "10",
+          37
+        ],
+        [
+          "60",
+          34
+        ],
+        [
+          "6",
+          34
+        ],
+        [
+          "5",
+          32
+        ],
+        [
+          "8",
+          31
+        ],
+        [
+          "60000",
+          27
+        ],
+        [
+          "4",
+          24
+        ],
+        [
+          "11",
+          22
+        ],
+        [
+          "15",
+          21
+        ],
+        [
+          "23",
+          21
+        ],
+        [
+          "35",
+          20
+        ],
+        [
+          "600",
+          19
+        ],
+        [
+          "21",
+          18
+        ],
+        [
+          "14",
+          17
+        ],
+        [
+          "40",
+          17
+        ],
+        [
+          "17",
+          16
+        ],
+        [
+          "19",
+          16
+        ],
+        [
+          "1000",
+          14
+        ],
+        [
+          "28",
+          13
+        ]
+      ]
+    },
+    "v23_phase2": {
+      "n": 1000,
+      "raw": 1481,
+      "max_raw": 10000,
+      "score10": 1.481,
+      "buckets": {
+        "10": 101,
+        "5": 45,
+        "1": 246,
+        "0": 608
+      },
+      "extractable": 1000,
+      "numeric_pairs": 998,
+      "rel_error_median": 0.6666666666666666,
+      "rel_error_mean": 23.00190470626446,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "raw": 302,
+          "score10": 0.9292307692307692,
+          "exact10": 19,
+          "bucket5": 10,
+          "bucket1": 62,
+          "bucket0": 234,
+          "extractable": 325,
+          "numeric": 325
+        },
+        "GSM_SV": {
+          "n": 194,
+          "raw": 181,
+          "score10": 0.9329896907216495,
+          "exact10": 7,
+          "bucket5": 10,
+          "bucket1": 61,
+          "bucket0": 116,
+          "extractable": 194,
+          "numeric": 193
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "raw": 283,
+          "score10": 1.9929577464788732,
+          "exact10": 20,
+          "bucket5": 9,
+          "bucket1": 38,
+          "bucket0": 75,
+          "extractable": 142,
+          "numeric": 142
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "raw": 101,
+          "score10": 0.9017857142857143,
+          "exact10": 4,
+          "bucket5": 6,
+          "bucket1": 31,
+          "bucket0": 71,
+          "extractable": 112,
+          "numeric": 112
+        },
+        "MATH_SV": {
+          "n": 80,
+          "raw": 108,
+          "score10": 1.35,
+          "exact10": 6,
+          "bucket5": 4,
+          "bucket1": 28,
+          "bucket0": 42,
+          "extractable": 80,
+          "numeric": 80
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "raw": 317,
+          "score10": 4.464788732394366,
+          "exact10": 29,
+          "bucket5": 3,
+          "bucket1": 12,
+          "bucket0": 27,
+          "extractable": 71,
+          "numeric": 70
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "raw": 32,
+          "score10": 0.7272727272727273,
+          "exact10": 2,
+          "bucket5": 1,
+          "bucket1": 7,
+          "bucket0": 34,
+          "extractable": 44,
+          "numeric": 44
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "raw": 141,
+          "score10": 5.222222222222222,
+          "exact10": 13,
+          "bucket5": 1,
+          "bucket1": 6,
+          "bucket0": 7,
+          "extractable": 27,
+          "numeric": 27
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "raw": 16,
+          "score10": 3.2,
+          "exact10": 1,
+          "bucket5": 1,
+          "bucket1": 1,
+          "bucket0": 2,
+          "extractable": 5,
+          "numeric": 5
+        }
+      },
+      "top_pred_answers": [
+        [
+          "20",
+          59
+        ],
+        [
+          "40",
+          50
+        ],
+        [
+          "6",
+          43
+        ],
+        [
+          "8",
+          42
+        ],
+        [
+          "5",
+          38
+        ],
+        [
+          "2",
+          36
+        ],
+        [
+          "4",
+          27
+        ],
+        [
+          "10",
+          26
+        ],
+        [
+          "198",
+          23
+        ],
+        [
+          "363",
+          23
+        ],
+        [
+          "14",
+          22
+        ],
+        [
+          "0.3",
+          22
+        ],
+        [
+          "12",
+          21
+        ],
+        [
+          "60",
+          20
+        ],
+        [
+          "11",
+          18
+        ],
+        [
+          "9",
+          16
+        ],
+        [
+          "24",
+          15
+        ],
+        [
+          "3",
+          14
+        ],
+        [
+          "15",
+          14
+        ],
+        [
+          "26",
+          13
+        ]
+      ]
+    },
+    "v22_v17": {
+      "n": 1000,
+      "raw": 9781,
+      "max_raw": 10000,
+      "score10": 9.781,
+      "buckets": {
+        "10": 977,
+        "5": 1,
+        "1": 6,
+        "0": 16
+      },
+      "extractable": 1000,
+      "numeric_pairs": 999,
+      "rel_error_median": 0.0,
+      "rel_error_mean": 0.10968819982985407,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "raw": 3220,
+          "score10": 9.907692307692308,
+          "exact10": 322,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 3,
+          "extractable": 325,
+          "numeric": 325
+        },
+        "GSM_SV": {
+          "n": 194,
+          "raw": 1940,
+          "score10": 10.0,
+          "exact10": 194,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 0,
+          "extractable": 194,
+          "numeric": 194
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "raw": 1392,
+          "score10": 9.80281690140845,
+          "exact10": 139,
+          "bucket5": 0,
+          "bucket1": 2,
+          "bucket0": 1,
+          "extractable": 142,
+          "numeric": 142
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "raw": 1120,
+          "score10": 10.0,
+          "exact10": 112,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 0,
+          "extractable": 112,
+          "numeric": 112
+        },
+        "MATH_SV": {
+          "n": 80,
+          "raw": 780,
+          "score10": 9.75,
+          "exact10": 78,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 2,
+          "extractable": 80,
+          "numeric": 80
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "raw": 643,
+          "score10": 9.056338028169014,
+          "exact10": 64,
+          "bucket5": 0,
+          "bucket1": 3,
+          "bucket0": 4,
+          "extractable": 71,
+          "numeric": 70
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "raw": 430,
+          "score10": 9.772727272727273,
+          "exact10": 43,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 1,
+          "extractable": 44,
+          "numeric": 44
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "raw": 245,
+          "score10": 9.074074074074074,
+          "exact10": 24,
+          "bucket5": 1,
+          "bucket1": 0,
+          "bucket0": 2,
+          "extractable": 27,
+          "numeric": 27
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "raw": 11,
+          "score10": 2.2,
+          "exact10": 1,
+          "bucket5": 0,
+          "bucket1": 1,
+          "bucket0": 3,
+          "extractable": 5,
+          "numeric": 5
+        }
+      },
+      "top_pred_answers": [
+        [
+          "5",
+          34
+        ],
+        [
+          "10",
+          29
+        ],
+        [
+          "100",
+          24
+        ],
+        [
+          "20",
+          23
+        ],
+        [
+          "8",
+          23
+        ],
+        [
+          "2",
+          23
+        ],
+        [
+          "19",
+          19
+        ],
+        [
+          "17",
+          19
+        ],
+        [
+          "4",
+          19
+        ],
+        [
+          "3",
+          19
+        ],
+        [
+          "30",
+          18
+        ],
+        [
+          "6",
+          17
+        ],
+        [
+          "15",
+          17
+        ],
+        [
+          "400",
+          16
+        ],
+        [
+          "7",
+          15
+        ],
+        [
+          "50",
+          15
+        ],
+        [
+          "9",
+          15
+        ],
+        [
+          "500",
+          14
+        ],
+        [
+          "160",
+          13
+        ],
+        [
+          "13",
+          13
+        ]
+      ]
+    },
+    "v22_v21": {
+      "n": 1000,
+      "raw": 9740,
+      "max_raw": 10000,
+      "score10": 9.74,
+      "buckets": {
+        "10": 973,
+        "1": 10,
+        "0": 17
+      },
+      "extractable": 1000,
+      "numeric_pairs": 999,
+      "rel_error_median": 0.0,
+      "rel_error_mean": 0.105290392404396,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "raw": 3220,
+          "score10": 9.907692307692308,
+          "exact10": 322,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 3,
+          "extractable": 325,
+          "numeric": 325
+        },
+        "GSM_SV": {
+          "n": 194,
+          "raw": 1940,
+          "score10": 10.0,
+          "exact10": 194,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 0,
+          "extractable": 194,
+          "numeric": 194
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "raw": 1392,
+          "score10": 9.80281690140845,
+          "exact10": 139,
+          "bucket5": 0,
+          "bucket1": 2,
+          "bucket0": 1,
+          "extractable": 142,
+          "numeric": 142
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "raw": 1120,
+          "score10": 10.0,
+          "exact10": 112,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 0,
+          "extractable": 112,
+          "numeric": 112
+        },
+        "MATH_SV": {
+          "n": 80,
+          "raw": 771,
+          "score10": 9.6375,
+          "exact10": 77,
+          "bucket5": 0,
+          "bucket1": 1,
+          "bucket0": 2,
+          "extractable": 80,
+          "numeric": 80
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "raw": 625,
+          "score10": 8.80281690140845,
+          "exact10": 62,
+          "bucket5": 0,
+          "bucket1": 5,
+          "bucket0": 4,
+          "extractable": 71,
+          "numeric": 70
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "raw": 430,
+          "score10": 9.772727272727273,
+          "exact10": 43,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 1,
+          "extractable": 44,
+          "numeric": 44
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "raw": 230,
+          "score10": 8.518518518518519,
+          "exact10": 23,
+          "bucket5": 0,
+          "bucket1": 0,
+          "bucket0": 4,
+          "extractable": 27,
+          "numeric": 27
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "raw": 12,
+          "score10": 2.4,
+          "exact10": 1,
+          "bucket5": 0,
+          "bucket1": 2,
+          "bucket0": 2,
+          "extractable": 5,
+          "numeric": 5
+        }
+      },
+      "top_pred_answers": [
+        [
+          "5",
+          33
+        ],
+        [
+          "10",
+          27
+        ],
+        [
+          "20",
+          24
+        ],
+        [
+          "100",
+          24
+        ],
+        [
+          "4",
+          22
+        ],
+        [
+          "3",
+          22
+        ],
+        [
+          "2",
+          21
+        ],
+        [
+          "8",
+          20
+        ],
+        [
+          "19",
+          19
+        ],
+        [
+          "6",
+          19
+        ],
+        [
+          "17",
+          19
+        ],
+        [
+          "30",
+          17
+        ],
+        [
+          "15",
+          17
+        ],
+        [
+          "7",
+          16
+        ],
+        [
+          "400",
+          16
+        ],
+        [
+          "9",
+          16
+        ],
+        [
+          "50",
+          14
+        ],
+        [
+          "12",
+          14
+        ],
+        [
+          "500",
+          14
+        ],
+        [
+          "160",
+          13
+        ]
+      ]
+    }
+  },
+  "v23_profile_selection": {
+    "strategy": "v23_legal_no_solver_valid_profile_selection",
+    "selection_metric": "max(raw_score, exact10, extractable, -bucket0, -runtime_cost)",
+    "selected_name": "beam2_model_only",
+    "profiles": [
+      {
+        "name": "beam2_model_only",
+        "valid_raw": 6325,
+        "valid_score10": 6.325,
+        "valid_buckets": {
+          "10": 615,
+          "5": 10,
+          "1": 125,
+          "0": 250
+        },
+        "valid_extractable": 999,
+        "changed_from_model": 0,
+        "source_counts": {
+          "model": 1000
+        },
+        "retrieval_reason_counts": {
+          "disabled": 1000
+        },
+        "sanity": {
+          "n": 1000,
+          "nonempty": 1000,
+          "digit": 1000,
+          "anchor": 0,
+          "extractable": 999,
+          "samples": [
+            "Đáp án là: 37",
+            "Đáp án là: 19",
+            "Đáp án là: 8",
+            "Đáp án là: 39",
+            "Đáp án là: 440"
+          ]
+        }
+      },
+      {
+        "name": "greedy_model_only",
+        "valid_raw": 6195,
+        "valid_score10": 6.195,
+        "valid_buckets": {
+          "10": 600,
+          "5": 13,
+          "1": 130,
+          "0": 257
+        },
+        "valid_extractable": 998,
+        "changed_from_model": 0,
+        "source_counts": {
+          "model": 1000
+        },
+        "retrieval_reason_counts": {
+          "disabled": 1000
+        },
+        "sanity": {
+          "n": 1000,
+          "nonempty": 1000,
+          "digit": 1000,
+          "anchor": 0,
+          "extractable": 998,
+          "samples": [
+            "Đáp án là: 37",
+            "Đáp án là: 19",
+            "Đáp án là: 8",
+            "Đáp án là: 39",
+            "Đáp án là: 440"
+          ]
+        }
+      },
+      {
+        "name": "beam2_retrieval_missing_only",
+        "valid_raw": 6325,
+        "valid_score10": 6.325,
+        "valid_buckets": {
+          "10": 615,
+          "5": 10,
+          "1": 125,
+          "0": 250
+        },
+        "valid_extractable": 999,
+        "changed_from_model": 0,
+        "source_counts": {
+          "model": 815,
+          "retrieval_model_agree": 141,
+          "model_fallback_disagree": 44
+        },
+        "retrieval_reason_counts": {
+          "low_confidence": 815,
+          "passed": 185
+        },
+        "sanity": {
+          "n": 1000,
+          "nonempty": 1000,
+          "digit": 1000,
+          "anchor": 0,
+          "extractable": 999,
+          "samples": [
+            "Đáp án là: 37",
+            "Đáp án là: 19",
+            "Đáp án là: 8",
+            "Đáp án là: 39",
+            "Đáp án là: 440"
+          ]
+        }
+      },
+      {
+        "name": "beam2_retrieval_ultra_strict",
+        "valid_raw": 6305,
+        "valid_score10": 6.305,
+        "valid_buckets": {
+          "10": 613,
+          "5": 10,
+          "1": 125,
+          "0": 252
+        },
+        "valid_extractable": 999,
+        "changed_from_model": 3,
+        "source_counts": {
+          "model": 956,
+          "retrieval_model_agree": 41,
+          "retrieval_override": 3
+        },
+        "retrieval_reason_counts": {
+          "low_confidence": 956,
+          "passed": 44
+        },
+        "sanity": {
+          "n": 1000,
+          "nonempty": 1000,
+          "digit": 1000,
+          "anchor": 0,
+          "extractable": 999,
+          "samples": [
+            "Đáp án là: 37",
+            "Đáp án là: 19",
+            "Đáp án là: 8",
+            "Đáp án là: 39",
+            "Đáp án là: 440"
+          ]
+        }
+      }
+    ]
+  },
+  "v23_manifest": {
+    "notebook_version": "v23_legal_no_solver_ranker",
+    "run_mode": "phase2",
+    "rule_compliance": {
+      "model_input_fields": [
+        "query_vi"
+      ],
+      "training_target_fields": [
+        "response_vi"
+      ],
+      "disallowed_model_feature_fields": [
+        "type",
+        "original_question_en",
+        "original_question_vi"
+      ],
+      "uses_original_question_fields": false,
+      "uses_type_for_prompt_or_routing": false,
+      "type_is_copied_only_for_prediction_format_and_reports": true,
+      "uses_valid_labels_for_ranker_training": false,
+      "uses_valid_labels_for_checkpoint_selection": false,
+      "uses_valid_labels_for_profile_selection": true,
+      "uses_arithmetic_or_template_solver": false,
+      "retrieval_basis": "query_vi_train_response_retrieval_no_solver_valid_profile_select"
+    },
+    "config": {
+      "stage_a_epochs": 7.0,
+      "stage_a_lr": 0.003,
+      "num_beams": 2,
+      "max_new_tokens": 32,
+      "ensemble_last_k_epochs": 0,
+      "legal_query_retrieval_enabled": true
+    },
+    "train_clean_n": 92874,
+    "valid_clean_n": 1000,
+    "wall_seconds_training": 8424.70663022995,
+    "wall_minutes_training": 140.41177717049916,
+    "selection_summary": {
+      "strategy": "v23_legal_no_solver_ranker",
+      "profile": {
+        "name": "beam2_model_only",
+        "num_beams": 2,
+        "max_new_tokens": 32,
+        "runtime_cost": 1.0,
+        "retrieval_gate": {
+          "enabled": false
+        }
+      },
+      "num_rows": 1000,
+      "changed_from_model": 0,
+      "source_counts": {
+        "model": 1000
+      },
+      "retrieval_reason_counts": {
+        "disabled": 1000
+      },
+      "retrieval_backend": "tfidf_char_ngram",
+      "legal_input_fields": [
+        "query_vi"
+      ],
+      "legal_target_fields": [
+        "response_vi"
+      ],
+      "disallowed_model_feature_fields": [
+        "type",
+        "original_question_en",
+        "original_question_vi"
+      ],
+      "uses_original_question_fields": false,
+      "uses_type_for_prompt_or_routing": false,
+      "uses_arithmetic_or_template_solver": false,
+      "uses_valid_labels_for_ranker_training": false,
+      "notes": "No solver. Retrieval copies answers only from train response_vi of similar train query_vi rows, and type is copied only for output/reporting.",
+      "selected_profile": {
+        "name": "beam2_model_only",
+        "num_beams": 2,
+        "max_new_tokens": 32,
+        "runtime_cost": 1.0,
+        "retrieval_gate": {
+          "enabled": false
+        }
+      },
+      "selected_adapter_dir": "/kaggle/working/v23_legal_no_solver_ranker_answer_only_runs/seed_42_final",
+      "selection_report": "/kaggle/working/checkpoint_selection_report.json",
+      "uses_valid_labels_for_profile_selection": true
+    }
+  },
+  "v23_decision_sources": {
+    "model": {
+      "n": 1000,
+      "raw": 1481,
+      "b10": 101,
+      "b5": 45,
+      "b1": 246,
+      "b0": 608
+    }
+  },
+  "comparisons": {
+    "v23_vs_v17_phase2": {
+      "base": "v17_phase2",
+      "target": "v23_phase2",
+      "raw_delta": 200,
+      "changed_score_rows": 420,
+      "same_numeric": 76,
+      "both_numeric": 993,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "delta": -56,
+          "better": 45,
+          "worse": 83,
+          "same": 197
+        },
+        "GSM_SV": {
+          "n": 194,
+          "delta": 69,
+          "better": 54,
+          "worse": 28,
+          "same": 112
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "delta": 55,
+          "better": 42,
+          "worse": 26,
+          "same": 74
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "delta": 20,
+          "better": 21,
+          "worse": 14,
+          "same": 77
+        },
+        "MATH_SV": {
+          "n": 80,
+          "delta": 61,
+          "better": 30,
+          "worse": 11,
+          "same": 39
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "delta": 47,
+          "better": 19,
+          "worse": 9,
+          "same": 43
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "delta": 8,
+          "better": 9,
+          "worse": 10,
+          "same": 25
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "delta": -8,
+          "better": 7,
+          "worse": 9,
+          "same": 11
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "delta": 4,
+          "better": 2,
+          "worse": 1,
+          "same": 2
+        }
+      },
+      "best_examples": [
+        {
+          "id": 35,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 5 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 24 phút và số 9 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 124,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "126",
+          "v23_phase2_pred": "980",
+          "gold_answer": "980",
+          "query_vi": "Một quả bóng đặc biệt tăng 2/5 thể tích trước đó của nó mỗi giờ khi được đặt dưới nước. Nếu thể tích ban đầu của nó là 500cm³ thì thể tích của nó sau 2 giờ ở dưới nước sẽ bằng bao nhiêu?"
+        },
+        {
+          "id": 143,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "78",
+          "v23_phase2_pred": "198",
+          "gold_answer": "200",
+          "query_vi": "Một khoản tiền tăng 20% mỗi năm. Sau 2 năm, số tiền là 288 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 9 chỉ là mã giao dịch và không dùng trong phép tính."
+        },
+        {
+          "id": 167,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "162",
+          "v23_phase2_pred": "2563",
+          "gold_answer": "2563",
+          "query_vi": "Số thập phân tương đương của số $\\rm{A}03_{16}$ là bao nhiêu, trong đó 'các chữ số' từ A đến F biểu thị các giá trị 10, 11, 12, 13, 14 và 15 theo thứ tự?"
+        },
+        {
+          "id": 171,
+          "type": "MATH_SV",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "28",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 28. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 1 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 216,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "-2",
+          "v23_phase2_pred": "0.28",
+          "gold_answer": "7/25",
+          "query_vi": "Trong sơ đồ bên dưới, chúng ta có $\\sin \\angle RPQ = \\frac{7}{25}$. $\\sin \\angle RPS$ là gì? [asy] cặp R,P,Q,SS; SS = (-2,0); P = (0,0); Q = (2,0); R = xoay(aSin(7/25))*(1,5,0); dấu chấm(\"$S$\",SS,S); dấu chấm(\"$Q$\",Q,S); dấu chấm(\"$R$\",R,N); dấu chấm(\"$P$\",P,S); hòa(Q--SS); hòa(P--R); [/asy]"
+        },
+        {
+          "id": 222,
+          "type": "Synthetic_Generalization",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "0.454545",
+          "v23_phase2_pred": "5.5",
+          "gold_answer": "11/2",
+          "query_vi": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 10. Giá trị kỳ vọng của một lần tung là bao nhiêu?"
+        },
+        {
+          "id": 238,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "-3",
+          "v23_phase2_pred": "3",
+          "gold_answer": "3",
+          "query_vi": "Đa thức $f(x)$ thỏa mãn $f(x + 1) - f(x) = 6x + 4.$ Tìm hệ số cao nhất của $f(x).$"
+        },
+        {
+          "id": 260,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "6",
+          "v23_phase2_pred": "2",
+          "gold_answer": "2",
+          "query_vi": "Hỏi có bao nhiêu giá trị thực của $c$ thì chúng ta có $\\left|\\frac12-ci\\right| = \\frac34$?"
+        },
+        {
+          "id": 285,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "20",
+          "v23_phase2_pred": "60",
+          "gold_answer": "60",
+          "query_vi": "Số táo và số cam có tỉ lệ 8:4. Tổng số quả là 180. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 1 quả lê, nhưng lê không tính vào tỉ lệ trên."
+        },
+        {
+          "id": 300,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "22",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Mỗi cây mà Bart chặt sẽ mang lại cho anh ta 75 mẩu củi. Nếu anh ta đốt 5 khúc gỗ mỗi ngày từ ngày 1 tháng 11 đến ngày 28 tháng 2 thì anh ta cần chặt bao nhiêu cây?"
+        },
+        {
+          "id": 324,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 60 phút và số 4 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 426,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "76",
+          "v23_phase2_pred": "27",
+          "gold_answer": "27",
+          "query_vi": "Marcus có thể cho vừa 5 chiếc bánh nướng vào lò cùng một lúc. Anh ta nướng 7 mẻ bánh, sau đó trượt và làm rơi 8 mẻ. Còn lại bao nhiêu cái bánh?"
+        },
+        {
+          "id": 460,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 6 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 20 phút và số 7 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 484,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "36",
+          "v23_phase2_pred": "19",
+          "gold_answer": "19",
+          "query_vi": "Nếu em gái của Bethany sẽ 16 tuổi sau 5 năm nữa và 3 năm trước Bethany gấp đôi tuổi em gái cô ấy thì tuổi hiện tại của Bethany là bao nhiêu?"
+        },
+        {
+          "id": 490,
+          "type": "MATH_SV",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "55",
+          "v23_phase2_pred": "7",
+          "gold_answer": "7",
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 21. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 7 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 494,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "22",
+          "v23_phase2_pred": "10",
+          "gold_answer": "10",
+          "query_vi": "Số táo và số cam có tỉ lệ 5:3. Tổng số quả là 40. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 6 quả lê, nhưng lê không tính vào tỉ lệ trên."
+        },
+        {
+          "id": 522,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 60 phút và số 10 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 527,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "49",
+          "v23_phase2_pred": "105",
+          "gold_answer": "105",
+          "query_vi": "Kit di chuyển 60 feet đến gần quầy bán vé hơn trong khi xếp hàng chờ trong 30 phút. Nếu cô ấy tiếp tục với tốc độ này thì cô ấy sẽ mất bao nhiêu phút để di chuyển 70 thước còn lại đến cửa sổ bán vé?"
+        },
+        {
+          "id": 532,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "20",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Sau khi chi 9 đô la cho một chiếc áo liền quần, 4 đô la cho một chiếc áo phông và 5 đô la cho một đôi giày cao gót, Natalie còn lại bao nhiêu tiền từ 26 đô la ban đầu để mua sắm?"
+        },
+        {
+          "id": 534,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "3",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Tính $\\lfloor -2.8 \\rfloor + \\lceil 10.8 \\rceil$. Số 18 chỉ là mã bài và không tham gia vào phép tính."
+        },
+        {
+          "id": 537,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "4",
+          "v23_phase2_pred": "15",
+          "gold_answer": "15",
+          "query_vi": "Lan mua 3 quyển sách, mỗi quyển giá 30 nghìn đồng, và một số cây bút, mỗi cây giá 15 nghìn đồng. Tổng tiền Lan trả là 315 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 7 cục tẩy, nhưng không tính vào tổng tiền của Lan."
+        },
+        {
+          "id": 560,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "6",
+          "v23_phase2_pred": "20",
+          "gold_answer": "20",
+          "query_vi": "Lan mua 3 quyển sách, mỗi quyển giá 40 nghìn đồng, và một số cây bút, mỗi cây giá 15 nghìn đồng. Tổng tiền Lan trả là 420 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 7 cục tẩy, nhưng không tính vào tổng tiền của Lan."
+        },
+        {
+          "id": 578,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "2000",
+          "v23_phase2_pred": "14000",
+          "gold_answer": "14000",
+          "query_vi": "Sau 6 năm, chiếc xe của Tim có giá trị bao nhiêu nếu ban đầu nó có giá 20.000 USD và mất giá 1.000 USD mỗi năm?"
+        },
+        {
+          "id": 603,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v17_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v17_phase2_pred": "23",
+          "v23_phase2_pred": "7",
+          "gold_answer": "7",
+          "query_vi": "Vì $n$ nằm trong phạm vi các số nguyên dương, giá trị lớn nhất có thể có của ước chung lớn nhất của $11n+3$ và $6n+1$ là bao nhiêu?"
+        }
+      ],
+      "worst_examples": [
+        {
+          "id": 10,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "5",
+          "v23_phase2_pred": "12",
+          "gold_answer": "5",
+          "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 120 nghìn đồng. Mỗi sản phẩm giá 25 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 15 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        },
+        {
+          "id": 84,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "625",
+          "v23_phase2_pred": "15",
+          "gold_answer": "625",
+          "query_vi": "$361+2(19)(6)+36=x$. Giải $x$."
+        },
+        {
+          "id": 157,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "20",
+          "v23_phase2_pred": "3",
+          "gold_answer": "20",
+          "query_vi": "Tìm hai chữ số cuối của tổng sau: $$5! + 10! + 15! + \\cdots + 100!$$"
+        },
+        {
+          "id": 173,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "83",
+          "v23_phase2_pred": "198",
+          "gold_answer": "83",
+          "query_vi": "Một cửa hàng ban đầu có 119 sản phẩm. Buổi sáng bán được 24 sản phẩm và phát hiện 12 sản phẩm bị hỏng. Hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? Buổi chiều cửa hàng nhập thêm 60 sản phẩm mới, nhưng không tính vào câu hỏi."
+        },
+        {
+          "id": 200,
+          "type": "GSM_SV",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "1",
+          "v23_phase2_pred": "2",
+          "gold_answer": "1",
+          "query_vi": "Một con bọ cạp mù sống sót nhờ bắt được động vật nhiều chân. Nó cần ăn nhiều động vật nhiều chân để tồn tại: tổng cộng 800 đoạn cơ thể mỗi ngày. Nếu nó đã ăn x cuốn chiếu có 60 đốt và 2 cuốn chiếu dài gấp đôi, thì nó cần ăn 10 cuốn chiếu 50 đốt để đạt tổng số hàng ngày. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 256,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "5",
+          "v23_phase2_pred": "12",
+          "gold_answer": "5",
+          "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 120 nghìn đồng. Mỗi sản phẩm giá 25 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 10 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        },
+        {
+          "id": 257,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "2",
+          "v23_phase2_pred": "10",
+          "gold_answer": "2",
+          "query_vi": "Đồ thị bậc hai $y = ax^2 + bx + c$ là một parabol đi qua các điểm $(-1,7)$, $(5,7)$ và $(6,10)$. Tọa độ $x$ của đỉnh parabol là bao nhiêu?"
+        },
+        {
+          "id": 268,
+          "type": "GSM_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "45",
+          "v23_phase2_pred": "15",
+          "gold_answer": "45",
+          "query_vi": "Bruce gần đây đã có một sinh nhật. Dì của anh ấy đã gửi cho anh ấy một tấm thiệp có 75 đô la và ông của anh ấy đã gửi cho anh ấy một tấm thiệp có 150 đô la trong đó. Anh ấy muốn sớm có một chuyến du lịch đến Châu Âu nên quyết định gửi 1/5 số tiền nhận được vào dịp sinh nhật vào ngân hàng. Anh ta đã gửi bao nhiêu tiền vào ngân hàng?"
+        },
+        {
+          "id": 304,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "26",
+          "gold_answer": "10",
+          "query_vi": "Có 362 quả cam, mỗi hộp đựng được 11 quả. Sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? Ngày hôm sau cửa hàng nhập thêm 33 quả cam, nhưng số cam này không tính cho câu hỏi trên."
+        },
+        {
+          "id": 317,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "-3",
+          "v23_phase2_pred": "5",
+          "gold_answer": "-3",
+          "query_vi": "Đồ thị của hàm $f(x)=3x+b$ và hàm nghịch đảo của nó $f^{-1}(x)$ cắt nhau tại điểm $(-3,a)$. Cho rằng $b$ và $a$ đều là số nguyên, giá trị của $a$ là bao nhiêu?"
+        },
+        {
+          "id": 318,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "6",
+          "v23_phase2_pred": "2500",
+          "gold_answer": "6",
+          "query_vi": "Giải $x$: $100^3 = 10^x$"
+        },
+        {
+          "id": 350,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "15",
+          "v23_phase2_pred": "38",
+          "gold_answer": "15",
+          "query_vi": "Ice-cream-o-rama háo hức quảng cáo xem nó có bao nhiêu hương vị. Nhưng nó thực sự chỉ có ba hương vị cơ bản: sô cô la, vani và dâu. Tuy nhiên, họ có thể tạo ra những hương vị “mới” bằng cách lấy bốn muỗng kem có những hương vị cơ bản đó và trộn chúng lại với nhau. Tỷ lệ khác nhau của các hương vị cơ bản sẽ tạo ra những hương vị mới khác nhau. Ice-cream-o-rama có thể tạo ra tổng cộng bao nhiêu hương vị bằng cách kết hợp bốn muỗng? (Lưu ý rằng mọi cách có thể để kết hợp bốn muỗng đều được coi là một \"hương vị\", thậm chí, chẳng hạn như sô cô la-sô cô la-sô cô la-sô cô la.)"
+        },
+        {
+          "id": 485,
+          "type": "GSM_SV",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "199",
+          "v23_phase2_pred": "19000",
+          "gold_answer": "200",
+          "query_vi": "Sau khi giảm giá 10%, một món hàng còn giá 180 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 5% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        },
+        {
+          "id": 489,
+          "type": "Synthetic_Generalization",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "60",
+          "v23_phase2_pred": "15",
+          "gold_answer": "60",
+          "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 12 với các số 2, 3, 10, 12, 16, 18. Hãy trả lời bằng một số nguyên."
+        },
+        {
+          "id": 496,
+          "type": "GSM_FOBAR",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "8",
+          "v23_phase2_pred": "20",
+          "gold_answer": "8",
+          "query_vi": "John mua túi bỏng ngô với giá 4 đô la và bán chúng với giá x. Hỏi anh ta bán được 30 bao thì lãi bao nhiêu? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 120 thì giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 539,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "20",
+          "v23_phase2_pred": "40",
+          "gold_answer": "20",
+          "query_vi": "Một người đi được 60 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 30 phút và số 10 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 582,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "20",
+          "v23_phase2_pred": "40",
+          "gold_answer": "20",
+          "query_vi": "Một người đi được 60 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 30 phút và số 6 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 587,
+          "type": "MATH_SV",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "3",
+          "v23_phase2_pred": "6",
+          "gold_answer": "3",
+          "query_vi": "Một số lượng ban đầu là 3 và tăng gấp 2 lần sau mỗi năm. Sau một số năm, số lượng đạt 24. Hỏi đã qua bao nhiêu năm? Số 67 là mã thí nghiệm, không dùng để tính."
+        },
+        {
+          "id": 669,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "482",
+          "v23_phase2_pred": "1200",
+          "gold_answer": "482",
+          "query_vi": "Tổng số tiền mà Joanie cần phải trả trong 3 năm đầu tiên là bao nhiêu nếu phí thành viên phòng tập thể dục là 12 đô la mỗi tháng với khoản thanh toán trước 50 đô la?"
+        },
+        {
+          "id": 673,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "5",
+          "v23_phase2_pred": "12",
+          "gold_answer": "5",
+          "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 150 nghìn đồng. Mỗi sản phẩm giá 30 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 20 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        },
+        {
+          "id": 696,
+          "type": "GSM_SV",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "199",
+          "v23_phase2_pred": "4108",
+          "gold_answer": "200",
+          "query_vi": "Sau khi giảm giá 20%, một món hàng còn giá 160 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 30% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        },
+        {
+          "id": 723,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "5",
+          "v23_phase2_pred": "2",
+          "gold_answer": "5",
+          "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 200 nghìn đồng. Mỗi sản phẩm giá 40 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 10 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        },
+        {
+          "id": 961,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "17",
+          "v23_phase2_pred": "8",
+          "gold_answer": "17",
+          "query_vi": "Tính $\\lfloor -8.9 \\rfloor + \\lceil 25.7 \\rceil$. Số 8 chỉ là mã bài và không tham gia vào phép tính."
+        },
+        {
+          "id": 971,
+          "type": "GSM_AnsAug",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "10",
+          "v23_phase2_pred": "0.6",
+          "gold_answer": "10",
+          "query_vi": "Bob mua 50 feet dây. Anh ấy sử dụng một phần 5 của nó để tạo ra một tác phẩm nghệ thuật nhỏ. Anh ta lấy phần còn lại và đưa một nửa cho người bạn. Sau đó, anh cắt đoạn dài 2 foot. Anh ấy nhận được bao nhiêu phần?"
+        },
+        {
+          "id": 990,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v17_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v17_phase2_pred": "5",
+          "v23_phase2_pred": "12",
+          "gold_answer": "5",
+          "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 120 nghìn đồng. Mỗi sản phẩm giá 25 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 25 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        }
+      ]
+    },
+    "v23_vs_v21_phase2": {
+      "base": "v21_phase2",
+      "target": "v23_phase2",
+      "raw_delta": 246,
+      "changed_score_rows": 368,
+      "same_numeric": 106,
+      "both_numeric": 999,
+      "by_type": {
+        "GSM_Rephrased": {
+          "n": 325,
+          "delta": 68,
+          "better": 54,
+          "worse": 39,
+          "same": 232
+        },
+        "GSM_SV": {
+          "n": 194,
+          "delta": 103,
+          "better": 59,
+          "worse": 20,
+          "same": 115
+        },
+        "MATH_Rephrased": {
+          "n": 142,
+          "delta": 42,
+          "better": 27,
+          "worse": 29,
+          "same": 86
+        },
+        "Synthetic_Generalization": {
+          "n": 112,
+          "delta": -18,
+          "better": 17,
+          "worse": 22,
+          "same": 73
+        },
+        "MATH_SV": {
+          "n": 80,
+          "delta": 35,
+          "better": 27,
+          "worse": 13,
+          "same": 40
+        },
+        "MATH_AnsAug": {
+          "n": 71,
+          "delta": 17,
+          "better": 16,
+          "worse": 13,
+          "same": 42
+        },
+        "GSM_FOBAR": {
+          "n": 44,
+          "delta": 1,
+          "better": 8,
+          "worse": 10,
+          "same": 26
+        },
+        "GSM_AnsAug": {
+          "n": 27,
+          "delta": 2,
+          "better": 7,
+          "worse": 5,
+          "same": 15
+        },
+        "MATH_FOBAR": {
+          "n": 5,
+          "delta": -4,
+          "better": 1,
+          "worse": 1,
+          "same": 3
+        }
+      },
+      "best_examples": [
+        {
+          "id": 63,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "-16",
+          "v23_phase2_pred": "14",
+          "gold_answer": "14",
+          "query_vi": "Cho rằng điểm $(4,7)$ nằm trên đồ thị của $y=f(x)$, có một điểm phải nằm trên đồ thị của $2y=3f(4x)+5$. Tổng tọa độ của điểm đó là bao nhiêu?"
+        },
+        {
+          "id": 115,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "20",
+          "v23_phase2_pred": "48",
+          "gold_answer": "48",
+          "query_vi": "Một kho có 120 kg gạo. Ngày thứ nhất dùng 1/5 số gạo. Ngày thứ hai dùng 1/2 số gạo còn lại. Hỏi sau hai ngày còn lại bao nhiêu kg gạo? Ngày thứ ba dự kiến nhập thêm 6 kg, nhưng chưa nhập trong bài toán này."
+        },
+        {
+          "id": 124,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "384",
+          "v23_phase2_pred": "980",
+          "gold_answer": "980",
+          "query_vi": "Một quả bóng đặc biệt tăng 2/5 thể tích trước đó của nó mỗi giờ khi được đặt dưới nước. Nếu thể tích ban đầu của nó là 500cm³ thì thể tích của nó sau 2 giờ ở dưới nước sẽ bằng bao nhiêu?"
+        },
+        {
+          "id": 143,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "10",
+          "v23_phase2_pred": "198",
+          "gold_answer": "200",
+          "query_vi": "Một khoản tiền tăng 20% mỗi năm. Sau 2 năm, số tiền là 288 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 9 chỉ là mã giao dịch và không dùng trong phép tính."
+        },
+        {
+          "id": 156,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "5",
+          "v23_phase2_pred": "1",
+          "gold_answer": "1",
+          "query_vi": "Kimberly đã đi leo núi và mang theo một chai nước 4 lít. Lần đầu tiên cô uống nước, cô đã uống hết một phần tư lượng nước trong chai. Sau đó cô uống 2/3 lượng nước còn lại. Hỏi còn lại bao nhiêu nước trong chai (lít)?"
+        },
+        {
+          "id": 158,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "3",
+          "v23_phase2_pred": "41",
+          "gold_answer": "41",
+          "query_vi": "Đặt $f(x)=x^3+3$ và $g(x) = 2x^2 + 2x +1$. $g(f(-2))$ là gì?"
+        },
+        {
+          "id": 189,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "0.5625",
+          "v23_phase2_pred": "15",
+          "gold_answer": "15",
+          "query_vi": "Ice-cream-o-rama muốn quảng cáo về số lượng hương vị mà nó có nhưng thực tế nó chỉ có ba hương vị cơ bản là sô cô la, vani và dâu. Tuy nhiên, họ có thể tạo ra những hương vị “mới” bằng cách kết hợp bốn muỗng kem từ những hương vị cơ bản này. Tỷ lệ khác nhau của các hương vị cơ bản sẽ tạo ra các hương vị mới khác nhau. Ice-cream-o-rama có thể tạo ra bao nhiêu hương vị khác nhau bằng cách kết hợp bốn muỗng? (Hãy xem xét mọi sự kết hợp có thể có của bốn muỗng, bao gồm nhiều muỗng có cùng hương vị.)"
+        },
+        {
+          "id": 216,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "1",
+          "v23_phase2_pred": "0.28",
+          "gold_answer": "7/25",
+          "query_vi": "Trong sơ đồ bên dưới, chúng ta có $\\sin \\angle RPQ = \\frac{7}{25}$. $\\sin \\angle RPS$ là gì? [asy] cặp R,P,Q,SS; SS = (-2,0); P = (0,0); Q = (2,0); R = xoay(aSin(7/25))*(1,5,0); dấu chấm(\"$S$\",SS,S); dấu chấm(\"$Q$\",Q,S); dấu chấm(\"$R$\",R,N); dấu chấm(\"$P$\",P,S); hòa(Q--SS); hòa(P--R); [/asy]"
+        },
+        {
+          "id": 222,
+          "type": "Synthetic_Generalization",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "32",
+          "v23_phase2_pred": "5.5",
+          "gold_answer": "11/2",
+          "query_vi": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 10. Giá trị kỳ vọng của một lần tung là bao nhiêu?"
+        },
+        {
+          "id": 238,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "-56",
+          "v23_phase2_pred": "3",
+          "gold_answer": "3",
+          "query_vi": "Đa thức $f(x)$ thỏa mãn $f(x + 1) - f(x) = 6x + 4.$ Tìm hệ số cao nhất của $f(x).$"
+        },
+        {
+          "id": 300,
+          "type": "GSM_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "16",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Mỗi cây mà Bart chặt sẽ mang lại cho anh ta 75 mẩu củi. Nếu anh ta đốt 5 khúc gỗ mỗi ngày từ ngày 1 tháng 11 đến ngày 28 tháng 2 thì anh ta cần chặt bao nhiêu cây?"
+        },
+        {
+          "id": 324,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 60 phút và số 4 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 328,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "10",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 3 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 40 phút và số 12 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 464,
+          "type": "MATH_AnsAug",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "90",
+          "v23_phase2_pred": "720",
+          "gold_answer": "720",
+          "query_vi": "Một ổ khóa vali có 3 mặt số, mỗi mặt có các chữ số $0, 1, 2,..., 9$. Có thể có bao nhiêu cách thiết lập khác nhau nếu cả ba chữ số phải khác nhau?"
+        },
+        {
+          "id": 522,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "63",
+          "v23_phase2_pred": "40",
+          "gold_answer": "40",
+          "query_vi": "Một người đi được 120 feet với tốc độ 2 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 60 phút và số 10 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "id": 534,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "17",
+          "v23_phase2_pred": "8",
+          "gold_answer": "8",
+          "query_vi": "Tính $\\lfloor -2.8 \\rfloor + \\lceil 10.8 \\rceil$. Số 18 chỉ là mã bài và không tham gia vào phép tính."
+        },
+        {
+          "id": 537,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "156",
+          "v23_phase2_pred": "15",
+          "gold_answer": "15",
+          "query_vi": "Lan mua 3 quyển sách, mỗi quyển giá 30 nghìn đồng, và một số cây bút, mỗi cây giá 15 nghìn đồng. Tổng tiền Lan trả là 315 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 7 cục tẩy, nhưng không tính vào tổng tiền của Lan."
+        },
+        {
+          "id": 560,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "600",
+          "v23_phase2_pred": "20",
+          "gold_answer": "20",
+          "query_vi": "Lan mua 3 quyển sách, mỗi quyển giá 40 nghìn đồng, và một số cây bút, mỗi cây giá 15 nghìn đồng. Tổng tiền Lan trả là 420 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 7 cục tẩy, nhưng không tính vào tổng tiền của Lan."
+        },
+        {
+          "id": 573,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "12",
+          "v23_phase2_pred": "3",
+          "gold_answer": "3",
+          "query_vi": "Nếu có 180 ngày trong một năm học và học sinh cuối cấp có thể bỏ qua kỳ thi cuối kỳ nếu trượt 5% hoặc ít hơn trong năm học thì Hazel có thể vắng mặt thêm bao nhiêu ngày và vẫn được miễn thi nếu cô ấy đã vắng mặt 6 ngày vì bệnh tật?"
+        },
+        {
+          "id": 578,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "140000",
+          "v23_phase2_pred": "14000",
+          "gold_answer": "14000",
+          "query_vi": "Sau 6 năm, chiếc xe của Tim có giá trị bao nhiêu nếu ban đầu nó có giá 20.000 USD và mất giá 1.000 USD mỗi năm?"
+        },
+        {
+          "id": 590,
+          "type": "MATH_SV",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "1",
+          "v23_phase2_pred": "19",
+          "gold_answer": "19",
+          "query_vi": "Có bao nhiêu số trong tập $\\{1,\\ X 3,\\ldots, 19 số trong tập $\\{1, 2, 3, ..., 50\\}$ có thừa số chính phương khác 1 . Giá trị của biến X chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 617,
+          "type": "GSM_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "350",
+          "v23_phase2_pred": "920",
+          "gold_answer": "920",
+          "query_vi": "Nếu Phần A có một tiểu khu với 60 chỗ ngồi và ba tiểu khu với 80 chỗ ngồi mỗi tiểu khu và Phần B có nhiều hơn 20 chỗ ngồi gấp ba lần tổng số ghế ở Phần A thì tổng số ghế ở Phần B là bao nhiêu?"
+        },
+        {
+          "id": 646,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "-1",
+          "v23_phase2_pred": "-21",
+          "gold_answer": "-21",
+          "query_vi": "Phương trình $y-4=4(x-8)$ biểu thị một đường thẳng. Tổng của phần chặn x và phần chặn y của nó là bao nhiêu?"
+        },
+        {
+          "id": 653,
+          "type": "MATH_Rephrased",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "16",
+          "v23_phase2_pred": "64",
+          "gold_answer": "64",
+          "query_vi": "Giá trị của biểu thức $(a^2 + b)^2 - (a^2 - b)^2$ khi $a = 4$ và $b = 1$ là bao nhiêu?"
+        },
+        {
+          "id": 657,
+          "type": "GSM_SV",
+          "delta": 10,
+          "v21_phase2_score": 0,
+          "v23_phase2_score": 10,
+          "v21_phase2_pred": "6",
+          "v23_phase2_pred": "198",
+          "gold_answer": "200",
+          "query_vi": "Một khoản tiền tăng 20% mỗi năm. Sau 2 năm, số tiền là 288 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 11 chỉ là mã giao dịch và không dùng trong phép tính."
+        }
+      ],
+      "worst_examples": [
+        {
+          "id": 30,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "193",
+          "v23_phase2_pred": "7",
+          "gold_answer": "193",
+          "query_vi": "Xác định biệt số của phương trình bậc hai $3x^2 - 7x - 12$."
+        },
+        {
+          "id": 92,
+          "type": "GSM_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "12",
+          "v23_phase2_pred": "49",
+          "gold_answer": "12",
+          "query_vi": "John mua một hộp gồm 40 bóng đèn. Anh ta sử dụng 16 chiếc và sau đó đưa một nửa số còn lại cho một người bạn. Anh ấy còn lại bao nhiêu?"
+        },
+        {
+          "id": 157,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "20",
+          "v23_phase2_pred": "3",
+          "gold_answer": "20",
+          "query_vi": "Tìm hai chữ số cuối của tổng sau: $$5! + 10! + 15! + \\cdots + 100!$$"
+        },
+        {
+          "id": 220,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "20",
+          "v23_phase2_pred": "40",
+          "gold_answer": "20",
+          "query_vi": "Số táo và số cam có tỉ lệ 5:4. Tổng số quả là 180. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 6 quả lê, nhưng lê không tính vào tỉ lệ trên."
+        },
+        {
+          "id": 268,
+          "type": "GSM_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "45",
+          "v23_phase2_pred": "15",
+          "gold_answer": "45",
+          "query_vi": "Bruce gần đây đã có một sinh nhật. Dì của anh ấy đã gửi cho anh ấy một tấm thiệp có 75 đô la và ông của anh ấy đã gửi cho anh ấy một tấm thiệp có 150 đô la trong đó. Anh ấy muốn sớm có một chuyến du lịch đến Châu Âu nên quyết định gửi 1/5 số tiền nhận được vào dịp sinh nhật vào ngân hàng. Anh ta đã gửi bao nhiêu tiền vào ngân hàng?"
+        },
+        {
+          "id": 318,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "6",
+          "v23_phase2_pred": "2500",
+          "gold_answer": "6",
+          "query_vi": "Giải $x$: $100^3 = 10^x$"
+        },
+        {
+          "id": 338,
+          "type": "GSM_SV",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "10",
+          "v23_phase2_pred": "150",
+          "gold_answer": "10",
+          "query_vi": "Seth và anh trai muốn xem buổi hòa nhạc của ban nhạc yêu thích của họ. Giá vé là $50,00 mỗi vé. Có một khoản phí xử lý 15% cho vé. Họ cũng bị tính phí $x tiền đỗ xe và thêm $5,00 phí vào cửa mỗi người. Sẽ tốn 135 để đi đến buổi hòa nhạc. Giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 471,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "0.8",
+          "v23_phase2_pred": "0.0192308",
+          "gold_answer": "25/31",
+          "query_vi": "Một hộp có 31 bóng đèn, trong đó có 6 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 6 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        },
+        {
+          "id": 489,
+          "type": "Synthetic_Generalization",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "60",
+          "v23_phase2_pred": "15",
+          "gold_answer": "60",
+          "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 12 với các số 2, 3, 10, 12, 16, 18. Hãy trả lời bằng một số nguyên."
+        },
+        {
+          "id": 528,
+          "type": "GSM_FOBAR",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "19",
+          "v23_phase2_pred": "49",
+          "gold_answer": "19",
+          "query_vi": "Biết 11x + 25 = 234. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "id": 669,
+          "type": "GSM_Rephrased",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "482",
+          "v23_phase2_pred": "1200",
+          "gold_answer": "482",
+          "query_vi": "Tổng số tiền mà Joanie cần phải trả trong 3 năm đầu tiên là bao nhiêu nếu phí thành viên phòng tập thể dục là 12 đô la mỗi tháng với khoản thanh toán trước 50 đô la?"
+        },
+        {
+          "id": 851,
+          "type": "MATH_Rephrased",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "8",
+          "v23_phase2_pred": "-2",
+          "gold_answer": "8",
+          "query_vi": "Tính $\\lfloor -4.6 \\rfloor + \\lceil 12.8 \\rceil$. Số 83 chỉ là mã bài và không tham gia vào phép tính."
+        },
+        {
+          "id": 864,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "-15",
+          "v23_phase2_pred": "-5",
+          "gold_answer": "-15",
+          "query_vi": "Giá trị nhỏ nhất có thể có của $x$ sao cho $2x^2+24x-60=x(x+13)$ là bao nhiêu?"
+        },
+        {
+          "id": 894,
+          "type": "MATH_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "8",
+          "v23_phase2_pred": "16",
+          "gold_answer": "8",
+          "query_vi": "Tại Hoa Kỳ, tiền xu có độ dày như sau: đồng xu, 1,55 mm; niken, 1,95 mm; đồng xu 1,35 mm; một phần tư, 1,75 mm. Nếu một chồng những đồng xu này cao đúng 14 mm thì có bao nhiêu đồng xu trong chồng?"
+        },
+        {
+          "id": 960,
+          "type": "GSM_FOBAR",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "8",
+          "v23_phase2_pred": "63",
+          "gold_answer": "8",
+          "query_vi": "Biết 7x + 7 = 63. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 1 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "id": 971,
+          "type": "GSM_AnsAug",
+          "delta": -10,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 0,
+          "v21_phase2_pred": "10",
+          "v23_phase2_pred": "0.6",
+          "gold_answer": "10",
+          "query_vi": "Bob mua 50 feet dây. Anh ấy sử dụng một phần 5 của nó để tạo ra một tác phẩm nghệ thuật nhỏ. Anh ta lấy phần còn lại và đưa một nửa cho người bạn. Sau đó, anh cắt đoạn dài 2 foot. Anh ấy nhận được bao nhiêu phần?"
+        },
+        {
+          "id": 21,
+          "type": "MATH_FOBAR",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "30",
+          "v23_phase2_pred": "20",
+          "gold_answer": "30",
+          "query_vi": "Kim giây của đồng hồ trong hình dưới đây dài 6 cm. Đầu của kim giây này di chuyển được bao xa tính bằng cm trong khoảng thời gian X phút? Hãy thể hiện câu trả lời của bạn dưới dạng $\\pi$. [asy] draw(Circle((0,0),20)); nhãn(\"12\",(0,20),S); nhãn(\"9\",(-20,0),E); nhãn(\"6\",(0,-20),N); nhãn(\"3\",(20,0),W); dấu chấm((0,0)); draw((0,0)--(12,0)); draw((0,0)--(-8,10)); draw((0,0)--(-11,-14),linewidth(1)); nhãn(\"6cm\",(-5.5,-7),SE); [/asy] Nếu chúng ta biết câu trả lời cho câu hỏi trên là 360\\pi thì giá trị của biến X chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 64,
+          "type": "GSM_Rephrased",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "2",
+          "v23_phase2_pred": "1",
+          "gold_answer": "2",
+          "query_vi": "Tốc độ của cậu bé tính bằng km/h nếu cậu chạy 1,5 km trong 45 phút?"
+        },
+        {
+          "id": 98,
+          "type": "MATH_SV",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "4",
+          "v23_phase2_pred": "6",
+          "gold_answer": "4",
+          "query_vi": "Một số lượng ban đầu là 5 và tăng gấp 2 lần sau mỗi năm. Sau một số năm, số lượng đạt 80. Hỏi đã qua bao nhiêu năm? Số 60 là mã thí nghiệm, không dùng để tính."
+        },
+        {
+          "id": 136,
+          "type": "Synthetic_Generalization",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "35",
+          "v23_phase2_pred": "43",
+          "gold_answer": "35",
+          "query_vi": "Một tam giác cân có hai cạnh bằng nhau dài 10 cm và cạnh đáy dài 15 cm. Chu vi tam giác là bao nhiêu cm?"
+        },
+        {
+          "id": 139,
+          "type": "GSM_AnsAug",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "60",
+          "v23_phase2_pred": "40",
+          "gold_answer": "60",
+          "query_vi": "Matt mất 2 phút cho mỗi vấn đề để làm bài tập toán bằng máy tính và 5 phút cho mỗi vấn đề nếu không dùng máy tính. Nếu bài tập của Matt có 20 bài, việc sử dụng máy tính sẽ tiết kiệm được bao nhiêu thời gian?"
+        },
+        {
+          "id": 198,
+          "type": "MATH_SV",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "15",
+          "v23_phase2_pred": "20",
+          "gold_answer": "15",
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 105. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 6 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 278,
+          "type": "MATH_Rephrased",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "144",
+          "v23_phase2_pred": "174",
+          "gold_answer": "144",
+          "query_vi": "Có 40 thẻ trong một hộp, mỗi thẻ có số từ 1 đến 10 (mỗi số có bốn thẻ). Bốn thẻ được rút ngẫu nhiên từ hộp mà không cần thay thế. Gọi $p$ là xác suất để tất cả bốn lá bài có cùng số, và gọi $q$ là xác suất để ba trong số các lá bài có số $a$ và lá bài còn lại có số $b$ (trong đó $b$ không bằng $a$). Giá trị của $q/p$ là bao nhiêu?"
+        },
+        {
+          "id": 306,
+          "type": "MATH_SV",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "5",
+          "v23_phase2_pred": "6",
+          "gold_answer": "5",
+          "query_vi": "Một số lượng ban đầu là 5 và tăng gấp 2 lần sau mỗi năm. Sau một số năm, số lượng đạt 160. Hỏi đã qua bao nhiêu năm? Số 70 là mã thí nghiệm, không dùng để tính."
+        },
+        {
+          "id": 309,
+          "type": "MATH_SV",
+          "delta": -9,
+          "v21_phase2_score": 10,
+          "v23_phase2_score": 1,
+          "v21_phase2_pred": "15",
+          "v23_phase2_pred": "20",
+          "gold_answer": "15",
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 105. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 5 giờ, nhưng thời gian này không liên quan."
+        }
+      ]
+    }
+  },
+  "oracle_no_solver_v17_v21_v23": {
+    "runs": [
+      "v17_phase2",
+      "v21_phase2",
+      "v23_phase2"
+    ],
+    "raw": 2433,
+    "score10": 2.433,
+    "buckets": {
+      "10": 165,
+      "5": 81,
+      "1": 378,
+      "0": 376
+    },
+    "chosen_counts": {
+      "v23_phase2": 722,
+      "v21_phase2": 139,
+      "v17_phase2": 139
+    },
+    "by_type": {
+      "Synthetic_Generalization": {
+        "n": 112,
+        "raw": 197
+      },
+      "GSM_Rephrased": {
+        "n": 325,
+        "raw": 560
+      },
+      "GSM_SV": {
+        "n": 194,
+        "raw": 287
+      },
+      "MATH_Rephrased": {
+        "n": 142,
+        "raw": 435
+      },
+      "MATH_AnsAug": {
+        "n": 71,
+        "raw": 442
+      },
+      "MATH_SV": {
+        "n": 80,
+        "raw": 188
+      },
+      "MATH_FOBAR": {
+        "n": 5,
+        "raw": 26
+      },
+      "GSM_FOBAR": {
+        "n": 44,
+        "raw": 80
+      },
+      "GSM_AnsAug": {
+        "n": 27,
+        "raw": 218
+      }
+    },
+    "examples": [
+      {
+        "id": 6,
+        "type": "MATH_Rephrased",
+        "chosen_run": "v23_phase2",
+        "pred": "11",
+        "gold": "11"
+      },
+      {
+        "id": 10,
+        "type": "GSM_Rephrased",
+        "chosen_run": "v17_phase2",
+        "pred": "5",
+        "gold": "5"
+      },
+      {
+        "id": 13,
+        "type": "MATH_Rephrased",
+        "chosen_run": "v17_phase2",
+        "pred": "8",
+        "gold": "8"
+      },
+      {
+        "id": 20,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "5",
+        "gold": "5"
+      },
+      {
+        "id": 21,
+        "type": "MATH_FOBAR",
+        "chosen_run": "v21_phase2",
+        "pred": "30",
+        "gold": "30"
+      },
+      {
+        "id": 22,
+        "type": "Synthetic_Generalization",
+        "chosen_run": "v23_phase2",
+        "pred": "23",
+        "gold": "23"
+      },
+      {
+        "id": 30,
+        "type": "MATH_Rephrased",
+        "chosen_run": "v21_phase2",
+        "pred": "193",
+        "gold": "193"
+      },
+      {
+        "id": 35,
+        "type": "MATH_Rephrased",
+        "chosen_run": "v23_phase2",
+        "pred": "40",
+        "gold": "40"
+      },
+      {
+        "id": 55,
+        "type": "GSM_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "6000",
+        "gold": "6000"
+      },
+      {
+        "id": 59,
+        "type": "GSM_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "4",
+        "gold": "4"
+      },
+      {
+        "id": 63,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "14",
+        "gold": "14"
+      },
+      {
+        "id": 64,
+        "type": "GSM_Rephrased",
+        "chosen_run": "v21_phase2",
+        "pred": "2",
+        "gold": "2"
+      },
+      {
+        "id": 69,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "10",
+        "gold": "10"
+      },
+      {
+        "id": 70,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "0.25",
+        "gold": "1/4"
+      },
+      {
+        "id": 77,
+        "type": "MATH_Rephrased",
+        "chosen_run": "v17_phase2",
+        "pred": "4",
+        "gold": "4"
+      },
+      {
+        "id": 79,
+        "type": "GSM_Rephrased",
+        "chosen_run": "v23_phase2",
+        "pred": "17",
+        "gold": "17"
+      },
+      {
+        "id": 84,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v17_phase2",
+        "pred": "625",
+        "gold": "625"
+      },
+      {
+        "id": 92,
+        "type": "GSM_AnsAug",
+        "chosen_run": "v21_phase2",
+        "pred": "12",
+        "gold": "12"
+      },
+      {
+        "id": 98,
+        "type": "MATH_SV",
+        "chosen_run": "v21_phase2",
+        "pred": "4",
+        "gold": "4"
+      },
+      {
+        "id": 107,
+        "type": "MATH_AnsAug",
+        "chosen_run": "v23_phase2",
+        "pred": "5",
+        "gold": "5"
+      }
+    ]
+  }
+}

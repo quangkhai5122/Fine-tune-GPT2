@@ -1,0 +1,2717 @@
+{
+  "summaries": {
+    "train": {
+      "name": "train",
+      "n": 95400,
+      "keys": {
+        "original_question_en, original_question_vi, query_en, query_vi, response_en, response_vi, type": 95400
+      },
+      "type_counts": {
+        "GSM_Rephrased": 20028,
+        "GSM_AnsAug": 18745,
+        "MATH_AnsAug": 16999,
+        "MATH_Rephrased": 12477,
+        "GSM_FOBAR": 10023,
+        "GSM_SV": 9869,
+        "MATH_FOBAR": 3668,
+        "MATH_SV": 3591
+      },
+      "has_response_vi": 95400,
+      "id_present": 0,
+      "id_unique": 0,
+      "id_min": null,
+      "id_max": null,
+      "id_is_0_to_n_minus_1": false,
+      "query_chars": {
+        "n": 95400,
+        "min": 10,
+        "p25": 132.0,
+        "median": 198.0,
+        "mean": 214.15547169811322,
+        "p75": 276.0,
+        "p90": 360.0,
+        "p95": 419.0,
+        "p99": 575.0,
+        "max": 2310
+      },
+      "query_words": {
+        "n": 95400,
+        "min": 3,
+        "p25": 31.0,
+        "median": 47.0,
+        "mean": 50.22466457023061,
+        "p75": 65.0,
+        "p90": 84.0,
+        "p95": 98.0,
+        "p99": 132.0,
+        "max": 487
+      },
+      "query_number_counts": {
+        "n": 95400,
+        "min": 0,
+        "p25": 2.0,
+        "median": 3.0,
+        "mean": 3.705524109014675,
+        "p75": 4.0,
+        "p90": 6.0,
+        "p95": 8.0,
+        "p99": 16.0,
+        "max": 200
+      },
+      "duplicate_query_groups": 17228,
+      "duplicate_query_extra_records": 37599,
+      "top_templates": [
+        {
+          "count": 132,
+          "template": "tính $\\dbinom{<NUM>}{<NUM>}$."
+        },
+        {
+          "count": 63,
+          "template": "tìm ước chung lớn nhất của <NUM> và <NUM>."
+        },
+        {
+          "count": 62,
+          "template": "giá trị của $\\dbinom{<NUM>}{<NUM>}$ là bao nhiêu?"
+        },
+        {
+          "count": 39,
+          "template": "tính $\\sin <NUM>^\\circ$."
+        },
+        {
+          "count": 34,
+          "template": "giá trị của sin <NUM> độ là bao nhiêu?"
+        },
+        {
+          "count": 33,
+          "template": "ước chung lớn nhất của <NUM> và <NUM> là bao nhiêu?"
+        },
+        {
+          "count": 29,
+          "template": "giá trị của cosin <NUM> độ là bao nhiêu?"
+        },
+        {
+          "count": 28,
+          "template": "tìm bội số chung nhỏ nhất của <NUM> và <NUM>."
+        },
+        {
+          "count": 25,
+          "template": "số dư khi $<NUM>^{<NUM>}$ chia cho <NUM> là bao nhiêu?"
+        },
+        {
+          "count": 23,
+          "template": "giá trị của $\\binom{<NUM>}{<NUM>}$ là bao nhiêu?"
+        },
+        {
+          "count": 23,
+          "template": "có bao nhiêu cách xếp <NUM> quả bóng vào <NUM> hộp nếu không phân biệt được các quả bóng nhưng các hộp thì có?"
+        },
+        {
+          "count": 21,
+          "template": "tính $\\tan <NUM>^\\circ$."
+        },
+        {
+          "count": 20,
+          "template": "xác định số dư khi chia $<NUM>^{<NUM>}$ cho <NUM>."
+        },
+        {
+          "count": 19,
+          "template": "giá trị của $\\log_{<NUM>}{<NUM>}$ nằm giữa các số nguyên liên tiếp $a$ và $b$. tìm $a+b$."
+        },
+        {
+          "count": 19,
+          "template": "tính $\\cos <NUM>^\\circ$."
+        },
+        {
+          "count": 19,
+          "template": "tìm khoảng cách giữa các điểm (<NUM>) và (<NUM>)."
+        },
+        {
+          "count": 18,
+          "template": "có bao nhiêu số nguyên tố nằm trong khoảng từ <NUM> đến <NUM>?"
+        },
+        {
+          "count": 18,
+          "template": "ước chung lớn nhất của <NUM> và <NUM> là gì?"
+        },
+        {
+          "count": 18,
+          "template": "định giá $<NUM>^{<NUM>}$."
+        },
+        {
+          "count": 18,
+          "template": "bội số chung nhỏ nhất của <NUM>, <NUM> và <NUM> là gì?"
+        },
+        {
+          "count": 18,
+          "template": "tích của <NUM> và <NUM> là bao nhiêu?"
+        },
+        {
+          "count": 17,
+          "template": "một đa giác đều có các góc trong bằng <NUM> độ. đa giác có bao nhiêu cạnh?"
+        },
+        {
+          "count": 17,
+          "template": "tìm tích của ước chung lớn nhất và bội số chung nhỏ nhất của $<NUM>$ và $<NUM>.$"
+        },
+        {
+          "count": 17,
+          "template": "hệ số nguyên tố lớn nhất của <NUM> là gì?"
+        },
+        {
+          "count": 17,
+          "template": "đồ thị của đường thẳng $x+y=b$ là đường trung trực của đoạn thẳng từ $(<NUM>)$ đến $(<NUM>)$. giá trị của b là bao nhiêu?"
+        }
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "n": 1000,
+      "keys": {
+        "original_question_en, original_question_vi, query_en, query_vi, response_en, response_vi, type": 1000
+      },
+      "type_counts": {
+        "GSM_AnsAug": 209,
+        "GSM_Rephrased": 197,
+        "MATH_AnsAug": 173,
+        "GSM_FOBAR": 122,
+        "MATH_Rephrased": 116,
+        "GSM_SV": 97,
+        "MATH_FOBAR": 45,
+        "MATH_SV": 41
+      },
+      "has_response_vi": 1000,
+      "id_present": 0,
+      "id_unique": 0,
+      "id_min": null,
+      "id_max": null,
+      "id_is_0_to_n_minus_1": false,
+      "query_chars": {
+        "n": 1000,
+        "min": 17,
+        "p25": 140.0,
+        "median": 199.0,
+        "mean": 222.039,
+        "p75": 286.25,
+        "p90": 372.1,
+        "p95": 443.04999999999995,
+        "p99": 580.0899999999999,
+        "max": 1473
+      },
+      "query_words": {
+        "n": 1000,
+        "min": 3,
+        "p25": 33.0,
+        "median": 48.0,
+        "mean": 51.988,
+        "p75": 67.0,
+        "p90": 87.10000000000002,
+        "p95": 102.04999999999995,
+        "p99": 139.0,
+        "max": 284
+      },
+      "query_number_counts": {
+        "n": 1000,
+        "min": 0,
+        "p25": 2.0,
+        "median": 3.0,
+        "mean": 3.769,
+        "p75": 4.0,
+        "p90": 6.0,
+        "p95": 8.0,
+        "p99": 18.0,
+        "max": 64
+      },
+      "duplicate_query_groups": 10,
+      "duplicate_query_extra_records": 10,
+      "top_templates": [
+        {
+          "count": 2,
+          "template": "cửa hàng đầu tiên tính phí <NUM> usd cho <NUM> quả táo trong khi cửa hàng thứ hai tính phí <NUM> usd cho <NUM> quả táo. bạn có thể tiết kiệm được bao nhiêu xu trên mỗi quả táo khi mua <NUM> đô la cho <NUM> quả táo so với <NUM> đô la cho <NUM> quả táo?"
+        },
+        {
+          "count": 2,
+          "template": "tìm giá trị lớn nhất của \\[f(x) = 3x - x^<NUM>\\]với $<NUM> \\le x \\le \\sqrt{<NUM>}.$"
+        },
+        {
+          "count": 2,
+          "template": "xác định ước chung lớn nhất của <NUM> và <NUM>."
+        },
+        {
+          "count": 2,
+          "template": "tìm tất cả $x$ sao cho $x^<NUM>+5x<<NUM>$. thể hiện câu trả lời của bạn bằng ký hiệu khoảng."
+        },
+        {
+          "count": 2,
+          "template": "nếu $x - y = <NUM>$ và $x + y = <NUM>$, giá trị của $y$ là bao nhiêu?"
+        },
+        {
+          "count": 2,
+          "template": "đối với một hyperbol nhất định \\[\\frac{x^<NUM>}{a^<NUM>} - \\frac{y^<NUM>}{b^<NUM>} = <NUM>,\\]trong đó $a > b,$ góc giữa các tiệm cận là $<NUM> ^\\circ.$ tìm $\\frac{a}{b}.$"
+        },
+        {
+          "count": 2,
+          "template": "nếu mỗi bức tường của phòng tắm <NUM> mặt có <NUM> viên gạch chạy ngang và <NUM> viên gạch chạy dọc thì tổng số viên gạch trong phòng tắm là bao nhiêu?"
+        },
+        {
+          "count": 2,
+          "template": "nếu justin có <NUM> con chó và rico có nhiều hơn justin <NUM> con, và camden mua số chó gấp <NUM> lần rico thì tổng số chân mà những con chó của camden có là bao nhiêu?"
+        },
+        {
+          "count": 2,
+          "template": "karen nướng <NUM> chiếc bánh quy sô-cô-la. cô ấy giữ lại <NUM> cho mình và đưa <NUM> cho ông bà. nếu karen muốn tặng mọi người trong lớp những chiếc bánh quy, và có <NUM> người trong lớp cô ấy thì mỗi người sẽ nhận được bao nhiêu chiếc bánh quy?"
+        },
+        {
+          "count": 2,
+          "template": "hannah đang cố gắng tính xem tuần này cô ấy sẽ được trả bao nhiêu. cô kiếm được <NUM> usd/giờ và làm việc <NUM> giờ mỗi tuần. tiền lương của cô ấy bị trừ <NUM> đô la mỗi lần cô ấy đến muộn. nếu cô ấy đến muộn <NUM> lần trong tuần này thì cô ấy được trả bao nhiêu?"
+        },
+        {
+          "count": 2,
+          "template": "nếu $x \\cdot (x+y) = x^<NUM> + <NUM>$, giá trị của $xy$ là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "nếu susan đang chơi một trò chơi cờ bàn có <NUM> ô từ ô bắt đầu đến ô cuối chiến thắng và ở lượt đầu tiên, cô ấy tiến về phía trước tám ô, ở lượt thứ hai, cô ấy di chuyển hai ô nhưng bị đẩy lùi lại năm ô và ở lượt thứ ba. đến lượt cô ấy tiến về phía trước sáu ô, cô ấy cần di chuyển thêm bao nhiêu ô nữa để đến ô cuối và giành chiến thắng trong trò chơi?"
+        },
+        {
+          "count": 1,
+          "template": "nếu $\\angle pqr = \\angle prq$, và độ dài của qr và pr lần lượt là <NUM> và <NUM> thì chu vi của tam giác pqr là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "một con súc sắc tám mặt có các mặt được đánh số từ <NUM> đến x. giá trị kỳ vọng của con xúc xắc là <NUM>. giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "sau khi bắt đầu với <NUM> quả bóng bay, claire đưa cho một bé gái <NUM> quả bóng bay, mất <NUM> quả bóng bay, cho thêm <NUM> quả bóng nữa và lấy <NUM> quả bóng bay từ đồng nghiệp của mình. hiện tại claire có bao nhiêu quả bóng bay?"
+        },
+        {
+          "count": 1,
+          "template": "nếu có một bãi đỗ xe <NUM> ô tô được chia thành <NUM> khu, trong đó khu <NUM> có <NUM> chỗ và khu <NUM> có nhiều hơn khu <NUM> <NUM> chỗ thì khu <NUM> của bãi đậu xe có bao nhiêu chỗ?"
+        },
+        {
+          "count": 1,
+          "template": "hans đặt phòng ở khách sạn. khách sạn có <NUM> tầng, mỗi tầng có <NUM> phòng giống nhau. do xảy ra tai nạn nên tầng cuối cùng không còn chỗ cho khách. xem xét không có khách nào khác, hans có thể được nhận vào bao nhiêu phòng khác nhau?"
+        },
+        {
+          "count": 1,
+          "template": "bà dunbar đang cắm hoa cho đám cưới của cháu gái bà. cô ấy cần làm <NUM> bó hoa và <NUM> món đồ trang trí bàn ăn. cô sử dụng x bông hồng trắng để trang trí mỗi bàn và <NUM> bông hồng trắng trong mỗi bó hoa. cô ấy cần tổng cộng <NUM> bông hồng trắng để hoàn thành tất cả các bó hoa và trang trí bàn ăn. giá trị của biến x chưa biết là bao nhiêu? giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "grace bắt đầu công việc kinh doanh cảnh quan của riêng mình. cô tính phí <NUM> đô la một giờ cho việc cắt cỏ, <NUM> đô la cho việc nhổ cỏ và x đô la cho việc phủ lớp phủ. vào tháng <NUM>, cô cắt cỏ trong <NUM> giờ, nhổ cỏ trong <NUM> giờ và phủ lớp phủ trong <NUM> giờ. cô ấy đã kiếm được bao nhiêu tiền vào tháng <NUM>? nếu chúng ta biết câu trả lời cho câu hỏi trên là <NUM> thì giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của <NUM> và <NUM>, <NUM> và <NUM>, <NUM> và <NUM>, <NUM> và <NUM>, <NUM> và <NUM>, <NUM> và <NUM>. hãy thể hiện câu trả lời của bạn dưới dạng số nguyên."
+        },
+        {
+          "count": 1,
+          "template": "bob được hỗ trợ tiền thuê nhà vì anh ấy có thu nhập thấp. nếu anh ta được tăng lương <NUM> usd/giờ và làm việc <NUM> giờ một tuần, anh ta sẽ thực sự kiếm được bao nhiêu tiền một tuần nếu trợ cấp nhà ở của anh ta giảm đi <NUM> usd/tháng?"
+        },
+        {
+          "count": 1,
+          "template": "john phải thay vòng bi cho những chiếc máy mà anh ấy làm việc cùng. anh ta có <NUM> chiếc máy và mỗi chiếc có <NUM> vòng bi. thông thường nó có giá x $ cho mỗi ổ bi nhưng hiện tại đang có đợt giảm giá với giá chỉ <NUM> usd. ngoài ra, vì mua số lượng lớn nên anh được giảm giá thêm <NUM>%. anh ấy đã tiết kiệm được bao nhiêu tiền khi mua tất cả chúng trong đợt giảm giá thay vì mua từng cái một? nếu chúng ta biết câu trả lời cho câu hỏi trên là <NUM> thì giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "nếu con chó của sandra sinh ra <NUM> chú chó con và bác sĩ thú y của cô ấy đã cung cấp cho cô ấy <NUM> phần sữa công thức để cho các chú chó con ăn trong <NUM> ngày, thì sandra nên cho mỗi chú chó con ăn bao nhiêu lần một ngày?"
+        },
+        {
+          "count": 1,
+          "template": "bob đặt mua x gói sữa chua hy lạp từ costco để sử dụng trong tháng. tuy nhiên, khi nhận hàng, anh nhận ra <NUM>% số gói đã hết hạn sử dụng. anh quyết định trả lại những gói đó. nếu mỗi gói có giá <NUM> usd thì bob được hoàn lại <NUM> usd cho sản phẩm đã hết hạn. giá trị của biến x chưa biết là bao nhiêu?"
+        },
+        {
+          "count": 1,
+          "template": "giá trị bình phương của hàm sàn của căn bậc hai của <NUM> là bao nhiêu?"
+        }
+      ]
+    },
+    "test": {
+      "name": "test",
+      "n": 1000,
+      "keys": {
+        "id, query_vi, type": 1000
+      },
+      "type_counts": {
+        "GSM_Rephrased": 325,
+        "GSM_SV": 194,
+        "MATH_Rephrased": 142,
+        "Synthetic_Generalization": 112,
+        "MATH_SV": 80,
+        "MATH_AnsAug": 71,
+        "GSM_FOBAR": 44,
+        "GSM_AnsAug": 27,
+        "MATH_FOBAR": 5
+      },
+      "has_response_vi": 0,
+      "id_present": 1000,
+      "id_unique": 1000,
+      "id_min": 0,
+      "id_max": 999,
+      "id_is_0_to_n_minus_1": true,
+      "query_chars": {
+        "n": 1000,
+        "min": 15,
+        "p25": 143.0,
+        "median": 198.0,
+        "mean": 188.427,
+        "p75": 238.0,
+        "p90": 264.0,
+        "p95": 276.0,
+        "p99": 333.2299999999998,
+        "max": 1227
+      },
+      "query_words": {
+        "n": 1000,
+        "min": 4,
+        "p25": 31.0,
+        "median": 45.0,
+        "mean": 43.687,
+        "p75": 53.0,
+        "p90": 61.0,
+        "p95": 66.0,
+        "p99": 84.00999999999999,
+        "max": 286
+      },
+      "query_number_counts": {
+        "n": 1000,
+        "min": 0,
+        "p25": 3.0,
+        "median": 4.0,
+        "mean": 3.927,
+        "p75": 5.0,
+        "p90": 6.0,
+        "p95": 7.0,
+        "p99": 7.009999999999991,
+        "max": 24
+      },
+      "duplicate_query_groups": 0,
+      "duplicate_query_extra_records": 0,
+      "top_templates": [
+        {
+          "count": 39,
+          "template": "trong một lớp, có <NUM> học sinh thích bóng đá, <NUM> học sinh thích bóng rổ, và <NUM> học sinh thích cả hai môn. hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? có <NUM> học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên."
+        },
+        {
+          "count": 39,
+          "template": "có <NUM> quả cam, mỗi hộp đựng được <NUM> quả. sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? ngày hôm sau cửa hàng nhập thêm <NUM> quả cam, nhưng số cam này không tính cho câu hỏi trên."
+        },
+        {
+          "count": 39,
+          "template": "tính $\\lfloor <NUM> \\rfloor + \\lceil <NUM> \\rceil$. số <NUM> chỉ là mã bài và không tham gia vào phép tính."
+        },
+        {
+          "count": 38,
+          "template": "lan mua <NUM> quyển sách, mỗi quyển giá <NUM> nghìn đồng, và một số cây bút, mỗi cây giá <NUM> nghìn đồng. tổng tiền lan trả là <NUM> nghìn đồng. hỏi lan mua bao nhiêu cây bút? bạn của lan mua thêm <NUM> cục tẩy, nhưng không tính vào tổng tiền của lan."
+        },
+        {
+          "count": 38,
+          "template": "một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất <NUM> nghìn đồng. mỗi sản phẩm giá <NUM> nghìn đồng. hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? nếu không đủ điều kiện thì phí giao hàng là <NUM> nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu."
+        },
+        {
+          "count": 38,
+          "template": "ba điểm kiểm tra của minh là <NUM>, <NUM> và <NUM>. minh cần điểm trung bình bốn bài bằng <NUM>. hỏi bài kiểm tra thứ tư minh cần đạt bao nhiêu điểm? giáo viên nói bài thứ năm sẽ được cộng thêm <NUM> điểm thưởng, nhưng bài đó không tính vào trung bình này."
+        },
+        {
+          "count": 38,
+          "template": "một kho có <NUM> kg gạo. ngày thứ nhất dùng <NUM> số gạo. ngày thứ hai dùng <NUM> số gạo còn lại. hỏi sau hai ngày còn lại bao nhiêu kg gạo? ngày thứ ba dự kiến nhập thêm <NUM> kg, nhưng chưa nhập trong bài toán này."
+        },
+        {
+          "count": 38,
+          "template": "một cửa hàng ban đầu có <NUM> sản phẩm. buổi sáng bán được <NUM> sản phẩm và phát hiện <NUM> sản phẩm bị hỏng. hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? buổi chiều cửa hàng nhập thêm <NUM> sản phẩm mới, nhưng không tính vào câu hỏi."
+        },
+        {
+          "count": 38,
+          "template": "một giỏ hàng có <NUM> món loại a, mỗi món giá <NUM> nghìn đồng, và <NUM> món loại b, mỗi món giá <NUM> nghìn đồng. hỏi giá trung bình của một món trong giỏ là bao nhiêu nghìn đồng? người bán giảm thêm <NUM> nghìn đồng cho đơn hàng khác, không liên quan đến giỏ này."
+        },
+        {
+          "count": 38,
+          "template": "một người đi được <NUM> feet với tốc độ <NUM> feet mỗi phút. hỏi quãng đường đó bằng bao nhiêu yard, biết <NUM> yard = <NUM> feet? thời gian đi là <NUM> phút và số <NUM> là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        },
+        {
+          "count": 38,
+          "template": "một số lượng ban đầu là <NUM> và tăng gấp <NUM> lần sau mỗi năm. sau một số năm, số lượng đạt <NUM>. hỏi đã qua bao nhiêu năm? số <NUM> là mã thí nghiệm, không dùng để tính."
+        },
+        {
+          "count": 38,
+          "template": "một hộp có <NUM> bóng đèn, trong đó có <NUM> bóng bị hỏng. chọn ngẫu nhiên một bóng đèn. xác suất chọn được bóng không bị hỏng là bao nhiêu? sau đó người ta kiểm tra thêm <NUM> bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        },
+        {
+          "count": 38,
+          "template": "một khoản tiền tăng <NUM>% mỗi năm. sau <NUM> năm, số tiền là <NUM> đô la. hỏi số tiền ban đầu là bao nhiêu đô la? con số <NUM> chỉ là mã giao dịch và không dùng trong phép tính."
+        },
+        {
+          "count": 38,
+          "template": "một khoản tiền gửi theo lãi đơn <NUM>% mỗi năm trong <NUM> năm thu được <NUM> đô la tiền lãi. hỏi số tiền gốc ban đầu là bao nhiêu đô la? ngân hàng có thêm phí dịch vụ <NUM> đô la cho tài khoản khác, không liên quan đến khoản tiền này."
+        },
+        {
+          "count": 38,
+          "template": "một trò chơi có <NUM> ô từ ô bắt đầu đến ô cuối. người chơi đi <NUM> ô, sau đó đi thêm <NUM> ô nhưng bị lùi <NUM> ô, rồi đi tiếp <NUM> ô. hỏi trước khi nhận thẻ thưởng, người chơi còn cách ô cuối bao nhiêu ô? thẻ thưởng có thể cho đi thêm <NUM> ô, nhưng chưa được dùng trong câu hỏi này."
+        },
+        {
+          "count": 38,
+          "template": "số táo và số cam có tỉ lệ <NUM>:<NUM>. tổng số quả là <NUM>. hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? trong giỏ còn có <NUM> quả lê, nhưng lê không tính vào tỉ lệ trên."
+        },
+        {
+          "count": 37,
+          "template": "một nhóm có n người. số cách chọn <NUM> người từ nhóm là <NUM>. hỏi n bằng bao nhiêu? buổi họp bắt đầu lúc <NUM> giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "count": 37,
+          "template": "sau khi giảm giá <NUM>%, một món hàng còn giá <NUM> nghìn đồng. hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? cửa hàng còn treo thêm biển giảm <NUM>% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        },
+        {
+          "count": 36,
+          "template": "một cấp số cộng có số hạng đầu là <NUM>, công sai là <NUM>. tổng <NUM> số hạng đầu tiên là bao nhiêu?"
+        },
+        {
+          "count": 36,
+          "template": "xác định giá trị lớn nhất trong các bội chung nhỏ nhất của <NUM> với các số <NUM>, <NUM>, <NUM>, <NUM>, <NUM>, <NUM>. hãy trả lời bằng một số nguyên."
+        },
+        {
+          "count": 35,
+          "template": "một tam giác cân có hai cạnh bằng nhau dài <NUM> cm và cạnh đáy dài <NUM> cm. chu vi tam giác là bao nhiêu cm?"
+        },
+        {
+          "count": 7,
+          "template": "biết 9x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "count": 6,
+          "template": "biết 6x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "count": 5,
+          "template": "biết 3x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "count": 5,
+          "template": "một con xúc xắc công bằng có các mặt đánh số từ <NUM> đến <NUM>. giá trị kỳ vọng của một lần tung là bao nhiêu?"
+        }
+      ]
+    }
+  },
+  "legal_query_overlap": {
+    "train_query_vs_test_query": {
+      "field": "query_vi",
+      "exact_count": 0,
+      "alnum_count": 1,
+      "exact_examples": [],
+      "alnum_examples": [
+        453
+      ]
+    },
+    "valid_query_vs_test_query": {
+      "field": "query_vi",
+      "exact_count": 0,
+      "alnum_count": 0,
+      "exact_examples": [],
+      "alnum_examples": []
+    },
+    "train_plus_valid_query_vs_test_query": {
+      "field": "query_vi",
+      "exact_count": 0,
+      "alnum_count": 1,
+      "exact_examples": [],
+      "alnum_examples": [
+        453
+      ]
+    }
+  },
+  "exact_answer_lookup_if_query_duplicate": {
+    "train_count": 0,
+    "valid_count": 0,
+    "train_examples": [],
+    "valid_examples": []
+  },
+  "nearest_query_jaccard": {
+    "train": {
+      "score_stats": {
+        "n": 1000,
+        "min": 0.0,
+        "p25": 0.2830188679245283,
+        "median": 0.3157894736842105,
+        "mean": 0.3714172287229051,
+        "p75": 0.3548387096774194,
+        "p90": 0.6776774193548387,
+        "p95": 0.7222222222222222,
+        "p99": 0.8269871794871794,
+        "max": 1.0
+      },
+      "buckets": {
+        ">=0.95": 1,
+        ">=0.90": 5,
+        ">=0.80": 19,
+        ">=0.70": 65,
+        ">=0.60": 145,
+        ">=0.50": 193,
+        "<0.50": 807
+      },
+      "skipped_high_df_token_count": 261,
+      "top_examples": [
+        {
+          "test_id": 453,
+          "test_index": 453,
+          "score": 1.0,
+          "source_index": 419,
+          "test_query": "Phương trình bậc hai $x^2 - 3x + 9 = x + 41$ có hai nghiệm. Sự khác biệt tích cực giữa các giải pháp này là gì?",
+          "source_query": "Phương trình bậc hai $x^2-3x+9=x+41$ có hai nghiệm. Sự khác biệt tích cực giữa các giải pháp này là gì?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "2",
+            "9",
+            "41"
+          ],
+          "source_numbers": [
+            "2",
+            "9",
+            "41"
+          ]
+        },
+        {
+          "test_id": 200,
+          "test_index": 200,
+          "score": 0.9298245614035088,
+          "source_index": 8149,
+          "test_query": "Một con bọ cạp mù sống sót nhờ bắt được động vật nhiều chân. Nó cần ăn nhiều động vật nhiều chân để tồn tại: tổng cộng 800 đoạn cơ thể mỗi ngày. Nếu nó đã ăn x cuốn chiếu có 60 đốt và 2 cuốn chiếu dài gấp đôi, thì nó cần ăn 10 cuốn chiếu 50 đốt để đạt tổng số hàng ngày. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_query": "Một con bọ cạp mù sống sót nhờ bắt được động vật nhiều chân. Nó cần ăn nhiều động vật nhiều chân để tồn tại: tổng cộng 800 đoạn cơ thể mỗi ngày. Nếu nó đã ăn một con rết có x đốt và 2 con rết dài gấp đôi, thì nó cần ăn 10 con rết 50 đốt để đạt tổng số hàng ngày. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "800",
+            "60",
+            "2",
+            "10",
+            "50"
+          ],
+          "source_numbers": [
+            "800",
+            "2",
+            "10",
+            "50"
+          ]
+        },
+        {
+          "test_id": 472,
+          "test_index": 472,
+          "score": 0.9130434782608695,
+          "source_index": 747,
+          "test_query": "Nếu hai đa giác đều có cùng chu vi và đa giác thứ nhất có 38 cạnh với chiều dài cạnh gấp đôi đa giác thứ hai thì đa giác thứ hai có bao nhiêu cạnh?",
+          "source_query": "Hai đa giác đều có cùng chu vi. Nếu hình thứ nhất có 38 cạnh và chiều dài cạnh gấp đôi cạnh thứ hai thì hình thứ hai có bao nhiêu cạnh?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "38"
+          ],
+          "source_numbers": [
+            "38"
+          ]
+        },
+        {
+          "test_id": 576,
+          "test_index": 576,
+          "score": 0.9090909090909091,
+          "source_index": 67479,
+          "test_query": "Nếu Terry kiếm được 24 đô la mỗi ngày và Jordan kiếm được 30 đô la mỗi ngày, thì sự khác biệt giữa thu nhập hàng tuần của họ là bao nhiêu nếu cả hai đều làm việc trong 7 ngày?",
+          "source_query": "Nếu thu nhập hàng ngày của Terry là 24 đô la và thu nhập hàng ngày của Jordan là 30 đô la, thì sự khác biệt giữa thu nhập hàng tuần của họ là bao nhiêu nếu cả hai đều làm việc trong 7 ngày?",
+          "source_type": "GSM_Rephrased",
+          "test_numbers": [
+            "24",
+            "30",
+            "7"
+          ],
+          "source_numbers": [
+            "24",
+            "30",
+            "7"
+          ]
+        },
+        {
+          "test_id": 273,
+          "test_index": 273,
+          "score": 0.9,
+          "source_index": 3693,
+          "test_query": "Số giờ trung bình mà Harry ngủ mỗi đêm là bao nhiêu, biết rằng vào Thứ Hai, anh ấy ngủ 8 giờ, vào Thứ Ba trong 7 giờ, vào Thứ Tư trong 8 giờ, vào Thứ Năm trong 10 giờ và vào Thứ Sáu trong 7 giờ?",
+          "source_query": "Số giờ trung bình mà Harry ngủ mỗi đêm là bao nhiêu, biết rằng vào Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm và Thứ Sáu, anh ấy ngủ lần lượt là 8, 7, 8, 10 và 7 giờ?",
+          "source_type": "GSM_Rephrased",
+          "test_numbers": [
+            "8",
+            "7",
+            "8",
+            "10",
+            "7"
+          ],
+          "source_numbers": [
+            "8",
+            "7",
+            "8",
+            "10",
+            "7"
+          ]
+        },
+        {
+          "test_id": 734,
+          "test_index": 734,
+          "score": 0.8846153846153846,
+          "source_index": 15492,
+          "test_query": "Tổng của tất cả các giá trị của $k$ sao cho phương trình $2x^2-kx+8=0$ có hai nghiệm số nguyên phân biệt?",
+          "source_query": "Xác định tổng tất cả các giá trị của k sao cho phương trình $2x^2 - kx + 8 = 0$ có hai nghiệm nguyên phân biệt.",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "2",
+            "8",
+            "0"
+          ],
+          "source_numbers": [
+            "2",
+            "8",
+            "0"
+          ]
+        },
+        {
+          "test_id": 648,
+          "test_index": 648,
+          "score": 0.8780487804878049,
+          "source_index": 24714,
+          "test_query": "Hàm $y=\\frac{x^3+8x^2+21x+18}{x+2}$ có thể được đơn giản hóa thành hàm $y=Ax^2+Bx+C$, được xác định ở mọi nơi ngoại trừ tại $x =Đ$. Tổng các giá trị của $A$, $B$, $C$ và $D$ là bao nhiêu?",
+          "source_query": "Tổng các giá trị của A, B, C và D trong hàm $y = \\frac{x^3 + 8x^2 + 21x + 18}{x + 2}$, có thể đơn giản hóa là $ y = Ax^2 + Bx + C$ và được xác định ở mọi nơi ngoại trừ tại $x = D$?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "3",
+            "2",
+            "18",
+            "2",
+            "2"
+          ],
+          "source_numbers": [
+            "3",
+            "2",
+            "18",
+            "2",
+            "2"
+          ]
+        },
+        {
+          "test_id": 405,
+          "test_index": 405,
+          "score": 0.8461538461538461,
+          "source_index": 26,
+          "test_query": "Có bao nhiêu chữ số trong biểu diễn cơ số 7 của $956$?",
+          "source_query": "Trong cách biểu diễn cơ số 7, số 956 có bao nhiêu chữ số?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "7",
+            "956"
+          ],
+          "source_numbers": [
+            "7",
+            "956"
+          ]
+        },
+        {
+          "test_id": 13,
+          "test_index": 13,
+          "score": 0.8333333333333334,
+          "source_index": 28500,
+          "test_query": "Wanda đang cố gắng tìm điểm Fermat P của tam giác ABC, với đỉnh A ở gốc tọa độ, đỉnh B tại (8, -1) và đỉnh C tại (5, 4). Điểm Fermat được định nghĩa là điểm mà tổng khoảng cách của nó đến các đỉnh của một tam giác là nhỏ nhất. Wanda tin rằng điểm P nằm ở (4, 2) và cô tính tổng khoảng cách từ P đến các đỉnh của tam giác ABC. Nếu kết quả của cô ấy có thể được biểu diễn dưới dạng m + n√5, trong đó m và n là số nguyên thì giá trị của m + n là bao nhiêu?",
+          "source_query": "Wanda đang cố gắng xác định điểm Fermat P của tam giác ABC, trong đó điểm A nằm ở gốc tọa độ, điểm B nằm ở (8,-1) và điểm C nằm ở (5,4). Điểm Fermat được định nghĩa là điểm mà tổng khoảng cách của nó đến các đỉnh của một tam giác là nhỏ nhất. Wanda đoán rằng điểm P nằm ở (4,2) và tính tổng khoảng cách từ P đến các đỉnh của tam giác ABC. Nếu cô ấy nhận được kết quả ở dạng m + n√5, trong đó m và n là số nguyên thì giá trị của m + n là bao nhiêu?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "8",
+            "-1",
+            "5",
+            "4",
+            "4",
+            "2",
+            "5"
+          ],
+          "source_numbers": [
+            "8",
+            "-1",
+            "5,4",
+            "4,2",
+            "5"
+          ]
+        },
+        {
+          "test_id": 124,
+          "test_index": 124,
+          "score": 0.8333333333333334,
+          "source_index": 79462,
+          "test_query": "Một quả bóng đặc biệt tăng 2/5 thể tích trước đó của nó mỗi giờ khi được đặt dưới nước. Nếu thể tích ban đầu của nó là 500cm³ thì thể tích của nó sau 2 giờ ở dưới nước sẽ bằng bao nhiêu?",
+          "source_query": "Nếu một quả bóng đặc biệt, ban đầu có thể tích 500cm³, mỗi giờ tăng 2/5 thể tích trước đó khi chìm trong nước, thì thể tích của nó sẽ là bao nhiêu sau khi ở dưới nước trong 2 giờ?",
+          "source_type": "GSM_Rephrased",
+          "test_numbers": [
+            "2/5",
+            "2"
+          ],
+          "source_numbers": [
+            "2/5",
+            "2"
+          ]
+        },
+        {
+          "test_id": 278,
+          "test_index": 278,
+          "score": 0.8269230769230769,
+          "source_index": 68572,
+          "test_query": "Có 40 thẻ trong một hộp, mỗi thẻ có số từ 1 đến 10 (mỗi số có bốn thẻ). Bốn thẻ được rút ngẫu nhiên từ hộp mà không cần thay thế. Gọi $p$ là xác suất để tất cả bốn lá bài có cùng số, và gọi $q$ là xác suất để ba trong số các lá bài có số $a$ và lá bài còn lại có số $b$ (trong đó $b$ không bằng $a$). Giá trị của $q/p$ là bao nhiêu?",
+          "source_query": "Trong một hộp có 40 thẻ, mỗi thẻ đánh số từ 1 đến 10, mỗi thẻ có 4 thẻ. Bốn thẻ được rút ngẫu nhiên từ hộp mà không cần thay thế. Gọi p là xác suất để cả bốn thẻ có cùng số và gọi q là xác suất để ba thẻ có số a và thẻ còn lại có số b (trong đó a và b khác nhau). Giá trị của q/p là bao nhiêu?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "40",
+            "1",
+            "10"
+          ],
+          "source_numbers": [
+            "40",
+            "1",
+            "10",
+            "4"
+          ]
+        },
+        {
+          "test_id": 151,
+          "test_index": 151,
+          "score": 0.8260869565217391,
+          "source_index": 25960,
+          "test_query": "Giá trị của $a$ tại đó đồ thị của $y = ax^2 + 3x + 1$ và $y = -x - 1$ chỉ cắt nhau tại một điểm?",
+          "source_query": "Với giá trị nào của $a$ thì đồ thị của $y=ax^2+3x+1$ và $y=-x-1$ chỉ cắt nhau tại một điểm?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "2",
+            "1",
+            "1"
+          ],
+          "source_numbers": [
+            "2",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "low_examples": [
+        {
+          "test_id": 240,
+          "test_index": 240,
+          "score": 0.0,
+          "source_index": null,
+          "test_query": "Giá trị của $x$ trong phương trình $9^4+9^4+9^4=3^x$ là bao nhiêu?",
+          "source_query": null,
+          "source_type": null,
+          "test_numbers": [
+            "9",
+            "4",
+            "9",
+            "4",
+            "9",
+            "4",
+            "3"
+          ],
+          "source_numbers": []
+        },
+        {
+          "test_id": 653,
+          "test_index": 653,
+          "score": 0.0,
+          "source_index": null,
+          "test_query": "Giá trị của biểu thức $(a^2 + b)^2 - (a^2 - b)^2$ khi $a = 4$ và $b = 1$ là bao nhiêu?",
+          "source_query": null,
+          "source_type": null,
+          "test_numbers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "4",
+            "1"
+          ],
+          "source_numbers": []
+        },
+        {
+          "test_id": 825,
+          "test_index": 825,
+          "score": 0.0,
+          "source_index": null,
+          "test_query": "Có bao nhiêu số nguyên có ba chữ số không có chữ số nào là số 7 và số 9?",
+          "source_query": null,
+          "source_type": null,
+          "test_numbers": [
+            "7",
+            "9"
+          ],
+          "source_numbers": []
+        },
+        {
+          "test_id": 935,
+          "test_index": 935,
+          "score": 0.0,
+          "source_index": null,
+          "test_query": "Tính: $5^2-3(4)+3^2$.",
+          "source_query": null,
+          "source_type": null,
+          "test_numbers": [
+            "5",
+            "2",
+            "3",
+            "4",
+            "3",
+            "2"
+          ],
+          "source_numbers": []
+        },
+        {
+          "test_id": 286,
+          "test_index": 286,
+          "score": 0.10526315789473684,
+          "source_index": 14489,
+          "test_query": "Tính $\\gcd(83^9+1,83^9+83^2+1)$.",
+          "source_query": "Đặt $m=\\underbrace{22222222__{\\text{8 chữ số}}$ và $n=\\underbrace{444444444__{\\text{9 chữ số}}$. $\\gcd(m,n)$ là gì?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "83",
+            "9",
+            "1,83",
+            "9",
+            "83",
+            "2",
+            "1"
+          ],
+          "source_numbers": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "test_id": 843,
+          "test_index": 843,
+          "score": 0.1836734693877551,
+          "source_index": 48392,
+          "test_query": "A store offers a $2 discount for every $10 purchase on any item in the store. Kataleya went to the store and bought 400 peaches sold at forty cents each. Calculate the total amount of money she paid at the store for the fruits.",
+          "source_query": "Delores has some money. She buys a computer for $400 and a printer for $40. If she has $10 left, how much money, in dollars, did Delores have at first?",
+          "source_type": "GSM_AnsAug",
+          "test_numbers": [
+            "2",
+            "10",
+            "400"
+          ],
+          "source_numbers": [
+            "400",
+            "40",
+            "10"
+          ]
+        },
+        {
+          "test_id": 73,
+          "test_index": 73,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 6x + 43 = 145. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "43",
+            "145",
+            "9"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        },
+        {
+          "test_id": 225,
+          "test_index": 225,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 9x + 44 = 233. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "44",
+            "233",
+            "7"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        },
+        {
+          "test_id": 299,
+          "test_index": 299,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 9x + 25 = 196. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 4 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "25",
+            "196",
+            "4"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        },
+        {
+          "test_id": 443,
+          "test_index": 443,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 9x + 27 = 144. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "27",
+            "144",
+            "9"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        },
+        {
+          "test_id": 528,
+          "test_index": 528,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 11x + 25 = 234. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "25",
+            "234",
+            "7"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        },
+        {
+          "test_id": 870,
+          "test_index": 870,
+          "score": 0.1875,
+          "source_index": 64546,
+          "test_query": "Biết 6x + 47 = 107. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Một người quan sát chim ghi lại số lượng chim anh ta nhìn thấy mỗi ngày. Một ngày thứ Hai anh ấy nhìn thấy x con chim. Vào thứ Ba, anh ấy nhìn thấy số chim chỉ bằng một nửa so với ngày thứ Hai. Vào thứ Tư, anh ấy nhìn thấy nhiều hơn 8 con chim so với ngày thứ Ba. Người quan sát chim đã nhìn thấy tổng cộng 148 con chim từ thứ Hai đến thứ Tư. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "47",
+            "107",
+            "7"
+          ],
+          "source_numbers": [
+            "8",
+            "148"
+          ]
+        }
+      ]
+    },
+    "valid": {
+      "score_stats": {
+        "n": 1000,
+        "min": 0.13333333333333333,
+        "p25": 0.23214285714285715,
+        "median": 0.25,
+        "mean": 0.2792739765441808,
+        "p75": 0.29545454545454547,
+        "p90": 0.42930402930402944,
+        "p95": 0.48484848484848486,
+        "p99": 0.5715476190476189,
+        "max": 0.7105263157894737
+      },
+      "buckets": {
+        ">=0.95": 0,
+        ">=0.90": 0,
+        ">=0.80": 0,
+        ">=0.70": 2,
+        ">=0.60": 6,
+        ">=0.50": 47,
+        "<0.50": 953
+      },
+      "skipped_high_df_token_count": 42,
+      "top_examples": [
+        {
+          "test_id": 650,
+          "test_index": 650,
+          "score": 0.7105263157894737,
+          "source_index": 175,
+          "test_query": "Đối với đồ thị của một số bậc hai $y = ax^2 + bx + c$, đỉnh của parabol là $(3,7)$ và một trong các giao điểm $x$ là $(-2,0)$ . Tọa độ $x$ của điểm chặn $x$ còn lại là bao nhiêu?",
+          "source_query": "Tọa độ x của điểm chặn x thứ hai đối với đồ thị của phương trình bậc hai $y = ax^2 + bx + c$ là gì, nếu đỉnh của parabol là (3,7) và một trong các điểm chặn x là (-2,0)?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "2",
+            "3,7",
+            "-2,0"
+          ],
+          "source_numbers": [
+            "2",
+            "3,7",
+            "-2,0"
+          ]
+        },
+        {
+          "test_id": 381,
+          "test_index": 381,
+          "score": 0.7027027027027027,
+          "source_index": 68,
+          "test_query": "Nếu một người bán tạp hóa sắp xếp các lon trong một quầy trưng bày trong đó hàng trên cùng có một lon và mỗi hàng tiếp theo có nhiều hơn hàng phía trên hai lon, thì có bao nhiêu hàng nếu quầy trưng bày chứa 100 lon?",
+          "source_query": "Một người bán tạp hóa trưng bày các lon, trong đó hàng trên cùng có một lon và mỗi hàng dưới có nhiều hơn hàng phía trên 2 lon. Nếu màn hình chứa 100 lon thì nó chứa bao nhiêu hàng?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "100"
+          ],
+          "source_numbers": [
+            "2",
+            "100"
+          ]
+        },
+        {
+          "test_id": 653,
+          "test_index": 653,
+          "score": 0.6875,
+          "source_index": 681,
+          "test_query": "Giá trị của biểu thức $(a^2 + b)^2 - (a^2 - b)^2$ khi $a = 4$ và $b = 1$ là bao nhiêu?",
+          "source_query": "Giá trị của $(2^3)^2 - (3^2)^3$ khi $a = 2$ và $b = 3$ là bao nhiêu?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "4",
+            "1"
+          ],
+          "source_numbers": [
+            "2",
+            "3",
+            "2",
+            "3",
+            "2",
+            "3",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "test_id": 811,
+          "test_index": 811,
+          "score": 0.6862745098039216,
+          "source_index": 159,
+          "test_query": "Có 60 đường gờ trên một bản ghi vinyl. Jerry có 4 hộp, mỗi hộp có 3 ngăn, mỗi ngăn có thể chứa 20 bản ghi. Nếu kệ của anh ấy đầy x%, Có 8640 đường vân trên tất cả hồ sơ của anh ấy. Giá trị của biến x chưa biết là bao nhiêu? Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_query": "Có 60 đường gờ trên một bản ghi vinyl. Jerry có x hộp, mỗi hộp có 3 ngăn, mỗi ngăn có thể chứa 20 bản ghi. Nếu các kệ của anh ấy đã đầy 60% thì có bao nhiêu đường gờ trên tất cả các đĩa nhạc của anh ấy? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 8640 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "60",
+            "4",
+            "3",
+            "20",
+            "8640"
+          ],
+          "source_numbers": [
+            "60",
+            "3",
+            "20",
+            "60",
+            "8640"
+          ]
+        },
+        {
+          "test_id": 559,
+          "test_index": 559,
+          "score": 0.6666666666666666,
+          "source_index": 182,
+          "test_query": "Yanna mua mười chiếc áo sơ mi với giá 5 đô la mỗi chiếc và ba đôi dép với giá 3 đô la mỗi chiếc. Cô ấy nhận lại được bao nhiêu tiền lẻ nếu cô ấy đưa tờ một trăm đô la?",
+          "source_query": "Yanna mua x áo sơ mi với giá 5 đô la mỗi chiếc và ba đôi dép với giá 3 đô la mỗi chiếc. Cô ấy sẽ nhận lại 41 đô la nếu cô ấy đưa ra tờ một trăm đô la. Giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_SV",
+          "test_numbers": [
+            "5",
+            "3"
+          ],
+          "source_numbers": [
+            "5",
+            "3",
+            "41"
+          ]
+        },
+        {
+          "test_id": 672,
+          "test_index": 672,
+          "score": 0.6666666666666666,
+          "source_index": 277,
+          "test_query": "Số nguyên tố nhỏ nhất có tổng các chữ số là X$ là bao nhiêu? Câu trả lời là 199. Giá trị của biến X chưa biết là bao nhiêu?",
+          "source_query": "Tổng của bảy bội số nguyên dương nhỏ nhất của X là bao nhiêu? Câu trả lời là 252. Giá trị của biến X chưa biết là bao nhiêu?",
+          "source_type": "MATH_SV",
+          "test_numbers": [
+            "199"
+          ],
+          "source_numbers": [
+            "252"
+          ]
+        },
+        {
+          "test_id": 69,
+          "test_index": 69,
+          "score": 0.5882352941176471,
+          "source_index": 451,
+          "test_query": "Giả sử $f(x)=\\frac{3}{2-x}$. Nếu $g(x)=\\frac{1}{f^{-1}(x)}+9$, hãy tìm $g(3)$.",
+          "source_query": "Giả sử $f(x) = \\frac{x}{5} + 3$ và $g(x) = 4-x$. Nếu $f(g(a)) = 5$, hãy tìm $a$.",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "3",
+            "2",
+            "1",
+            "-1",
+            "9",
+            "3"
+          ],
+          "source_numbers": [
+            "5",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "test_id": 240,
+          "test_index": 240,
+          "score": 0.5882352941176471,
+          "source_index": 629,
+          "test_query": "Giá trị của $x$ trong phương trình $9^4+9^4+9^4=3^x$ là bao nhiêu?",
+          "source_query": "Giá trị của x thỏa mãn phương trình $\\sqrt{x+7} = 9$ là bao nhiêu?",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "9",
+            "4",
+            "9",
+            "4",
+            "9",
+            "4",
+            "3"
+          ],
+          "source_numbers": [
+            "7",
+            "9"
+          ]
+        },
+        {
+          "test_id": 769,
+          "test_index": 769,
+          "score": 0.5882352941176471,
+          "source_index": 472,
+          "test_query": "Nếu $x$ là số thực và $x^3 + \\frac{1}{x^3} = 52$ thì giá trị của $x + \\frac{1}{x}$ là bao nhiêu?",
+          "source_query": "Nếu $x = 3$ thì giá trị của $2x + 3$ là bao nhiêu?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "3",
+            "1",
+            "3",
+            "52",
+            "1"
+          ],
+          "source_numbers": [
+            "3",
+            "3"
+          ]
+        },
+        {
+          "test_id": 743,
+          "test_index": 743,
+          "score": 0.5833333333333334,
+          "source_index": 8,
+          "test_query": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 10 với các số 2, 4, 5, 8, 12, 14. Hãy trả lời bằng một số nguyên.",
+          "source_query": "Xác định giá trị cao nhất trong số các bội số chung nhỏ nhất của 12 và 2, 12 và 4, 12 và 6, 12 và 8, 12 và 10, 12 và 12. Hãy thể hiện câu trả lời của bạn dưới dạng số nguyên.",
+          "source_type": "MATH_Rephrased",
+          "test_numbers": [
+            "10",
+            "2",
+            "4",
+            "5",
+            "8",
+            "12",
+            "14"
+          ],
+          "source_numbers": [
+            "12",
+            "2",
+            "12",
+            "4",
+            "12",
+            "6",
+            "12",
+            "8",
+            "12",
+            "10",
+            "12",
+            "12"
+          ]
+        },
+        {
+          "test_id": 222,
+          "test_index": 222,
+          "score": 0.5714285714285714,
+          "source_index": 2,
+          "test_query": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 10. Giá trị kỳ vọng của một lần tung là bao nhiêu?",
+          "source_query": "Một con súc sắc tám mặt có các mặt được đánh số từ 1 đến X. Giá trị kỳ vọng của con xúc xắc là 4,5. Giá trị của biến X chưa biết là bao nhiêu?",
+          "source_type": "MATH_SV",
+          "test_numbers": [
+            "1",
+            "10"
+          ],
+          "source_numbers": [
+            "1",
+            "4,5"
+          ]
+        },
+        {
+          "test_id": 604,
+          "test_index": 604,
+          "score": 0.5714285714285714,
+          "source_index": 64,
+          "test_query": "Anais có x đồ chơi hơn Kamari. Có tất cả 160 đồ chơi. Có bao nhiêu đồ chơi trong hộp của Kamari? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_query": "Một hộp có 2 tá chai nước và nhiều chai táo hơn x% chục chai nước. Có bao nhiêu chai trong hộp? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 54 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "160",
+            "65"
+          ],
+          "source_numbers": [
+            "2",
+            "54"
+          ]
+        }
+      ],
+      "low_examples": [
+        {
+          "test_id": 376,
+          "test_index": 376,
+          "score": 0.13333333333333333,
+          "source_index": 22,
+          "test_query": "Rút gọn phân số $\\dfrac{88}{7744}.$",
+          "source_query": "56 có bao nhiêu thừa số nguyên tố phân biệt?",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "88",
+            "7744"
+          ],
+          "source_numbers": [
+            "56"
+          ]
+        },
+        {
+          "test_id": 593,
+          "test_index": 593,
+          "score": 0.14492753623188406,
+          "source_index": 990,
+          "test_query": "Jack is mad at his neighbors for blasting Taylor Swift all night, so he slashes three of their tires and smashes their front window. If the tires cost $250 each and the window costs $700, how much will Jack have to pay for the damages?",
+          "source_query": "Uncle Lou was given four bags of peanuts to eat on his 2-hour plane flight.  Each bag contains 30 peanuts.  If he eats all of the peanuts during the flight, one at a time, consumed at equally spaced intervals, what is the length of time, in minutes, between eating each peanut?",
+          "source_type": "GSM_AnsAug",
+          "test_numbers": [
+            "250",
+            "700"
+          ],
+          "source_numbers": [
+            "2",
+            "30"
+          ]
+        },
+        {
+          "test_id": 442,
+          "test_index": 442,
+          "score": 0.14634146341463414,
+          "source_index": 812,
+          "test_query": "Tính $\\lfloor -6.8 \\rfloor + \\lceil 13.6 \\rceil$. Số 24 chỉ là mã bài và không tham gia vào phép tính.",
+          "source_query": "Ký hiệu $\\lfloor x \\rfloor$ biểu thị số nguyên lớn nhất không vượt quá $x$. Ví dụ: $\\lfloor 3 \\rfloor = 3,$ và $\\lfloor 9/2 \\rfloor = 4.$ Tính toán \\[\\lfloor \\sqrt{1} \\rfloor + \\lfloor \\sqrt{2} \\rfloor + \\ lfloor \\sqrt{3} \\rfloor + \\cdots + \\lfloor \\sqrt{16} \\rfloor.\\]",
+          "source_type": "MATH_AnsAug",
+          "test_numbers": [
+            "-6.8",
+            "13.6",
+            "24"
+          ],
+          "source_numbers": [
+            "3",
+            "3",
+            "9/2",
+            "4",
+            "1",
+            "2",
+            "3",
+            "16"
+          ]
+        },
+        {
+          "test_id": 843,
+          "test_index": 843,
+          "score": 0.1527777777777778,
+          "source_index": 885,
+          "test_query": "A store offers a $2 discount for every $10 purchase on any item in the store. Kataleya went to the store and bought 400 peaches sold at forty cents each. Calculate the total amount of money she paid at the store for the fruits.",
+          "source_query": "It takes 3 men an hour to complete a job. If they are hired to work on x such similar jobs by a company that pays each of them $10 per hour, calculate the total amount of money the three will earn when they complete the jobs?\nIf we know the answer to the above question is 150, what is the value of unknown variable x?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "2",
+            "10",
+            "400"
+          ],
+          "source_numbers": [
+            "3",
+            "10",
+            "150"
+          ]
+        },
+        {
+          "test_id": 54,
+          "test_index": 54,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 3x + 15 = 129. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 8 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "15",
+            "129",
+            "8"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 73,
+          "test_index": 73,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 6x + 43 = 145. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "43",
+            "145",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 370,
+          "test_index": 370,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 11x + 14 = 157. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "14",
+            "157",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 388,
+          "test_index": 388,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 11x + 11 = 385. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "11",
+            "385",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 443,
+          "test_index": 443,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 9x + 27 = 144. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "27",
+            "144",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 521,
+          "test_index": 521,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 6x + 42 = 126. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "42",
+            "126",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 956,
+          "test_index": 956,
+          "score": 0.16417910447761194,
+          "source_index": 274,
+          "test_query": "Biết 3x + 38 = 110. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Vins đạp xe 6 dặm đến trường. Anh ấy cưỡi ngựa về nhà bằng một con đường khác dài 7 dặm. Tuần này Vins đạp xe đến trường và về x lần. Tuần này Vins đã đạp xe được bao nhiêu km? Nếu chúng ta biết câu trả lời cho câu hỏi trên là 65 thì giá trị của biến x chưa biết là bao nhiêu?",
+          "source_type": "GSM_FOBAR",
+          "test_numbers": [
+            "38",
+            "110",
+            "9"
+          ],
+          "source_numbers": [
+            "6",
+            "7",
+            "65"
+          ]
+        },
+        {
+          "test_id": 214,
+          "test_index": 214,
+          "score": 0.16666666666666666,
+          "source_index": 898,
+          "test_query": "Biết 10x + 17 = 97. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 5 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+          "source_query": "Đường cong được tham số hóa bởi $(x,y) = (2t + X, 4t - 5)$ là một đường, trong đó $t$ là một số thực. Tìm phương trình của đường thẳng. Nhập phương trình có dạng \"$y = mx + b$\". Nếu chúng ta biết câu trả lời cho câu hỏi trên là 2x-13 thì giá trị của biến X chưa biết là bao nhiêu?",
+          "source_type": "MATH_FOBAR",
+          "test_numbers": [
+            "17",
+            "97",
+            "5"
+          ],
+          "source_numbers": [
+            "5",
+            "13"
+          ]
+        }
+      ]
+    }
+  },
+  "test_templates": {
+    "unique_masked_templates": 197,
+    "top_templates_with_examples": [
+      {
+        "count": 39,
+        "template": "trong một lớp, có <NUM> học sinh thích bóng đá, <NUM> học sinh thích bóng rổ, và <NUM> học sinh thích cả hai môn. hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? có <NUM> học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên.",
+        "examples": [
+          {
+            "id": 1,
+            "query_vi": "Trong một lớp, có 62 học sinh thích bóng đá, 27 học sinh thích bóng rổ, và 17 học sinh thích cả hai môn. Hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? Có 6 học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên.",
+            "numbers": [
+              "62",
+              "27",
+              "17",
+              "6"
+            ]
+          },
+          {
+            "id": 4,
+            "query_vi": "Trong một lớp, có 73 học sinh thích bóng đá, 69 học sinh thích bóng rổ, và 17 học sinh thích cả hai môn. Hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? Có 8 học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên.",
+            "numbers": [
+              "73",
+              "69",
+              "17",
+              "8"
+            ]
+          },
+          {
+            "id": 49,
+            "query_vi": "Trong một lớp, có 79 học sinh thích bóng đá, 76 học sinh thích bóng rổ, và 22 học sinh thích cả hai môn. Hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? Có 3 học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên.",
+            "numbers": [
+              "79",
+              "76",
+              "22",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 39,
+        "template": "có <NUM> quả cam, mỗi hộp đựng được <NUM> quả. sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? ngày hôm sau cửa hàng nhập thêm <NUM> quả cam, nhưng số cam này không tính cho câu hỏi trên.",
+        "examples": [
+          {
+            "id": 23,
+            "query_vi": "Có 234 quả cam, mỗi hộp đựng được 32 quả. Sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? Ngày hôm sau cửa hàng nhập thêm 8 quả cam, nhưng số cam này không tính cho câu hỏi trên.",
+            "numbers": [
+              "234",
+              "32",
+              "8"
+            ]
+          },
+          {
+            "id": 27,
+            "query_vi": "Có 604 quả cam, mỗi hộp đựng được 13 quả. Sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? Ngày hôm sau cửa hàng nhập thêm 19 quả cam, nhưng số cam này không tính cho câu hỏi trên.",
+            "numbers": [
+              "604",
+              "13",
+              "19"
+            ]
+          },
+          {
+            "id": 46,
+            "query_vi": "Có 761 quả cam, mỗi hộp đựng được 23 quả. Sau khi đóng đầy nhiều hộp nhất có thể, còn thừa bao nhiêu quả cam? Ngày hôm sau cửa hàng nhập thêm 18 quả cam, nhưng số cam này không tính cho câu hỏi trên.",
+            "numbers": [
+              "761",
+              "23",
+              "18"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 39,
+        "template": "tính $\\lfloor <NUM> \\rfloor + \\lceil <NUM> \\rceil$. số <NUM> chỉ là mã bài và không tham gia vào phép tính.",
+        "examples": [
+          {
+            "id": 31,
+            "query_vi": "Tính $\\lfloor -9.1 \\rfloor + \\lceil 26.3 \\rceil$. Số 88 chỉ là mã bài và không tham gia vào phép tính.",
+            "numbers": [
+              "-9.1",
+              "26.3",
+              "88"
+            ]
+          },
+          {
+            "id": 163,
+            "query_vi": "Tính $\\lfloor -6.7 \\rfloor + \\lceil 18.9 \\rceil$. Số 26 chỉ là mã bài và không tham gia vào phép tính.",
+            "numbers": [
+              "-6.7",
+              "18.9",
+              "26"
+            ]
+          },
+          {
+            "id": 172,
+            "query_vi": "Tính $\\lfloor -11.7 \\rfloor + \\lceil 11.2 \\rceil$. Số 88 chỉ là mã bài và không tham gia vào phép tính.",
+            "numbers": [
+              "-11.7",
+              "11.2",
+              "88"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "lan mua <NUM> quyển sách, mỗi quyển giá <NUM> nghìn đồng, và một số cây bút, mỗi cây giá <NUM> nghìn đồng. tổng tiền lan trả là <NUM> nghìn đồng. hỏi lan mua bao nhiêu cây bút? bạn của lan mua thêm <NUM> cục tẩy, nhưng không tính vào tổng tiền của lan.",
+        "examples": [
+          {
+            "id": 2,
+            "query_vi": "Lan mua 7 quyển sách, mỗi quyển giá 25 nghìn đồng, và một số cây bút, mỗi cây giá 8 nghìn đồng. Tổng tiền Lan trả là 335 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 5 cục tẩy, nhưng không tính vào tổng tiền của Lan.",
+            "numbers": [
+              "7",
+              "25",
+              "8",
+              "335",
+              "5"
+            ]
+          },
+          {
+            "id": 72,
+            "query_vi": "Lan mua 9 quyển sách, mỗi quyển giá 30 nghìn đồng, và một số cây bút, mỗi cây giá 12 nghìn đồng. Tổng tiền Lan trả là 378 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 5 cục tẩy, nhưng không tính vào tổng tiền của Lan.",
+            "numbers": [
+              "9",
+              "30",
+              "12",
+              "378",
+              "5"
+            ]
+          },
+          {
+            "id": 102,
+            "query_vi": "Lan mua 5 quyển sách, mỗi quyển giá 20 nghìn đồng, và một số cây bút, mỗi cây giá 10 nghìn đồng. Tổng tiền Lan trả là 220 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 5 cục tẩy, nhưng không tính vào tổng tiền của Lan.",
+            "numbers": [
+              "5",
+              "20",
+              "10",
+              "220",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất <NUM> nghìn đồng. mỗi sản phẩm giá <NUM> nghìn đồng. hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? nếu không đủ điều kiện thì phí giao hàng là <NUM> nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu.",
+        "examples": [
+          {
+            "id": 10,
+            "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 120 nghìn đồng. Mỗi sản phẩm giá 25 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 15 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu.",
+            "numbers": [
+              "120",
+              "25",
+              "15"
+            ]
+          },
+          {
+            "id": 19,
+            "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 200 nghìn đồng. Mỗi sản phẩm giá 25 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 10 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu.",
+            "numbers": [
+              "200",
+              "25",
+              "10"
+            ]
+          },
+          {
+            "id": 44,
+            "query_vi": "Một cửa hàng miễn phí giao hàng nếu tiền hàng đạt ít nhất 250 nghìn đồng. Mỗi sản phẩm giá 15 nghìn đồng. Hỏi cần mua ít nhất bao nhiêu sản phẩm để được miễn phí giao hàng? Nếu không đủ điều kiện thì phí giao hàng là 20 nghìn đồng, nhưng câu hỏi chỉ hỏi số sản phẩm tối thiểu.",
+            "numbers": [
+              "250",
+              "15",
+              "20"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "ba điểm kiểm tra của minh là <NUM>, <NUM> và <NUM>. minh cần điểm trung bình bốn bài bằng <NUM>. hỏi bài kiểm tra thứ tư minh cần đạt bao nhiêu điểm? giáo viên nói bài thứ năm sẽ được cộng thêm <NUM> điểm thưởng, nhưng bài đó không tính vào trung bình này.",
+        "examples": [
+          {
+            "id": 15,
+            "query_vi": "Ba điểm kiểm tra của Minh là 14, 43 và 33. Minh cần điểm trung bình bốn bài bằng 37. Hỏi bài kiểm tra thứ tư Minh cần đạt bao nhiêu điểm? Giáo viên nói bài thứ năm sẽ được cộng thêm 8 điểm thưởng, nhưng bài đó không tính vào trung bình này.",
+            "numbers": [
+              "14",
+              "43",
+              "33",
+              "37",
+              "8"
+            ]
+          },
+          {
+            "id": 28,
+            "query_vi": "Ba điểm kiểm tra của Minh là 45, 19 và 18. Minh cần điểm trung bình bốn bài bằng 27. Hỏi bài kiểm tra thứ tư Minh cần đạt bao nhiêu điểm? Giáo viên nói bài thứ năm sẽ được cộng thêm 7 điểm thưởng, nhưng bài đó không tính vào trung bình này.",
+            "numbers": [
+              "45",
+              "19",
+              "18",
+              "27",
+              "7"
+            ]
+          },
+          {
+            "id": 36,
+            "query_vi": "Ba điểm kiểm tra của Minh là 41, 16 và 44. Minh cần điểm trung bình bốn bài bằng 40. Hỏi bài kiểm tra thứ tư Minh cần đạt bao nhiêu điểm? Giáo viên nói bài thứ năm sẽ được cộng thêm 4 điểm thưởng, nhưng bài đó không tính vào trung bình này.",
+            "numbers": [
+              "41",
+              "16",
+              "44",
+              "40",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một kho có <NUM> kg gạo. ngày thứ nhất dùng <NUM> số gạo. ngày thứ hai dùng <NUM> số gạo còn lại. hỏi sau hai ngày còn lại bao nhiêu kg gạo? ngày thứ ba dự kiến nhập thêm <NUM> kg, nhưng chưa nhập trong bài toán này.",
+        "examples": [
+          {
+            "id": 16,
+            "query_vi": "Một kho có 360 kg gạo. Ngày thứ nhất dùng 1/5 số gạo. Ngày thứ hai dùng 1/3 số gạo còn lại. Hỏi sau hai ngày còn lại bao nhiêu kg gạo? Ngày thứ ba dự kiến nhập thêm 28 kg, nhưng chưa nhập trong bài toán này.",
+            "numbers": [
+              "360",
+              "1/5",
+              "1/3",
+              "28"
+            ]
+          },
+          {
+            "id": 41,
+            "query_vi": "Một kho có 240 kg gạo. Ngày thứ nhất dùng 1/4 số gạo. Ngày thứ hai dùng 1/2 số gạo còn lại. Hỏi sau hai ngày còn lại bao nhiêu kg gạo? Ngày thứ ba dự kiến nhập thêm 28 kg, nhưng chưa nhập trong bài toán này.",
+            "numbers": [
+              "240",
+              "1/4",
+              "1/2",
+              "28"
+            ]
+          },
+          {
+            "id": 51,
+            "query_vi": "Một kho có 360 kg gạo. Ngày thứ nhất dùng 1/6 số gạo. Ngày thứ hai dùng 1/3 số gạo còn lại. Hỏi sau hai ngày còn lại bao nhiêu kg gạo? Ngày thứ ba dự kiến nhập thêm 8 kg, nhưng chưa nhập trong bài toán này.",
+            "numbers": [
+              "360",
+              "1/6",
+              "1/3",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một cửa hàng ban đầu có <NUM> sản phẩm. buổi sáng bán được <NUM> sản phẩm và phát hiện <NUM> sản phẩm bị hỏng. hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? buổi chiều cửa hàng nhập thêm <NUM> sản phẩm mới, nhưng không tính vào câu hỏi.",
+        "examples": [
+          {
+            "id": 26,
+            "query_vi": "Một cửa hàng ban đầu có 199 sản phẩm. Buổi sáng bán được 55 sản phẩm và phát hiện 24 sản phẩm bị hỏng. Hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? Buổi chiều cửa hàng nhập thêm 30 sản phẩm mới, nhưng không tính vào câu hỏi.",
+            "numbers": [
+              "199",
+              "55",
+              "24",
+              "30"
+            ]
+          },
+          {
+            "id": 32,
+            "query_vi": "Một cửa hàng ban đầu có 61 sản phẩm. Buổi sáng bán được 23 sản phẩm và phát hiện 10 sản phẩm bị hỏng. Hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? Buổi chiều cửa hàng nhập thêm 70 sản phẩm mới, nhưng không tính vào câu hỏi.",
+            "numbers": [
+              "61",
+              "23",
+              "10",
+              "70"
+            ]
+          },
+          {
+            "id": 105,
+            "query_vi": "Một cửa hàng ban đầu có 194 sản phẩm. Buổi sáng bán được 27 sản phẩm và phát hiện 28 sản phẩm bị hỏng. Hỏi trước khi nhập thêm hàng, cửa hàng còn bao nhiêu sản phẩm tốt? Buổi chiều cửa hàng nhập thêm 79 sản phẩm mới, nhưng không tính vào câu hỏi.",
+            "numbers": [
+              "194",
+              "27",
+              "28",
+              "79"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một giỏ hàng có <NUM> món loại a, mỗi món giá <NUM> nghìn đồng, và <NUM> món loại b, mỗi món giá <NUM> nghìn đồng. hỏi giá trung bình của một món trong giỏ là bao nhiêu nghìn đồng? người bán giảm thêm <NUM> nghìn đồng cho đơn hàng khác, không liên quan đến giỏ này.",
+        "examples": [
+          {
+            "id": 29,
+            "query_vi": "Một giỏ hàng có 4 món loại A, mỗi món giá 25 nghìn đồng, và 4 món loại B, mỗi món giá 40 nghìn đồng. Hỏi giá trung bình của một món trong giỏ là bao nhiêu nghìn đồng? Người bán giảm thêm 10 nghìn đồng cho đơn hàng khác, không liên quan đến giỏ này.",
+            "numbers": [
+              "4",
+              "25",
+              "4",
+              "40",
+              "10"
+            ]
+          },
+          {
+            "id": 48,
+            "query_vi": "Một giỏ hàng có 6 món loại A, mỗi món giá 15 nghìn đồng, và 5 món loại B, mỗi món giá 30 nghìn đồng. Hỏi giá trung bình của một món trong giỏ là bao nhiêu nghìn đồng? Người bán giảm thêm 10 nghìn đồng cho đơn hàng khác, không liên quan đến giỏ này.",
+            "numbers": [
+              "6",
+              "15",
+              "5",
+              "30",
+              "10"
+            ]
+          },
+          {
+            "id": 53,
+            "query_vi": "Một giỏ hàng có 4 món loại A, mỗi món giá 15 nghìn đồng, và 6 món loại B, mỗi món giá 60 nghìn đồng. Hỏi giá trung bình của một món trong giỏ là bao nhiêu nghìn đồng? Người bán giảm thêm 5 nghìn đồng cho đơn hàng khác, không liên quan đến giỏ này.",
+            "numbers": [
+              "4",
+              "15",
+              "6",
+              "60",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một người đi được <NUM> feet với tốc độ <NUM> feet mỗi phút. hỏi quãng đường đó bằng bao nhiêu yard, biết <NUM> yard = <NUM> feet? thời gian đi là <NUM> phút và số <NUM> là ghi chú, nhưng câu hỏi chỉ hỏi yard.",
+        "examples": [
+          {
+            "id": 35,
+            "query_vi": "Một người đi được 120 feet với tốc độ 5 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 24 phút và số 9 là ghi chú, nhưng câu hỏi chỉ hỏi yard.",
+            "numbers": [
+              "120",
+              "5",
+              "1",
+              "3",
+              "24",
+              "9"
+            ]
+          },
+          {
+            "id": 50,
+            "query_vi": "Một người đi được 300 feet với tốc độ 3 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 100 phút và số 4 là ghi chú, nhưng câu hỏi chỉ hỏi yard.",
+            "numbers": [
+              "300",
+              "3",
+              "1",
+              "3",
+              "100",
+              "4"
+            ]
+          },
+          {
+            "id": 122,
+            "query_vi": "Một người đi được 150 feet với tốc độ 5 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 30 phút và số 6 là ghi chú, nhưng câu hỏi chỉ hỏi yard.",
+            "numbers": [
+              "150",
+              "5",
+              "1",
+              "3",
+              "30",
+              "6"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một số lượng ban đầu là <NUM> và tăng gấp <NUM> lần sau mỗi năm. sau một số năm, số lượng đạt <NUM>. hỏi đã qua bao nhiêu năm? số <NUM> là mã thí nghiệm, không dùng để tính.",
+        "examples": [
+          {
+            "id": 38,
+            "query_vi": "Một số lượng ban đầu là 5 và tăng gấp 4 lần sau mỗi năm. Sau một số năm, số lượng đạt 1280. Hỏi đã qua bao nhiêu năm? Số 42 là mã thí nghiệm, không dùng để tính.",
+            "numbers": [
+              "5",
+              "4",
+              "1280",
+              "42"
+            ]
+          },
+          {
+            "id": 56,
+            "query_vi": "Một số lượng ban đầu là 5 và tăng gấp 4 lần sau mỗi năm. Sau một số năm, số lượng đạt 1280. Hỏi đã qua bao nhiêu năm? Số 81 là mã thí nghiệm, không dùng để tính.",
+            "numbers": [
+              "5",
+              "4",
+              "1280",
+              "81"
+            ]
+          },
+          {
+            "id": 75,
+            "query_vi": "Một số lượng ban đầu là 5 và tăng gấp 4 lần sau mỗi năm. Sau một số năm, số lượng đạt 5120. Hỏi đã qua bao nhiêu năm? Số 97 là mã thí nghiệm, không dùng để tính.",
+            "numbers": [
+              "5",
+              "4",
+              "5120",
+              "97"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một hộp có <NUM> bóng đèn, trong đó có <NUM> bóng bị hỏng. chọn ngẫu nhiên một bóng đèn. xác suất chọn được bóng không bị hỏng là bao nhiêu? sau đó người ta kiểm tra thêm <NUM> bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi.",
+        "examples": [
+          {
+            "id": 42,
+            "query_vi": "Một hộp có 46 bóng đèn, trong đó có 9 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 2 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi.",
+            "numbers": [
+              "46",
+              "9",
+              "2"
+            ]
+          },
+          {
+            "id": 103,
+            "query_vi": "Một hộp có 32 bóng đèn, trong đó có 5 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 2 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi.",
+            "numbers": [
+              "32",
+              "5",
+              "2"
+            ]
+          },
+          {
+            "id": 108,
+            "query_vi": "Một hộp có 19 bóng đèn, trong đó có 7 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 4 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi.",
+            "numbers": [
+              "19",
+              "7",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một khoản tiền tăng <NUM>% mỗi năm. sau <NUM> năm, số tiền là <NUM> đô la. hỏi số tiền ban đầu là bao nhiêu đô la? con số <NUM> chỉ là mã giao dịch và không dùng trong phép tính.",
+        "examples": [
+          {
+            "id": 45,
+            "query_vi": "Một khoản tiền tăng 10% mỗi năm. Sau 2 năm, số tiền là 121 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 5 chỉ là mã giao dịch và không dùng trong phép tính.",
+            "numbers": [
+              "10",
+              "2",
+              "121",
+              "5"
+            ]
+          },
+          {
+            "id": 91,
+            "query_vi": "Một khoản tiền tăng 10% mỗi năm. Sau 2 năm, số tiền là 1210 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 8 chỉ là mã giao dịch và không dùng trong phép tính.",
+            "numbers": [
+              "10",
+              "2",
+              "1210",
+              "8"
+            ]
+          },
+          {
+            "id": 96,
+            "query_vi": "Một khoản tiền tăng 20% mỗi năm. Sau 2 năm, số tiền là 720 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 13 chỉ là mã giao dịch và không dùng trong phép tính.",
+            "numbers": [
+              "20",
+              "2",
+              "720",
+              "13"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một khoản tiền gửi theo lãi đơn <NUM>% mỗi năm trong <NUM> năm thu được <NUM> đô la tiền lãi. hỏi số tiền gốc ban đầu là bao nhiêu đô la? ngân hàng có thêm phí dịch vụ <NUM> đô la cho tài khoản khác, không liên quan đến khoản tiền này.",
+        "examples": [
+          {
+            "id": 60,
+            "query_vi": "Một khoản tiền gửi theo lãi đơn 4% mỗi năm trong 1 năm thu được 48 đô la tiền lãi. Hỏi số tiền gốc ban đầu là bao nhiêu đô la? Ngân hàng có thêm phí dịch vụ 7 đô la cho tài khoản khác, không liên quan đến khoản tiền này.",
+            "numbers": [
+              "4",
+              "1",
+              "48",
+              "7"
+            ]
+          },
+          {
+            "id": 104,
+            "query_vi": "Một khoản tiền gửi theo lãi đơn 4% mỗi năm trong 5 năm thu được 100 đô la tiền lãi. Hỏi số tiền gốc ban đầu là bao nhiêu đô la? Ngân hàng có thêm phí dịch vụ 2 đô la cho tài khoản khác, không liên quan đến khoản tiền này.",
+            "numbers": [
+              "4",
+              "5",
+              "100",
+              "2"
+            ]
+          },
+          {
+            "id": 125,
+            "query_vi": "Một khoản tiền gửi theo lãi đơn 6% mỗi năm trong 3 năm thu được 360 đô la tiền lãi. Hỏi số tiền gốc ban đầu là bao nhiêu đô la? Ngân hàng có thêm phí dịch vụ 7 đô la cho tài khoản khác, không liên quan đến khoản tiền này.",
+            "numbers": [
+              "6",
+              "3",
+              "360",
+              "7"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "một trò chơi có <NUM> ô từ ô bắt đầu đến ô cuối. người chơi đi <NUM> ô, sau đó đi thêm <NUM> ô nhưng bị lùi <NUM> ô, rồi đi tiếp <NUM> ô. hỏi trước khi nhận thẻ thưởng, người chơi còn cách ô cuối bao nhiêu ô? thẻ thưởng có thể cho đi thêm <NUM> ô, nhưng chưa được dùng trong câu hỏi này.",
+        "examples": [
+          {
+            "id": 61,
+            "query_vi": "Một trò chơi có 48 ô từ ô bắt đầu đến ô cuối. Người chơi đi 15 ô, sau đó đi thêm 6 ô nhưng bị lùi 8 ô, rồi đi tiếp 5 ô. Hỏi trước khi nhận thẻ thưởng, người chơi còn cách ô cuối bao nhiêu ô? Thẻ thưởng có thể cho đi thêm 10 ô, nhưng chưa được dùng trong câu hỏi này.",
+            "numbers": [
+              "48",
+              "15",
+              "6",
+              "8",
+              "5",
+              "10"
+            ]
+          },
+          {
+            "id": 85,
+            "query_vi": "Một trò chơi có 48 ô từ ô bắt đầu đến ô cuối. Người chơi đi 5 ô, sau đó đi thêm 9 ô nhưng bị lùi 2 ô, rồi đi tiếp 10 ô. Hỏi trước khi nhận thẻ thưởng, người chơi còn cách ô cuối bao nhiêu ô? Thẻ thưởng có thể cho đi thêm 6 ô, nhưng chưa được dùng trong câu hỏi này.",
+            "numbers": [
+              "48",
+              "5",
+              "9",
+              "2",
+              "10",
+              "6"
+            ]
+          },
+          {
+            "id": 106,
+            "query_vi": "Một trò chơi có 48 ô từ ô bắt đầu đến ô cuối. Người chơi đi 8 ô, sau đó đi thêm 2 ô nhưng bị lùi 2 ô, rồi đi tiếp 4 ô. Hỏi trước khi nhận thẻ thưởng, người chơi còn cách ô cuối bao nhiêu ô? Thẻ thưởng có thể cho đi thêm 3 ô, nhưng chưa được dùng trong câu hỏi này.",
+            "numbers": [
+              "48",
+              "8",
+              "2",
+              "2",
+              "4",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 38,
+        "template": "số táo và số cam có tỉ lệ <NUM>:<NUM>. tổng số quả là <NUM>. hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? trong giỏ còn có <NUM> quả lê, nhưng lê không tính vào tỉ lệ trên.",
+        "examples": [
+          {
+            "id": 161,
+            "query_vi": "Số táo và số cam có tỉ lệ 9:3. Tổng số quả là 180. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 8 quả lê, nhưng lê không tính vào tỉ lệ trên.",
+            "numbers": [
+              "9",
+              "3",
+              "180",
+              "8"
+            ]
+          },
+          {
+            "id": 179,
+            "query_vi": "Số táo và số cam có tỉ lệ 5:6. Tổng số quả là 165. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 4 quả lê, nhưng lê không tính vào tỉ lệ trên.",
+            "numbers": [
+              "5",
+              "6",
+              "165",
+              "4"
+            ]
+          },
+          {
+            "id": 187,
+            "query_vi": "Số táo và số cam có tỉ lệ 8:3. Tổng số quả là 165. Hỏi số táo và số cam chênh lệch nhau bao nhiêu quả? Trong giỏ còn có 6 quả lê, nhưng lê không tính vào tỉ lệ trên.",
+            "numbers": [
+              "8",
+              "3",
+              "165",
+              "6"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 37,
+        "template": "một nhóm có n người. số cách chọn <NUM> người từ nhóm là <NUM>. hỏi n bằng bao nhiêu? buổi họp bắt đầu lúc <NUM> giờ, nhưng thời gian này không liên quan.",
+        "examples": [
+          {
+            "id": 14,
+            "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 171. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 2 giờ, nhưng thời gian này không liên quan.",
+            "numbers": [
+              "2",
+              "171",
+              "2"
+            ]
+          },
+          {
+            "id": 17,
+            "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 21. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 3 giờ, nhưng thời gian này không liên quan.",
+            "numbers": [
+              "2",
+              "21",
+              "3"
+            ]
+          },
+          {
+            "id": 24,
+            "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 78. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 8 giờ, nhưng thời gian này không liên quan.",
+            "numbers": [
+              "2",
+              "78",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 37,
+        "template": "sau khi giảm giá <NUM>%, một món hàng còn giá <NUM> nghìn đồng. hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? cửa hàng còn treo thêm biển giảm <NUM>% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi.",
+        "examples": [
+          {
+            "id": 18,
+            "query_vi": "Sau khi giảm giá 25%, một món hàng còn giá 120 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 45% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi.",
+            "numbers": [
+              "25",
+              "120",
+              "45"
+            ]
+          },
+          {
+            "id": 40,
+            "query_vi": "Sau khi giảm giá 40%, một món hàng còn giá 240 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 5% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi.",
+            "numbers": [
+              "40",
+              "240",
+              "5"
+            ]
+          },
+          {
+            "id": 78,
+            "query_vi": "Sau khi giảm giá 10%, một món hàng còn giá 144 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 15% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi.",
+            "numbers": [
+              "10",
+              "144",
+              "15"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 36,
+        "template": "một cấp số cộng có số hạng đầu là <NUM>, công sai là <NUM>. tổng <NUM> số hạng đầu tiên là bao nhiêu?",
+        "examples": [
+          {
+            "id": 0,
+            "query_vi": "Một cấp số cộng có số hạng đầu là 8, công sai là 1. Tổng 22 số hạng đầu tiên là bao nhiêu?",
+            "numbers": [
+              "8",
+              "1",
+              "22"
+            ]
+          },
+          {
+            "id": 3,
+            "query_vi": "Một cấp số cộng có số hạng đầu là 1, công sai là 3. Tổng 18 số hạng đầu tiên là bao nhiêu?",
+            "numbers": [
+              "1",
+              "3",
+              "18"
+            ]
+          },
+          {
+            "id": 12,
+            "query_vi": "Một cấp số cộng có số hạng đầu là 15, công sai là 4. Tổng 8 số hạng đầu tiên là bao nhiêu?",
+            "numbers": [
+              "15",
+              "4",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 36,
+        "template": "xác định giá trị lớn nhất trong các bội chung nhỏ nhất của <NUM> với các số <NUM>, <NUM>, <NUM>, <NUM>, <NUM>, <NUM>. hãy trả lời bằng một số nguyên.",
+        "examples": [
+          {
+            "id": 5,
+            "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 10 với các số 6, 9, 12, 14, 16, 17. Hãy trả lời bằng một số nguyên.",
+            "numbers": [
+              "10",
+              "6",
+              "9",
+              "12",
+              "14",
+              "16",
+              "17"
+            ]
+          },
+          {
+            "id": 25,
+            "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 18 với các số 2, 6, 10, 12, 13, 14. Hãy trả lời bằng một số nguyên.",
+            "numbers": [
+              "18",
+              "2",
+              "6",
+              "10",
+              "12",
+              "13",
+              "14"
+            ]
+          },
+          {
+            "id": 34,
+            "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 15 với các số 3, 9, 14, 15, 16, 18. Hãy trả lời bằng một số nguyên.",
+            "numbers": [
+              "15",
+              "3",
+              "9",
+              "14",
+              "15",
+              "16",
+              "18"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 35,
+        "template": "một tam giác cân có hai cạnh bằng nhau dài <NUM> cm và cạnh đáy dài <NUM> cm. chu vi tam giác là bao nhiêu cm?",
+        "examples": [
+          {
+            "id": 7,
+            "query_vi": "Một tam giác cân có hai cạnh bằng nhau dài 24 cm và cạnh đáy dài 13 cm. Chu vi tam giác là bao nhiêu cm?",
+            "numbers": [
+              "24",
+              "13"
+            ]
+          },
+          {
+            "id": 8,
+            "query_vi": "Một tam giác cân có hai cạnh bằng nhau dài 18 cm và cạnh đáy dài 5 cm. Chu vi tam giác là bao nhiêu cm?",
+            "numbers": [
+              "18",
+              "5"
+            ]
+          },
+          {
+            "id": 22,
+            "query_vi": "Một tam giác cân có hai cạnh bằng nhau dài 10 cm và cạnh đáy dài 3 cm. Chu vi tam giác là bao nhiêu cm?",
+            "numbers": [
+              "10",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 7,
+        "template": "biết 9x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 225,
+            "query_vi": "Biết 9x + 44 = 233. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "44",
+              "233",
+              "7"
+            ]
+          },
+          {
+            "id": 231,
+            "query_vi": "Biết 9x + 39 = 336. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 1 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "39",
+              "336",
+              "1"
+            ]
+          },
+          {
+            "id": 299,
+            "query_vi": "Biết 9x + 25 = 196. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 4 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "25",
+              "196",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 6,
+        "template": "biết 6x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 43,
+            "query_vi": "Biết 6x + 6 = 150. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 3 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "6",
+              "150",
+              "3"
+            ]
+          },
+          {
+            "id": 73,
+            "query_vi": "Biết 6x + 43 = 145. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "43",
+              "145",
+              "9"
+            ]
+          },
+          {
+            "id": 521,
+            "query_vi": "Biết 6x + 42 = 126. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "42",
+              "126",
+              "9"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 5,
+        "template": "biết 3x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 54,
+            "query_vi": "Biết 3x + 15 = 129. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 8 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "15",
+              "129",
+              "8"
+            ]
+          },
+          {
+            "id": 223,
+            "query_vi": "Biết 3x + 15 = 99. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 3 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "15",
+              "99",
+              "3"
+            ]
+          },
+          {
+            "id": 658,
+            "query_vi": "Biết 3x + 8 = 101. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 4 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "8",
+              "101",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 5,
+        "template": "một con xúc xắc công bằng có các mặt đánh số từ <NUM> đến <NUM>. giá trị kỳ vọng của một lần tung là bao nhiêu?",
+        "examples": [
+          {
+            "id": 222,
+            "query_vi": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 10. Giá trị kỳ vọng của một lần tung là bao nhiêu?",
+            "numbers": [
+              "1",
+              "10"
+            ]
+          },
+          {
+            "id": 670,
+            "query_vi": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 20. Giá trị kỳ vọng của một lần tung là bao nhiêu?",
+            "numbers": [
+              "1",
+              "20"
+            ]
+          },
+          {
+            "id": 716,
+            "query_vi": "Một con xúc xắc công bằng có các mặt đánh số từ 1 đến 8. Giá trị kỳ vọng của một lần tung là bao nhiêu?",
+            "numbers": [
+              "1",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 5,
+        "template": "biết 12x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 562,
+            "query_vi": "Biết 12x + 32 = 164. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 5 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "32",
+              "164",
+              "5"
+            ]
+          },
+          {
+            "id": 649,
+            "query_vi": "Biết 12x + 16 = 484. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 5 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "16",
+              "484",
+              "5"
+            ]
+          },
+          {
+            "id": 703,
+            "query_vi": "Biết 12x + 17 = 413. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 2 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "17",
+              "413",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "template": "biết 11x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 370,
+            "query_vi": "Biết 11x + 14 = 157. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "14",
+              "157",
+              "9"
+            ]
+          },
+          {
+            "id": 388,
+            "query_vi": "Biết 11x + 11 = 385. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "11",
+              "385",
+              "9"
+            ]
+          },
+          {
+            "id": 528,
+            "query_vi": "Biết 11x + 25 = 234. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 7 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "25",
+              "234",
+              "7"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "template": "biết 5x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 498,
+            "query_vi": "Biết 5x + 25 = 100. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 2 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "25",
+              "100",
+              "2"
+            ]
+          },
+          {
+            "id": 555,
+            "query_vi": "Biết 5x + 10 = 35. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 3 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "10",
+              "35",
+              "3"
+            ]
+          },
+          {
+            "id": 602,
+            "query_vi": "Biết 5x + 47 = 172. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 2 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "47",
+              "172",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "template": "biết 8x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 511,
+            "query_vi": "Biết 8x + 6 = 206. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 2 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "6",
+              "206",
+              "2"
+            ]
+          },
+          {
+            "id": 855,
+            "query_vi": "Biết 8x + 15 = 55. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 4 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "15",
+              "55",
+              "4"
+            ]
+          },
+          {
+            "id": 995,
+            "query_vi": "Biết 8x + 18 = 210. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 5 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "18",
+              "210",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "count": 3,
+        "template": "biết 2x + <NUM> = <NUM>. hỏi x bằng bao nhiêu? sau khi tìm x, người ta cộng thêm <NUM> vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+        "examples": [
+          {
+            "id": 552,
+            "query_vi": "Biết 2x + 34 = 56. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 8 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "34",
+              "56",
+              "8"
+            ]
+          },
+          {
+            "id": 675,
+            "query_vi": "Biết 2x + 16 = 48. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 8 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "16",
+              "48",
+              "8"
+            ]
+          },
+          {
+            "id": 806,
+            "query_vi": "Biết 2x + 26 = 100. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 4 vào một biểu thức khác, nhưng không liên quan đến phương trình này.",
+            "numbers": [
+              "26",
+              "100",
+              "4"
+            ]
+          }
+        ]
+      }
+    ],
+    "family_counts": {
+      "other": 670,
+      "percentage": 121,
+      "motion": 80,
+      "equation": 50,
+      "probability": 43,
+      "arithmetic_sequence": 36
+    },
+    "family_examples": {
+      "arithmetic_sequence": [
+        {
+          "id": 0,
+          "query_vi": "Một cấp số cộng có số hạng đầu là 8, công sai là 1. Tổng 22 số hạng đầu tiên là bao nhiêu?"
+        },
+        {
+          "id": 3,
+          "query_vi": "Một cấp số cộng có số hạng đầu là 1, công sai là 3. Tổng 18 số hạng đầu tiên là bao nhiêu?"
+        },
+        {
+          "id": 12,
+          "query_vi": "Một cấp số cộng có số hạng đầu là 15, công sai là 4. Tổng 8 số hạng đầu tiên là bao nhiêu?"
+        },
+        {
+          "id": 33,
+          "query_vi": "Một cấp số cộng có số hạng đầu là 5, công sai là 1. Tổng 9 số hạng đầu tiên là bao nhiêu?"
+        },
+        {
+          "id": 47,
+          "query_vi": "Một cấp số cộng có số hạng đầu là 11, công sai là 3. Tổng 19 số hạng đầu tiên là bao nhiêu?"
+        }
+      ],
+      "other": [
+        {
+          "id": 1,
+          "query_vi": "Trong một lớp, có 62 học sinh thích bóng đá, 27 học sinh thích bóng rổ, và 17 học sinh thích cả hai môn. Hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? Có 6 học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên."
+        },
+        {
+          "id": 2,
+          "query_vi": "Lan mua 7 quyển sách, mỗi quyển giá 25 nghìn đồng, và một số cây bút, mỗi cây giá 8 nghìn đồng. Tổng tiền Lan trả là 335 nghìn đồng. Hỏi Lan mua bao nhiêu cây bút? Bạn của Lan mua thêm 5 cục tẩy, nhưng không tính vào tổng tiền của Lan."
+        },
+        {
+          "id": 4,
+          "query_vi": "Trong một lớp, có 73 học sinh thích bóng đá, 69 học sinh thích bóng rổ, và 17 học sinh thích cả hai môn. Hỏi có bao nhiêu học sinh thích ít nhất một trong hai môn? Có 8 học sinh nghỉ học hôm đó, nhưng không tính vào các số liệu trên."
+        },
+        {
+          "id": 5,
+          "query_vi": "Xác định giá trị lớn nhất trong các bội chung nhỏ nhất của 10 với các số 6, 9, 12, 14, 16, 17. Hãy trả lời bằng một số nguyên."
+        },
+        {
+          "id": 6,
+          "query_vi": "Kết quả của $3*2$ là gì nếu $a*b$ được xác định là $a^2 + ab - b^2$?"
+        }
+      ],
+      "motion": [
+        {
+          "id": 14,
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 171. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 2 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 17,
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 21. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 3 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 21,
+          "query_vi": "Kim giây của đồng hồ trong hình dưới đây dài 6 cm. Đầu của kim giây này di chuyển được bao xa tính bằng cm trong khoảng thời gian X phút? Hãy thể hiện câu trả lời của bạn dưới dạng $\\pi$. [asy] draw(Circle((0,0),20)); nhãn(\"12\",(0,20),S); nhãn(\"9\",(-20,0),E); nhãn(\"6\",(0,-20),N); nhãn(\"3\",(20,0),W); dấu chấm((0,0)); draw((0,0)--(12,0)); draw((0,0)--(-8,10)); draw((0,0)--(-11,-14),linewidth(1)); nhãn(\"6cm\",(-5.5,-7),SE); [/asy] Nếu chúng ta biết câu trả lời cho câu hỏi trên là 360\\pi thì giá trị của biến X chưa biết là bao nhiêu?"
+        },
+        {
+          "id": 24,
+          "query_vi": "Một nhóm có n người. Số cách chọn 2 người từ nhóm là 78. Hỏi n bằng bao nhiêu? Buổi họp bắt đầu lúc 8 giờ, nhưng thời gian này không liên quan."
+        },
+        {
+          "id": 35,
+          "query_vi": "Một người đi được 120 feet với tốc độ 5 feet mỗi phút. Hỏi quãng đường đó bằng bao nhiêu yard, biết 1 yard = 3 feet? Thời gian đi là 24 phút và số 9 là ghi chú, nhưng câu hỏi chỉ hỏi yard."
+        }
+      ],
+      "percentage": [
+        {
+          "id": 18,
+          "query_vi": "Sau khi giảm giá 25%, một món hàng còn giá 120 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 45% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        },
+        {
+          "id": 40,
+          "query_vi": "Sau khi giảm giá 40%, một món hàng còn giá 240 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 5% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        },
+        {
+          "id": 45,
+          "query_vi": "Một khoản tiền tăng 10% mỗi năm. Sau 2 năm, số tiền là 121 đô la. Hỏi số tiền ban đầu là bao nhiêu đô la? Con số 5 chỉ là mã giao dịch và không dùng trong phép tính."
+        },
+        {
+          "id": 60,
+          "query_vi": "Một khoản tiền gửi theo lãi đơn 4% mỗi năm trong 1 năm thu được 48 đô la tiền lãi. Hỏi số tiền gốc ban đầu là bao nhiêu đô la? Ngân hàng có thêm phí dịch vụ 7 đô la cho tài khoản khác, không liên quan đến khoản tiền này."
+        },
+        {
+          "id": 78,
+          "query_vi": "Sau khi giảm giá 10%, một món hàng còn giá 144 nghìn đồng. Hỏi giá ban đầu của món hàng là bao nhiêu nghìn đồng? Cửa hàng còn treo thêm biển giảm 15% cho một sản phẩm khác, nhưng biển này không áp dụng cho món hàng đang hỏi."
+        }
+      ],
+      "equation": [
+        {
+          "id": 30,
+          "query_vi": "Xác định biệt số của phương trình bậc hai $3x^2 - 7x - 12$."
+        },
+        {
+          "id": 43,
+          "query_vi": "Biết 6x + 6 = 150. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 3 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "id": 54,
+          "query_vi": "Biết 3x + 15 = 129. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 8 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "id": 66,
+          "query_vi": "Biết 4x + 23 = 35. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 3 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        },
+        {
+          "id": 73,
+          "query_vi": "Biết 6x + 43 = 145. Hỏi x bằng bao nhiêu? Sau khi tìm x, người ta cộng thêm 9 vào một biểu thức khác, nhưng không liên quan đến phương trình này."
+        }
+      ],
+      "probability": [
+        {
+          "id": 37,
+          "query_vi": "Mahmoud tung ba đồng xu. Xác suất để anh ta có ít nhất một mặt ngửa là bao nhiêu?"
+        },
+        {
+          "id": 42,
+          "query_vi": "Một hộp có 46 bóng đèn, trong đó có 9 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 2 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        },
+        {
+          "id": 103,
+          "query_vi": "Một hộp có 32 bóng đèn, trong đó có 5 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 2 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        },
+        {
+          "id": 108,
+          "query_vi": "Một hộp có 19 bóng đèn, trong đó có 7 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 4 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        },
+        {
+          "id": 116,
+          "query_vi": "Một hộp có 27 bóng đèn, trong đó có 4 bóng bị hỏng. Chọn ngẫu nhiên một bóng đèn. Xác suất chọn được bóng không bị hỏng là bao nhiêu? Sau đó người ta kiểm tra thêm 2 bóng khác, nhưng việc kiểm tra này không liên quan đến xác suất vừa hỏi."
+        }
+      ]
+    }
+  }
+}
